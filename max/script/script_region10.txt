@@ -1,0 +1,1033 @@
+
+#LOADTABLE("table/metal_max_table_en.tbl")
+#SETSIZE(16, 4)
+
+#SETSPKR(dad)
+
+// Script 10-0x0 [0x13387]
+// ぬあにィ！[BR]
+// おまえが　おやに　こづかいを[BR]
+// くれるっつーのかっ！[TCHOICE]
+// 
+...Say what?[KEY]
+YOU want to give ME money?![TCHOICE]
+
+
+
+// Script 10-0x1 [0x133A6]
+// ああ、[BR]
+// そうだろ、[BR]
+// そうだろ！[END]
+Glad to hear you're not a complete idiot.[END]
+
+
+// Script 10-0x2 [0x133B6]
+// バカヤロ！[BR]
+// おまえの　せわになんぞ[BR]
+// なれるかいっ！[END]
+Does it look like I need your help, you dumbnut?![END]
+
+
+// Script 10-0x3 [0x133CB]
+// おもしれえ！[BR]
+// いったい　いくら[BR]
+// くれるってんでえっ！[opE4][END]
+Hah, what a riot! And how much would you give me, huh?![opE4][END]
+
+
+// Script 10-0x4 [0x133E7]
+// カネもねえのに、[BR]
+// みえ　はりやがって！[KEY]
+// こんなところで[BR]
+// あぶら　うってねえで、[BR]
+// さっさと　かせぎに[BR]
+// いきやがれ！[END]
+Bragging about money you don't have, are we?[KEY]
+Quit being an idiot and go earn some money for real, you dumbass![END]
+
+
+// Script 10-0x5 [0x13419]
+// ま、きもちだけ[BR]
+// うけとっといてやるよ！[END]
+Whatever. I'll pretend to appreciate the sentiment.[END]
+
+
+// Script 10-0x6 [0x1342D]
+// ふん！[BR]
+// ちったあ　かせげるように[BR]
+// なった　らしいが‥、[KEY]
+// そうやって[BR]
+// すぐ　いい　きに　なるのが[BR]
+// おまえの　わるいクセだ！[KEY]
+// だれもが　みとめる[BR]
+// いっちょまえの　ハンターに[BR]
+// なって、でなおして　きな！[END]
+Hmph. Looks like you can actually earn some cash by yourself.[KEY]
+But don't let it get to your head like you usually do![KEY]
+Come back when people actually look at you and think {Yeah, that's a Hunter}![END]
+
+
+// Script 10-0x7 [0x13489]
+// カネもねえのに[BR]
+// みえ　はりやがって！[opE4][END]
+Stop pretending to have that much money, you idiot![opE4][END]
+
+
+// Script 10-0x8 [0x13498]
+// そんな　はしたガネ！[BR]
+// うけとる　きにも[BR]
+// ならんわいっ！[END]
+I don't need pocket change, you nitwit![END]
+
+
+// Script 10-0x9 [0x134B4]
+// こんな　たいきん！[BR]
+// うけとれるか、バカヤロ！[END]
+I can't take this much, you ass![END]
+
+
+// Script 10-0xA [0x134C9]
+// ‥‥。[BR]
+// [opF1]<$3C>じゃあ　[opE2]Ｇだけ[BR]
+// もらっといてやる！[KEY]
+// むすこの　おごりで[BR]
+// いっぱい　のむか！[BR]
+// オレも　おちぶれた[BR]
+// もんだぜ！　まったく！[END]
+...[BR]
+[opF1]<$3C>
+Okay, I'll just[BR]
+take [opE2]G.[KEY]
+Drinks are on you today! Damn, this feels weird.[END]
+
+
+// Script 10-0xB [0x13507]
+// ふん！[BR]
+// しっかりものに[BR]
+// そだちやがって！[KEY]
+// にんげん‥[BR]
+// くろう　しすぎるのも[BR]
+// かんがえものだな！[END]
+Hmph! Looks like you got it together at some point.[KEY]
+...People tend to think too hard about their troubles.[END]
+
+
+// Script 10-0xC [0x13533]
+// いいだろ！[BR]
+// このさい　いくらでも[BR]
+// もらって　やろうじゃねえか！[opE4][END]
+Yeah, sure. I'll take whatever you want to give me.[opE4][END]
+
+
+// Script 10-0xD [0x13554]
+// やれやれ‥。[BR]
+// みえっぱりな　ところだけは[BR]
+// なおってねえな！[opE4][END]
+Sheesh... You still like to show off, don't you?[opE4][END]
+
+
+// Script 10-0xE [0x13572]
+// ありがとよ！[BR]
+// まさか　おまえの　かせぎで[BR]
+// さけが　のめるように[BR]
+// なるとはな！[KEY]
+// けっ！[BR]
+// いきてて　よかったぜ！[BR]
+// べらぼーめっ！[END]
+Thanks. Never thought I'd see the day I could go have a drink with money YOU earned.[KEY]
+Heh. Glad I lived this long, you dunce![END]
+
+
+// Script 10-0xF [0x135AC]
+// ‥‥。[BR]
+// ほんとに　うけとるぞ！[CHOICE]<$10><$0B>
+// 
+...[BR]
+I'm gonna take it for real, you know.[CHOICE]<$10><$0B>
+
+
+
+// Script 10-0x10 [0x135BE]
+// ‥‥。[BR]
+// みてるか、かあさん！[KEY]
+// [SVAR]<$00>のやつが[BR]
+// オレに　こずかいを[BR]
+// くれたぞ．。[KEY]
+// あしたは　きっと[BR]
+// だいじしんだ‥。[BR]
+// なあ、かあさん‥！[END]
+...[BR]
+Look, Dear.[KEY]
+I'm getting[BR]
+money from our[BR]
+[SVAR]<$00> now.[KEY]
+Hahah... We might have a big earthquake tomorrow... Right, Dear?[END]
+
+
+// Script 10-0x11 [0x13600]
+// なに！[BR]
+// モンスターハンターを[BR]
+// いんたい　するだと？[CHOICE]<$13><$12>
+// 
+Huh? You want to stop being a Monster Hunter?[CHOICE]<$13><$12>
+
+
+
+// Script 10-0x12 [0x13615]
+// なんだ[BR]
+// ききまちがいか？[BR]
+// オレも　ボケちまったかな。[END]
+I must've heard wrong then. I'm getting old...[END]
+
+
+// Script 10-0x13 [0x1362D]
+// おまえ‥、[BR]
+// ほんきで　いってるのか？[CHOICE]<$15><$14>
+// 
+...Are you serious?[CHOICE]<$15><$14>
+
+
+
+// Script 10-0x14 [0x13641]
+// バカヤロ、この。[END]
+You idiot.[END]
+
+
+// Script 10-0x15 [0x13648]
+// じゃ、うちに[BR]
+// かえって、まじめに　はたらく[BR]
+// きに　なったんだな？[CHOICE]<$16><$17>
+// 
+So you want to come home and get an honest job?[CHOICE]<$16><$17>
+
+
+
+// Script 10-0x16 [0x1366B]
+// よし！　ねんのため[BR]
+// たたかいの　きろくを[BR]
+// つけておくが、それでいいな？[CHOICE]<$FF><$17>
+// 
+Great! Just to be sure, how about you save first?[CHOICE]<$FF><$17>
+
+
+
+// Script 10-0x17 [0x13689]
+// じぶんの　ゆめに[BR]
+// みれんが　あるうちは、[BR]
+// いんたいしよう　なんて[BR]
+// くちに　するんじゃねえぞ！[KEY]
+// さあ、いけっ！[END]
+I don't want to hear anything about you regretting not achieving your dream![KEY]
+Now get going![END]
+
+// Script 10-0x18 [0x136C0]
+// ちゅうとハンパは[BR]
+// でえきれえな　オレだが、[BR]
+// むすこが　かえってくるなら[BR]
+// はなしは　べつだ！[END]
+I hate guys who leave things half done, but if it gets you back home I'll bear with it.[END]
+
+#SETSPKR(anon)
+
+// Script 10-0x19 [0x136EE]
+// なにを　かって　ほしいの？[END]
+Do you have anything to sell?[END]
+
+
+// Script 10-0x1A [0x136FC]
+// この　[opE9]　なら[BR]
+// [opE2]Ｇで　かうわよ！[TCHOICE]
+// 
+We'll give you[BR]
+[opE2]G for your[BR]
+[opE9]![TCHOICE]
+
+
+
+// Script 10-0x1B [0x1370D]
+// どうせ　ヤバい[BR]
+// しなもの　なんでしょ？[KEY]
+// うりおしみ　してちゃ[BR]
+// カネもちに　なれないわよ！[END]
+Why not? Where else are you going to sell your risky goods?[KEY]
+You'll never get rich if you hold on to them![END]
+
+
+// Script 10-0x1C [0x13738]
+// ありがとう。[BR]
+// ひとの　よさそーな　かおして[BR]
+// あんたも　けっこう　ワルね！[KEY]
+// ほかに　なにか　あんの？[CHOICE]<$FF><$1E>
+// 
+Thanks. Despite your looks, you're a real bad guy![KEY]
+Have anything else?[CHOICE]<$FF><$1E>
+
+
+
+// Script 10-0x1D [0x13766]
+// なに？　これ？[BR]
+// めずらしい　しなものは[BR]
+// アシが　つくから[BR]
+// かいとれ　ないわ！[END]
+Hm... Nope. The fancier goods are too easy to trace. We don't buy those.[END]
+
+
+// Script 10-0x1E [0x13788]
+// そう。[BR]
+// じゃあ　またね。[END]
+I see. Goodbye, then.[END]
+
+
+// Script 10-0x1F [0x13795]
+// どんな　かいぞうを[BR]
+// する　つもり　なんだい？[END]
+What kind of mod are you looking for?[END]
+
+
+// Script 10-0x20 [0x137A9]
+// とにかく　エンジン　いがい[BR]
+// かいぞうを　すると、[BR]
+// シャシーが　おもくなるから[BR]
+// ちゅうい　してねっ！[END]
+Please note that modding anything other than the engine will increase the weight of the chassis![END]
+
+
+// Script 10-0x21 [0x137D5]
+// とくしゅほうだんを[BR]
+// つみこむ　だんそうを[BR]
+// おおきく　するんだ！[KEY]
+// だけど　おおきく　したぶんだけ[BR]
+// シャシーが　おもく　なるから[BR]
+// すこしずつ　かいぞうすると[BR]
+// いいよ！[opE4][END]
+//This will increase the amount of special shells you can load![KEY]
+//Note that the more you carry, the heavier your chassis becomes, so do it in small steps![opE4][END]
+
+// it's a tutorial, might as well use proper grammar
+This will increase the number of special shells you can load![KEY]
+Note that the more you carry, the heavier your chassis becomes, so do it in small steps![opE4][END]
+
+
+// Script 10-0x22 [0x137F6]
+// シャシーの　しゅびりょくを[BR]
+// あげると、そのぶんだけ[BR]
+// そうこうタイルが　はがれ[BR]
+// にくく　なるよ！[KEY]
+// それに　シャシーじたいも[BR]
+// こわれにくく　なるしね！[KEY]
+// だけど　カタく　したぶんだけ[BR]
+// シャシーが　おもく　なるから[BR]
+// すこしずつ　かいぞうすると[BR]
+// いいよ！[opE4][END]
+//Increasing your chassis's defense means you'll lose less armor tiles![KEY]
+//Not to mention, the chassis itself will be harder to break.[KEY]
+//Remember, though, that the tougher you make it, the heavier the chassis becomes, so do it in small steps![opE4][END]
+//Increasing your chassis's defense means you'll lose less armor tiles![KEY]
+//Not to mention the chassis itself will be harder to break.[KEY]
+//Remember, though: The tougher you make it, the heavier the chassis becomes, so do it in small steps![opE4][END]
+
+Increasing your chassis's defense means you'll lose fewer armor tiles![KEY]
+Not to mention the chassis itself will be harder to break.[KEY]
+Remember, though: The tougher you make it, the heavier the chassis becomes, so do it in small steps![opE4][END]
+
+
+// Script 10-0x23 [0x1383F]
+// あたらしく　あなを　あけると[BR]
+// いままで　うてなかった[BR]
+// せんしゃへいきを[BR]
+// うてるように　なるんだ！[KEY]
+// でも　あなを　あけると[BR]
+// シャシーが　おもくなって[BR]
+// へいきを　つめなくなったり[BR]
+// するから　きを　つけてね！[opE4][END]
+//By opening a slot, you can install a tank weapon you couldn't before![KEY]
+//Just make sure your chassis can carry the weight of the weapon you want to install![opE4][END]
+By opening a slot, you can install tank weapons you couldn't before![KEY]
+Just make sure your chassis can carry the weight of the weapon you want to install![opE4][END]
+
+
+// Script 10-0x24 [0x138A1]
+// ほかにも[BR]
+// なにか　アドバイス[BR]
+// してほしい？[CHOICE]<$1F><$20>
+// 
+Would you like to hear more?[CHOICE]<$1F><$20>
+
+
+#SETSPKR(dad)
+
+
+// Script 10-0x25 [0x138B9]
+// おまえはな、[BR]
+// かんどう　されてんだぞ！[BR]
+// わかってんのかっ！[END]
+Don't you get it? I threw you out! You're no longer my son![END]
+
+
+// Script 10-0x26 [0x138D6]
+// なんだ　おまえか！[BR]
+// なにしに[BR]
+// かえって　きやがった！[opE4][END]
+Hmph... It's you. What do you want?[opE4][END]
+
+
+// Script 10-0x27 [0x138EF]
+// ばっ‥[BR]
+// バカヤロ！　このヤロ！[opE4][END]
+Y-You big moron!![opE4][END]
+
+
+// Script 10-0x28 [0x138FE]
+// ふん！[BR]
+// エラソーに、クルマなんぞに[BR]
+// のりやがって！[KEY]
+// どれ‥[BR]
+// みせてみろ！[opE4][END]
+Don't get too full of yourself just because you've got yourself a vehicle![KEY]
+Bah. Let me have a look.[opE4][END]
+
+
+// Script 10-0x29 [0x13921]
+// ふん！[BR]
+// クルマなんて[BR]
+// どこにも　ねえじゃねえか[BR]
+// バカヤロ！[END]
+Hmph! And where's your vehicle, you cretin?![END]
+
+
+// Script 10-0x2A [0x1393A]
+// なんだ！？[BR]
+// どこも　こわれて　ねえぞ！[KEY]
+// んーなことも[BR]
+// わからねで、よく[BR]
+// ハンターが　つとまるな！[KEY]
+// さあ　いけ！[BR]
+// とっとと　どこへでも[BR]
+// いきさらせ！[END]
+...Are you here to waste my time or something? Nothing's broken![KEY]
+You can't tell whether something's broken or not and you still call yourself a Hunter?[KEY]
+Just get out of here, I've got REAL work to do![END]
+
+
+// Script 10-0x2B [0x13981]
+// [HERO]の[BR]
+// [opE9]が[BR]
+// [opFB]<$0F>　してるぜ。[END]
+Your[BR]
+[HERO]'s[BR]
+[opE9][BR]
+looks...[KEY]
+
+[opFB]<$0F>.[END]
+
+
+// Script 10-0x2C [0x13986]
+// しゅうりするにゃ[BR]
+// [opE2]Ｇ　かかるけど、[BR]
+// いいんだな！[TCHOICE]
+// 
+That's gonna[BR]
+cost you[BR]
+[opE2]G.[KEY]
+
+You gonna pay or what?[TCHOICE]
+
+
+
+// Script 10-0x2D [0x13994]
+// ふん！[BR]
+// こんどだけは　とくべつに[BR]
+// まけといてやる！[KEY]
+// ほれ！なおったぞ！[BR]
+// この　おやふこうものめっ！[END]
+Hmph. Just so you know, I gave you a special price.[KEY]
+There, all done. Now get the hell out of here, you ungrateful bastard![END]
+
+
+
+// Script 10-0x2E [0x139C3]
+// まさか　おまえ、[BR]
+// おやじの　うでまえを[BR]
+// うたがってんのかっ！？[CHOICE]<$2F><$30>
+// 
+Are you... doubting my talent?![CHOICE]<$2F><$30>
+
+
+
+// Script 10-0x2F [0x139E4]
+// いーか！[BR]
+// よーく、みてろよっ！[END]
+Oh yeah?! I'll show you![END]
+
+
+// Script 10-0x30 [0x139F4]
+// ‥‥。[BR]
+// まあ　いい。[BR]
+// かってに　しろ！[END]
+...Whatever. Suit yourself.[END]
+
+
+// Script 10-0x31 [0x13A05]
+// けっ！[BR]
+// ぜんぶ　なおしてやったぜ！[BR]
+// ざまあ　みさらせ！[END]
+See? All fixed! How's that, huh?![END]
+
+
+// Script 10-0x32 [0x13A1F]
+// そいつの　しゅうりは[BR]
+// [opE2]Ｇ　かかるけど、[BR]
+// いいんだな！[TCHOICE]
+// 
+I'll take[BR]
+[opE2]G for the[BR]
+service.[KEY]
+
+You'll pay, right?[TCHOICE]
+
+
+
+// Script 10-0x33 [0x13A30]
+// こんど[BR]
+// もどって　きやがったら、[BR]
+// タダじゃ　すまさねーぞっ！[END]
+I'll teach you a lesson next time![END]
+
+
+#SETSPKR(anon)
+
+// Script 10-0x34 [0x13A4F]
+// ここは　クルマの　[BR]
+// しゅうりやだ。[opE4][END]
+This is the vehicle repair shop.[opE4][END]
+
+
+// Script 10-0x35 [0x13A5B]
+// なおしたい　クルマが　[BR]
+// あったら　いつでも　[BR]
+// のってきな！[opE4][END]
+Come back whenever you need your vehicle fixed![opE4][END]
+
+
+// Script 10-0x36 [0x13A72]
+// どこか　イカれたのか？[CHOICE]<$38><$35>
+// 
+Do you need repairs?[CHOICE]<$38><$35>
+
+
+// Script 10-0x37 [0x13A7F]
+// うわ！[BR]
+// こいつあ　ひでえ！[KEY]
+// ‥なーんてな。[BR]
+// じょうだんだよ。[KEY]
+// ふん‥‥。！[BR]
+// どこも　こわれちゃいねえ。[BR]
+// あんしんして　かせいできな！[opE4][END]
+Ooph, this looks terrible![KEY]
+...Nah, I'm just yanking your chain.[KEY]
+Hm. Nothing needs fixing. You can go out there and earn some money.[opE4][END]
+
+
+// Script 10-0x38 [0x13AC0]
+// どれ、みせてみな！[opE4][END]
+Where? Let me see![opE4][END]
+
+
+// Script 10-0x39 [0x13ACB]
+// [HERO]の[BR]
+// [opE9]が[BR]
+// [opFB]<$0F>　してるぜ。[KEY]
+// しゅうりすると[BR]
+// [opE2]Ｇ　かかるけど、[BR]
+// いいのかい？[CHOICE]<$FF><$3A>
+// 
+Your[BR]
+[HERO]'s[BR]
+[opE9][BR]
+looks...[KEY]
+
+[opFB]<$0F>.[KEY]
+
+I'll need[BR]
+[opE2]G to fix[BR]
+it. Is that alright?[CHOICE]<$FF><$3A>
+
+
+// Script 10-0x3A [0x13ADB]
+// そうかい！[BR]
+// [opE4][END]
+I see![opE4][END]
+
+
+// Script 10-0x3B [0x13ADF]
+// どこかで　かせいで[BR]
+// でなおしてきな。[END]
+Come back when you have the money.[END]
+
+
+// Script 10-0x3C [0x13AF1]
+// あらよっと！[BR]
+// よし　なおったぜ！[KEY]
+// ま　これからは[BR]
+// きを　つけて　いきなよ。[BR]
+// わけえの！[END]
+There, fixed![KEY]
+Take good care of it, kid![END]
+
+// NOTE: many messages in the repair shop can have either "dad" or "anon"
+// as a speaker depending on which shop you go to, so the first line must
+// account for potentially having ~5 fewer characters available
+
+#SETSPKR(dad)
+
+
+// Script 10-0x3D [0x13B19]
+// こいつあ　ひでえ！[opE4][END]
+Sheesh, this looks bad![opE4][END]
+
+
+// Script 10-0x3E [0x13B24]
+// これいじょう[BR]
+// なおしょうが　ねえや。[END]
+It doesn't need fixing.[END]
+
+
+// Script 10-0x3F [0x13B32]
+// どこを　なおすんだ？[BR]
+// ぜんぶ　[BR]
+// ここだよ[BR]
+// やめる[END]
+//What do you want[HALFBR]
+//me to fix?[HALFBR]
+//Everything[BR]
+//This part[BR]
+//Nothing[END]
+
+What do you[BR]
+want fixed?[BR]
+Everything[HALFBR]
+This part[HALFBR]
+Nothing[END]
+
+#SETSPKR(anon)
+
+// Script 10-0x40 [0x13B41]
+// そうかい！[BR]
+// ま　それも　いいだろ。[END]
+I see. That's fine.[END]
+
+
+// Script 10-0x41 [0x13B4F]
+// ぜんぶ　しゅうりすると[BR]
+// [opE2]Ｇ　かかるけど、[BR]
+// いいのかい？[TCHOICE]
+// 
+I'll need[BR]
+[opE2]G to fix[BR]
+everything. Is that okay?[TCHOICE]
+
+
+
+// Script 10-0x42 [0x13B5A]
+// どこか　えらんで[BR]
+// なおすかい？[CHOICE]<$FF><$43>
+// 
+//Which part do you want me to fix?[CHOICE]<$FF><$43>
+
+// this is the prompt you get if you ask to have everything fixed but can't
+// afford it -- answering "yes" opens the individual part selection menu
+Is there a certain part you want me to fix?[CHOICE]<$FF><$43>
+
+
+
+// Script 10-0x43 [0x13B6B]
+// そうかい！[BR]
+// どこかで　かせいで[BR]
+// また　きなよ。[END]
+Okay. Come back when you can pay.[END]
+
+
+// Script 10-0x44 [0x13B7E]
+// カネが　たりねえな！[opE4][END]
+You don't have the money![opE4][END]
+
+
+// Script 10-0x45 [0x13B81]
+// あらよっと！[opE4][END]
+There you go![opE4][END]
+
+
+// Script 10-0x46 [0x13B85]
+// よし　なおったぜ！[opE4][END]
+Fixed![opE4][END]
+
+
+// Script 10-0x47 [0x13B90]
+// クルマは　こまめに[BR]
+// しゅうりするのが[BR]
+// いきのびる　ひけつさ。[KEY]
+// ま　これからも[BR]
+// よろしくな。[END]
+Making sure your vehicle is in perfect condition is the key to surviving out there.[KEY]
+Until next time.[END]
+
+#SETSPKR(dad)
+
+// Script 10-0x48 [0x13BB7]
+// どこを　なおすんだ？[END]
+What do you want me to fix?[END]
+
+#SETSPKR(anon)
+
+// Script 10-0x49 [0x13BBA]
+// そいつを　しゅうりするには[BR]
+// [opE2]Ｇ　かかるけど、[BR]
+// いいのかい？[TCHOICE]
+// 
+I'll need[BR]
+[opE2]G to fix[BR]
+it. Is that okay?[TCHOICE]
+
+
+
+// Script 10-0x4A [0x13BC8]
+// こわれているのに[BR]
+// しゅうりしないのか？[TCHOICE]
+// 
+//That really needs to be repaired, though. Are you sure?[TCHOICE]
+You really need to get repairs, though. Are you sure?[TCHOICE]
+
+
+
+// Script 10-0x4B [0x13BDA]
+// わしは　ヤミクモはかせぢゃ[KEY]
+// レンズ、レンズ、レンズ！[BR]
+// ひかりが　こう　ビシューと[BR]
+// きて　ビユュュュとな[KEY]
+// わかるな？[TCHOICE]
+// 
+I am Dr. Optica.[KEY]
+Lenses... They're awesome! Light goes through them like fwhoosh![KEY]
+Know what I mean?[TCHOICE]
+
+
+
+// Script 10-0x4C [0x13C04]
+// おお、わかるか！！[BR]
+// おぬしと　わしは　ビユュュュの[BR]
+// レンズともだちぢゃ！[opE4][END]
+Ah, a fellow Lensthusiast! We'll get along perfectly, you and I![opE4][END]
+
+
+// Script 10-0x4D [0x13C23]
+// レンズ、レンズ、レンズ[BR]
+// せめて　３まい　あれば‥‥[BR]
+// おまえに　いいモノを　やれるのに[END]
+Lenses, lenses, lenses... If I had three of them, I could make something special for you.[END]
+
+
+// Script 10-0x4E [0x13C44]
+// おぬし！[BR]
+// もってるんぢゃろ？　レンズ！[BR]
+// においで　わかるぞ[KEY]
+// そのレンズ[BR]
+// ちょっと　わしに[BR]
+// かしてくれ！[opE4][END]
+*sniff* What's that you have there? Why yes, it's a lens![KEY]
+Give it to me, hurry![opE4][END]
+
+
+// Script 10-0x4F [0x13C75]
+// せっかく　いい[BR]
+// レンズともだちに[BR]
+// なれそうぢゃったのに‥‥[BR]
+// ざんねんぢゃ[END]
+Oh, I thought you might have been a Lensthusiast like me... What a shame.[END]
+
+
+// Script 10-0x50 [0x13C93]
+// あっ！　ダメぢゃ！[BR]
+// [SVAR]<$00>のそうびが[BR]
+// いっぱいぢゃ[KEY]
+// [SVAR]<$00>のそうびを[BR]
+// へらしてから[BR]
+// また　くるのぢゃ！[END]
+Oh, that's no[BR]
+good! [SVAR]<$00>[BR]
+is carrying too[BR]
+much![KEY]
+
+Free some of[BR]
+[SVAR]<$00>'s[BR]
+inventory and[BR]
+come back![END]
+
+
+// Script 10-0x51 [0x13CC1]
+// レンズ、レンズ、レンズ！[BR]
+// これで　レーザーバズーカが[BR]
+// つくれるぞ！[KEY]
+// よく　きくのぢゃ　レンズともだち[BR]
+// わしの　レーザーバズーカには[BR]
+// すごい　ひみつが　あるのぢゃ！[KEY]
+// レンズの　ならびかたで[BR]
+// ききめや　いりょくが[BR]
+// かわるのぢゃ！　すごいぢゃろ？[CHOICE]<$52><$4F>
+// 
+Lenses, lenses, lenses! I can make a Laser Bazooka with these![KEY]
+Listen well, my fellow Lensthusiast! My Laser Bazooka has a very special gimmick![KEY]
+Its effect and power change depending on how you arrange the lenses! Isn't that awesome?[CHOICE]<$52><$4F>
+
+
+
+// Script 10-0x52 [0x13D1F]
+// そう！　すごいのぢゃ[BR]
+// よーし！　ならびかたは[BR]
+// おまえが　きめて　いいぞ！　[opE4][END]
+Indeed, indeed! I'll let you choose the lens arrangement![opE4][END]
+
+
+// Script 10-0x53 [0x13D42]
+// [opE9]は[BR]
+// どこに　はめるんぢゃ？[BR]
+// Ａボタンで　けっていぢゃ！[END]
+Where should the[BR]
+[opE9] go?[BR]
+Press A to[BR]
+confirm![END]
+
+
+// Script 10-0x54 [0x13D5E]
+// おお！　さすが　レンズともだち！[BR]
+// レンズのきもちが　わかっておるな[BR]
+// さあ、これで　いいんぢゃな？[CHOICE]<$55><$FF>
+// 
+Ohhh! I knew a fellow Lensthusiast like you would fully understand the heart of the lenses! Is this what you wanted?[CHOICE]<$55><$FF>
+
+
+
+// Script 10-0x55 [0x13D8B]
+// よし！　もっていって　いいぞ！　[BR]
+// そして　うちまくるのぢゃ[BR]
+// ビシューときて　ビユュュュとぢゃ[opE4][END]
+Perfect! Here you go! Have fun with it! It's gonna go pshhht! Fwooosh! Hahah![opE4][END]
+
+
+// Script 10-0x56 [0x13DB3]
+// そのセッチィングに　あきたら[BR]
+// いつでも　なおして　やるぞ[BR]
+// おまえとわしは　レンズともだち！[opE4][END]
+Come back whenever you want to change things up a bit. I always have time for a fellow Lensthusiast![opE4][END]
+
+
+// Script 10-0x57 [0x13DD7]
+// おい！　わしの　レーザーバズーカを[BR]
+// もってないようぢゃが[BR]
+// どうしたんぢゃ！！[END]
+Hey, you're not carrying my Laser Bazooka! What happened to it?![END]
+
+
+// Script 10-0x58 [0x13DF6]
+// レンズの　セッチィングを[BR]
+// かえたいんぢゃな？[CHOICE]<$FF><$56>
+// 
+Do you want to change the lenses' positions?[CHOICE]<$FF><$56>
+
+
+
+// Script 10-0x59 [0x13E0E]
+// ふん‥‥。[END]
+Hmph...[END]
+
+
+// Script 10-0x5A [0x13E11]
+// ふん‥‥。[BR]
+// じゃ　またな。[opE4][END]
+Hmph...[BR]
+Bye.[opE4][END]
+
+
+// Script 10-0x5B [0x13E17]
+// [opE9]で[BR]
+// いいのかい？[CHOICE]<$FF><$59>
+// 
+One[BR]
+[opE9],[BR]
+huh? You sure?[CHOICE]<$FF><$59>
+
+
+
+// Script 10-0x5C [0x13E1F]
+// カネが　たりねえな！[opE4][BR]
+// でなおしてきな　わけえの！[opE4][END]
+No money?[opE4][BR]
+Come back when you can pay, kid.[opE4][END]
+
+
+// Script 10-0x5D [0x13E31]
+// だれが　のむんだい？[END]
+Who's gonna drink it?[END]
+
+
+// Script 10-0x5E [0x13E3A]
+// しんでる　ヤツに[BR]
+// さけは　のめねえぜ！[opE4][END]
+A corpse ain't gonna drink booze.[opE4][END]
+
+
+// Script 10-0x5F [0x13E40]
+// まひしてる　ヤツに[BR]
+// さけは　のめねえぜ！[opE4][END]
+It's hard to drink when you're paralyzed.[opE4][END]
+
+
+// Script 10-0x60 [0x13E47]
+// てっきり　ミルクでも[BR]
+// のむのかと　おもったぜ。[BR]
+// おらよ！　わけえの！[opE4][END]
+Hah, I thought you'd order a glass of milk or something. Bottoms up, kiddo![opE4][END]
+
+
+// Script 10-0x61 [0x13E6B]
+// けっこうな[BR]
+// のみっぷりじゃねえか！[BR]
+// もう　いっぱい　やるか？[TCHOICE]
+// 
+Heh, you really know how to drink. Wanna go for another round?[TCHOICE]
+
+
+
+// Script 10-0x62 [0x13E88]
+// おきゃくさんは　なにが[BR]
+// おこのみですかな？[END]
+See anything you like?[END]
+
+
+// Script 10-0x63 [0x13E9A]
+// [opE9]で[BR]
+// よろしいですか？[TCHOICE]
+// 
+[opE9],[BR]
+right?[TCHOICE]
+
+
+
+// Script 10-0x64 [0x13EA0]
+// おっと　おカネが　たりません。[BR]
+// ひとかせぎしたら[BR]
+// また　きてください！[END]
+Whoops, that's not enough. Come back once you earn some money![END]
+
+
+// Script 10-0x65 [0x13EC0]
+// どなたが　おのみになるんで？[END]
+Who would like to drink?[END]
+
+
+// Script 10-0x66 [0x13ECF]
+// たとえ　だいじな　なかまでも[BR]
+// しんでしまえば　のめません！[END]
+Good friend or not, the dead simply can't drink![END]
+
+
+// Script 10-0x67 [0x13EEB]
+// たとえ　だいじな　なかまでも[BR]
+// まひしたときは　のめません！[END]
+Good friend or not, you can't drink if you're paralyzed![END]
+
+
+// Script 10-0x68 [0x13F07]
+// さ、さ、[BR]
+// グーッと　ひといきに！[opE4][END]
+Drink it in one go![opE4][END]
+
+
+// Script 10-0x69 [0x13F19]
+// いやー、[BR]
+// みごとな　のみっぷり！[BR]
+// もう　いっちょ　いくゥ？[TCHOICE]
+// 
+That's how it's done! Would you like another one?[TCHOICE]
+
+
+
+// Script 10-0x6A [0x13F37]
+// おいしい　おさけは[BR]
+// あしたへの　かつりょく！[BR]
+// ひとかせぎしたら[BR]
+// また　きてください！[END]
+Nothing fuels you like some good alcohol! Come back anytime![END]
+
+
+// Script 10-0x6B [0x13F60]
+// [HERO]は[BR]
+// [opE9]を　のみほした！[KEY]
+// [HERO]は　ちょっと[BR]
+// いい　きもちに　なった。[opE4][END]
+[HERO] gulped[BR]
+down the[BR]
+[opE9].[KEY]
+
+[HERO] felt somewhat better.[opE4][END]
+
+
+// Script 10-0x6C [0x13F7F]
+// なに　かう？[END]
+Buy what?[END]
+
+
+// Script 10-0x6D [0x13F86]
+// もちものが　いっぱいだよ！[opE4][END]
+Carrying too much![opE4][END]
+
+
+
+// Script 10-0x6E [0x13F8A]
+// ＯＫ！[opE4][END]
+OK![opE4][END]
+
+
+
+// Script 10-0x6F [0x13F8F]
+// だれが　[opE4][END]
+//Who will carry?[opE4][END]
+Who will carry this?[opE4][END]
+
+
+// Script 10-0x70 [0x13F93]
+// カネが　たりねえな！[opE4][END]
+Not enough money![opE4][END]
+
+
+// Script 10-0x71 [0x13F96]
+// パンパカパーン！[BR]
+// あたり　ました[BR]
+// けいひんを　あげます[opE4][END]
+Ding ding ding![BR]
+You win![BR]
+Here is our prize.[opE4][END]
+
+
+// Script 10-0x72 [0x13FB3]
+// じっこう　ふのう！[opE4][END]
+Unable to execute![opE4][END]
+
+
+// Script 10-0x73 [0x13FBE]
+// ざんねん[opE4][END]
+Better luck next time.[opE4][END]
+
+
+// Script 10-0x74 [0x13FC2]
+// じゃあ　そのまえに[BR]
+// メモリーセンターで[BR]
+// たたかいの　きろくを[BR]
+// つけて　きやがれっ！[END]
+Better save at the Memory Center first![END]
+
+
+// Script 10-0x75 [0x13FE4]
+// だんそうは　いっぱいだよ！[opE4][END]
+You are fully loaded![opE4][END]
+
+

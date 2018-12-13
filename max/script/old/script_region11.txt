@@ -1,0 +1,722 @@
+// Script 11-0 [0x1F98A]
+すべてのクルマの　[END]
+
+// Script 11-1 [0x1F991]
+を　みます。[END]
+
+// Script 11-2 [0x1F998]
+ふくほう[END]
+
+// Script 11-3 [0x1F99D]
+[opE9][SVAR]<$1D>[END]
+
+// Script 11-4 [0x1F9A1]
+[opE9][SVAR]<$1D>の　こうげき！[BR2]
+[END]
+
+// Script 11-5 [0x1F9AA]
+ありがとう[END]
+
+// Script 11-6 [0x1F9B0]
+ございます[END]
+
+// Script 11-7 [0x1F9B6]
+しょうち　いたしました。[END]
+
+// Script 11-8 [0x1F9C0]
+　いいです[END]
+
+// Script 11-9 [0x1F9C6]
+あずかります[END]
+
+// Script 11-10 [0x1F9CD]
+しますか？[END]
+
+// Script 11-11 [0x1F9D3]
+うってくれる[END]
+
+// Script 11-12 [0x1F9DA]
+うってくれるんだ[END]
+
+// Script 11-13 [0x1F9DF]
+ほかには？[END]
+
+// Script 11-14 [0x1F9E5]
+いらっしゃいませ[END]
+
+// Script 11-15 [0x1F9EA]
+ここは　[END]
+
+// Script 11-16 [0x1F9EF]
+せんしゃ[END]
+
+// Script 11-17 [0x1F9F4]
+そうび[END]
+
+// Script 11-18 [0x1F9F8]
+ください[END]
+
+// Script 11-19 [0x1F9FD]
+レンタル[END]
+
+// Script 11-20 [0x1FA02]
+レンタルタンク[END]
+
+// Script 11-21 [0x1FA07]
+これいじょう[END]
+
+// Script 11-22 [0x1FA0E]
+モンスター[END]
+
+// Script 11-23 [0x1FA14]
+ハンター[END]
+
+// Script 11-24 [0x1FA19]
+モンスターハンター[END]
+
+// Script 11-25 [0x1FA1E]
+トレーダー[END]
+
+// Script 11-26 [0x1FA24]
+キャンプ[END]
+
+// Script 11-27 [0x1FA29]
+おじいちゃん[END]
+
+// Script 11-28 [0x1FA2F]
+いっぱい[END]
+
+// Script 11-29 [0x1FA34]
+なんでも　ござれ[END]
+
+// Script 11-30 [0x1FA3C]
+コンピュータ[END]
+
+// Script 11-31 [0x1FA43]
+てはいちゅうの[BR]
+[opE9]は、[KEY]
+[END]
+
+// Script 11-32 [0x1FA50]
+しょうきん[END]
+
+// Script 11-33 [0x1FA55]
+[HERO]の[BR]
+[opE9]が[BR]
+[opFB]<$0F>　してる[END]
+
+// Script 11-34 [0x1FA62]
+[opE2]Ｇ　かかるけど、[BR]
+[END]
+
+// Script 11-35 [0x1FA6D]
+[opE9][SVAR]<$1D>は[BR2]
+[END]
+
+// Script 11-36 [0x1FA72]
+しゅうりする[END]
+
+// Script 11-37 [0x1FA77]
+ようです[END]
+
+// Script 11-38 [0x1FA7C]
+そうですか[END]
+
+// Script 11-39 [0x1FA82]
+したい[END]
+
+// Script 11-40 [0x1FA86]
+したいは　[END]
+
+// Script 11-41 [0x1FA8B]
+ざんねん[END]
+
+// Script 11-42 [0x1FA90]
+なります[END]
+
+// Script 11-43 [0x1FA95]
+[opE2]Ｇに[BR]
+なりますが　よろしいですか？[END]
+
+// Script 11-44 [0x1FAA0]
+よろしいですか？[END]
+
+// Script 11-45 [0x1FAA9]
+では　[END]
+
+// Script 11-46 [0x1FAAD]
+ほかにも　[END]
+
+// Script 11-47 [0x1FAB3]
+ほきゅう[END]
+
+// Script 11-48 [0x1FAB8]
+ほきゅうしますか？[END]
+
+// Script 11-49 [0x1FABD]
+ほきゅう　しやしょう？[END]
+
+// Script 11-50 [0x1FAC6]
+んごごー[END]
+
+// Script 11-51 [0x1FACB]
+おちゃを[BR]
+[END]
+
+// Script 11-52 [0x1FAD1]
+あげる　[END]
+
+// Script 11-53 [0x1FAD6]
+あげない　[END]
+
+// Script 11-54 [0x1FADC]
+もちものが　いっぱいだよ！[END]
+
+// Script 11-55 [0x1FAE8]
+あんた！[BR]
+[END]
+
+// Script 11-56 [0x1FAED]
+これいじょう　もてねえぜ！[END]
+
+// Script 11-57 [0x1FAF7]
+だれが　[END]
+
+// Script 11-58 [0x1FAFC]
+どれを　[END]
+
+// Script 11-59 [0x1FB01]
+クルマ[END]
+
+// Script 11-60 [0x1FB05]
+クルマを　[END]
+
+// Script 11-61 [0x1FB0A]
+クルマの　[END]
+
+// Script 11-62 [0x1FB0F]
+クルマに　[END]
+
+// Script 11-63 [0x1FB14]
+どのクルマの　[END]
+
+// Script 11-64 [0x1FB19]
+どのクルマに　[END]
+
+// Script 11-65 [0x1FB1E]
+どうぐ[END]
+
+// Script 11-66 [0x1FB22]
+　クルマが　[END]
+
+// Script 11-67 [0x1FB28]
+クルマは　[END]
+
+// Script 11-68 [0x1FB2D]
+カネが　[END]
+
+// Script 11-69 [0x1FB32]
+[opE9][SVAR]<$1D>は　[END]
+
+// Script 11-70 [0x1FB37]
+カネが　たりねえな！[opE4][END]
+
+// Script 11-71 [0x1FB41]
+おカネが　たりないよ。[END]
+
+// Script 11-72 [0x1FB4B]
+る　ヤツに[BR]
+さけは　のめねえぜ！[opE4][END]
+
+// Script 11-73 [0x1FB5D]
+ふん！　ふんっ！[opE4][END]
+
+// Script 11-74 [0x1FB67]
+[HERO]は　[opE9]で[BR]
+くちとはなを　おおった！[END]
+
+// Script 11-75 [0x1FB79]
+ぜんぶ　[END]
+
+// Script 11-76 [0x1FB7E]
+ようこそ！[END]
+
+// Script 11-77 [0x1FB84]
+エンジン[END]
+
+// Script 11-78 [0x1FB89]
+シャシー[END]
+
+// Script 11-79 [0x1FB8E]
+じゅうりょう[END]
+
+// Script 11-80 [0x1FB95]
+かいぞう[END]
+
+// Script 11-81 [0x1FB9A]
+チューンアップ[END]
+
+// Script 11-82 [0x1FBA2]
+とくしゅほうだん[END]
+
+// Script 11-83 [0x1FBA9]
+ほうだん[END]
+
+// Script 11-84 [0x1FBAE]
+しょう[END]
+
+// Script 11-85 [0x1FBB2]
+ほかの　[END]
+
+// Script 11-86 [0x1FBB6]
+なんと！[BR]
+[END]
+
+// Script 11-87 [0x1FBBC]
+[opE2]Ｇ　てにいれた！[END]
+
+// Script 11-88 [0x1FBC6]
+かってに　[END]
+
+// Script 11-89 [0x1FBCC]
+いらっしゃい[END]
+
+// Script 11-90 [0x1FBD3]
+の　においがした。[END]
+
+// Script 11-91 [0x1FBDD]
+[opE2]Ｇ　もらう[END]
+
+// Script 11-92 [0x1FBE4]
+どれに　する[END]
+
+// Script 11-93 [0x1FBEB]
+が　ありません！[BR]
+きもちだけ　あずかりますよ。[END]
+
+// Script 11-94 [0x1FBFD]
+そうこうタイル[END]
+
+// Script 11-95 [0x1FC03]
+を　はいた！[END]
+
+// Script 11-96 [0x1FC0A]
+ふん！[BR]
+[END]
+
+// Script 11-97 [0x1FC0F]
+ちょっと[END]
+
+// Script 11-98 [0x1FC14]
+そうかい！[BR]
+[END]
+
+// Script 11-99 [0x1FC1B]
+ごめんなさい。[END]
+
+// Script 11-100 [0x1FC23]
+おいっ！　このクルマの　[BR]
+[END]
+
+// Script 11-101 [0x1FC2B]
+また　どうぞ。[END]
+
+// Script 11-102 [0x1FC33]
+どこを　なおすんだ？[END]
+
+// Script 11-103 [0x1FC3C]
+どこを　[END]
+
+// Script 11-104 [0x1FC41]
+ほんとうに　[END]
+
+// Script 11-105 [0x1FC48]
+。[BR]
+それなら　[opE2]Ｇで[BR]
+[END]
+
+// Script 11-106 [0x1FC54]
+そいつ[END]
+
+// Script 11-107 [0x1FC58]
+あなた[END]
+
+// Script 11-108 [0x1FC5C]
+あなたの　おすまい[END]
+
+// Script 11-109 [0x1FC65]
+バカヤロ[END]
+
+// Script 11-110 [0x1FC6A]
+おまえの　[END]
+
+// Script 11-111 [0x1FC6F]
+おまえ[END]
+
+// Script 11-112 [0x1FC73]
+[opE9]が　かちました！[BR]
+[END]
+
+// Script 11-113 [0x1FC7E]
+こうげき[END]
+
+// Script 11-114 [0x1FC83]
+しなもの[END]
+
+// Script 11-115 [0x1FC88]
+ほかの[END]
+
+// Script 11-116 [0x1FC8C]
+ほかのクルマに　[BR]
+[END]
+
+// Script 11-117 [0x1FC92]
+カネもねえのに[END]
+
+// Script 11-118 [0x1FC9A]
+あら！　[END]
+
+// Script 11-119 [0x1FC9F]
+あらよっと！[END]
+
+// Script 11-120 [0x1FCA6]
+あら、そう。[BR]
+[END]
+
+// Script 11-121 [0x1FCAE]
+‥‥あら？[BR]
+[END]
+
+// Script 11-122 [0x1FCB5]
+あんたも　[END]
+
+// Script 11-123 [0x1FCBA]
+あんたの[END]
+
+// Script 11-124 [0x1FCBE]
+あんた[END]
+
+// Script 11-125 [0x1FCC2]
+いつでも　こえをかけて[END]
+
+// Script 11-126 [0x1FCCB]
+いつでも　[END]
+
+// Script 11-127 [0x1FCD0]
+でも　[END]
+
+// Script 11-128 [0x1FCD4]
+なんだ　[END]
+
+// Script 11-129 [0x1FCD8]
+なんだ[END]
+
+// Script 11-130 [0x1FCDC]
+ここの　[END]
+
+// Script 11-131 [0x1FCE0]
+オレたち[END]
+
+// Script 11-132 [0x1FCE5]
+オレは　[END]
+
+// Script 11-133 [0x1FCEA]
+オレも　[END]
+
+// Script 11-134 [0x1FCEF]
+ました。[END]
+
+// Script 11-135 [0x1FCF4]
+じゃ　またな。[opE4][END]
+
+// Script 11-136 [0x1FCFD]
+ふん‥‥。[END]
+
+// Script 11-137 [0x1FD03]
+だいじょうぶ[END]
+
+// Script 11-138 [0x1FD0A]
+めずらしい[END]
+
+// Script 11-139 [0x1FD10]
+おいっ！　[END]
+
+// Script 11-140 [0x1FD16]
+だんそう[END]
+
+// Script 11-141 [0x1FD1B]
+[HERO]さんは　[END]
+
+// Script 11-142 [0x1FD21]
+を　うった！[END]
+
+// Script 11-143 [0x1FD28]
+[HERO]は　[opE9]の[BR]
+ぺージを　めくった！[opE4][BR]
+‥‥[END]
+
+// Script 11-144 [0x1FD3C]
+にんげん[END]
+
+// Script 11-145 [0x1FD41]
+レンズともだち[END]
+
+// Script 11-146 [0x1FD48]
+レンズ、レンズ、レンズ[END]
+
+// Script 11-147 [0x1FD51]
+ナムアミダブツ[END]
+
+// Script 11-148 [0x1FD59]
+　ビユュュュと[END]
+
+// Script 11-149 [0x1FD61]
+いいぞ！　[END]
+
+// Script 11-150 [0x1FD67]
+Ｂボタンを　おして[END]
+
+// Script 11-151 [0x1FD71]
+わしは　[END]
+
+// Script 11-152 [0x1FD76]
+わしの　[END]
+
+// Script 11-153 [0x1FD7B]
+やっぱり　[END]
+
+// Script 11-154 [0x1FD81]
+ところで[END]
+
+// Script 11-155 [0x1FD86]
+おきゃくさん[END]
+
+// Script 11-156 [0x1FD8D]
+いいのかい？[END]
+
+// Script 11-157 [0x1FD94]
+この　[END]
+
+// Script 11-158 [0x1FD98]
+よかった[END]
+
+// Script 11-159 [0x1FD9D]
+あいや！[BR]
+[END]
+
+// Script 11-160 [0x1FDA3]
+のこと[END]
+
+// Script 11-161 [0x1FDA7]
+く　したぶんだけ[BR]
+シャシーが　おもく　なるから[BR]
+すこしずつ　かいぞうすると[BR]
+いいよ！[opE4][END]
+
+// Script 11-162 [0x1FDCF]
+ソルジャー[END]
+
+// Script 11-163 [0x1FDD5]
+カウンター[END]
+
+// Script 11-164 [0x1FDDB]
+ムニャムニャ‥。[END]
+
+// Script 11-165 [0x1FDE4]
+レッドウルフ[END]
+
+// Script 11-166 [0x1FDEA]
+カエサル[END]
+
+// Script 11-167 [0x1FDEF]
+ポートスラム[END]
+
+// Script 11-168 [0x1FDF6]
+たびの　しょうにん[END]
+
+// Script 11-169 [0x1FDFF]
+おめえ、[END]
+
+// Script 11-170 [0x1FE04]
+らしいぜ[END]
+
+// Script 11-171 [0x1FE09]
+しかし　[END]
+
+// Script 11-172 [0x1FE0E]
+しらねえ[END]
+
+// Script 11-173 [0x1FE13]
+このコの　[END]
+
+// Script 11-174 [0x1FE19]
+　している[END]
+
+// Script 11-175 [0x1FE1F]
+この　あたり[END]
+
+// Script 11-176 [0x1FE25]
+この　まち[END]
+
+// Script 11-177 [0x1FE2A]
+‥。[KEY]
+[END]
+
+// Script 11-178 [0x1FE2E]
+‥。[BR]
+[END]
+
+// Script 11-179 [0x1FE32]
+ーっ！[END]
+
+// Script 11-180 [0x1FE36]
+いってらっしゃい[END]
+
+// Script 11-181 [0x1FE3F]
+バルデス[END]
+
+// Script 11-182 [0x1FE44]
+ギコギコ‥ギギギ‥。[END]
+
+// Script 11-183 [0x1FE4F]
+こんらん[END]
+
+// Script 11-184 [0x1FE54]
+エレべーター[END]
+
+// Script 11-185 [0x1FE5B]
+かいぶつ[END]
+
+// Script 11-186 [0x1FE60]
+さんぞく[END]
+
+// Script 11-187 [0x1FE65]
+だけど[END]
+
+// Script 11-188 [0x1FE69]
+れんちゅう[END]
+
+// Script 11-189 [0x1FE6F]
+ここは　ハンターたちが[BR]
+たたかいの　きろくを　つける[BR]
+メモリーセンターよ[END]
+
+// Script 11-190 [0x1FE88]
+たたかいの　きろくを[END]
+
+// Script 11-191 [0x1FE91]
+あら！？[BR]
+あたしに　あいに　きたの？[END]
+
+// Script 11-192 [0x1FEA4]
+の　ファンかあ！[BR]
+ちえーっ！[END]
+
+// Script 11-193 [0x1FEB2]
+のまち[END]
+
+// Script 11-194 [0x1FEB6]
+じいさん[END]
+
+// Script 11-195 [0x1FEBB]
+ここから　[END]
+
+// Script 11-196 [0x1FEC1]
+じどうはんばいき[END]
+
+// Script 11-197 [0x1FECA]
+んががーっ！[END]
+
+// Script 11-198 [0x1FED0]
+まっかな　せんしゃ[END]
+
+// Script 11-199 [0x1FED8]
+てつのあな　へ[END]
+
+// Script 11-200 [0x1FEE0]
+たたかい[END]
+
+// Script 11-201 [0x1FEE5]
+やまかじ[END]
+
+// Script 11-202 [0x1FEEA]
+おります[END]
+
+// Script 11-203 [0x1FEEF]
+はははは[END]
+
+// Script 11-204 [0x1FEF4]
+ーん！[END]
+
+// Script 11-205 [0x1FEF8]
+ヒミオ[END]
+
+// Script 11-206 [0x1FEFC]
+おやぶん[END]
+
+// Script 11-207 [0x1FF01]
+いち、に！　いち、に！[END]
+
+// Script 11-208 [0x1FF0D]
+セイヒン　チェック　ＯＫ！[BR]
+[END]
+
+// Script 11-209 [0x1FF1C]
+うううっ‥[END]
+
+// Script 11-210 [0x1FF22]
+[BR]
+なかまに　なってくれる[BR]
+メカニックを　さがすことだ！[KEY]
+え？　オレ？[KEY]
+オレは　やだよ！[BR]
+まだ　しにたくないもん！[END]
+
+// Script 11-211 [0x1FF59]
+とうきょうタワー[END]
+
+// Script 11-212 [0x1FF62]
+ている！[END]
+
+// Script 11-213 [0x1FF67]
+が　あがった！[END]
+
+// Script 11-214 [0x1FF6F]
+めいちゅうりつ[END]
+
+// Script 11-215 [0x1FF77]
+かくに[BR]
+ひそんでいる　ようです。[END]
+
+// Script 11-216 [0x1FF86]
+を[BR]
+アジトに　している　ようです。[END]
+
+// Script 11-217 [0x1FF93]
+ダメージを　うけない！[END]
+
+// Script 11-218 [0x1FF9F]
+ここで　[END]
+
+// Script 11-219 [0x1FFA4]
+　ふえた！[END]
+
+// Script 11-220 [0x1FFAA]
+ガスで　おせんされている！[END]
+
+// Script 11-221 [0x1FFB6]
+ほのおに　つつまれ[END]
+
+// Script 11-222 [0x1FFC0]
+れいきに　つつまれ[END]
+
+// Script 11-223 [0x1FFCA]
+セキュリティ　[END]
+
+// Script 11-224 [0x1FFD2]
+[SKIP]<$CB>エア　ロック　ルーム[SKIP]<$36>オセン　レべル　０[SKIP]<$37>コンディション[SKIP]<$3B>グリーン[END]
+
+// Script 11-225 [0x1FFF9]
+　まわりの[BR2]
+[END]
+

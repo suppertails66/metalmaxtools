@@ -1,0 +1,33 @@
+Notes on uses for each of the script regions:
+
+  Region 00 -- Item names
+  Region 01 -- Enemy names
+  Region 02 -- Mostly menus and system messages, some tilemaps
+  Region 03 -- Various tank menus and tilemaps
+  Region 04 -- Shop labels, wanted descriptions, other stuff
+  Region 05 -- Main dialogue 1
+  Region 06 -- Lots of shop messages
+  Region 07 -- More shop stuff
+  Region 08 -- Tank status menus and related strings
+  Region 09 -- Mostly tilemaps for pieces of the interface (used for
+               dictionary lookups in tilemap mode)
+  Region 0A -- Battle messages
+  Region 0B -- Main dialogue 2
+  Region 0C -- Prefixes displayed before currently speaking character's
+               dialogue (see SPKR opcode)
+  Region 0D -- Menus, menu tilemaps, and some miscellaneous stuff like the
+               yes/no prompt
+  Region 0E -- Main dialogue 3
+  Region 0F -- Dialogue displayed in the "wide window" for story events
+  Region 10 -- More shop and shop-like dialogue
+  Region 11 -- Dictionary. Don't translate; the build script doesn't even
+               read this or the other dictionary regions.
+               If it turns out some of these scripts are run explicitly
+               somewhere, I'll have to update things to work around that,
+               but from what I've seen that doesn't happen.
+  Region 12 -- Mostly tank status screen subcomponents, also some Noah
+               dialogue that I guess wouldn't fit anywhere else
+  Region 13 -- Dictionary, don't translate
+  Region 14 -- Dictionary, don't translate
+  Region 15 -- Credits and end-game messages
+

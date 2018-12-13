@@ -1,0 +1,6 @@
+
+// 0x21A87:
+// Wolf's name, as shown in the two battles he fights in.
+// This is temporarily copied over a player slot for display.
+// ウルフ[END]
+Wolf[END]

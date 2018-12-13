@@ -1,0 +1,1031 @@
+// Script A-0x0 [0x16BCD]
+// [opE9]は[BR]
+// そうび　していません！[END]
+[opE9][BR]
+not equipped![END]
+
+
+// Script A-0x1 [0x16BD8]
+// ほうだんが　ありません！[END]//*WIP*
+
+
+// Script A-0x2 [0x16BE1]
+// [opE9]は[BR]
+// たいはして　つかえない！[END]//*WIP*
+
+
+// Script A-0x3 [0x16BF0]
+// どうぐを　もっていません！[END]
+No tools equipped![END]
+
+
+// Script A-0x4 [0x16BFB]
+// ちかくに　クルマが　ありません！[END]//*WIP*
+
+
+// Script A-0x5 [0x16C06]
+// [opE9][SVAR]<$1D>は　ぶんれつした！[END]//*WIP*
+
+
+// Script A-0x6 [0x16C10]
+// パーティーはぜんめつしました！[END]//*WIP*
+
+
+// Script A-0x7 [0x16C20]
+// [HERO]は　レべルが　あがった！[END]
+[HERO] leveled up![END]
+
+
+// Script A-0x8 [0x16C27]
+// [HERO]は　[NVAR]<$3E><$01>ダメージ！[END]//*WIP*
+
+
+// Script A-0x9 [0x16C32]
+// [HERO]は　ダメージを　うけない！[END]
+[HERO] received no damage![END]
+
+
+// Script A-0xA [0x16C37]
+// [HERO]は　こうげきを　かわした！[END]
+[HERO] dodged the attack![END]
+
+
+// Script A-0xB [0x16C43]
+// [HERO]は　しんでしまった！[END]
+[HERO] has died![END]
+
+
+// Script A-0xC [0x16C4E]
+// モンスターを　やっつけた！[END]
+All monsters were defeated![END]
+
+
+// Script A-0xD [0x16C59]
+// [opE9]が　あらわれた！[END]
+[opE9] drew near![END]
+
+
+// Script A-0xE [0x16C63]
+// [opE9]が　はかいされた！[END]//*WIP*
+
+
+// Script A-0xF [0x16C6E]
+// モンスターが　おそってきた！[END]
+Caught by surprise![END]
+
+
+// Script A-0x10 [0x16C7A]
+// [opE9][SVAR]<$1D>に　[NVAR]<$3E><$01>ダメージ！[END]
+[opE9][SVAR]<$1D> lost [NVAR]<$3E><$01> HP![END]
+
+
+// Script A-0x11 [0x16C87]
+// [opE9][SVAR]<$1D>は[BR2]
+// ダメージを　うけない！[END]
+[opE9][SVAR]<$1D>[BR2]
+received no damage![END]
+
+
+// Script A-0x12 [0x16C8C]
+// [opE9][SVAR]<$1D>は[BR2]
+// こうげきを　かわした！[END]
+[opE9][SVAR]<$1D>[BR2]
+dodged the attack![END]
+
+
+// Script A-0x13 [0x16C98]
+// [opE9][SVAR]<$1D>を　たおした！[END]
+[opE9][SVAR]<$1D> was defeated![END]
+
+
+// Script A-0x14 [0x16CA2]
+// [HERO]の　こうげき！[END]
+[HERO] attacked![END]
+
+
+// Script A-0x15 [0x16CA9]
+// [HERO]は[BR2]
+// [opE9]を　つかった！[END]//*WIP*
+
+
+// Script A-0x16 [0x16CB4]
+// [HERO]は　にげだした‥‥[END]
+[HERO] ran away...[END]
+
+
+// Script A-0x17 [0x16CBE]
+// [HERO]は[BR2]
+// ぼうぎょ　している！[END]
+[HERO][BR2]
+is defending![END]
+
+
+// Script A-0x18 [0x16CC9]
+// [HERO]は[BR2]
+// なかまを　かばっている！[END]//*WIP*
+
+
+// Script A-0x19 [0x16CD7]
+// したいは　クルマに　のれません！[END]
+Corpses cannot ride vehicles![END]
+
+
+// Script A-0x1A [0x16CE0]
+// [HERO]は[BR2]
+// クルマに　のりこんだ！[END]
+[HERO][BR2]
+entered the vehicle.[END]
+
+
+// Script A-0x1B [0x16CEC]
+// [HERO]は[BR2]
+// クルマから　とびおりた！[END]
+[HERO][BR2]
+exited the vehicle.[END]
+
+
+// Script A-0x1C [0x16CFB]
+// [opE9]　はっしゃ！[END]
+Firing [opE9] shell![END]
+
+
+// Script A-0x1D [0x16D03]
+// かいしんのいっぱつ！！[END]
+Perfect shot![END]
+
+
+// Script A-0x1E [0x16D0F]
+// [HERO]の[BR]
+// [opE9]　はそん！[END]
+[HERO]'s[BR]
+[opE9] was damaged![END]
+
+
+// Script A-0x1F [0x16D19]
+// [HERO]の[BR]
+// [opE9]　たいは！[END]
+[HERO]'s[BR]
+[opE9] was broken![END]
+
+
+// Script A-0x20 [0x16D23]
+// [HERO]は　はげしい[BR]
+// ショックを　うけた！[END]
+[HERO] was hit by a violent shock![END]
+
+
+// Script A-0x21 [0x16D28]
+// シャシーが　たいは　したので[BR]
+// [HERO]は　だっしゅつした！[END]
+Chassis broken![BR]
+[HERO] forced out of the vehicle![END]
+
+
+// Script A-0x22 [0x16D40]
+// [HERO]は　まひしてしまった！[END]//*WIP*
+
+
+// Script A-0x23 [0x16D4C]
+// [HERO]は　ねむってしまった！[END]
+[HERO] fell asleep![END]
+
+
+// Script A-0x24 [0x16D58]
+// [HERO]は　セメントでかたまった！[END]//*WIP*
+
+
+// Script A-0x25 [0x16D66]
+// [HERO]は　こんらんしてしまった！[END]//*WIP*
+
+
+// Script A-0x26 [0x16D72]
+// [HERO]は　さんに　おかされた！[END]
+[HERO] covered in acid![END]
+
+
+// Script A-0x27 [0x16D7F]
+// [HERO]は　ほのおに　つつまれた！[END]//*WIP*
+
+
+// Script A-0x28 [0x16D86]
+// [HERO]は　れいきに　つつまれた！[END]//*WIP*
+
+
+// Script A-0x29 [0x16D8D]
+// [HERO]の　まわりの[BR2]
+// たいきが　ガスでおせんされた！[END]
+[HERO] was surrounded by gas![END]
+
+
+// Script A-0x2A [0x16DA1]
+// [HERO]は　ガスで　おせんされた！[END]//*WIP*
+
+
+// Script A-0x2B [0x16DAF]
+// [HERO]は　こんらん　している！[END]//*WIP*
+
+
+// Script A-0x2C [0x16DB7]
+// [HERO]は[BR2]
+// さんに　おかされている！[END]
+[HERO] is[BR2]
+covered in acid![END]
+
+
+// Script A-0x2D [0x16DC5]
+// [HERO]は　まわりの[BR2]
+// ガスで　おせんされている！[END]//*WIP*
+
+
+// Script A-0x2E [0x16DCC]
+// [HERO]の　しゃないが[BR2]
+// ガスで　おせんされている！[END]//*WIP*
+
+
+// Script A-0x2F [0x16DD8]
+// [HERO]は　めを　さました！[END]
+[HERO] woke up![END]
+
+
+// Script A-0x30 [0x16DE3]
+// [HERO]は[BR2]
+// セメントから　ぬけだした！[END]//*WIP*
+
+
+// Script A-0x31 [0x16DF4]
+// [HERO]は　われに　かえった！[END]//*WIP*
+
+
+// Script A-0x32 [0x16E00]
+// [HERO]の　まわりの[BR2]
+// ほのおが　きえた！[END]//*WIP*
+
+
+// Script A-0x33 [0x16E0E]
+// [HERO]の　まわりの[BR2]
+// れいきが　きえた！[END]//*WIP*
+
+
+// Script A-0x34 [0x16E1C]
+// [HERO]の　まわりの[BR2]
+// ガスが　きえた！[END]//*WIP*
+
+
+// Script A-0x35 [0x16E29]
+// [HERO]の　しゃないから[BR2]
+// ガスが　きえた！[END]//*WIP*
+
+
+// Script A-0x36 [0x16E3C]
+// しかし　たまぎれ　だった！[END]
+But it was out of ammo![END]
+
+
+// Script A-0x37 [0x16E48]
+// [HERO]は　なんともなかった！[END]//*WIP*
+
+
+// Script A-0x38 [0x16E54]
+// しかし　[HERO]は[BR2]
+// モンスターに　まわりこまれた！[END]
+But [HERO]'s way[BR2]
+was blocked![END]
+
+
+// Script A-0x39 [0x16E66]
+// しかし　モンスターは　いなかった！[END]
+But there were no monsters there![END]
+
+
+// Script A-0x3A [0x16E73]
+// しかし　なにも　おこらなかった！[END]//*WIP*
+
+
+// Script A-0x3B [0x16E82]
+// しかし　[HERO]は　まひしなかった！[END]//*WIP*
+
+
+// Script A-0x3C [0x16E8F]
+// しかし　[HERO]は　ねむらなかった！[END]
+But [HERO] did not fall asleep![END]
+
+
+// Script A-0x3D [0x16E9C]
+// [HERO]は[BR2]
+// [opE9]の　スイッチをいれた！[END]//*WIP*
+
+
+// Script A-0x3E [0x16EAC]
+// [HERO]の[BR2]
+// めいちゅうりつが　あがった！[END]
+[HERO]'s[BR2]
+accuracy increased![END]
+
+
+// Script A-0x3F [0x16EB4]
+// [HERO]は　パワーアップした！[END]//*WIP*
+
+
+// Script A-0x40 [0x16EC0]
+// [HERO]の[BR2]
+// めいちゅうりつが　さがった！[END]
+[HERO]'s[BR2]
+accuracy decreased![END]
+
+
+// Script A-0x41 [0x16ECD]
+// [HERO]の[BR2]
+// かいひりつが　[NVAR]<$3E><$00>　さがった！[END]//*WIP*
+
+
+// Script A-0x42 [0x16EE1]
+// しかし　パーツが　たいはしている！[END]
+But that component was broken![END]
+
+
+// Script A-0x43 [0x16EEF]
+// つうこんのいっぱつ！！[END]//*WIP*
+
+
+// Script A-0x44 [0x16EFB]
+// ざんがいの　なかから[BR]
+// [opE9]を　みつけた！[opE4][END]//*WIP*
+
+
+// Script A-0x45 [0x16F0F]
+// [opE9][SVAR]<$1D>は　じばくした！[END]//*WIP*
+
+
+// Script A-0x46 [0x16F18]
+// [opE9][SVAR]<$1D>の[BR]
+// めいちゅうりつが　あがった！[END]
+[opE9][SVAR]<$1D>'s[BR]
+accuracy increased![END]
+
+
+// Script A-0x47 [0x16F21]
+// [opE9][SVAR]<$1D>の[BR]
+// かいひりつが　あがった！[END]//*WIP*
+
+
+// Script A-0x48 [0x16F2D]
+// [opE9][SVAR]<$1D>の　めいちゅうりつと[BR2]
+// かいひりつが　さがった！[END]//*WIP*
+
+
+// Script A-0x49 [0x16F42]
+// [opE9][SVAR]<$1D>は[BR2]
+// ＨＰが　ぜんかい　した！[END]
+[opE9][SVAR]<$1D>[BR2]
+recovered all HP![END]
+
+
+// Script A-0x4A [0x16F48]
+// [opE9][SVAR]<$1D>は[BR2]
+// [NVAR]<$3E><$01>　かいふくした！[END]
+[opE9][SVAR]<$1D>[BR2]
+recovered [NVAR]<$3E><$01>![END]
+
+
+// Script A-0x4B [0x16F54]
+// [opE9][SVAR]<$1D>に　くっついた！[BR2]
+// そうこうが　[NVAR]<$3E><$00>　ふえた！[END]//*WIP*
+
+
+// Script A-0x4C [0x16F6C]
+// しかし[BR2]
+// くっつく　モンスターが　いなかった！[END]//*WIP*
+
+
+// Script A-0x4D [0x16F80]
+// [HERO]は[BR2]
+// [opE9]を　のみこんだ！[END]
+[HERO] swallowed[BR2]
+the [opE9]![END]
+
+
+// Script A-0x4E [0x16F8C]
+// ＨＰが　[NVAR]<$10><$01>　かいふくした！[END]
+Recovered [NVAR]<$10><$01> HP![END]
+
+
+// Script A-0x4F [0x16F9A]
+// ＨＰが　ぜんかい　した！[END]
+HP fully restored![END]
+
+
+// Script A-0x50 [0x16FA7]
+// パーティーの　しきが　あがった！[END]//*WIP*
+
+
+// Script A-0x51 [0x16FB3]
+// [opE9]は　こわれてしまった！[END]//*WIP*
+
+
+// Script A-0x52 [0x16FC0]
+// [HERO]は　[opE9]で[BR2]
+// うんせいを　うらなった！[END]//*WIP*
+
+
+// Script A-0x53 [0x16FD2]
+// [HERO]は　このたたかいに[BR2]
+// かてるかもしれない！[END]//*WIP*
+
+
+// Script A-0x54 [0x16FE5]
+// [HERO]は　このたたかいに[BR2]
+// やぶれるかもしれない！[END]//*WIP*
+
+
+// Script A-0x55 [0x16FF9]
+// レッドウルフが　あらわれた！[END]
+Red Wolf drew near![END]
+
+
+// Script A-0x56 [0x17004]
+// [HERO]は[BR2]
+// かたまって　うごけない！[END]//*WIP*
+
+
+// Script A-0x57 [0x17014]
+// [HERO]は　ねむっている！[END]//*WIP*
+
+
+// Script A-0x58 [0x1701C]
+// [HERO]は[BR2]
+// しびれて　うごけない！[END]//*WIP*
+
+
+// Script A-0x59 [0x1702B]
+// [HERO]は　ほのおに　つつまれる！[END]//*WIP*
+
+
+// Script A-0x5A [0x17032]
+// [HERO]は　れいきに　つつまれる！[END]//*WIP*
+
+
+// Script A-0x5B [0x17039]
+// [opE9][SVAR]<$1D>は　はげしい[BR]
+// ショックを　うけた！[END]
+[opE9][SVAR]<$1D> was hit by a violent shock![END]
+
+
+// Script A-0x5C [0x1703F]
+// [opE9][SVAR]<$1D>は[BR2]
+// ねむった！[END]//*WIP*
+
+
+// Script A-0x5D [0x17047]
+// [opE9][SVAR]<$1D>は[BR2]
+// セメントでかたまった！[END]//*WIP*
+
+
+// Script A-0x5E [0x17055]
+// [opE9][SVAR]<$1D>は[BR2]
+// こんらんした！[END]//*WIP*
+
+
+// Script A-0x5F [0x1705D]
+// は　はげしい[BR]
+// ショックを　うけた！[END]
+ was hit by a violent shock![END]
+
+
+// Script A-0x60 [0x1706F]
+// ほのおが　もえあがる！[END]//*WIP*
+
+
+// Script A-0x61 [0x1707B]
+// れいきが　たちこめる！[END]//*WIP*
+
+
+// Script A-0x62 [0x17087]
+// [opE9][SVAR]<$1D>の　まわりの[BR2]
+// たいきを　ガスで　おせんした！[END]//*WIP*
+
+
+// Script A-0x63 [0x1709C]
+// レンタルタンクは　あなたを　みすてて[BR2]
+// いなくなって　しまった！[END]
+The rental tank threw you out[BR2]
+and left, abandoning you![END]
+
+
+// Script A-0x64 [0x170B6]
+// [BR]
+// [HERO]は[END]//*WIP*
+
+
+// Script A-0x65 [0x170BA]
+// [BR]
+// せいじょう　です。[opE4][END]//*WIP*
+
+
+// Script A-0x66 [0x170C6]
+// [BR]
+// ガスで　おせんされている！[opE4][END]//*WIP*
+
+
+// Script A-0x67 [0x170CB]
+// [BR]
+// れいきに　つつまれている！[opE4][END]//*WIP*
+
+
+// Script A-0x68 [0x170D2]
+// [BR]
+// ほのおに　つつまれている！[opE4][END]//*WIP*
+
+
+// Script A-0x69 [0x170D9]
+// [BR]
+// さんに　おかされている！[opE4][END]
+[BR]
+Covered in acid![opE4][END]
+
+
+// Script A-0x6A [0x170E6]
+// [BR]
+// こんらん　している！[opE4][END]//*WIP*
+
+
+// Script A-0x6B [0x170EE]
+// [HERO]の　たいあたり！[END]//*WIP*
+
+
+// Script A-0x6C [0x170F8]
+// [BR]
+// さいみんガスで　おせんされている！[opE4][END]//*WIP*
+
+
+// Script A-0x6D [0x17101]
+// [BR]
+// まひガスで　おせんされている！[opE4][END]//*WIP*
+
+
+// Script A-0x6E [0x17108]
+// [BR]
+// どくガスで　おせんされている！[opE4][END]//*WIP*
+
+
+// Script A-0x6F [0x1710F]
+// [HERO]は　[opE9]で[BR]
+// くちとはなを　おおった！[END]//*WIP*
+
+
+// Script A-0x70 [0x17112]
+// [opE9][SVAR]<$1D>の　こうげき！[END]
+[opE9][SVAR]<$1D> attacked![END]
+
+
+// Script A-0x71 [0x1711A]
+// [opE9][SVAR]<$1D>は[BR2]
+// すなを　はいた！[END]
+[opE9][SVAR]<$1D>[BR2]
+threw sand at you![END]
+
+
+// Script A-0x72 [0x17121]
+// [opE9][SVAR]<$1D>は[BR2]
+// いんせきを　はいた！[END]//*WIP*
+
+
+// Script A-0x73 [0x1712A]
+// [opE9][SVAR]<$1D>は[BR2]
+// たねを　とばした！[END]
+[opE9][SVAR]<$1D>[BR2]
+shot a seed![END]
+
+
+// Script A-0x74 [0x17136]
+// [opE9][SVAR]<$1D>は　かみついた！[END]//*WIP*
+
+
+// Script A-0x75 [0x1713F]
+// [opE9][SVAR]<$1D>は[BR2]
+// ガリガリ　ひっかいた！[END]
+[opE9][SVAR]<$1D>[BR2]
+attacked with its claws![END]
+
+
+// Script A-0x76 [0x1714D]
+// [opE9][SVAR]<$1D>は[BR2]
+// ばくばんを　とうかした！[END]//*WIP*
+
+
+// Script A-0x77 [0x1715C]
+// [opE9][SVAR]<$1D>は[BR2]
+// クレーンをおろした！[END]//*WIP*
+
+
+// Script A-0x78 [0x17169]
+// [opE9][SVAR]<$1D>は[BR2]
+// クレーンを　ふりまわした！[END]//*WIP*
+
+
+// Script A-0x79 [0x17172]
+// [opE9][SVAR]<$1D>は[BR2]
+// クレーンをあげた！[END]//*WIP*
+
+
+// Script A-0x7A [0x1717E]
+// [opE9][SVAR]<$1D>は　ほのおをふいた！[END]
+[opE9][SVAR]<$1D> threw flame![END]
+
+
+// Script A-0x7B [0x17189]
+// [opE9][SVAR]<$1D>は　にげていった！[END]
+[opE9][SVAR]<$1D> ran away![END]
+
+
+// Script A-0x7C [0x17193]
+// [opE9][SVAR]<$1D>は　とんでいった‥[END]//*WIP*
+
+
+// Script A-0x7D [0x1719D]
+// [opE9][SVAR]<$1D>は[BR2]
+// ゆっくりと　さっていった‥[END]//*WIP*
+
+
+// Script A-0x7E [0x171AD]
+// [opE9][SVAR]<$1D>は[BR2]
+// とびはねていった‥[END]//*WIP*
+
+
+// Script A-0x7F [0x171B9]
+// [opE9][SVAR]<$1D>は[BR2]
+// どくガスを　だした！[END]
+[opE9][SVAR]<$1D>[BR2]
+released poison gas![END]
+
+
+// Script A-0x80 [0x171C0]
+// しかし　ねんりょうぎれだった‥[END]
+But it was out of fuel...[END]
+
+
+// Script A-0x81 [0x171CE]
+// [opE9][SVAR]<$1D>は[BR2]
+// さいみんガスを　だした！[END]//*WIP*
+
+
+// Script A-0x82 [0x171D7]
+// [opE9][SVAR]<$1D>は[BR2]
+// れいとうガスを　だした！[END]//*WIP*
+
+
+// Script A-0x83 [0x171E0]
+// [opE9][SVAR]<$1D>は　さんを　はいた！[END]
+[opE9][SVAR]<$1D> spit acid![END]
+
+
+
+// Script A-0x84 [0x171E7]
+// [opE9][SVAR]<$1D>は[BR2]
+// さいみんおんぱを　はっした！[END]
+[opE9][SVAR]<$1D>[BR2]
+emitted hypnotic waves![END]
+
+
+// Script A-0x85 [0x171F0]
+// [opE9][SVAR]<$1D>は[BR2]
+// パニックおんぱを　はっした！[END]//*WIP*
+
+
+// Script A-0x86 [0x171F9]
+// [opE9][SVAR]<$1D>は[BR2]
+// ちょうおんぱを　はっした！[END]//*WIP*
+
+
+// Script A-0x87 [0x17201]
+// [opE9][SVAR]<$1D>は[BR2]
+// たんちおんぱを　はっした！[END]//*WIP*
+
+
+// Script A-0x88 [0x17209]
+// [opE9][SVAR]<$1D>は[BR2]
+// しょうげきはを　はっした！[END]//*WIP*
+
+
+// Script A-0x89 [0x17213]
+// しかし　なかまは　こなかった！[END]//*WIP*
+
+
+// Script A-0x8A [0x17221]
+// [opE9][SVAR]<$1D>は[BR2]
+// でんじはを　はっした！[END]//*WIP*
+
+
+// Script A-0x8B [0x1722A]
+// [opE9][SVAR]<$1D>は[BR2]
+// ぶんしん　だった！[END]//*WIP*
+
+
+// Script A-0x8C [0x17236]
+// [opE9][SVAR]<$1D>は[BR2]
+// ねっせんを　はっした！[END]//*WIP*
+
+
+// Script A-0x8D [0x1723F]
+// [opE9][SVAR]<$1D>は[BR2]
+// ふはつだんを　うった！[END]//*WIP*
+
+
+// Script A-0x8E [0x17249]
+// [opE9][SVAR]<$1D>は[BR2]
+// どくガスだんを　うった！[END]//*WIP*
+
+
+// Script A-0x8F [0x17250]
+// [opE9][SVAR]<$1D>は[BR2]
+// さいみんガスだんを　うった！[END]//*WIP*
+
+
+// Script A-0x90 [0x17259]
+// [opE9][SVAR]<$1D>は[BR2]
+// まひガスだんを　うった！[END]//*WIP*
+
+
+// Script A-0x91 [0x17260]
+// [opE9][SVAR]<$1D>は[BR2]
+// ナパームだんを　うった！[END]//*WIP*
+
+
+// Script A-0x92 [0x1726B]
+// [opE9][SVAR]<$1D>の　たいあたり！[END]//*WIP*
+
+
+// Script A-0x93 [0x17276]
+// [opE9][SVAR]<$1D>は　じばくした！[END]//*WIP*
+
+
+// Script A-0x94 [0x1727F]
+// [opE9][SVAR]<$1D>は　ころんだ！[END]//*WIP*
+
+
+// Script A-0x95 [0x17287]
+// [opE9][SVAR]<$1D>は[BR2]
+// じめんに　もぐった！[END]//*WIP*
+
+
+// Script A-0x96 [0x17294]
+// [opE9][SVAR]<$1D>は[BR2]
+// うみに　もぐった！[END]//*WIP*
+
+
+// Script A-0x97 [0x172A0]
+// [opE9][SVAR]<$1D>は[BR2]
+// アワを　ふいた！[END]//*WIP*
+
+
+// Script A-0x98 [0x172AB]
+// [opE9][SVAR]<$1D>は[BR2]
+// まんたんドリンクを　のんだ！[END]//*WIP*
+
+
+// Script A-0x99 [0x172B7]
+// [opE9][SVAR]<$1D>は[BR2]
+// トビラを　しめた！[END]//*WIP*
+
+
+// Script A-0x9A [0x172C3]
+// [opE9][SVAR]<$1D>は[BR2]
+// ちゅうしゃを　うった！[END]//*WIP*
+
+
+// Script A-0x9B [0x172CD]
+// [opE9][SVAR]<$1D>は[BR2]
+// かいふくえきを　たらした！[END]//*WIP*
+
+
+// Script A-0x9C [0x172DB]
+// [opE9][SVAR]<$1D>は[BR2]
+// なかまを　よんだ！[END]//*WIP*
+
+
+// Script A-0x9D [0x172E7]
+// [opE9][SVAR]<$1D>は[BR2]
+// なかまに　しらせた！[END]
+[opE9][SVAR]<$1D>[BR2]
+called for backup![END]
+
+
+// Script A-0x9E [0x172F4]
+// [HERO]を　つりあげおとした！[END]
+[HERO] was lifted and dropped![END]
+
+
+// Script A-0x9F [0x17301]
+// [opE9]に　ゆうばくした！[END]
+[opE9] hit by the explosion![END]
+
+
+// Script A-0xA0 [0x1730C]
+// [opE9][SVAR]<$1D>を　ふんでしまった！[END]//*WIP*
+
+
+// Script A-0xA1 [0x17319]
+// [opE9][SVAR]<$1D>を[BR2]
+// なかまが　かばった！[END]//*WIP*
+
+
+// Script A-0xA2 [0x17328]
+// モンスターの　まわりの　ひがきえた！[END]//*WIP*
+
+
+// Script A-0xA3 [0x17338]
+// [opE9][SVAR]<$1D>は　むれを　よんだ！[END]//*WIP*
+
+
+// Script A-0xA4 [0x17343]
+// [opE9][SVAR]<$1D>は[BR2]
+// ねらいを　つけている‥[END]
+[opE9][SVAR]<$1D>[BR2]
+is taking aim...[END]
+
+
+// Script A-0xA5 [0x1734F]
+// [opE9][SVAR]<$1D>は[BR2]
+// カラに　とじこもっている‥[END]
+[opE9][SVAR]<$1D>[BR2]
+hides in its shell...[END]
+
+
+// Script A-0xA6 [0x1735D]
+// [opE9][SVAR]<$1D>は[BR2]
+// ヒラヒラ　とんでいる‥[END]//*WIP*
+
+
+// Script A-0xA7 [0x1736B]
+// [opE9][SVAR]<$1D>は[BR2]
+// ちょうはつ　している‥[END]
+[opE9][SVAR]<$1D>[BR2]
+taunts you...[END]
+
+
+// Script A-0xA8 [0x17376]
+// [opE9][SVAR]<$1D>は　はりついた！[END]//*WIP*
+
+
+// Script A-0xA9 [0x1737F]
+// [opE9][SVAR]<$1D>は[BR2]
+// ひっくりかえり　みずをこぼした！[END]//*WIP*
+
+
+// Script A-0xAA [0x17392]
+// [opE9][SVAR]<$1D>は[BR2]
+// クルマに　のった！[END]//*WIP*
+
+
+// Script A-0xAB [0x1739B]
+// [opE9][SVAR]<$1D>は[BR2]
+// こんらん　している！[END]//*WIP*
+
+
+// Script A-0xAC [0x173A3]
+// [opE9][SVAR]<$1D>から　とびおりた！[END]
+Exited [opE9][SVAR]<$1D>.[END]
+
+
+// Script A-0xAD [0x173AF]
+// [opE9][SVAR]<$1D>は[BR2]
+// はなを　ふりまわした！[END]//*WIP*
+
+
+// Script A-0xAE [0x173B6]
+// [opE9][SVAR]<$1D>は[BR2]
+// しっぽを　ふりまわした！[END]//*WIP*
+
+
+// Script A-0xAF [0x173BE]
+// [opE9][SVAR]<$1D>は[BR2]
+// じっと　みている‥[END]
+[opE9][SVAR]<$1D>[BR2]
+observes the situation...[END]
+
+
+// Script A-0xB0 [0x173C8]
+// [opE9][SVAR]<$1D>は[BR2]
+// ばくはつしそうになったが[BR2]
+// じぶんで　おさえた！[END]//*WIP*
+
+
+// Script A-0xB1 [0x173E2]
+// [opE9][SVAR]<$1D>は　エネルギーを[BR2]
+// じゅうでん　している‥[END]//*WIP*
+
+
+// Script A-0xB2 [0x173F4]
+// [opE9][SVAR]<$1D>は[BR2]
+// うろついている‥[END]
+[opE9][SVAR]<$1D>[BR2]
+wanders around...[END]
+
+
+// Script A-0xB3 [0x173FD]
+// [opE9][SVAR]<$1D>は[BR2]
+// ピョンピョン　はねている‥[END]
+[opE9][SVAR]<$1D>[BR2]
+hops in place...[END]
+
+
+// Script A-0xB4 [0x1740B]
+// [opE9][SVAR]<$1D>は[BR2]
+// うかれて　さわいでいる‥[END]
+[opE9][SVAR]<$1D>[BR2]
+is goofing off...[END]
+
+
+// Script A-0xB5 [0x1741A]
+// [opE9][SVAR]<$1D>は[BR2]
+// じっと　している‥[END]
+[opE9][SVAR]<$1D>[BR2]
+is waiting...[END]
+
+
+// Script A-0xB6 [0x17423]
+// [opE9][SVAR]<$1D>は[BR2]
+// こぼしたみずを　ふきとっている‥[END]//*WIP*
+
+
+// Script A-0xB7 [0x17434]
+// [opE9][SVAR]<$1D>は[BR2]
+// はしりまわっている‥[END]//*WIP*
+
+
+// Script A-0xB8 [0x1743F]
+// [opE9][SVAR]<$1D>は[BR2]
+// したいを　つついている‥[END]//*WIP*
+
+
+// Script A-0xB9 [0x1744B]
+// [opE9][SVAR]<$1D>の[BR2]
+// プロテクターを　はかいした！[END]
+[opE9][SVAR]<$1D>'s[BR2]
+Protector destroyed![END]
+
+
+// Script A-0xBA [0x1745E]
+// さんが　ちゅうわ　された！[END]//*WIP*
+
+
+// Script A-0xBB [0x17462]
+// [HERO]は[BR2]
+// [opE9]を　ならした！[END]//*WIP*
+
+
+// Script A-0xBC [0x1746D]
+// そうびひんを　もっていません！[opE4][END]//*WIP*
+
+
+// Script A-0xBD [0x17471]
+// [HERO]は　みを[BR2]
+// かわしやすくなった！[END]//*WIP*
+
+
+// Script A-0xBE [0x17482]
+// じんこうえいせいに[BR2]
+// しんごうが　おくられた！[END]//*WIP*
+
+
+// Script A-0xBF [0x17499]
+// えいせいが　さどうした！[END]//*WIP*
+
+
+// Script A-0xC0 [0x174A6]
+// [opE9][SVAR]<$1D>には[BR2]
+// こうかがなかった！[END]//*WIP*
+
+
+// Script A-0xC1 [0x174B5]
+// [opE9][SVAR]<$1D>に　[NVAR]<$3E><$01>ダメージ[END]//*WIP*
+
+
+// Script A-0xC2 [0x174C1]
+// [HERO]は　[opE9]をなげた！[END]
+[HERO] threw [opE9]![END]
+
+
+// Script A-0xC3 [0x174CB]
+// とくしゅほうだんが　ありません！[END]//*WIP*
+
+
+// Script A-0xC4 [0x174D3]
+// [opE9][SVAR]<$1D>は[BR2]
+// ほのおに　つつまれる！[END]//*WIP*
+
+
+// Script A-0xC5 [0x174DA]
+// [opE9][SVAR]<$1D>は[BR2]
+// れいきに　つつまれる！[END]//*WIP*
+
+
+// Script A-0xC6 [0x174E1]
+// [opE9][SVAR]<$1D>は　まわりの[BR2]
+// ガスで　おせんされている！[END]//*WIP*
+
+
+// Script A-0xC7 [0x174E9]
+// [opE9][SVAR]<$1D>は[BR2]
+// ぶんしんした！[END]//*WIP*
+
+

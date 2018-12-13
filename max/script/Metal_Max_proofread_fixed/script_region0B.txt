@@ -1,0 +1,1789 @@
+// Script B-0x0 [0x36000]
+// げーっ‥。[KEY]
+// あんまり　シケた[BR]
+// まち　なんで、つい、[BR]
+// のみすぎちまったぜ！[END]
+Bleurgh...[KEY]
+This place's so crappy it makes me wanna drink, but I overdi-- Bleurgh![END]
+
+
+// Script B-0x1 [0x36024]
+// とまれ！[KEY]
+// ‥‥。[BR]
+// どうやら　さんぞくどもの[BR]
+// なかまじゃ　ないようだな‥。[KEY]
+// いいだろ。[BR]
+// とおりな！[END]
+Hold it![KEY]
+...[BR]
+You don't look like bandits.[KEY]
+Okay, you can come in.[END]
+
+
+// Script B-0x2 [0x36051]
+// いま　この　まちは[BR]
+// ヤバいことに　なっててな。[BR]
+// きを　わるく　しねえでくれよ。[END]
+Nothing personal. We're going through some bad times around here, see.[END]
+
+
+// Script B-0x3 [0x36076]
+// ここは　ユゲのまちです。[END]
+This is the town of Yuge.[END]
+
+
+// Script B-0x4 [0x36080]
+// ふーっ‥[BR]
+// やつらが　きたのかと[BR]
+// おもったぜ！[KEY]
+// さ！　はやいとこ[BR]
+// なかへ　はいってくれ！[END]
+Whew! I thought you were with them![KEY]
+Hurry, get inside![END]
+
+
+// Script B-0x5 [0x360AC]
+// さんぞくどもは[BR]
+// なにかを　まってるらしい！[KEY]
+// イヤな　よかんが　するぜ‥。[END]
+Those bandits are waiting for something.[KEY]
+I have a bad feeling about this...[END]
+
+
+// Script B-0x6 [0x360CF]
+// ああ、へいわだった　ころに[BR]
+// もどりたい‥！[END]
+*sigh* I miss those peaceful days...[END]
+
+
+// Script B-0x7 [0x360E5]
+// ‥‥。[opF1]<$3C>[BR]
+// ナナーっ！[END]
+...[opF1]<$3C>[BR]
+NANAAA![END]
+
+
+// Script B-0x8 [0x360F0]
+// あの　れんちゅうが[BR]
+// きて　からは[BR]
+// しょうばい　あがったりですよ[BR]
+// やれやれ‥。[END]
+We're busier than ever since those guys came...[END]
+
+
+// Script B-0x9 [0x36113]
+// ひーっ！[BR]
+// いのち　ばかりは[BR]
+// おたすけを！[END]
+Ahh! Spare me![END]
+
+
+// Script B-0xA [0x36127]
+// ここは　ハンターたちが[BR]
+// たたかいの　きろくを　つける[BR]
+// メモリーセンターよ[KEY]
+// なーんてな！[BR]
+// ギャハハハ！[END]
+This is the Memory Center, where Hunters save records of their battles.[KEY]
+...Just kidding! Hahahaha![END]
+
+
+// Script B-0xB [0x36138]
+// なんだ　てめえ！[BR]
+// ケガしたく　なかったら、[BR]
+// とっとと　まちから[BR]
+// でて　いきな！[END]
+Who are you?! Leave now if you don't want to get hurt![END]
+
+
+// Script B-0xC [0x3615E]
+// ここは　せんしゃの[BR]
+// しゅうりやだったぜえーっ！[KEY]
+// どこが　イカれちまったんだ？[BR]
+// もっと　めちゃめちゃに[BR]
+// こわして　やろうか？　ええ？[END]
+This was a tank repair shop![KEY]
+Got anything damaged? Want me to break it even further?![END]
+
+
+// Script B-0xD [0x36199]
+// オレたちが　こわくて[BR]
+// クルマから[BR]
+// おりられねえんだろ！[END]
+What, too scared to talk to us outside your vehicle?[END]
+
+
+// Script B-0xE [0x361B2]
+// やーい！[BR]
+// こしぬけ　ハンター！[END]
+Hah! Some Hunter you are![END]
+
+
+// Script B-0xF [0x361C0]
+// へ‥、へへへへ‥。[END]
+Heh... Heheheheh...[END]
+
+
+// Script B-0x10 [0x361CA]
+// か‥、かんべん　してくれよ！[BR]
+// わるぎが[BR]
+// あったわけじゃ　ねえんだ‥。[END]
+C-Cut me some slack! I wasn't really going to hurt you![END]
+
+
+// Script B-0x11 [0x361ED]
+// ‥。[KEY]
+// え？　あ、いや、[BR]
+// ここは　メモリーセンターじゃ[BR]
+// ございませんでしたです、はい[END]
+...[KEY]
+Huh? Oh, uhmm... This is not a real Memory Center. I'm terribly sorry for the inconvenience.[END]
+
+
+// Script B-0x12 [0x36214]
+// ひとに　あいさつ[BR]
+// するとき　ぐらいは、[BR]
+// クルマから　おりて[BR]
+// かおを　みせるもんだぜ！[END]
+Hey, you in there! Show yourself! It's only proper manners to say hello in person![END]
+
+
+// Script B-0x13 [0x3623E]
+// きに　いらねえな！[BR]
+// オレさまは　ワルゲリョ[BR]
+// おやぶんから　ここの　まちを[BR]
+// まかされてんだ！[KEY]
+// えたいの　しれない[BR]
+// ハンターに　うろうろされると[BR]
+// めいわく　なんだよっ！[KEY]
+// はええとこ、まちから[BR]
+// きえて　くれねえか？[CHOICE]<$14><$FF>
+// 
+Our boss Malone left this town to me![KEY]
+I can't have some random Hunter walking around our turf.[KEY]
+I'm giving you the chance to leave with your life rather than in a body bag. Will you take it?[CHOICE]<$14><$FF>
+
+
+
+// Script B-0x14 [0x3629F]
+// へっ‥！[BR]
+// さっさと　きえうせろ！[BR]
+// この　こしぬけがっ！[END]
+Heh... Then leave, you chicken![END]
+
+
+// Script B-0x15 [0x362BA]
+// なにィ？　てめえ、[BR]
+// オレさまと　やろうってのか？[CHOICE]<$16><$17>
+// 
+Huh? You wanna take us on?[CHOICE]<$16><$17>
+
+
+
+// Script B-0x16 [0x362D5]
+// なめやがって‥。[BR]
+// くたばりやがれ！[BR]
+// うすぎたねえ[BR]
+// しょうきんかせぎめっ！[END]
+It's your funeral. Die, you filthy bounty hunter![END]
+
+
+// Script B-0x17 [0x362F6]
+// くちの　たっしゃな[BR]
+// ヤローだな！[KEY]
+// さっさと　きえうせろィ！[END]
+Ah, so you're just a dumbass.[KEY]
+Get out of my sight![END]
+
+
+// Script B-0x18 [0x36314]
+// かっ‥　かいふく[BR]
+// カプセル‥[BR]
+// ごふっ‥。[END]
+H-Healing Capsule... *cough*[END]
+
+
+// Script B-0x19 [0x36327]
+// もうすぐ　おやぶんが[BR]
+// クルマに　のって　ここへ[BR]
+// やってくる！[KEY]
+// それまでに[BR]
+// にげだしたほうが[BR]
+// みのため　だぜ！　けけけ！[END]
+The boss's coming with his tank soon![KEY]
+You should run while you still can! Hahahah![END]
+
+
+// Script B-0x1A [0x3635E]
+// あいつらの　おやぶんが[BR]
+// せんしゃに　のって　ここへ[BR]
+// やってくるらしいよ！[KEY]
+// もし　そうなったら‥、[BR]
+// まだ　まちで　ガンバってる[BR]
+// ひとたちも、あっというまに[BR]
+// ひねりつぶされちまうよ！[END]
+They said their boss is coming here in a tank![KEY]
+If that's really the case, there's nothing we can do... We're all going to die![END]
+
+
+// Script B-0x1B [0x363B4]
+// ひへへへへ‥！[BR]
+// おめえ、[BR]
+// わたしぶねを[BR]
+// みたこと　あるか？[KEY]
+// かわを　たどって[BR]
+// ひがしへ　いってみな！[BR]
+// ひっく！[END]
+Heheheheh... Hey, you saw the ferryboat?[KEY]
+Cross the river and head east if you're curious! *hic*[END]
+
+
+// Script B-0x1C [0x363EA]
+// ふなつきばの　おやじめ[BR]
+// なみだ　ながして[BR]
+// いのちごい　してやがった！[BR]
+// ひーっひっひっひ！[END]
+That wimp at the harbor cried as he begged for his life! Heheheheh![END]
+
+
+// Script B-0x1D [0x36417]
+// ナナとかいう　おんなに[BR]
+// にげられたのは[BR]
+// ざんねんだったぜーっ！[BR]
+// ウィーッ！　ヒック！[END]
+Looks like that chick, Nana, ran off... It's a damn shame! *hick*[END]
+
+
+// Script B-0x1E [0x3643F]
+// こっちは　がくやだ！[BR]
+// よそモンが　チョロチョロ[BR]
+// するんじゃねえ！[END]
+This is the dressing room! Nothing to see here![END]
+
+
+// Script B-0x1F [0x36460]
+// カネに　つられて[BR]
+// こいつらの　なかまに[BR]
+// なっちまったが‥。[KEY]
+// ここまで　ひでえとは[BR]
+// おもって　なかったんだ‥。[KEY]
+// だが　いちど　なかまに[BR]
+// なったら　しぬまで[BR]
+// ぬけられねえんだよ‥。[END]
+I joined them because the money was good.[KEY]
+I didn't know what I was getting myself into. The things we're doing... They're terrible.[KEY]
+What's worse, once you join, you're in for life. The only way to leave is as a corpse...[END]
+
+
+// Script B-0x20 [0x364B7]
+// おやぶんが　やられたってんで[BR]
+// やつら　あわてて[BR]
+// にげて　いったよ！[END]
+As soon as their boss was down, they all ran away![END]
+
+
+// Script B-0x21 [0x364D7]
+// ワルゲリョを　やっつけた[BR]
+// ハンターてのは‥、[BR]
+// もしかして　あんた‥！？[KEY]
+// ゆ、ゆるしてくれっ！[BR]
+// オレは　‥、オレは　‥！[CHOICE]<$22><$23>
+// 
+A-Are you the Hunter who defeated Malone?![KEY]
+P-Please forgive me! I... I...![CHOICE]<$22><$23>
+
+
+
+// Script B-0x22 [0x3650B]
+// ‥。[BR]
+// ほんとうに　つよい　おとこは[BR]
+// こころも　ひろい[BR]
+// ものなのだな‥。[KEY]
+// だが　まちの　ひとびとは‥[BR]
+// オレを　ゆるして[BR]
+// くれるだろうか‥。[END]
+...[BR]
+It's true what they say. The stronger the man, the bigger his heart.[KEY]
+I hope the others here are as forgiving as you...[END]
+
+
+// Script B-0x23 [0x3654A]
+// ううう‥！[BR]
+// ゆるしてくれ！[BR]
+// ゆるしてくれよおおお！[END]
+*sob* Please! I'm begging you![END]
+
+
+// Script B-0x24 [0x36564]
+// あんた　このそうこうしゃが[BR]
+// ほしいのか？[CHOICE]<$25><$26>
+// 
+Interested in this LAV?[CHOICE]<$25><$26>
+
+
+
+// Script B-0x25 [0x36578]
+// よしっ！　あげましょう！[KEY]
+// ただし‥‥[BR]
+// げすいの　バケモノを[BR]
+// やっつけて　くれたらね。[END]
+Then I'll give it to you![KEY]
+...On one condition: you have to beat that monster in the sewers.[END]
+
+
+// Script B-0x26 [0x365A2]
+// んじゃ　あげない。[END]
+Then I'm keeping it.[END]
+
+
+// Script B-0x27 [0x365AC]
+// しょうひんの　そうこうしゃは[BR]
+// おれさまが　いただくぜ！[KEY]
+// んな、なにっ！？[BR]
+// おまえが　あのミュータントワニを[BR]
+// しとめたって？[KEY]
+// そんな　アホなーーっ！！[END]
+I'm going down there! The LAV's as good as mine![KEY]
+W-What? You killed the Mutantdile already?![KEY]
+No waaay![END]
+
+
+// Script B-0x28 [0x365ED]
+// おたずねものに[BR]
+// ちょうせんすること　こそが[BR]
+// ハンターたちの　いきがい。[KEY]
+// しょうひんなどを[BR]
+// きたいしては　いけませんぜ。[END]
+Real Hunters go after a bounty for the thrill of the challenge.[KEY]
+If you're doing it for the reward, you're doing it wrong.[END]
+
+
+// Script B-0x29 [0x36626]
+// げすいどうの　いりぐちには、[BR]
+// マンホールで[BR]
+// ふたが　してあるのじゃ！[END]
+To enter the sewers, open the manhole.[END]
+
+
+// Script B-0x2A [0x36649]
+// ちょいと　おにいさん！[BR]
+// はやいとこ　げすいを[BR]
+// どうにか　してくれないと[KEY]
+// おトイレが[BR]
+// ながせないじゃないのよっ！[END]
+Would you hurry and do something about the sewers already?[KEY]
+I can't even flush the toilet like this![END]
+
+
+// Script B-0x2B [0x36681]
+// ちかで　なにかが[BR]
+// ドスドス　あばれてるんだ。[KEY]
+// これじゃ　やかましくて[BR]
+// ねむれないじゃねえか！[BR]
+// ムニャムニャ‥。[END]
+There's something underground making loud thumping noises.[KEY]
+I can barely get any sleep at all! *mumble*[END]
+
+
+// Script B-0x2C [0x366B3]
+// たたかいに　つかれたからだに[BR]
+// あついしげきの　ひとときを！[END]
+When you're tired from all the fighting, you need something stimulating to change the pace![END]
+
+
+// Script B-0x2D [0x366CF]
+// おれもミュータントワニのヤロウを[BR]
+// やっつけてみたいぜっ！[KEY]
+// そうすりゃあ　カネも、[BR]
+// めいよも　おんなも、[BR]
+// ほしいままさ！[KEY]
+// でも　そのまえに[BR]
+// ゆうきが　ほしいぜっ！[END]
+I wanted to get that Mutantdile first![KEY]
+Then I'd have money, fame and women![KEY]
+...But before all of that, I need courage![END]
+
+
+// Script B-0x2E [0x3671A]
+// おーい！[BR]
+// ローラースケートの[BR]
+// ねえちゃん！[KEY]
+// バックドロップ[BR]
+// おかわりっ！[END]
+Hey, Skater Girl![KEY]
+Bring me another Back Drop![END]
+
+
+// Script B-0x2F [0x3673E]
+// スケートのおじょうさん、[BR]
+// バリバリソーダを[BR]
+// もうひとつ　いただけます？[END]
+Miss, could you bring me another Dooamine Soda?[END]
+
+
+// Script B-0x30 [0x36762]
+// はーい[BR]
+// ２ばんテーブルさん[BR]
+// おかわり　ひとつー！[END]
+Second helping for table 2![END]
+
+
+// Script B-0x31 [0x3677B]
+// ほら　どいたどいた！[KEY]
+// しごとの　じゃまを[BR]
+// しないでおくれ！[END]
+Move it, move it![KEY]
+I'm trying to work here![END]
+
+
+// Script B-0x32 [0x36799]
+// きゃっ！　イターイん。[END]
+Owww! My butt![END]
+
+
+// Script B-0x33 [0x367A5]
+// やまの　むこうに[BR]
+// かわった　まちが[BR]
+// あるらしいぞ！[KEY]
+// いえ　みたいな、[BR]
+// いえじゃ　ないみたいな、[BR]
+// へんなものに　ひとが[BR]
+// すんでるんだとよ！[END]
+There's a weird town beyond the mountains![KEY]
+People in there live inside... something. They're kinda like houses, but not really.[END]
+
+
+// Script B-0x34 [0x367EA]
+// イーデンのまちへ　ようこそ！[END]
+Welcome to Eden![END]
+
+
+// Script B-0x35 [0x367F4]
+// でんしゃの　なかにも[BR]
+// いくつか　みせが　あるでな。[BR]
+// いって　みると　ええ。[END]
+There are various stores inside the trains. You should check them out.[END]
+
+
+// Script B-0x36 [0x3681A]
+// はしれなくなった　せんしゃや[BR]
+// のれなくなった　せんしゃは[BR]
+// けんいんして　はこべますよ！[KEY]
+// うごける　せんしゃに　のって、[BR]
+// けんいんしたい　せんしゃを[BR]
+// しらべてみて　ください！[END]
+If a tank can't move or has no pilot, you can still carry it around![KEY]
+Ride a working tank and "Search" the other to tow it. Easy, right?[END]
+
+
+// Script B-0x37 [0x36866]
+// ごしゅっぱつで[BR]
+// ございますか？[CHOICE]<$38><$39>
+// 
+Will you depart?[CHOICE]<$38><$39>
+
+
+
+// Script B-0x38 [0x36875]
+// ありがとう　ございました！[BR]
+// またの　ごりようを[BR]
+// おまちして　おります。[END]
+Thank you for your patronage. I hope to see you again.[END]
+
+
+// Script B-0x39 [0x36894]
+// ごしゅっぱつの　さいには[BR]
+// どうぞ　わたしに[BR]
+// ごいいつけ　ください！[END]
+Feel free to speak to me whenever you wish to depart.[END]
+
+
+// Script B-0x3A [0x368B4]
+// いってらっしゃいませ！[END]
+Have a safe trip![END]
+
+
+// Script B-0x3B [0x368BA]
+// いらっしゃい！[BR]
+// ゆっくりして　おいきよ！[BR]
+// ハンターさん！[END]
+Welcome! Enjoy your stay, Hunter![END]
+
+
+// Script B-0x3C [0x368D1]
+// ソルのまちに[BR]
+// いった　ことが　あるかい？[CHOICE]<$3D><$3E>
+// 
+Have you been to Sol?[CHOICE]<$3D><$3E>
+
+
+
+// Script B-0x3D [0x368E8]
+// さすがだな！[BR]
+// たびなれた　ハンターは[BR]
+// なんでも　しってるもんだ！[END]
+That's a Hunter for you![END]
+
+
+// Script B-0x3E [0x36906]
+// きたがわの　さんみゃくを[BR]
+// まわりこむように　いけば[BR]
+// ソルのまちに　つく。[KEY]
+// なにやら　うでのたつヤツを[BR]
+// さがしてるとかいう[BR]
+// ウワサを　きいたが‥[END]
+You'll find it by going around the mountain range north from here.[KEY]
+Rumor is they're looking for skilled people, but I don't know the details.[END]
+
+
+// Script B-0x3F [0x3694E]
+// はるか　みなみに[BR]
+// むかし　とうきょうタワーと[BR]
+// よばれていた　たかい　とうが[BR]
+// たっているとか‥。[END]
+Far away in the south is a very tall tower. A long time ago, it was known as the Tokyo Tower.[END]
+
+
+// Script B-0x40 [0x36978]
+// とうきょうタワー　のことなら[BR]
+// ツヅマの　じいさんが[BR]
+// くわしいぞ、なあ、じいさん！[END]
+Old Jishima knows all about the Tokyo Tower. Ain't that right, old timer?[END]
+
+
+// Script B-0x41 [0x36996]
+// ツヅマでなくて[BR]
+// シジマの　じいさんじゃろが！[BR]
+// じいさん！[END]
+His name is Shijima, not Jishima, old chap![END]
+
+
+// Script B-0x42 [0x369AF]
+// ロンメルゴーストに[BR]
+// あいたきゃ、[BR]
+// さばくで　おおきな　とりを[BR]
+// みつけることだ！[END]
+If you wanna meet Rommel's Ghost, look for a giant gate in the desert![END]
+
+
+// Script B-0x43 [0x369D2]
+// うちのひとが[BR]
+// まっかな　せんしゃを[BR]
+// みたって　いってたよ。[KEY]
+// まちから　みなみの　ほうへ[BR]
+// はしって　いったとか‥[END]
+My husband said he saw a red tank.[KEY]
+He said it had gone south.[END]
+
+
+// Script B-0x44 [0x36A03]
+// オレは　みたぜ、[BR]
+// まっかな　せんしゃを！[KEY]
+// あれが　うわさに　きく[BR]
+// レッドウルフって[BR]
+// ハンターに　ちげえねえ！[KEY]
+// くそー！[BR]
+// カッコよかったなー、[BR]
+// あのヤロー！[END]
+Yeah, I saw it! It was red tank![KEY]
+That was the famous Red Wolf, I'm sure of it![KEY]
+Damn, he's so cool![END]
+
+
+// Script B-0x45 [0x36A40]
+// まんたんドリンクって[BR]
+// クスリは　すげえぜ！[KEY]
+// １ぱつで　たいりょく[BR]
+// まんたんだあ！[END]
+The Filling Drink is awesome![KEY]
+Drink it once and you're as good as new![END]
+
+
+// Script B-0x46 [0x36A65]
+// オレたちは　ながれものの[BR]
+// ソルジャーさ！[KEY]
+// この　まちの　ちかくに[BR]
+// ほらあなが　あるって[BR]
+// きいたんでな‥[KEY]
+// そこで　ひとあばれ[BR]
+// してやろうかと[BR]
+// おもってる　ところだぜ！[END]
+We're wandering Soldiers![KEY]
+We heard there's a cave nearby.[KEY]
+That sounds like a nice place to have some fun![END]
+
+
+// Script B-0x47 [0x36AB0]
+// ボスー、[BR]
+// はらへったよー。[END]
+Boss, I'm hungry![END]
+
+
+// Script B-0x48 [0x36ABE]
+// ボスー、[BR]
+// はやく　ごはん[BR]
+// つくってくれよー。[END]
+Boss, when's lunch?[END]
+
+
+// Script B-0x49 [0x36AD5]
+// ボスー、[BR]
+// おれ、うんこー。[END]
+Boss, I need to go potty![END]
+
+
+// Script B-0x4A [0x36AE3]
+// とうきょうタワーに[BR]
+// いくのなら、てんぼうだいに[BR]
+// あがって　みるが　ええ！[KEY]
+// むかしの　こうどな[BR]
+// かがくぎじゅつを[BR]
+// まもりつづける　ひとびとが[BR]
+// くらして　おるそうじゃ‥。[END]
+If you're visiting the Tokyo Tower, you should really check out the viewing platform at the top![KEY]
+If I remember right, a group of scientists looking to protect their advanced research started living there, long ago...[END]
+
+
+// Script B-0x4B [0x36B31]
+// じごくで　ほとけ、[BR]
+// さばくで　オアシス！[BR]
+// サンタ・ポコへ！[END]
+Welcome to Santa Poco, the merciful oasis right before Hell![END]
+
+
+// Script B-0x4C [0x36B4C]
+// よごれっぱなしじゃ[BR]
+// かわいい　せんしゃが[BR]
+// ないちまうぜ！[KEY]
+// そこの　せんしゃやで[BR]
+// ピカピカに　あらって[BR]
+// やんなよ！[END]
+Nobody likes a dirty tank![KEY]
+You can have them cleaned up at that car-wash![END]
+
+
+// Script B-0x4D [0x36B80]
+// ウルミの　いどの　いどみずは[BR]
+// たびびとを　げんきにする[BR]
+// ふしぎな　みずよ！[END]
+Water from Urumi's well is special! Drinking it makes you feel better![END]
+
+
+// Script B-0x4E [0x36BA6]
+// おはようございまーす！[END]
+Good day![END]
+
+
+// Script B-0x4F [0x36BB2]
+// この　まちから　さきは[BR]
+// だだっぴろい　さばくが[BR]
+// ひろがってる。[KEY]
+// さばくへ　いこうって[BR]
+// れんちゅうは、みんな　ここで[BR]
+// ほきゅう　していくのさ！[END]
+There's a big desert out there, and this is the only town in a while.[KEY]
+Most adventurers who plan on taking on the desert come here to resupply.[END]
+
+
+// Script B-0x50 [0x36BF1]
+// なんだよ！[BR]
+// どの　じどうはんばいきも[BR]
+// みんな　うりきれじゃねえか！[END]
+What's going on? The vending machines are empty![END]
+
+
+// Script B-0x51 [0x36C0C]
+// ここは　[BR]
+// ウルミの　いど。[KEY]
+// この　いどが　あった[BR]
+// おかげで、ここに[BR]
+// まちが　できたのですわ！[END]
+This is Urumi's well.[KEY]
+There wouldn't be a town here without it![END]
+
+
+// Script B-0x52 [0x36C38]
+// あー、うめえ！[BR]
+// ここの　いどみずは[BR]
+// しぬほど　うめえや！[END]
+Ahhh, so refreshing! This water's the best![END]
+
+
+// Script B-0x53 [0x36C53]
+// さばくの　むこうがわには、[BR]
+// あれはてた、じごくみてえな[BR]
+// ばしょが　あるそうだ。[END]
+They say the other side of the desert is literally hell on earth.[END]
+
+
+// Script B-0x54 [0x36C7B]
+// さばくの　かなたで[BR]
+// じめんを　ほってる[BR]
+// れんちゅうが　いるとか‥[KEY]
+// むかし　つくられた[BR]
+// ぶきだの　どうぐだのが[BR]
+// よく　みつかるらしいな。[END]
+There's people digging on the other side of the desert.[KEY]
+Apparently, there's a lot of ancient weapons and tools to be found.[END]
+
+
+// Script B-0x55 [0x36CBB]
+// へえ。[BR]
+// いってらっしゃいませ。[END]
+Welcome.[END]
+
+
+// Script B-0x56 [0x36CC5]
+// さばくを　やまぞいに[BR]
+// ほくとうに　すすんでいくと[BR]
+// ちいさな　オアシスに[BR]
+// でるわよ！[END]
+If you go through the desert northeast, following the mountains, you'll find a small oasis![END]
+
+
+// Script B-0x57 [0x36CEF]
+// オレの　だいすきな[BR]
+// マリリンの　ろうにんぎょうを[BR]
+// もってきて　くれたら‥。[KEY]
+// おれいに　いいこと[BR]
+// おしえちゃうんだけどな！[CHOICE]<$58><$59>
+// 
+If you bring me the wax model of my beloved Marylin...[KEY]
+I'll tell you something you might find very useful! Will you do me this favor?[CHOICE]<$58><$59>
+
+
+
+// Script B-0x58 [0x36D25]
+// でもな‥。[BR]
+// マリリンの　ろうにんぎょうは[BR]
+// ちかの　げすいどうに[BR]
+// ながされちまってさ‥。[KEY]
+// げすいどうは　その[BR]
+// かいだんの　さきなんだけど[BR]
+// かいぶつ　だらけで　とても[BR]
+// ちかよれないぜ！[END]
+Great! However, Marylin's doll ended up inside the sewers...[KEY]
+You can reach them from those stairs, but it's full of monsters down there![END]
+
+
+// Script B-0x59 [0x36D74]
+// そうか‥。[BR]
+// やっぱりな‥[END]
+I... I see.[END]
+
+
+// Script B-0x5A [0x36D80]
+// なあ！　かあさん！[BR]
+// こんどは[BR]
+// ねこを　かおうよ！[END]
+Maybe we should get a cat.[END]
+
+
+// Script B-0x5B [0x36D99]
+// ４にんがけの　テーブルに[BR]
+// あたしたち　みたいな[BR]
+// すわりかたをする[BR]
+// おとこと　おんなは‥[KEY]
+// ともだちだけど、[BR]
+// れんあい　かんじょうは[BR]
+// ないんですってね！[END]
+When a man and a woman sit like this at a table big enough for four...[KEY]
+It means they're friends, but nothing more than that.[END]
+
+
+// Script B-0x5C [0x36DE3]
+// わかったわ。それほど[BR]
+// いうのなら　しんじてあげる。[BR]
+// わたしは　モリナ。[KEY]
+// パパとふたりで[BR]
+// ママをさがして[BR]
+// たびを　してるんだけど[KEY]
+// はしが　こわれていて[BR]
+// むこうのしまに　わたれないの。[KEY]
+// パパは　このビルを[BR]
+// ばくはして　むこうぎしに[BR]
+// わたるって　いってたけど、[BR]
+// そんなこと　できるのかしら？[END]
+Okay, I think I can trust you. My name is Molina.[KEY]
+I was traveling with my father to find my mother.[KEY]
+We need to go to the next island, but the bridge has collapsed.[KEY]
+Dad was thinking about setting explosives to make this building fall, so we could use it as a makeshift bridge, but I'm not so sure that's going to work.[END]
+
+
+// Script B-0x5D [0x36E71]
+// ここは　カナべル。[BR]
+// みずうみのまち。[END]
+Welcome to Canabelle, the lakeside town.[END]
+
+
+// Script B-0x5E [0x36E81]
+// ここらへんは[BR]
+// おそろしい　かいぶつも[BR]
+// いなくて、[BR]
+// まあ、しずかなもんです！[END]
+There haven't been many scary monsters around, lately. Things are looking good for us![END]
+
+
+// Script B-0x5F [0x36EA5]
+// やまかじだー！[END]
+The forest's on fire![END]
+
+
+// Script B-0x60 [0x36EAB]
+// ああ、おそろしい！[BR]
+// ひのもとには[BR]
+// ちゅうい　しなくちゃ！[END]
+Whew, that sure was something! We'll definitely be more careful with all fire hazards for a while![END]
+
+
+// Script B-0x61 [0x36EC8]
+// ヒミオの　やつ！[BR]
+// また　ひあそびしてて[BR]
+// おこられたんだよ！[END]
+Himio is so stupid! He got yelled at again because he was playing with fire![END]
+
+
+// Script B-0x62 [0x36EE5]
+// やまかじだー！[BR]
+// ‥きっと　ヒミオの　やつが[BR]
+// はんにんだな！[KEY]
+// こんど　あったら、[BR]
+// うんと　いじめてやるぞー！[END]
+The forest's on fire! It's Himio's fault, I'm sure of it![KEY]
+Next time I see him I'm gonna beat him up hard![END]
+
+
+// Script B-0x63 [0x36F18]
+// ヒミオの　やつ！[BR]
+// おとうさんに　おこられて[BR]
+// ちかしつに[BR]
+// とじこめられてるんだって！[KEY]
+// ちえっ。[BR]
+// せっかく　いじめて　やろうと[BR]
+// おもってたのにな‥。[END]
+Himio's dad was so mad at him, he locked him in the cellar![KEY]
+He got lucky. I was gonna beat him up so hard...[END]
+
+
+// Script B-0x64 [0x36F60]
+// あっかんべー！[END]
+Bleeeh![END]
+
+
+// Script B-0x65 [0x36F68]
+// うえーん！[BR]
+// ぼくじゃ　ないよー！[BR]
+// ぼくじゃ　ないよー！[END]
+*sob* I didn't do it! I didn't do it![END]
+
+
+// Script B-0x66 [0x36F83]
+// ぼく‥　もう　しないよ。[KEY]
+// かなわないかも[BR]
+// しれないけど‥[KEY]
+// こんど　いじめられたら、[BR]
+// おとこらしく[BR]
+// ケンカしてやるんだ！[KEY]
+// ねえ、[BR]
+// それで　いいんでしょう？[CHOICE]<$67><$68>
+// 
+... I won't do it anymore.[KEY]
+I know I'm no match for him, but...[KEY]
+Next time I get bullied, I'm gonna fight back![KEY]
+That's what I should do, right?[CHOICE]<$67><$68>
+
+
+
+// Script B-0x67 [0x36FD1]
+// ぼく‥　ガンバって　みるよ。[BR]
+// くすん、くすん。[END]
+I... I'll do my best! *sniff*[END]
+
+
+// Script B-0x68 [0x36FE9]
+// じゃあ、ぼく、[BR]
+// どうしたら　いいの？[BR]
+// う‥、うえーん！[END]
+T-Then what am I supposed to do?? *sob*[END]
+
+
+// Script B-0x69 [0x37004]
+// モンスターどもが[BR]
+// うろついて　ないのは[BR]
+// いいんだけどね‥[KEY]
+// こどもたちが　むらの[BR]
+// そとへ　あそびに[BR]
+// いってるらしくて、[BR]
+// ちょっと　しんぱいかな。[END]
+Monsters don't wander near our town, which is fine and all...[KEY]
+But I'm still worried about letting the kids play outside.[END]
+
+
+// Script B-0x6A [0x37046]
+// いやー！[BR]
+// すごかったなー！[BR]
+// あの　やまかじ！[KEY]
+// あなた、ちちゃんと[BR]
+// みに　いきましたあ？[END]
+Wow, that sure was some forest fire![KEY]
+Did you check out the remains up close?[END]
+
+
+// Script B-0x6B [0x3706E]
+// ヒミオ？[BR]
+// ああ、あの、[BR]
+// いじめられっこ　ですか？[KEY]
+// あのこは　いじめられると[BR]
+// ひとりで　ひあそびして[BR]
+// うっぷんを　はらすんですよ。[KEY]
+// いつか　とんでもないことに[BR]
+// ならなきゃ　いいけど‥。[END]
+Himio? You mean that poor child?[KEY]
+He's bullied by that other kid, so he vents his frustration by playing alone with fire.[KEY]
+Here's hoping he won't cause an accident...[END]
+
+
+// Script B-0x6C [0x370C9]
+// マリリンを　はこびますか？[TCHOICE]
+// 
+Carry Marylin?[TCHOICE]
+
+
+
+// Script B-0x6D [0x370D5]
+// みずうみから　にしへ[BR]
+// むかって　すすんでいくと、[BR]
+// なにやら　あやしげな[BR]
+// たてものが　あるという。[END]
+If you head west from the lake, you'll find a suspicious building.[END]
+
+
+// Script B-0x6E [0x37106]
+// かぜの　うわさじゃ、[BR]
+// むかしの　ぐんたいの　きちに[BR]
+// すごい　せんしゃが[BR]
+// ねむってるって　はなしだけど[END]
+This is just a rumor, but I heard you can find an awesome tank inside an ancient military base.[END]
+
+
+// Script B-0x6F [0x37136]
+// むかしは　この　ちかくに[BR]
+// おおきな　こうじょうが[BR]
+// あったそうじゃ！[KEY]
+// その　こうじょうでは、[BR]
+// ぐんたいで　つかう　ぶきを[BR]
+// つくって　おったとか‥。[END]
+There used to be an enormous factory nearby, a long time ago.[KEY]
+I think the army used it to produce weapons or something.[END]
+
+
+// Script B-0x70 [0x3717E]
+// この　さきに　せんしゃが[BR]
+// ねむってるって　ウワサを[BR]
+// きいて　きたんだがね！[KEY]
+// それも　めちゃくちゃ[BR]
+// つよい　せんしゃ[BR]
+// らしいじゃ　ないか！[END]
+There were rumors about a tank in this area, so here I am.[KEY]
+From what I've heard, it's incredibly strong![END]
+
+
+// Script B-0x71 [0x371BE]
+// こどもの　ひあそび？[KEY]
+// そんなもん、[BR]
+// ビシーッと　いっぱつ[BR]
+// ぶんなぐってやりゃ[BR]
+// いーんだよ！[END]
+How to stop a kid from playing with fire?[KEY]
+That's easy. You just slap him until he learns the lesson![END]
+
+
+// Script B-0x72 [0x371EC]
+// やまかじ？[KEY]
+// そんなもん、[BR]
+// ハイドロポッドを　つかえば[BR]
+// すぐ　きえるさ！[END]
+A forest fire?[KEY]
+Just use a Hydro Pod and problem solved![END]
+
+
+// Script B-0x73 [0x3720A]
+// ここから　さきは[BR]
+// ＶＩＰルームに[BR]
+// なって　おります。[END]
+The VIP room is ahead.[END]
+
+
+// Script B-0x74 [0x37220]
+// ははーっ！[BR]
+// ありがとう　ございましたっ！[BR]
+// ぜひ、また、どうぞ！[END]
+Thank you very much, dear customer! Please come back again![END]
+
+
+// Script B-0x75 [0x3723C]
+// うちの　むすこと　きたら[BR]
+// いつも　ヒミオちゃんを[BR]
+// いじめて　ばかりで‥。[KEY]
+// まったく、[BR]
+// だれに　にたのやら‥。[END]
+It seems our son bullies Himio every day...[KEY]
+I wonder WHO he takes from.[END]
+
+
+// Script B-0x76 [0x37270]
+// ぺっ、ぺっ！[BR]
+// こんな　まずい　メシが[BR]
+// くえるか、こらァーっ！[END]
+*spit* I can't eat this crap, woman![END]
+
+
+// Script B-0x77 [0x3728E]
+// うーん‥。[BR]
+// いったい　どうすれば[BR]
+// ヒミオの　ひあそびを[BR]
+// やめさせられるのか‥。[END]
+Hmm... There must be a way to stop Himio from playing with fire...[END]
+
+
+// Script B-0x78 [0x372B4]
+// ああ！[BR]
+// なんてことだ！[BR]
+// はやく　あの　やまかじを[BR]
+// けしとめなければ！[KEY]
+// だが　あんなに[BR]
+// もえひろがって　しまっては、[BR]
+// みずを　かけた　くらいじゃ[BR]
+// けせないし‥。[END]
+This is terrible! We have to extinguish that fire somehow![KEY]
+But how? The fire has spread too much, we can't just throw a little water at it...[END]
+
+
+// Script B-0x79 [0x37302]
+// うちの　うらで　ないてる[BR]
+// ヒミオを　みつけましてね‥。[BR]
+// といつめたら、なきながら[BR]
+// はくじょう　したんです。[KEY]
+// うわさでは[BR]
+// あなたが　やまかじを[BR]
+// けして　くださったとか。[KEY]
+// なんと　おれいを　いえば[BR]
+// いいのか‥。[END]
+We found Himio crying behind our house... I questioned him and finally he confessed.[KEY]
+I hear you were the one who extinguished that forest fire.[KEY]
+I wish I could thank you properly.[END]
+
+
+// Script B-0x7A [0x37365]
+// ヒミオは　おとなしくて、[BR]
+// きの　よわいこ　なんです。[END]
+Himio is a shy, sweet kid.[END]
+
+
+// Script B-0x7B [0x3737F]
+// あなた！[BR]
+// あの　やまかじ！[BR]
+// まさか　うちの　ヒミオが‥！[KEY]
+// ああ！　どうしたら！[BR]
+// どうしたら　いいんでしょう！[END]
+That forest fire... Dear, you don't think that our Himio...?![KEY]
+Oh my gosh! What should we do?![END]
+
+
+// Script B-0x7C [0x373B1]
+// どうか[BR]
+// ゆるしてやって　ください‥。[KEY]
+// ヒミオは　おとなしくて、[BR]
+// きの　よわいこ　なんです。[END]
+Please forgive him...[KEY]
+Himio is just a shy, sweet kid...[END]
+
+
+// Script B-0x7D [0x373C5]
+// うわーん！[BR]
+// ヒミオが　なぐったー！[BR]
+// うわーん！[END]
+*sob*[BR]
+Himio beat me up![BR]
+*sob*[END]
+
+
+// Script B-0x7E [0x373DA]
+// ヒミオ？[BR]
+// ああ、あいつめ！[BR]
+// すっかり　げんきに[BR]
+// なったようですよ！[END]
+Himio? Oh, that kid! He's doing a lot better lately![END]
+
+
+// Script B-0x7F [0x373F9]
+// ここは　てつクズ　おきばさ！[KEY]
+// あんたも　スクラップに[BR]
+// ならないように[BR]
+// きを　つけるこった！[END]
+This is a scrapyard![KEY]
+Try not ending up like these pieces of junk yourself![END]
+
+
+// Script B-0x80 [0x37422]
+// モンスターハンターと　いえば[BR]
+// やっぱり　クルマよね！[KEY]
+// クルマも　もってない[BR]
+// ハンターなんて、[BR]
+// どこかで　のたれじにするのが[BR]
+// オチだもん！[KEY]
+// クルマを　みつけたら[BR]
+// なかまをさがすわ！[KEY]
+// そうね　もしも[BR]
+// あたしが　ハンターなら‥[KEY]
+// うでききの　メカニックと[BR]
+// つよーい　ソルジャーを[BR]
+// なかまに　しちゃうな！[END]
+You can't call yourself a Monster Hunter if you don't have your own vehicle![KEY]
+The world out there is full of corpses of those who thought they could make it without one.[KEY]
+First thing you do is get yourself a vehicle, then you find some good comrades![KEY]
+If I were a Hunter, hmm...[KEY]
+I'd look for a skilled Mechanic and a strong Soldier![END]
+
+
+// Script B-0x81 [0x374A0]
+// クルマに　のったままじゃ[BR]
+// むらの　なかへは[BR]
+// はいれねえ。[KEY]
+// この　おきてが　あるかぎり、[BR]
+// らんぼうな　ながれものも[BR]
+// むらを　あらせねえのさ！[END]
+You can't bring your vehicle inside our town.[KEY]
+That's how we keep violent thugs from messing everything up![END]
+
+
+// Script B-0x82 [0x374E2]
+// ホントだよ！[BR]
+// おらァ　みたんだ！[KEY]
+// この　さきの　ほこらでよォ、[BR]
+// おじぞうさまが[BR]
+// うごきやがったんでえっ！[END]
+I ain't lyin', I swear! I really saw it![KEY]
+I saw the statue from the shrine MOVE ON ITS OWN![END]
+
+
+// Script B-0x83 [0x37516]
+// わはははは！[BR]
+// きいたか！　あんた！[BR]
+// こいつの　ホラばなしを！[KEY]
+// ところで　ここから　きたへ[BR]
+// いくと、フリーザって[BR]
+// へんてこな　まちが　あるぜ！[END]
+Hahahahaha! You oughta listen to him! This guy's a riot![KEY]
+By the way, if you head north from here you'll reach Freeza. Lemme tell you though: that's one weird town![END]
+
+
+// Script B-0x84 [0x37552]
+// あんた　そとの　せかいから[BR]
+// きたのかい！？[CHOICE]<$85><$86>
+// 
+Did you come from the outside world?![CHOICE]<$85><$86>
+
+
+
+// Script B-0x85 [0x37569]
+// どひゃー！[END]
+Wow![END]
+
+
+// Script B-0x86 [0x3756F]
+// がっくり‥。[END]
+Oh...[END]
+
+
+// Script B-0x87 [0x37576]
+// みちなりに[BR]
+// どんどん　すすめば[BR]
+// やがて　コロナビルが[BR]
+// みえてくるぜ！[KEY]
+// ところが　その　さきの[BR]
+// はしは、いつかの　じしんで[BR]
+// こわれちまってやがるのさ！[END]
+Keep following the road and you'll see the Corona building.[KEY]
+Though, the bridge ahead collapsed after an earthquake.[END]
+
+
+// Script B-0x88 [0x375C1]
+// ユゲのまちじゃ、さんぞく[BR]
+// みてえな　れんちゅうが[BR]
+// でかいツラして　まちを[BR]
+// のしあるいてるって　いうぜ。[KEY]
+// だから　あそこに　すんでた[BR]
+// れんちゅうが、イル・ミグラに[BR]
+// うつりすんで　きてるんだ。[END]
+A group of bandits has settled in Yuge. They act as if they own the place.[KEY]
+That's why so many people are moving to Il Migra.[END]
+
+
+// Script B-0x89 [0x37614]
+// いよっ！　ビバリーちゃーん！[BR]
+// きょうも[BR]
+// あしが　ながいぞ、このーっ！[END]
+Woo-hoo! Show them legs, Beverly![END]
+
+
+// Script B-0x8A [0x37635]
+// どう？[BR]
+// わたしの　あし。[KEY]
+// いざと　なったら[BR]
+// クネクネの　ウニウニよ！[BR]
+// フフフ！[END]
+What do you think of my legs?[KEY]
+You have to know how to move them just right... *giggle*[END]
+
+
+// Script B-0x8B [0x3765D]
+// ユー、フォー！[END]
+Woo! Hah![END]
+//Translated without context. I'm assuming this is what Beverly says if you talk to her while she's dancing, but it might also be her reaction for telling here you're not there to see her... Needs testing.*test*
+
+
+// Script B-0x8C [0x37665]
+// あら！？[BR]
+// あたしに　あいに　きたの？[CHOICE]<$8D><$8E>
+// 
+Did you come here to see me?[CHOICE]<$8D><$8E>
+
+
+
+// Script B-0x8D [0x3766A]
+// ははーん‥。[BR]
+// さんぞくの　ことを[BR]
+// ききたいのね、ハンターさん！[KEY]
+// じゃ、がくやで　まってて！[BR]
+// したくが　おわったら[BR]
+// つきあうからさ！[END]
+Ah, I get it. You want to hear about the bandits, right Mr. Hunter?[KEY]
+Wait in the dressing room. I'll come get you once I'm ready.[END]
+
+
+// Script B-0x8E [0x376A7]
+// なんだ、[BR]
+// ビバリーの　ファンかあ！[BR]
+// ちえーっ！[END]
+Tch! One of Beverly's fans, huh?[END]
+
+
+// Script B-0x8F [0x376B2]
+// あ、と、で！[END]
+Not! Right! Now![END]
+
+
+// Script B-0x90 [0x376B9]
+// あら！？[BR]
+// あたしに　あいに　きたの？[CHOICE]<$91><$8E>
+// 
+Did you come here to see me?[CHOICE]<$91><$8E>
+
+
+
+// Script B-0x91 [0x376BE]
+// ありがとう！[BR]
+// とりあえず、[BR]
+// ともだちから[BR]
+// はじめましょ！[END]
+Thank you! Let's start by becoming friends, okay?[END]
+
+
+// Script B-0x92 [0x376D8]
+// ねえ　おねがい！　パパに[BR]
+// ちからを　かしてあげて！[END]
+Please, you must help my father![END]
+
+
+// Script B-0x93 [0x376F2]
+// ユゲのまちに　たむろしてる[BR]
+// さんぞくは、ワルゲリョって[BR]
+// あくとうの　てしたなんだ！[KEY]
+// でも　その　ワルゲリョも[BR]
+// もっと　スゴい　おやだまの[BR]
+// こぶん　らしいんだけどね‥。[END]
+All those bandits making problems in Yuge work for this bad guy called Malone.[KEY]
+But I've heard Malone is just the underling of someone much, much worse...[END]
+
+
+// Script B-0x94 [0x3773A]
+// そう‥。[BR]
+// ワルゲリョの　やつ‥[BR]
+// くたばったのね‥。[KEY]
+// じつは　あたしの　とうさん[BR]
+// さんぞくに　さからって[BR]
+// ころされちゃったんだ‥。[KEY]
+// でも　これで[BR]
+// とうさんも　うかばれる！[BR]
+// ありがとう、[SVAR]<$00>！[KEY]
+// これは　あたしからの[BR]
+// おれいの　きもちよ！[opF1]<$3C>[BR]
+// ブチュッ‥‥。[opF1]<$3C>[KEY]
+// さよなら！[BR]
+// すてきな[BR]
+// モンスターハンターさん！[END]
+I see... So you beat Malone...[KEY]
+The truth is, my father was killed by those bandits for standing up to them...[KEY]
+Now he can rest in peace. Thank you, [SVAR]<$00>![KEY]
+Let me show you my gratitude...[opF1]<$3C>[BR]
+*kiss*[opF1]<$3C>[KEY]
+Farewell, you magnificent Monster Hunter![END]
+
+
+// Script B-0x95 [0x377C0]
+// ユゲのまちは[BR]
+// もう　おしまいだあ！[BR]
+// [END]
+This is the end for Yuge![END]
+
+
+// Script B-0x96 [0x377D2]
+// まっすぐ　にしへいけば[BR]
+// かわに　ぶちあたる。[KEY]
+// かわぞいに　みなみへ　いけば[BR]
+// ユゲのまちが　みえてくるよ。[END]
+Keep going west and you'll run into a river.[KEY]
+Follow it south and you'll reach Yuge.[END]
+
+
+// Script B-0x97 [0x37806]
+// ああ！[BR]
+// びんぼうは　イヤっ！[END]
+I just hate penniless guys.[END]
+
+
+// Script B-0x98 [0x37815]
+// あいする　かのじょの　ために[BR]
+// ぼくは　はたらいて[BR]
+// おかねを　かせいでいます。[END]
+I'm working as hard as I can to earn a living. Anything for the sake of my beloved.[END]
+
+
+// Script B-0x99 [0x3783C]
+// うちは　ユゲのまちから[BR]
+// ひっこちて　きたんでちゅ！[END]
+We moved here from Yuge![END]
+
+
+// Script B-0x9A [0x37855]
+// あの　さんぞくたちが[BR]
+// この　まちまで[BR]
+// やってこなきゃ[BR]
+// いいんだけど‥。[END]
+The bandits haven't attacked us yet, but I fear it's only a matter of time...[END]
+
+
+// Script B-0x9B [0x37873]
+// しらない　とちで[BR]
+// おんなが　ひとり‥[BR]
+// どうやって　あのこたちを[BR]
+// たべさせていけば　いいのっ！[END]
+I'm a single woman in a foreign town... How am I supposed to feed my children?![END]
+
+
+// Script B-0x9C [0x378A2]
+// スヤ　スヤ‥[END]
+Zzz... Zzz...[END]
+
+
+// Script B-0x9D [0x378A9]
+// ひえええーっ！[BR]
+// たかくて　こええよーっ！[BR]
+// ‥ん？　あんただれだい？[KEY]
+// そうか。むすめに　ぜんぶ　[BR]
+// はなしは　きいてるのか。[BR]
+// オレが　にょうぼに[BR]
+// にげられた　ツマクだ！[KEY]
+// たかいところは[BR]
+// にがてだが、やることは[BR]
+// デカイぜっ！[BR]
+// さあ、オレについてこい！[END]
+Ahhhh! I-I'm scared of heights![BR]
+...Huh? Who are you?[KEY]
+Oh, I see. My daughter told you everything. Yeah, I'm Tsumaku, the guy whose wife walked out on him![KEY]
+I'm not good with heights, but this has to be done. Follow me![END]
+
+
+// Script B-0x9E [0x3791F]
+// へっへっへ！[BR]
+// どうだい　この　せんしゃ！[KEY]
+// あんたが　どうしても[BR]
+// ほしいって　いうんなら、[BR]
+// うってやっても　いいぜっ！[CHOICE]<$9F><$A0>
+// 
+Heheheh! Just look at this tank! What a beauty, eh?[KEY]
+I can sell it to you, if you're so inclined![CHOICE]<$9F><$A0>
+
+
+
+// Script B-0x9F [0x37958]
+// そう　くると　おもったぜ！[BR]
+// で、いくら　だす？[END]
+Now we're talking! So, what's your best offer?[END]
+
+
+// Script B-0xA0 [0x37970]
+// １６０[MM]アモルフ　に[BR]
+// ガトリングほう　おまけに[BR]
+// エンジンは[BR]
+// ４０ｔまで　つめるぜ！[END]
+Your loss! This baby comes with a 160mm Amorph, a Gatling Gun and an engine capable of carrying up to 40t![END]
+
+
+// Script B-0xA1 [0x3798F]
+// すげえ　せんしゃを[BR]
+// うってるって　ウワサを[BR]
+// きいて　きたんだが‥[KEY]
+// せんしゃも　すげえけど[BR]
+// ねだんも　すげえや！[END]
+I came here after hearing about a guy selling an awesome tank.[KEY]
+It IS amazing, but it's waaay to expensive!![END]
+
+
+// Script B-0xA2 [0x379C3]
+// ソルジャーだの[BR]
+// ハンターだのを[BR]
+// ながいこと　やってると[KEY]
+// からだじゅう　クスリづけに[BR]
+// なっちまうのさ！[END]
+Be a Hunter or a Soldier long enough and you're bound to become addicted to those healing drugs.[END]
+
+
+// Script B-0xA3 [0x379F1]
+// ひいいっ！[BR]
+// もう　かんべん　してくれ！[KEY]
+// ヤズーの　いどころなんて、[BR]
+// おらァ　ほんとに[BR]
+// しらねーんだよっ！[END]
+Aaaah! P-Please don't hurt me![KEY]
+I don't know where Yazoo is! Honest![END]
+
+
+// Script B-0xA4 [0x37A26]
+// いったい　おおむかしの[BR]
+// やつらは、どんな　くらしを[BR]
+// してたんだろーな？[KEY]
+// こんな　ビルだの　まちだの[BR]
+// つくってた　れんちゅうが、[BR]
+// なんで　あっさり[BR]
+// ほろびちまったんだ？[END]
+Do you ever wonder what kind of life people led, a long time ago?[KEY]
+Back then, they could make cities with plenty of buildings this big. How is it possible that our race was almost entirely erased?[END]
+
+
+// Script B-0xA5 [0x37A77]
+// わ、わるかったっ！[BR]
+// たのむよ！　ころさないで！[KEY]
+// ロックハッカーは[BR]
+// となりの　となりの　へやの[BR]
+// ようふくダンスの　なかに[BR]
+// かくして　あるからさ！[END]
+A-Alright, I'm sorry! Don't kill me![KEY]
+I hid the lock hacker inside the wardrobe in the farthest room! Go ahead and take it![END]
+
+
+// Script B-0xA6 [0x37ABB]
+// ひーっ！[BR]
+// もう　タンスゴンも[BR]
+// かたづけちまったのかい！[KEY]
+// あ‥、いや、そんな[BR]
+// つもりじゃ　なかったんだ！[BR]
+// ゆるしてくれよ！[BR]
+// ころさないで！[KEY]
+// カギは　わたすよ！[END]
+W-What? You killed the Drawer Horror already?![KEY]
+Ah. I-I mean, thanks for getting rid of that thing! P-Please don't kill me![KEY]
+Here, take this key![END]
+
+
+// Script B-0xA7 [0x37B09]
+// ロックハッカーは[BR]
+// となりの　へやに[BR]
+// おいてあるからさ！[END]
+The lock hacker is in the room next door![END]
+
+
+// Script B-0xA8 [0x37B21]
+// ほんの　できごころ[BR]
+// だったんだ！[END]
+It just... happened! I have a problem, okay?![END]
+
+
+// Script B-0xA9 [0x37B32]
+// マシンを　ぬすむ[BR]
+// つもりは　なかったって、[BR]
+// カエサルさまに　つたえて[BR]
+// くれよ！　たのむよ！[END]
+Tell Caesar I didn't steal that thing on purpose! I'm begging you![END]
+
+
+// Script B-0xAA [0x37B5E]
+// ロックハッカーか‥[BR]
+// すげえ　きかいだよな！[BR]
+// どんな　カギでも[BR]
+// あけちまうんだから‥。[END]
+The Lock Hacker is incredible! It can unlock any door![END]
+
+
+// Script B-0xAB [0x37B85]
+// うそか　ほんとか[BR]
+// しらねーけども、[KEY]
+// うみべの　ほらあなンなかに[BR]
+// せんしゃが　うまってる[BR]
+// ちゅう　うわさだなや！[END]
+I don't know whether this is true or not, so take this with a grain of salt.[KEY]
+They say there's a tank buried somewhere inside the cave at the beach![END]
+
+
+// Script B-0xAC [0x37BBB]
+// あンれ　まあ！[BR]
+// たびの　ひととは[BR]
+// めずらしーで　ねーの！[BR]
+// [END]
+How rare! We don't get many visitors here![END]
+
+
+// Script B-0xAD [0x37BD9]
+// きっ、きっ、きんぞく[opF1]<$3C>[BR]
+// たん、たん、たんちき‥‥[opF1]<$3C>[BR]
+// つか、つか、つか‥　ゴホゴホ[END]
+U-Use...[opF1]<$3C>[BR]
+Use a metal...[opF1]<$3C>[BR]
+d-detector... *cough* *cough*[END]
+
+
+// Script B-0xAE [0x37C04]
+// ‥、ごほっ！[KEY]
+// ‥？[BR]
+// おまえは　いつかの‥。[BR]
+// なぜ　ここに‥？[KEY]
+// フッ‥。[KEY]
+// レッドウルフとも[BR]
+// あろうものが‥。[BR]
+// ざまァ　ねえな‥。[END]
+... *cough*[KEY]
+...?[BR]
+You're that guy from back then...[BR]
+Why are you here...?[KEY]
+Heh...[KEY]
+So much for the infamous Red Wolf, huh...?[END]
+
+
+// Script B-0xAF [0x37C3C]
+// まだ[BR]
+// あたいとの　しょうぶが[BR]
+// ついて　ないじゃ　ないのっ！
+// [SPKR]<$05>
+// ふふふ‥。[BR]
+// かわいい　こいぬが[BR]
+// あいかわらず[BR]
+// よく　ほえて　やがる‥。[END]
+You can't die! You owe me a rematch!
+[SPKR]<$05>
+Heheh... You still have a good bark on you, pup...[END]
+
+
+// Script B-0xB0 [0x37C7D]
+// マリリン‥。[BR]
+// きょうは　いちだんと[BR]
+// きれいだよ！[END]
+Oh, Marylin. You are veritably gorgeous today![END]
+
+
+// Script B-0xB1 [0x37C93]
+// このばくやくを[BR]
+// エレべーターに　しかけて[BR]
+// ４かいで　ばくはするんだ！[KEY]
+// そうすりゃ　ガレキが[BR]
+// うみを　うめて[BR]
+// むこうぎしに　わたれるだろ！[KEY]
+// よし！　オレが[BR]
+// しかけてくるから[BR]
+// おまえは　さがっていろ！[KEY]
+// じゅんびは　いいか？[CHOICE]<$FF><$BC>
+// 
+I'm going to set these explosives inside the elevator and blow them up on the fourth floor.[KEY]
+If my math is right, the rubble should cover the gap between the two islands.[KEY]
+Once I set them, run like hell![KEY]
+Are you ready?[CHOICE]<$FF><$BC>
+
+
+
+// Script B-0xB2 [0x37CFE]
+// ワタシ　ロボット。[BR]
+// ナマエ　サタデー。[KEY]
+// ハカセノ　ケンキュウ[BR]
+// トテモ　スバラシ　デス。[KEY]
+// オクノ　へヤ　イクト[BR]
+// ダミー　アイテニ[BR]
+// ブキノ　ツヨサ[BR]
+// タメセルネ！[END]
+I AM A ROBOT. MY NAME IS SATURDAY.[KEY]
+IT IS WONDERFUL TO HELP THE DOCTOR IN HIS RESEARCH.[KEY]
+YOU CAN TEST YOUR WEAPONS ON THE DUMMIES INSIDE THAT ROOM.[END]
+
+
+// Script B-0xB3 [0x37D4D]
+// メイン　コンピュータ[BR]
+// ノア　ノ　メイレイ　ニ　ヨリ[BR]
+// コノ　ケンモンジョ　ヲ[BR]
+// フウサ　スル‥！[KEY]
+// ピ‥　ピピピ‥！[BR]
+// セイメイ　ハンノウ！[BR]
+// ニンゲン！[BR]
+// マッサツ　セヨ！[END]
+THIS CHECKPOINT IS SEALED AS ORDERED BY THE MAIN COMPUTER, NOAH.[KEY]
+*bip* *bi-bip* *bip*[BR]
+LIFE SIGNS DETECTED: HUMAN CONFIRMED![BR]
+ELIMINATE! ELIMINATE![END]
+
+
+// Script B-0xB4 [0x37D9F]
+// ぜんいん　せいれーつ！[BR]
+// いち、に！　いち、に！[BR]
+// いち、に！　いち、に！[KEY]
+// きさまらは　ブタだ！[BR]
+// たたかうために　うまれてきた[BR]
+// きさまらに　じんかくなど[BR]
+// ひつようなーい！[KEY]
+// いち、に！　いち、に！[BR]
+// ‥。[BR]
+// ムニャムニャ‥。[BR]
+// グウ‥。[END]
+ATTEN-HUT! Forward! One, two! One, two![KEY]
+You are not humans! You are PIGS! Turn off your brains and only follow your orders![KEY]
+One, two! One, two. One...[BR]
+*moan*[BR]
+Oooh...[END]
+
+
+// Script B-0xB5 [0x37DEE]
+// ぐおー！　ぐおー！[END]
+Oooh... Ohhh...[END]
+
+
+// Script B-0xB6 [0x37DF8]
+// すやすや‥。[END]
+*moan*...[END]
+//these are ghosts, for reference.
+
+
+// Script B-0xB7 [0x37DFF]
+// セイヒン　チェック　ＯＫ！[BR]
+// セイヒン　チェック　ＯＫ！[BR]
+// ガチャコン　ガチャコン‥。[END]
+PRODUCT CHECK: OK.[BR]
+PRODUCT CHECK: OK.[BR]
+*clutter* *clutter*[END]
+
+
+// Script B-0xB8 [0x37E11]
+// ちじょうで　まいごに[BR]
+// なった　ときは、[BR]
+// ＢＳコントローラを[BR]
+// つかいなされ！[END]
+If you ever get lost out there, use the BS Controller![END]
+
+
+// Script B-0xB9 [0x37E32]
+// ※[SKIP]<$05>キケン！[SKIP]<$05>※[BR]
+// ※　ビルが　ふるいので[SKIP]<$04>※[BR]
+// ※　くずれるおそれがあります！※[KEY]
+// ※　あんぜんかくほのため[SKIP]<$03>※[BR]
+// ※　ただいま　ふうさちゅう！　※[BR]
+// ※[SKIP]<$04>コロナビルじむきょく※[END]
+*[SKIP]<$05>DANGER! [SKIP]<$05>*[BR]
+* This building may collapse [SKIP]<$04>*[BR]
+* due to its old age! *[KEY]
+* To ensure your safety, [SKIP]<$03>*[BR]
+* the building has been sealed. *[BR]
+*[SKIP]<$04>Corona Head Office *[END]
+
+
+// Script B-0xBA [0x37E8D]
+// キャアァァァァーッ！[END]
+EEEEEK![END]
+
+
+// Script B-0xBB [0x37E98]
+// ひ、ひええっ！[BR]
+// どうか　いのちだけは‥！[END]
+P-Please, spare me![END]
+
+
+// Script B-0xBC [0x37EAD]
+// なんだ？[BR]
+// はやくしろよ。[END]
+C'mon, I don't have all day.[END]
+
+
+// Script B-0xBD [0x37EB9]
+// このよで　いちばん　つええ[BR]
+// バルデスって　あくとうが[BR]
+// へル・ゲートの　むこうに[BR]
+// わたったらしいぜ‥。[END]
+There's no criminal stronger than Valdez. They say he's somewhere on the other side of Hell's Gate...[END]
+
+
+// Script B-0xBE [0x37EDF]
+// さっきの　じしんで[BR]
+// エレべーターが[BR]
+// とまっちゃったみたいだけど、[KEY]
+// そこのコンピュータで[BR]
+// スイッチを　いれれば[BR]
+// まだ　うごくはずだわ！[END]
+The elevator has stopped after the earthquake from earlier,[KEY]
+but they should start again if you press the switch on that computer![END]
+
+
+// Script B-0xBF [0x37F1D]
+// どうだ　やすい[BR]
+// かいもん　だったろ！[END]
+Wasn't that a bargain?[END]
+
+
+// Script B-0xC0 [0x37F30]
+// [SPEED]<$0A>モンスターハンターを[BR]
+// いんたいした　[SVAR]<$00>は、[BR]
+// へいわだが　たいくつな[BR]
+// いっしょうを　おくったという‥。[SKIP]<$7D>[opF1]<$78>つづく[END]
+[SPEED]<$0A>[SVAR]<$00> quit being a Monster Hunter and lived a peaceful, yet boring, life.[SKIP]<$7D>[opF1]<$78>Continue[END]
+
+
+// Script B-0xC1 [0x37F65]
+// [SPEED]<$0A>こうして　[SVAR]<$00>は[BR]
+// あらたな　たびに　でた！[BR]
+// だが　[SVAR]<$00>が[BR]
+// せかいを　すくったことを[SKIP]<$34>だれも　しらない‥。[END]
+[SPEED]<$0A>And so, [SVAR]<$00> began a new journey.[BR]
+Nobody knew that he had just saved the world...[END]
+
+
+// Script B-0xC2 [0x37F9D]
+// あかい　ろうにんぎょうを[BR]
+// おせば、[BR]
+// ドラキュラにんぎょうの[BR]
+// うごきを　とめられるぜ！[END]
+You can stop Dracula's doll from moving by pushing the red doll![END]
+
+
+// Script B-0xC3 [0x37FC3]
+// ‥。
+// [SPKR]<$06>
+// どうやら[BR]
+// ろうにんぎょうの　ようだ。[END]
+...
+[SPKR]<$06>
+It's just a wax model.[END]
+
+
+// Script B-0xC4 [0x37FD5]
+// おくの　べッドに[BR]
+// じいさんが　ねてる。[KEY]
+// むかしばなしでも[BR]
+// きいてやって　くれや！[END]
+See that old man resting on the bed?[KEY]
+He loves talking about the old times. Listen to him for a while, he'd appreciate it.[END]
+
+

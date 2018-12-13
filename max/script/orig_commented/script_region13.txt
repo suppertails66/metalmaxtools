@@ -1,0 +1,171 @@
+// Script 13-0x0 [0x11923]
+// かいふく[END]
+
+
+// Script 13-0x1 [0x11928]
+// ５[MM]キャノン[END]
+
+
+// Script 13-0x2 [0x1192D]
+// [MM]きかんほう[END]
+
+
+// Script 13-0x3 [0x11934]
+// ビートル[END]
+
+
+// Script 13-0x4 [0x11939]
+// チヨノフ[END]
+
+
+// Script 13-0x5 [0x1193E]
+// インパルス[END]
+
+
+// Script 13-0x6 [0x11944]
+// シルフィード[END]
+
+
+// Script 13-0x7 [0x1194B]
+// レべル[END]
+
+
+// Script 13-0x8 [0x1194F]
+// タイルパック[END]
+
+
+// Script 13-0x9 [0x11956]
+// ５[MM]ほう[END]
+
+
+// Script 13-0xA [0x1195B]
+// ０[MM]スパルク[END]
+
+
+// Script 13-0xB [0x11962]
+// ５[MM]ロングＴ[END]
+
+
+// Script 13-0xC [0x11969]
+// バルカン[END]
+
+
+// Script 13-0xD [0x1196E]
+// レーザー[END]
+
+
+// Script 13-0xE [0x11973]
+// ミサイル[END]
+
+
+// Script 13-0xF [0x11978]
+// カルメン[END]
+
+
+// Script 13-0x10 [0x1197D]
+// ののべぼう[END]
+
+
+// Script 13-0x11 [0x11983]
+// めいさい[END]
+
+
+// Script 13-0x12 [0x11988]
+// ウルフ[END]
+
+
+// Script 13-0x13 [0x1198C]
+// そうこう[END]
+
+
+// Script 13-0x14 [0x11991]
+// まんたん[END]
+
+
+// Script 13-0x15 [0x11996]
+// しゅうり[END]
+
+
+// Script 13-0x16 [0x1199B]
+// ちゃん[END]
+
+
+// Script 13-0x17 [0x1199F]
+// キャノン[END]
+
+
+// Script 13-0x18 [0x119A4]
+// さいだい[END]
+
+
+// Script 13-0x19 [0x119A9]
+// しゅほう[END]
+
+
+// Script 13-0x1A [0x119AE]
+// タンク[END]
+
+
+// Script 13-0x1B [0x119B2]
+// レンズ[END]
+
+
+// Script 13-0x1C [0x119B6]
+// おんぱを　はっした！[END]
+
+
+// Script 13-0x1D [0x119BC]
+// レーザーバズーカ[END]
+
+
+// Script 13-0x1E [0x119C3]
+// [opE9]は[BR]
+// [END]
+
+
+// Script 13-0x1F [0x119C7]
+// [HERO]は　[opE9]を[BR]
+// [END]
+
+
+// Script 13-0x20 [0x119CD]
+// ません！[END]
+
+
+// Script 13-0x21 [0x119D2]
+// [HERO]は　おカネを[BR]
+// [opE9]に　つめこんだ！[opE4][BR]
+// [END]
+
+
+// Script 13-0x22 [0x119E5]
+// [BR]
+// みせを　でる[END]
+
+
+// Script 13-0x23 [0x119ED]
+// メッセージ[opF8]<$1D><$00>：[BR]
+// [END]
+
+
+// Script 13-0x24 [0x119F8]
+// アニメ　　：[opFA]<$0F>[BR]
+// [END]
+
+
+// Script 13-0x25 [0x11A02]
+// ラジオ　　：[opE9][END]
+
+
+// Script 13-0x26 [0x11A0A]
+// [opE9]を　[END]
+
+
+// Script 13-0x27 [0x11A0E]
+// [HERO]は　[END]
+
+
+// Script 13-0x28 [0x11A12]
+// どこか[END]
+
+

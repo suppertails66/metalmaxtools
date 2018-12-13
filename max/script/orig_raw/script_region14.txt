@@ -1,0 +1,114 @@
+// Script 14-0 [0xBE80]
+[opE6][HERO]は　あしもとをしらべた！[END]
+
+// Script 14-1 [0xBE89]
+[opE6][HERO]は　きばこを　あけた！[KEY]
+[END]
+
+// Script 14-2 [0xBE96]
+[opE6][HERO]は　タンスをしらべた！[END]
+
+// Script 14-3 [0xBE9E]
+をしらべた！[END]
+
+// Script 14-4 [0xBEA5]
+[opE9]を　みつけた！[opE4][END]
+
+// Script 14-5 [0xBEAE]
+だが　なにも[BR]
+みつからなかった！[END]
+
+// Script 14-6 [0xBEBF]
+さあ！[BR]
+よみがえるのだ！[END]
+
+// Script 14-7 [0xBECC]
+この　でんげきでーっ！[END]
+
+// Script 14-8 [0xBED6]
+ガスだんを　うった！[END]
+
+// Script 14-9 [0xBEDD]
+を　ふりまわした！[END]
+
+// Script 14-10 [0xBEE7]
+ガスを　だした！[END]
+
+// Script 14-11 [0xBEF0]
+ている‥[END]
+
+// Script 14-12 [0xBEF5]
+を　はっした！[END]
+
+// Script 14-13 [0xBEFD]
+マリリン[END]
+
+// Script 14-14 [0xBF02]
+ろうにんぎょう[END]
+
+// Script 14-15 [0xBF0A]
+ＡＬＥＲＴ！[END]
+
+// Script 14-16 [0xBF11]
+はたけを　たがや[END]
+
+// Script 14-17 [0xBF1A]
+ちせいという　ぶきを[BR]
+みにつけた[BR]
+あくまの　サルよ！[BR]
+ほろびるが　いい！[END]
+
+// Script 14-18 [0xBF3F]
+ゼツメツ[END]
+
+// Script 14-19 [0xBF44]
+ワルゲリョ[END]
+
+// Script 14-20 [0xBF4A]
+ぼっちゃま[END]
+
+// Script 14-21 [0xBF50]
+おかえり　なさいませ！[END]
+
+// Script 14-22 [0xBF5C]
+われわれ　じんるい[END]
+
+// Script 14-23 [0xBF66]
+わたしはね、あの[BR]
+[END]
+
+// Script 14-24 [0xBF70]
+に　あった[BR]
+ことが　あるんですよっ！[END]
+
+// Script 14-25 [0xBF83]
+ゆうめいな[END]
+
+// Script 14-26 [0xBF89]
+[opE6][HERO]は　[END]
+
+// Script 14-27 [0xBF8D]
+いちばん　つええ[END]
+
+// Script 14-28 [0xBF96]
+てんそうそうち[END]
+
+// Script 14-29 [0xBF9E]
+[SPEED]<$0D>ソレデモ[BR]
+ワタシヲ[BR]
+ハカイ　スルノカ[SPEED]<$00>[END]
+
+// Script 14-30 [0xBFB5]
+[opE6][HERO]は　かべの[BR]
+しゃしんを　みあげた。[KEY]
+[END]
+
+// Script 14-31 [0xBFC8]
+カナべルって　まち[END]
+
+// Script 14-32 [0xBFD1]
+ちかくに[END]
+
+// Script 14-33 [0xBFD6]
+むかし[END]
+

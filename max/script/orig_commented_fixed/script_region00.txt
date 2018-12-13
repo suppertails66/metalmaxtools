@@ -1,0 +1,888 @@
+// Script 0-0x0 [0x11A16]
+// [END]
+
+
+// Script 0-0x1 [0x11A17]
+// やきゅうぼう[END]
+
+
+// Script 0-0x2 [0x11A1E]
+// めいさいぼうし[END]
+
+
+// Script 0-0x3 [0x11A24]
+// ゴーグルキャップ[END]
+
+
+// Script 0-0x4 [0x11A2D]
+// あんぜんメット[END]
+
+
+// Script 0-0x5 [0x11A35]
+// アメフトへルム[END]
+
+
+// Script 0-0x6 [0x11A3D]
+// フルフェイス[END]
+
+
+// Script 0-0x7 [0x11A44]
+// みみせん[END]
+
+
+// Script 0-0x8 [0x11A49]
+// バニーキャップ[END]
+
+
+// Script 0-0x9 [0x11A51]
+// デニムのツナギ[END]
+
+
+// Script 0-0xA [0x11A59]
+// めいさいふく[END]
+
+
+// Script 0-0xB [0x11A5E]
+// かわのツナギ[END]
+
+
+// Script 0-0xC [0x11A65]
+// へビーレザー[END]
+
+
+// Script 0-0xD [0x11A6C]
+// しょうぼうふく[END]
+
+
+// Script 0-0xE [0x11A74]
+// シールドマント[END]
+
+
+// Script 0-0xF [0x11A7C]
+// メタリックスーツ[END]
+
+
+// Script 0-0x10 [0x11A85]
+// ハイポリマー[END]
+
+
+// Script 0-0x11 [0x11A8C]
+// ぢかたび[END]
+
+
+// Script 0-0x12 [0x11A91]
+// ロンドンブーツ[END]
+
+
+// Script 0-0x13 [0x11A99]
+// リべットスパイク[END]
+
+
+// Script 0-0x14 [0x11AA2]
+// あんぜんぐつ[END]
+
+
+// Script 0-0x15 [0x11AA9]
+// ワニのながぐつ[END]
+
+
+// Script 0-0x16 [0x11AB1]
+// クラッドブーツ[END]
+
+
+// Script 0-0x17 [0x11AB9]
+// プロテクタくず[END]
+
+
+// Script 0-0x18 [0x11AC1]
+// バリアシール[END]
+
+
+// Script 0-0x19 [0x11AC8]
+// ひぼたんのさらし[END]
+
+
+// Script 0-0x1A [0x11AD1]
+// ぼうだんチョッキ[END]
+
+
+// Script 0-0x1B [0x11ADA]
+// セラミックパッド[END]
+
+
+// Script 0-0x1C [0x11AE3]
+// てつのガードル[END]
+
+
+// Script 0-0x1D [0x11AEB]
+// ぐんて[END]
+
+
+// Script 0-0x1E [0x11AEF]
+// かわのてぶくろ[END]
+
+
+// Script 0-0x1F [0x11AF7]
+// メカニックグラブ[END]
+
+
+// Script 0-0x20 [0x11B00]
+// へビメタグローブ[END]
+
+
+// Script 0-0x21 [0x11B09]
+// レーサーグローブ[END]
+
+
+// Script 0-0x22 [0x11B12]
+// バトルナックル[END]
+
+
+// Script 0-0x23 [0x11B1A]
+// レーザーバズーカ[END]
+
+
+// Script 0-0x24 [0x11B1D]
+// レーザーバズーカ[END]
+
+
+// Script 0-0x25 [0x11B20]
+// レーザーバズーカ[END]
+
+
+// Script 0-0x26 [0x11B23]
+// レーザーバズーカ[END]
+
+
+// Script 0-0x27 [0x11B26]
+// レーザーバズーカ[END]
+
+
+// Script 0-0x28 [0x11B29]
+// レーザーバズーカ[END]
+
+
+// Script 0-0x29 [0x11B2C]
+// パチンコ[END]
+
+
+// Script 0-0x2A [0x11B31]
+// ボウガン[END]
+
+
+// Script 0-0x2B [0x11B36]
+// ショットガン[END]
+
+
+// Script 0-0x2C [0x11B3D]
+// ジェロニモのオノ[END]
+
+
+// Script 0-0x2D [0x11B46]
+// ４４マグナム[END]
+
+
+// Script 0-0x2E [0x11B4D]
+// ブーメランスパナ[END]
+
+
+// Script 0-0x2F [0x11B56]
+// ひぼたんのドス[END]
+
+
+// Script 0-0x30 [0x11B5E]
+// ＳＭＧウージー[END]
+
+
+// Script 0-0x31 [0x11B66]
+// ばくれつノコギリ[END]
+
+
+// Script 0-0x32 [0x11B6F]
+// かえんじゅう[END]
+
+
+// Script 0-0x33 [0x11B76]
+// レーザーライフル[END]
+
+
+// Script 0-0x34 [0x11B7D]
+// ＳＭＧグレネード[END]
+
+
+// Script 0-0x35 [0x11B86]
+// ジェットサーべル[END]
+
+
+// Script 0-0x36 [0x11B8F]
+// ソニックブーマー[END]
+
+
+// Script 0-0x37 [0x11B98]
+// ハンドバルカン[END]
+
+
+// Script 0-0x38 [0x11B9E]
+// ニュートロンガン[END]
+
+
+// Script 0-0x39 [0x11BA7]
+// ピッチングマシン[END]
+
+
+// Script 0-0x3A [0x11BB0]
+// ちょうおんぱほう[END]
+
+
+// Script 0-0x3B [0x11BB9]
+// ライトサーべル[END]
+
+
+// Script 0-0x3C [0x11BC1]
+// バズーカほう[END]
+
+
+// Script 0-0x3D [0x11BC8]
+// ロケットパンチ[END]
+
+
+// Script 0-0x3E [0x11BD0]
+// ドラゴンスプレー[END]
+
+
+// Script 0-0x3F [0x11BD9]
+// ＴＮＴパラノイア[END]
+
+
+// Script 0-0x40 [0x11BE2]
+// はらきりソード[END]
+
+
+// Script 0-0x41 [0x11BEA]
+// ４５[MM]ほう[END]
+
+
+// Script 0-0x42 [0x11BEE]
+// ５５[MM]ほう[END]
+
+
+// Script 0-0x43 [0x11BF2]
+// ７５[MM]ほう[END]
+
+
+// Script 0-0x44 [0x11BF6]
+// ８０[MM]スパルク[END]
+
+
+// Script 0-0x45 [0x11BFA]
+// ９５[MM]ほう[END]
+
+
+// Script 0-0x46 [0x11BFE]
+// １０５[MM]キャノン[END]
+
+
+// Script 0-0x47 [0x11C03]
+// １１５[MM]ロングＴ[END]
+
+
+// Script 0-0x48 [0x11C08]
+// １２５[MM]キャノン[END]
+
+
+// Script 0-0x49 [0x11C0D]
+// １２５[MM]ロングＴ[END]
+
+
+// Script 0-0x4A [0x11C12]
+// １３５[MM]キャノン[END]
+
+
+// Script 0-0x4B [0x11C17]
+// １４０[MM]スパルク[END]
+
+
+// Script 0-0x4C [0x11C1C]
+// １５５[MM]キャノン[END]
+
+
+// Script 0-0x4D [0x11C21]
+// １６０[MM]アモルフ[END]
+
+
+// Script 0-0x4E [0x11C2A]
+// １６５[MM]ロングＴ[END]
+
+
+// Script 0-0x4F [0x11C2F]
+// １７５[MM]キャノン[END]
+
+
+// Script 0-0x50 [0x11C34]
+// １９５[MM]キャノン[END]
+
+
+// Script 0-0x51 [0x11C39]
+// １６５[MM]ゴースト[END]
+
+
+// Script 0-0x52 [0x11C42]
+// １８０[MM]スパルク[END]
+
+
+// Script 0-0x53 [0x11C47]
+// ２０５[MM]キャノン[END]
+
+
+// Script 0-0x54 [0x11C4C]
+// ２２０[MM]ガイア[END]
+
+
+// Script 0-0x55 [0x11C54]
+// ＡＴＭミサイル[END]
+
+
+// Script 0-0x56 [0x11C5A]
+// かえんほうしゃき[END]
+
+
+// Script 0-0x57 [0x11C63]
+// ＴＮＴグレネード[END]
+
+
+// Script 0-0x58 [0x11C6C]
+// ＬＩピーナッツ[END]
+
+
+// Script 0-0x59 [0x11C74]
+// ファイブレス５[END]
+
+
+// Script 0-0x5A [0x11C7C]
+// ＲＤナパーム[END]
+
+
+// Script 0-0x5B [0x11C83]
+// ＭＣストライカー[END]
+
+
+// Script 0-0x5C [0x11C8C]
+// イオノクラフト[END]
+
+
+// Script 0-0x5D [0x11C94]
+// マニアックシェフ[END]
+
+
+// Script 0-0x5E [0x11C9D]
+// トマトタイフーン[END]
+
+
+// Script 0-0x5F [0x11CA6]
+// ＤＤヒステリック[END]
+
+
+// Script 0-0x60 [0x11CAF]
+// エクスカリバー[END]
+
+
+// Script 0-0x61 [0x11CB7]
+// ニトロスイーパー[END]
+
+
+// Script 0-0x62 [0x11CC0]
+// レーンサイクロン[END]
+
+
+// Script 0-0x63 [0x11CC9]
+// インターセプター[END]
+
+
+// Script 0-0x64 [0x11CD2]
+// Ｓートルネード[END]
+
+
+// Script 0-0x65 [0x11CDA]
+// ７[MM]きかんほう[END]
+
+
+// Script 0-0x66 [0x11CDE]
+// ９[MM]きかんほう[END]
+
+
+// Script 0-0x67 [0x11CE2]
+// ガトリングほう[END]
+
+
+// Script 0-0x68 [0x11CEA]
+// １１[MM]きかんほう[END]
+
+
+// Script 0-0x69 [0x11CEF]
+// ９[MM]バルカンほう[END]
+
+
+// Script 0-0x6A [0x11CF6]
+// １１[MM]バルカン[END]
+
+
+// Script 0-0x6B [0x11CFC]
+// １５[MM]きかんほう[END]
+
+
+// Script 0-0x6C [0x11D01]
+// ビームブラスター[END]
+
+
+// Script 0-0x6D [0x11D0A]
+// スキャンレーザー[END]
+
+
+// Script 0-0x6E [0x11D11]
+// １８[MM]きかんほう[END]
+
+
+// Script 0-0x6F [0x11D16]
+// サンダーブラスト[END]
+
+
+// Script 0-0x70 [0x11D1F]
+// ２０[MM]バルカン[END]
+
+
+// Script 0-0x71 [0x11D25]
+// ２５[MM]きかんほう[END]
+
+
+// Script 0-0x72 [0x11D2A]
+// バーナードラゴン[END]
+
+
+// Script 0-0x73 [0x11D33]
+// サンダーストーム[END]
+
+
+// Script 0-0x74 [0x11D3C]
+// ひぼたんバルカン[END]
+
+
+// Script 0-0x75 [0x11D43]
+// ＨＡＬ９００[END]
+
+
+// Script 0-0x76 [0x11D4A]
+// ウォズニアクＩＩ[END]
+
+
+// Script 0-0x77 [0x11D53]
+// エミー[END]
+
+
+// Script 0-0x78 [0x11D57]
+// ＳＯＬＯＭＯＮ２[END]
+
+
+// Script 0-0x79 [0x11D60]
+// ビートル[END]
+
+
+// Script 0-0x7A [0x11D63]
+// ビートル[9D][END]
+
+
+// Script 0-0x7B [0x11D67]
+// ビートル[9D]Ｉ[END]
+
+
+// Script 0-0x7C [0x11D6C]
+// チヨノフ[END]
+
+
+// Script 0-0x7D [0x11D6F]
+// チヨノフ[9D][END]
+
+
+// Script 0-0x7E [0x11D73]
+// チヨノフ[9D]Ｓ[END]
+
+
+// Script 0-0x7F [0x11D78]
+// ブル[END]
+
+
+// Script 0-0x80 [0x11D7B]
+// ギガブル[END]
+
+
+// Script 0-0x81 [0x11D80]
+// オメガブル[END]
+
+
+// Script 0-0x82 [0x11D86]
+// インパルス[END]
+
+
+// Script 0-0x83 [0x11D89]
+// インパルス[9D][END]
+
+
+// Script 0-0x84 [0x11D8D]
+// インパルス[9D][9D][END]
+
+
+// Script 0-0x85 [0x11D92]
+// Ｖ２４ハルク[END]
+
+
+// Script 0-0x86 [0x11D99]
+// Ｖ３２ハルク[END]
+
+
+// Script 0-0x87 [0x11DA0]
+// Ｖ４８ハルク[END]
+
+
+// Script 0-0x88 [0x11DA7]
+// シルフィード[END]
+
+
+// Script 0-0x89 [0x11DAA]
+// シルフィード[9D][END]
+
+
+// Script 0-0x8A [0x11DAE]
+// シルフィード[9D]Ｓ[END]
+
+
+// Script 0-0x8B [0x11DB3]
+// ＯＨＣカルメン[END]
+
+
+// Script 0-0x8C [0x11DB9]
+// ターボカルメン[END]
+
+
+// Script 0-0x8D [0x11DBF]
+// ロケットカルメン[END]
+
+
+// Script 0-0x8E [0x11DC6]
+// Ｖ４８コング[END]
+
+
+// Script 0-0x8F [0x11DCD]
+// Ｖ６６コング[END]
+
+
+// Script 0-0x90 [0x11DD4]
+// Ｖ１００コング[END]
+
+
+// Script 0-0x91 [0x11DDC]
+// モスキート[END]
+
+
+// Script 0-0x92 [0x11DE2]
+// ワイルドバギー[END]
+
+
+// Script 0-0x93 [0x11DEA]
+// バン[END]
+
+
+// Script 0-0x94 [0x11DED]
+// そうこうしゃ[END]
+
+
+// Script 0-0x95 [0x11DF2]
+// パンサー[END]
+
+
+// Script 0-0x96 [0x11DF7]
+// タイガー[END]
+
+
+// Script 0-0x97 [0x11DFC]
+// Ｒウルフ[END]
+
+
+// Script 0-0x98 [0x11E00]
+// Ｋタイガー[END]
+
+
+// Script 0-0x99 [0x11E06]
+// ねえさんのタオル[END]
+
+
+// Script 0-0x9A [0x11E0F]
+// あかいバンダナ[END]
+
+
+// Script 0-0x9B [0x11E17]
+// ガスマスク[END]
+
+
+// Script 0-0x9C [0x11E1D]
+// しんぐんラッパ[END]
+
+
+// Script 0-0x9D [0x11E25]
+// ドーピングタブ[END]
+
+
+// Script 0-0x9E [0x11E2D]
+// しょうかき[END]
+
+
+// Script 0-0x9F [0x11E33]
+// えんまくはなび[END]
+
+
+// Script 0-0xA0 [0x11E3B]
+// ハイドロポッド[END]
+
+
+// Script 0-0xA1 [0x11E43]
+// てりゅうだん[END]
+
+
+// Script 0-0xA2 [0x11E4A]
+// ＤＤパイナップル[END]
+
+
+// Script 0-0xA3 [0x11E53]
+// ロケットはなび[END]
+
+
+// Script 0-0xA4 [0x11E5B]
+// ぺンシルミサイル[END]
+
+
+// Script 0-0xA5 [0x11E62]
+// かえんびん[END]
+
+
+// Script 0-0xA6 [0x11E68]
+// ニトロビール[END]
+
+
+// Script 0-0xA7 [0x11E6F]
+// なげやすいいし[END]
+
+
+// Script 0-0xA8 [0x11E77]
+// がっぽりのサイフ[END]
+
+
+// Script 0-0xA9 [0x11E80]
+// かいふくカプセル[END]
+
+
+// Script 0-0xAA [0x11E87]
+// かいふくドリンク[END]
+
+
+// Script 0-0xAB [0x11E8E]
+// エナジーカプセル[END]
+
+
+// Script 0-0xAC [0x11E97]
+// まんたんドリンク[END]
+
+
+// Script 0-0xAD [0x11E9E]
+// アルカリスプレー[END]
+
+
+// Script 0-0xAE [0x11EA7]
+// ＢＳコントローラ[END]
+
+
+// Script 0-0xAF [0x11EB0]
+// [END]
+
+
+// Script 0-0xB0 [0x11EB1]
+// メカニックキット[END]
+
+
+// Script 0-0xB1 [0x11EBA]
+// さいせいカプセル[END]
+
+
+// Script 0-0xB2 [0x11EC3]
+// ふるびたコイン[END]
+
+
+// Script 0-0xB3 [0x11ECB]
+// じらいたんちき[END]
+
+
+// Script 0-0xB4 [0x11ED3]
+// きんぞくたんちき[END]
+
+
+// Script 0-0xB5 [0x11EDC]
+// マヒノン[END]
+
+
+// Script 0-0xB6 [0x11EE1]
+// アパートのカギ[END]
+
+
+// Script 0-0xB7 [0x11EE9]
+// ロックハッカー[END]
+
+
+// Script 0-0xB8 [0x11EF1]
+// マンモスのキバ[END]
+
+
+// Script 0-0xB9 [0x11EF9]
+// カメラのレンズ[END]
+
+
+// Script 0-0xBA [0x11F00]
+// ルビーのレンズ[END]
+
+
+// Script 0-0xBB [0x11F07]
+// たいようのレンズ[END]
+
+
+// Script 0-0xBC [0x11F0F]
+// メガネのレンズ[END]
+
+
+// Script 0-0xBD [0x11F16]
+// けっこんゆびわ[END]
+
+
+// Script 0-0xBE [0x11F1E]
+// いれずみシール[END]
+
+
+// Script 0-0xBF [0x11F26]
+// きんののべぼう[END]
+
+
+// Script 0-0xC0 [0x11F2B]
+// ゲームくん[END]
+
+
+// Script 0-0xC1 [0x11F31]
+// ねえさんのパンツ[END]
+
+
+// Script 0-0xC2 [0x11F3A]
+// おやじのパンツ[END]
+
+
+// Script 0-0xC3 [0x11F42]
+// ちゅうわざい[END]
+
+
+// Script 0-0xC4 [0x11F49]
+// のうしゅくメチル[END]
+
+
+// Script 0-0xC5 [0x11F52]
+// ぎんののべぼう[END]
+
+
+// Script 0-0xC6 [0x11F57]
+// どうののべぼう[END]
+
+
+// Script 0-0xC7 [0x11F5C]
+// けんきゅうノート[END]
+
+
+// Script 0-0xC8 [0x11F65]
+// ちぞめのてちょう[END]
+
+
+// Script 0-0xC9 [0x11F6E]
+// パスワードのメモ[END]
+
+
+// Script 0-0xCA [0x11F77]
+// しゅうりキット[END]
+
+
+// Script 0-0xCB [0x11F7D]
+// ドッグシステム[END]
+
+
+// Script 0-0xCC [0x11F85]
+// めいさいシールド[END]
+
+
+// Script 0-0xCD [0x11F8C]
+// タイルパック４０[END]
+
+
+// Script 0-0xCE [0x11F91]
+// タイルパック８０[END]
+
+
+// Script 0-0xCF [0x11F96]
+// タイルパックＬ[END]
+
+
+// Script 0-0xD0 [0x11F9A]
+// タイルパックＬＬ[END]
+
+
+// Script 0-0xD1 [0x11F9F]
+// いりょうキット[END]
+
+
+// Script 0-0xD2 [0x11FA7]
+// アルカリワックス[END]
+
+
+// Script 0-0xD3 [0x11FB0]
+// オートエアコン[END]
+
+
+// Script 0-0xD4 [0x11FB8]
+// ヒーター[END]
+
+
+// Script 0-0xD5 [0x11FBD]
+// クーラー[END]
+
+
+// Script 0-0xD6 [0x11FC2]
+// かんきそうち[END]
+
+
+// Script 0-0xD7 [0x11FC9]
+// レーダースコープ[END]
+
+
+// Script 0-0xD8 [0x11FD2]
+// でんじバリア[END]
+
+
+// Script 0-0xD9 [0x11FD9]
+// しょうかそうち[END]
+
+
+// Script 0-0xDA [0x11FE1]
+// うさぎちゃん[END]
+
+
+// Script 0-0xDB [0x11FE7]
+// メタルブレード[END]
+
+
+// Script 0-0xDC [0x11FEF]
+// とりのふん[END]
+
+
+// Script 0-0xDD [0x11FF5]
+// ナマリタケ[END]
+
+

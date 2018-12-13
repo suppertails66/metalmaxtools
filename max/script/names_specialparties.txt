@@ -1,0 +1,128 @@
+
+
+// special parties: if the player gives the hero the first name on
+// the list, the other characters will always get the remaining two
+// (see https://god-bird.net/data/metalmax/name.html)
+
+// make sure each group consists of 4 lines of 8 characters each
+// (hero name recognition string, then the assigned name for each party member)
+
+// this is the default party that's used if the player didn't enter a name for
+// the hero
+
+//[END][END][END][END]
+[END][END][END][END][END][END][END][END]
+//はんた[END]
+Hanta[END][END][END]
+//いじる[END]
+Tamper[END][END]
+//アンヌ[END]
+Anne[END][END][END][END]
+
+// this one covers the case where the player manually chose the name はんた
+
+//はんた[END]
+Hanta[END][END][END]
+//はんた[END]
+Hanta[END][END][END]
+//いじる[END]
+Tamper[END][END]
+//アンヌ[END]
+Anne[END][END][END][END]
+
+// the rest are just random jokes(?)
+
+//ああああ
+AAAAAAAA
+//ああああ
+AAAAAAAA
+//いいいい
+BBBBBBBB
+//うううう
+CCCCCCCC
+
+//トム[END][END]
+Tom[END][END][END][END][END]
+//トム[END][END]
+Tom[END][END][END][END][END]
+//ハマン[END]
+Haman[END][END][END]
+//セシル[END]
+Cecil[END][END][END]
+
+//しるふ[END]
+Sylph[END][END][END]
+//しるふ[END]
+Sylph[END][END][END]
+//におぶ[END]
+Niobium[END]
+//せれん[END]
+Selenium
+
+// the original game only checks for ああああ, but "name your character AAAA" is
+// less of a defined joke in the west. i'm guessing most people will just go
+// for "A" or something simpler instead of using all 8 characters, so we might
+// as well cover all the bases.
+
+//ああああ
+AAAAAAA[END]
+//ああああ
+AAAAAAA[END]
+//いいいい
+BBBBBBB[END]
+//うううう
+CCCCCCC[END]
+
+//ああああ
+AAAAAA[END][END]
+//ああああ
+AAAAAA[END][END]
+//いいいい
+BBBBBB[END][END]
+//うううう
+CCCCCC[END][END]
+
+//ああああ
+AAAAA[END][END][END]
+//ああああ
+AAAAA[END][END][END]
+//いいいい
+BBBBB[END][END][END]
+//うううう
+CCCCC[END][END][END]
+
+//ああああ
+AAAA[END][END][END][END]
+//ああああ
+AAAA[END][END][END][END]
+//いいいい
+BBBB[END][END][END][END]
+//うううう
+CCCC[END][END][END][END]
+
+//ああああ
+AAA[END][END][END][END][END]
+//ああああ
+AAA[END][END][END][END][END]
+//いいいい
+BBB[END][END][END][END][END]
+//うううう
+CCC[END][END][END][END][END]
+
+//ああああ
+AA[END][END][END][END][END][END]
+//ああああ
+AA[END][END][END][END][END][END]
+//いいいい
+BB[END][END][END][END][END][END]
+//うううう
+CC[END][END][END][END][END][END]
+
+//ああああ
+A[END][END][END][END][END][END][END]
+//ああああ
+A[END][END][END][END][END][END][END]
+//いいいい
+B[END][END][END][END][END][END][END]
+//うううう
+C[END][END][END][END][END][END][END]

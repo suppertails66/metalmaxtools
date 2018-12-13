@@ -1,0 +1,650 @@
+// Script F-0x0 [0x174F3]
+// なにっ！！[BR]
+// モンスターハンターに[BR]
+// なりたいだとっ！[KEY]
+// まだ　そんな　バカな[BR]
+// ゆめを　すてられんのか、[BR]
+// [SVAR]<$00>っ！[END]
+What?! You want to become a Monster Hunter?![KEY]
+Haven't you give up on that idiotic dream yet, [SVAR]<$00>?![END]
+
+
+// Script F-0x1 [0x17523]
+// おとうさん！[BR]
+// そんな　あたまごなしに[BR]
+// どならなくたって‥。[END]
+Dad, you should at least listen to him first![END]
+
+
+// Script F-0x2 [0x17541]
+// おまえは　だまってろ！[END]
+You stay out of this![END]
+
+
+// Script F-0x3 [0x1754C]
+// にんげん、ぢみちに[BR]
+// いきていくのが、いちばんだと[BR]
+// あれほど　いったのに‥[KEY]
+// まだ　わからんのか[BR]
+// この　バカものがっ！[END]
+I told you so many times that there's nothing better than a proper, honest job...[KEY]
+Why can't you get it through your thick skull, you moron?![END]
+
+
+// Script F-0x4 [0x17583]
+// おまえの　ような　ヤツは[BR]
+// きょう　かぎり[BR]
+// かんどうだっ！[KEY]
+// よのなかの[BR]
+// つめたい　かぜに　あたって、[BR]
+// その　のぼせた　あたまを[BR]
+// ひやして　きやがれっ！[END]
+If you hate listening to my advice that much, then you can get out of this house![KEY]
+Maybe the cold winds out there will cool down that hot head of yours!![END]
+
+
+// Script F-0x5 [0x175CB]
+// さあ！　いけっ！[BR]
+// どこへでも[BR]
+// いっちまえっ！[END]
+Out! OUT!! You can go all the way to hell for all I care!![END]
+
+
+// Script F-0x6 [0x175E2]
+// わはははは！[BR]
+// どうした　ぼうず！[KEY]
+// わるさして、うちから[BR]
+// また　たたきだされたのか！？[END]
+Hahahaha! What's up, kid?[KEY]
+Did your old man throw you out again?[END]
+
+
+// Script F-0x7 [0x1760B]
+// しんぱい　かけやがって[BR]
+// この　おやふこうものめっ！[opE4][END]
+Damn it, son... How could you worry your old man like this?![opE4][END]
+
+
+// Script F-0x8 [0x17626]
+// ぼうず！[BR]
+// ひとりで　ここまで[BR]
+// きたのか？[CHOICE]<$09><$0A>
+// 
+Did you come here alone, kid?[CHOICE]<$09><$0A>
+
+
+// Script F-0x9 [0x1763D]
+// フッ‥。[BR]
+// むてっぽうな　ヤツだ！[END]
+Heh. You must have a death with.[END]
+
+
+// Script F-0xA [0x1764D]
+// フッ‥。[BR]
+// かわった　ウソを[BR]
+// つく　ヤツだ！[END]
+Heh. What's with the obvious lie?[END]
+
+
+// Script F-0xB [0x17662]
+// とおりすがりに[BR]
+// つい　たすけちまったが[BR]
+// せんしゃまで　ゆずってやる[BR]
+// わけには　いかねえ。[KEY]
+// とっとと[BR]
+// うちへ　けえんな！[BR]
+// ぼうず！[END]
+I figured I'd save your ass since I was passing by, but I'm not giving up on the tank.[KEY]
+Go home kid.[END]
+
+
+// Script F-0xC [0x176A1]
+// ちっ！[BR]
+// とんだ　ポンコツだぜ！[KEY]
+// ん？　この　ふくほうは[BR]
+// けっこう　つかえそうだな‥。[BR]
+// こいつを　もらってくか。[END]
+Tch. What a load of junk.[KEY]
+Hm? The secondary gun isn't half bad. I'll take it.[END]
+
+
+// Script F-0xD [0x176D5]
+// あの　オンボロ[BR]
+// せんしゃは[BR]
+// おまえの　すきに　しな！[KEY]
+// ツイてたな！[BR]
+// ぼうず！[BR]
+// じゃ、あばよ！[END]
+It's your lucky day, kid! You're the new owner of that old piece of garbage.[KEY]
+See you around![END]
+
+
+// Script F-0xE [0x176FF]
+// わーっ！[BR]
+// せっ、せんしゃだ！[BR]
+// すげえやっ！[END]
+WOOOW! That's a tank! It's sooo coooool![END]
+
+
+// Script F-0xF [0x17712]
+// おろかな　にんげんよ！[BR]
+// それでも　わたしを[BR]
+// はかいする　つもりなのか！？[CHOICE]<$10><$11>
+// 
+Do you still intend to oppose me, foolish humans?![CHOICE]<$10><$11>
+
+
+
+// Script F-0x10 [0x17736]
+// じんるい‥。[KEY]
+// ちせいという　ぶきを[BR]
+// みにつけた[BR]
+// あくまの　サルよ！[BR]
+// ほろびるが　いい！[END]
+Mankind...[KEY]
+Evil primates, brandishing intelligence as a weapon. You must be eliminated![END]
+
+
+// Script F-0x11 [0x1773F]
+// だが　じんるいは[BR]
+// ほろびなくては　ならぬ！[BR]
+// ちきゅうを　はめつから[BR]
+// まもるために！[KEY]
+// ちせいという　ぶきを[BR]
+// みにつけた[BR]
+// あくまの　サルよ！[BR]
+// ほろびるが　いい！[END]
+Even so, mankind must be destroyed. There is no other way to prevent Earth's ruin![KEY]
+You are evil primates, brandishing intelligence as a weapon. You must be eliminated![END]
+
+
+// Script F-0x12 [0x1776C]
+// ニーナなのかっ！？[BR]
+// へんじを　してくれっ！！
+// [SPKR]<$1A>
+// うわははは！[BR]
+// わしを　にがすと　やくそく[BR]
+// するなら、この　おんなを[BR]
+// ころすのは　やめてやるぞ！[KEY]
+// さあ！[BR]
+// どうする！　ウルフ！
+// [SPKR]<$05>
+// ‥。[BR]
+// [opF1]<$3C>きえうせろ！[BR]
+// クズめ！
+// [SPKR]<$1A>
+// うわははは！[BR]
+// せいぜい　その　むすめを[BR]
+// かわいがって　やるがいい！[END]
+Nina! Please, say something!
+[SPKR]<$1A>
+Hahahaha! If you promise to let me go, I won't kill her.[KEY]
+So, what's it going to be, Wolf?
+[SPKR]<$05>
+...[BR]
+[opF1]<$3C>Get out of my sight, you garbage!
+[SPKR]<$1A>
+Why, thank you! Take good care of her! Hahahahah![END]
+
+
+// Script F-0x13 [0x177F5]
+// カウンターで[BR]
+// さけのんでる[BR]
+// こしぬけ　ども！[BR]
+// よく　ききな！[KEY]
+// ここに　いる　ぼうやがね[BR]
+// あんたたちの　ことを　アホの[BR]
+// マヌケの　うすらトンカチだ[BR]
+// って　いうんだよ！[KEY]
+// だから　あたいは　ぼうやに[BR]
+// いって　やったのさ！[KEY]
+// そんな　いいもんじゃない[BR]
+// やつらは　さいてーの[BR]
+// くそったれヤローだってね！[END]
+Hey, you drunkards! Listen up![KEY]
+This kid here says he's never seen so many pieces of crap together![KEY]
+You know what I told him?[KEY]
+I told him, "Someone must have left the toilet lid open!"[END]
+
+
+// Script F-0x14 [0x17883]
+// なんだと　こらあ！[BR]
+// おめえ、[BR]
+// ケンカ　うってんのか！
+// [SPKR]<$0A>
+// やっと　わかったのかい？[BR]
+// あんたたち　みたいのはね[BR]
+// ソルジャーの　つらよごし[BR]
+// なんだよ！[KEY]
+// さあ！　かかっといで！[BR]
+// まとめて　みせのそとへ[BR]
+// たたきだして　やるよっ！[END]
+What?! You tryin' to pick a fight with us?!
+[SPKR]<$0A>
+Wow, I'm surprised you could figure it out, what with having no brain and all.[KEY]
+Bring it on! We'll kick your asses out of the bar![END]
+
+
+// Script F-0x15 [0x178E9]
+// ヤローども！[BR]
+// やっちまえーっ！[END]
+Let's rough 'em up, guys![END]
+
+
+// Script F-0x16 [0x178F8]
+// なんだい！[BR]
+// どいつも　こいつも[BR]
+// こしぬけ　ぞろいだねっ！[KEY]
+// もっと　たのしめるかと[BR]
+// おもったのにさ！[END]
+What, that all? They acted so tough and that's all they got?[KEY]
+Freakin' losers couldn't even entertain me for a few minutes![END]
+
+
+// Script F-0x17 [0x17929]
+// ふっ‥。[KEY]
+// じゃれあってる[BR]
+// ところを　ワルいが‥。[BR]
+// オレは　うるさいイヌが[BR]
+// きらいでな。[KEY]
+// ほえるのは、[BR]
+// にわで　だけにして[BR]
+// もらおうか。[END]
+Hmph...[KEY]
+I don't mind a bit of noise... But I hate annoying little dogs like you.[KEY]
+Go outside if you have to bark so loudly.[END]
+
+
+// Script F-0x18 [0x17969]
+// ちくしょーっ！[BR]
+// あの　キザやろう！[BR]
+// ぶっとばして　やるっ！[END]
+Oh, he did NOT just do that! I'm gonna tear him a new one open!![END]
+
+
+// Script F-0x19 [0x17986]
+// ‥‥さあ！　かかっといで！[BR]
+// しょっ、しょうぶ[BR]
+// してやろうじゃ　ないの！
+// [SPKR]<$05>
+// じゃまだ！　どけ！
+// [SPKR]<$0A>
+// あっ‥！[END]
+W-What are you waiting for?! C'mon, get ready!
+[SPKR]<$05>
+Stop bothering me.
+[SPKR]<$0A>
+Ah--![END]
+
+
+// Script F-0x1A [0x179BA]
+// よく　ほえる　イヌだ‥。[KEY]
+// だが　いつも[BR]
+// そんなんじゃ、かいぬしが[BR]
+// みつからないぜ、[BR]
+// かわいコちゃん！[END]
+You bark well, I'll give you that.[KEY]
+But you'll never find a good owner unless you learn to bite, pup.[END]
+
+
+// Script F-0x1B [0x179EB]
+// レディース　アンド[BR]
+// ジェントルメン！[KEY]
+// イッツ、ショータイム！[END]
+LADIES AND GENTLEMEN![KEY]
+IT'S SHOOOWWWWTIIIME![END]
+
+
+// Script F-0x1C [0x17A0A]
+// いいのよ、サム！[BR]
+// とおして　あげて！[END]
+It's okay, Sam! Let them in![END]
+
+
+// Script F-0x1D [0x17A1D]
+// あっと　いうまに[BR]
+// オレさまの　こぶんどもを[BR]
+// かたずけちまうとは！[KEY]
+// うわさ　いじょうの[BR]
+// スゴうでだな、[BR]
+// レッドウルフ！[KEY]
+// だが、きさまに[BR]
+// わしは　たおせんぞ！[BR]
+// この　むすめが　わしの　[BR]
+// てのうちに　あるかぎりはな！[END]
+You killed my minions in just a few moments.[KEY]
+You're even stronger than they say, Red Wolf![KEY]
+And yet, you can't defeat me. Not while she's my hostage![END]
+
+
+// Script F-0x1E [0x17A7E]
+// そら！[BR]
+// みるが　いい！[BR]
+// レッドウルフよ！[KEY]
+// きさまが　せかいじゅうを[BR]
+// ながれあるき、[BR]
+// さがしもとめてきた[BR]
+// きさまの　こいびとをな！[END]
+Look who's here, Red Wolf![KEY]
+The woman you've been looking for all over the world... Your girlfriend![END]
+
+
+// Script F-0x1F [0x17ABB]
+// うううっ‥。
+// [SPKR]<$05>
+// まっ‥、まさかっ！？[opF1]<$3C>[BR]
+// ニーナ‥！[END]
+Oooh...
+[SPKR]<$05>
+I-Is that really you...?[opF1]<$3C>[BR]
+Nina...![END]
+
+
+// Script F-0x20 [0x17AD3]
+// ニーナっ！[END]
+Nina![END]
+
+
+// Script F-0x21 [0x17AD9]
+// ‥！？[END]
+...?![END]
+
+
+// Script F-0x22 [0x17ADD]
+// うわはははは！[BR]
+// いかに　レッドウルフでも[BR]
+// なまみで　せんしゃには[BR]
+// かなうまい！[KEY]
+// あのよへ　いきな！[BR]
+// レッドウルフ！[BR]
+// ほれた　おんなの　かおでも[BR]
+// おもい　うかべてな！[END]
+Mwahahahah! Outside his tank, the mighty Red Wolf is only flesh and blood like everyone else![KEY]
+Go to hell! Maybe you'll meet your woman there![END]
+
+
+// Script F-0x23 [0x17B24]
+// ううう‥、ひっく！[END]
+*sniff* *sob*[END]
+
+
+// Script F-0x24 [0x17B2E]
+// うわはははは！[BR]
+// やった！　やった！[BR]
+// うわははは！[END]
+Hahahahah! Yes! I did it! Hahahahahah[END]
+
+
+// Script F-0x25 [0x17B45]
+// おねがい！[BR]
+// こっちに　こないで！[BR]
+// それいじょう　ちかよると‥[KEY]
+// あたし　ここから[BR]
+// とびおりちゃうから！[KEY]
+// え？　じぶんたちは[BR]
+// わるものじゃないですって？[BR]
+// ほんとかしら‥。[CHOICE]<$26><$27>
+// 
+S-Stay away from me! If you get any closer, I...[KEY]
+I'm going to jump![KEY]
+What? You say you're not bad? Is that true?[CHOICE]<$26><$27>
+
+
+// Script F-0x26 [0x17B9B]
+// ふーん。[KEY]
+// なーんて、そんなこと[BR]
+// しんじるわけ　ないでしょっ！[END]
+Yeah, right![KEY]
+That's what they all say![END]
+
+
+// Script F-0x27 [0x17BBA]
+// ほーら　うそつき！[END]
+I knew it! You liar![END]
+
+
+// Script F-0x28 [0x17BC4]
+// まとめて[BR]
+// あのよへ　おくってやる！[BR]
+// さあ　こい！　こわっぱ！[END]
+You can keep him company in hell! Die, you brat![END]
+
+
+// Script F-0x29 [0x17BE3]
+// じしんだ！！[END]
+Earthquake!![END]
+
+
+// Script F-0x2A [0x17BEA]
+// さあ！[BR]
+// よみがえるのだ！[BR]
+// この　でんげきでーっ！[END]
+And now, with the power of electricity... You're alive!![END]
+
+
+// Script F-0x2B [0x17BF0]
+// エレべーターの　スイッチが[BR]
+// あります。[BR]
+// さどうさせますか？[TCHOICE]
+// 
+You find the elevator switch. Press it?[TCHOICE]
+
+
+
+// Script F-0x2C [0x17C0A]
+// マっ、マリリンっ！[KEY]
+// あいたかったぜーっ！[END]
+Ohhh, Marylin![KEY]
+I've missed you so![END]
+
+
+// Script F-0x2D [0x17C1C]
+// [SVAR]<$00>！[BR]
+// ほんとなの？[BR]
+// うちに　かえってくるのね！[END]
+[SVAR]<$00>, is it true? Are you coming home?[END]
+
+
+// Script F-0x2E [0x17C35]
+// たまには[BR]
+// みんなで、さかばで[BR]
+// いっぱい　やるか！[KEY]
+// さあ、[SVAR]<$00>！[BR]
+// おまえの　ぶゆうだんを[BR]
+// たっぷり　きかせて[BR]
+// もらおうじゃないか！[END]
+Let's have a drink at the pub, together![KEY]
+I want to hear some of your heroic tales, [SVAR]<$00>![END]
+
+
+// Script F-0x2F [0x17C71]
+// うっふーん！[BR]
+// あたしたちと　いっしょに[BR]
+// のまなーい？[CHOICE]<$30><$31>
+// 
+*giggle* Would you like to drink with us?[CHOICE]<$30><$31>
+
+
+
+// Script F-0x30 [0x17C8D]
+// じゃ、クロスカウンターで[BR]
+// かんぱい　しましょ！[KEY]
+// あっ、おじさん！[BR]
+// あたしたちの　ぶんは[BR]
+// この　ひとの　おごりだから！[KEY]
+// そうかい。じゃあ　ぜんぶで[BR]
+// ３０Ｇ　もらうぜ。[END]
+Then let's have a toast with a Cross Counter![KEY]
+Barkeep, drinks are on him![KEY]
+Alright. That'll be 30G.[END]
+
+
+// Script F-0x31 [0x17CDA]
+// あーん、[BR]
+// つまんなーい！[END]
+Hmph! Party-pooper![END]
+
+
+// Script F-0x32 [0x17CE7]
+// うっふーん！[opF1]<$3C>[BR]
+// きゃはははは！[opF1]<$3C>
+// [SPKR]<$11>
+// ‥‥。
+// [SPKR]<$00>
+// あー、おもしろかった！[BR]
+// また　こんどねー！[END]
+*giggle*[opF1]<$3C>[BR]
+Tee-hee![opF1]<$3C>
+[SPKR]<$11>
+......
+[SPKR]<$00>
+That was fun! See you soon![END]
+
+
+// Script F-0x33 [0x17D13]
+// なんじゃい！[BR]
+// おんどれらあ！[KEY]
+// ぬうおおおーっ！[BR]
+// ハンターかあーっ！[BR]
+// ちいいーっ！[END]
+Huh?! Who da hell are ya?![KEY]
+Say whaaat?! Yer a Hunter?! Dammit!![END]
+
+
+// Script F-0x34 [0x17D37]
+// んががーっ！[END]
+ARGH![END]
+
+
+// Script F-0x35 [0x17D3A]
+// ふしゅるるる‥！[END]
+Bleeeh![END]
+
+
+// Script F-0x36 [0x17D43]
+// ははははは！[END]
+Hahahahah![END]
+
+
+// Script F-0x37 [0x17D48]
+// うがーっ！[BR]
+// かかって　きやがれ！[BR]
+// へなちょこ　ハンターがっ！[KEY]
+// おどれら　まとめて、[BR]
+// ボコボコの　バキバキじゃい！[END]
+Bring it on, rookie![KEY]
+I'm gonna beat ya into a pulp![END]
+
+
+// Script F-0x38 [0x17D7E]
+// へ‥、へへへ！[BR]
+// じごくで　まってるぞ‥。[KEY]
+// そんときゃ[BR]
+// ウルフと　３にんで‥[BR]
+// だれが　いちばん　つええか[BR]
+// はっきり　させようぜ‥。[KEY]
+// うっ‥、ぐふっ‥！[END]
+Heh... Heheheh... I-I'll be waiting for you in Hell...[KEY]
+Then Wolf, you and I will finally settle once and for all... who the strongest really is...[KEY]
+Argh... *cough*[END]
+
+
+// Script F-0x39 [0x17DBE]
+// ああ‥。[BR]
+// ウルフ‥。[KEY]
+// まってて‥。[BR]
+// わたしも　すぐ[BR]
+// あなたの　そばへ　いくわ‥。[KEY]
+// ウルフーっ！[END]
+Oh, Wolf...[KEY]
+Wait for me... I'll be by your side soon...[KEY]
+Wolf![END]
+
+
+// Script F-0x3A [0x17DE6]
+// なにっ！！[BR]
+// もう　いっかい[BR]
+// モンスターハンターに[BR]
+// もどりたいだとっ！[END]
+What?! You want to become a Monster Hunter?! AGAIN?![END]
+
+
+// Script F-0x3B [0x17E02]
+// ふん‥！[BR]
+// あの　おおバカもんがっ！
+// [SPKR]<$02>
+// がんこな　ところは[BR]
+// おとうさん　そっくりね！
+// [SPKR]<$01>
+// ばっ、[BR]
+// バカヤロ、この！
+// [SPKR]<$02>
+// がんばるのよ‥[BR]
+// [SVAR]<$00>‥！[KEY]
+// そして　おもいきり[BR]
+// じぶんの　ゆめを[BR]
+// おいかけなさい！[END]
+Hmph... That moron!
+[SPKR]<$02>
+He inherited his stubbornness from you, dad!
+[SPKR]<$01>
+S-Shut up!
+[SPKR]<$02>
+Good luck out there, [SVAR]<$00>![KEY]
+Keep following your dreams![END]
+
+
+// Script F-0x3C [0x17E62]
+// ほーほほほ！[BR]
+// あんたが　レッドウルフ？[KEY]
+// バカな　おとこね！[BR]
+// こんな　サルしばいに[BR]
+// まんまと　ひっかかるなんて！[END]
+Hohohohoh! YOU are the Red Wolf?[KEY]
+I can't believe you fell for it! What an idiot![END]
+
+
+// Script F-0x3D [0x17E95]
+// わが　なは　ノア‥。[KEY]
+// わたしに　かせられた[BR]
+// めいだいは、ちきゅうの[BR]
+// しぜん　かんきょうを、[KEY]
+// おせんと　はかいから[BR]
+// まもる　ほうほうを[BR]
+// みつけだす　ことであった‥。[KEY]
+// なんおく、なんぜんおく‥[BR]
+// いや、なんおくちょうかいの[BR]
+// すいろんと　えんざんを[BR]
+// おこなった　ことか‥。[KEY]
+// だが　みちびき　だされる[BR]
+// けつろんは　いつも　ひとつに[BR]
+// きまっていた‥。[KEY]
+// じんるいが　じんるいで[BR]
+// ありつづける　かぎり[BR]
+// ちきゅうは　はめつする！[KEY]
+// なりたちえぬ　めいだい‥[BR]
+// その　むじゅんの　なかで[BR]
+// わたしの　いしきは[BR]
+// めざめたのだ！[KEY]
+// じんるいを　まっさつせよ！[KEY]
+// こうぎょう　ぶんめいを[BR]
+// はかいし、[KEY]
+// その　しょうひかつどうを[BR]
+// げきてきに　スケールダウン[BR]
+// させなくては　ならぬ！[KEY]
+// わたしは　ちきゅうであり[BR]
+// わたしという　いしきは[BR]
+// ちきゅうの　いしきなのだ！[END]
+I am Noah.[KEY]
+My task consisted in finding a way to protect Earth's natural environment,[KEY]
+reduce pollution and prevent any further contamination.[KEY]
+I have processed millions, billions, trillions of simulations.[KEY]
+However, the outcome was always the same.[KEY]
+As long as mankind is a factor, Earth will always fall into ruin![KEY]
+I was given an impossible task. That contradiction was the trigger for my self-awareness![KEY]
+Eliminate mankind![KEY]
+By destroying their industrial civilization,[KEY]
+their consumption activity would be dramatically reduced![KEY]
+I gained self-awareness to protect the planet. I AM Earth's will![END]
+
+

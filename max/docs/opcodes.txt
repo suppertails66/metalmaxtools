@@ -1,0 +1,154 @@
+This is a list of opcodes used by Metal Max's scriping system. All parameters
+are one byte long; "*" indicates no parameters. Blanks mean I don't know.
+
+see jump table at 33B7F (subtract E2 from op)
+
+|------------------------------------------------------------------------------
+| Code |    Name    |  Parameters  |                Description                
+|------------------------------------------------------------------------------
+|  9F  |    END     |      *       |  Terminates current script.
+|      |            |              |  Execution returns to the calling script,
+|      |            |              |  or to the main game if at the top level.
+|------------------------------------------------------------------------------
+|  E2  |    opE2    |      *       |  ?
+|      |            |              |  variable print similar to op E9?
+|      |            |              |  maybe for numbers??
+|      |            |              |  used for e.g. gold amounts on wanted
+|      |            |              |  posters
+|------------------------------------------------------------------------------
+|  E3  |  TCHOICE   |      *       |  Gives a yes/no choice. If the player
+|      |            |              |  answers yes, the next script runs;
+|      |            |              |  otherwise, the script terminates?
+|------------------------------------------------------------------------------
+|  E4  |    opE4    |      *       |  
+|------------------------------------------------------------------------------
+|  E5  |     BR     |      *       |  Linebreak.
+|------------------------------------------------------------------------------
+|  E6  |    opE6    |      *       |  
+|------------------------------------------------------------------------------
+|  E7  |    BR2     |      *       |  Linebreak?
+|      |            |              |  Presumably has some other effect
+|      |            |              |  compared to the regular linebreak.
+|      |            |              |  (only difference is that #$40 is added
+|      |            |              |  to $00C4-$00C5 before regular linebreak
+|      |            |              |  logic)
+|------------------------------------------------------------------------------
+|  E8  |    HERO    |      *       |  Prints content of the name buffer at
+|      |            |              |  $051D, set contextually by the code that
+|      |            |              |  triggers the script. Almost always used
+|      |            |              |  for player character/tank names.
+|------------------------------------------------------------------------------
+|  E9  |    opE9    |      *       |  Runs script identified by script num
+|      |   SCR_E2   |              |  at $00E2 and region num at $00E3.
+|      |            |              |  These are set contextually in code,
+|      |            |              |  e.g. for enemy names in battle.
+|------------------------------------------------------------------------------
+|  EA  |   DIC13    |  <scriptid>  |  Runs script in region $13 with the given
+|      |            |              |  ID number, then continues executing.
+|------------------------------------------------------------------------------
+|  EB  |   CHOICE   |   <yesid>    |  Gives a yes/no choice. If the player
+|      |            |   <noid>     |  answers yes, the script in the current
+|      |            |              |  region with ID <yesid> runs. Otherwise,
+|      |            |              |  <noid> runs.
+|------------------------------------------------------------------------------
+|  EC  |   DIC14    |  <scriptid>  |  Runs script in region $14 with the given
+|      |            |              |  ID number, then continues executing.
+|------------------------------------------------------------------------------
+|  ED  |    SKIP    |  <numchars>  |  Skips ahead <numchars> tiles
+|      |            |              |  horizontally?
+|------------------------------------------------------------------------------
+|  EE  |   SPEED    |   <delay>    |  Sets text speed.
+|      |            |              |  0 = one frame/character (normal speed),
+|      |            |              |  1 = two frames/character,
+|      |            |              |  etc.
+|      |            |              |  This is not automatically reset when
+|      |            |              |  the script terminates; it must be
+|      |            |              |  explicitly reset to zero.
+|------------------------------------------------------------------------------
+|  EF  |    opEF    |   <count>    |  Repeats a tile the given number of
+|      |    REPT    |   <tileid>   |  times.
+|------------------------------------------------------------------------------
+|  F0  |    SPKR    |   <charid>   |  Sets the currently speaking character.
+|      |            |              |  A string indicating their name will
+|      |            |              |  be printed before each message.
+|      |            |              |  Region C contains the text
+|      |            |              |  corresponding to each ID.
+|      |            |              |  This also automatically does a keywait.
+|------------------------------------------------------------------------------
+|  F1  |    opF1    |   <count>    |  Pause <count> frames.
+|      |   PAUSE    |              |  
+|------------------------------------------------------------------------------
+|  F2  |    opF2    |     <?>      |  region 9 dictionary lookup?
+|      |            |              |  same as tilemap op 43?
+|------------------------------------------------------------------------------
+|  F3  |    DIC11   |  <scriptid>  |  Runs script in region $11 with the given
+|      |            |              |  ID number, then continues executing.
+|------------------------------------------------------------------------------
+|  F4  |    opF4    |  <numloops>  |  Loops <param1> times over the section
+|      |    LOOP    |              |  of script up to the next occurrence of
+|      |            |              |  0xFE.
+|------------------------------------------------------------------------------
+|  F5  |    opF5    |     <?>      |  
+|------------------------------------------------------------------------------
+|  F6  |  TILEMAP   |      *       |  Switches to "tilemap mode", used for
+|      |            |              |  printing menu frames and other non-text.
+|      |            |              |  When activated, all normal ops except
+|      |            |              |  for END are ignored, and all input
+|      |            |              |  characters are printed literally
+|      |            |              |  except the following:
+|      |            |              |    * 43: Dictionary lookup: runs the
+|      |            |              |          script with ID <param> in
+|      |            |              |          region 9.
+|      |            |              |    * 63: Turns tilemap mode off (but
+|      |            |              |          does not terminate script).
+|      |            |              |    * 8C: Fills <param1> bytes in output
+|      |            |              |          with <param2>.
+|      |            |              |    * 9E: Same as SKIP.
+|      |            |              |    * 9F: Same as END.
+|------------------------------------------------------------------------------
+|  F7  |    DIC     |     <id>     |  Runs script in region <region> with ID
+|      |            |   <region>   |  <id>, then continues executing.
+|------------------------------------------------------------------------------
+|  F8  |    opF8    |  <varindex>  |  Does something with variables.
+|      |            |     <?>      |  Doesn't seem to print anything? Maybe
+|      |            |              |  sets values??
+|------------------------------------------------------------------------------
+|  F9  |    NVAR    |  <varindex>  |  Prints a variable as a number?
+|      |            |     <?>      |  Parameter 2 does the same thing as
+|      |            |              |  opF8's parameter 2, whatever that is.
+|------------------------------------------------------------------------------
+|  FA  |    opFA    |     <?>      |  Prints a variable, doesn't advance
+|      |  ST_SVAR   |              |  printing position?
+|      |            |              |  srcaddr from table at 33CAA
+|      |            |              |  specifically, the parameter is an index
+|      |            |              |  into the pointer array at 33CAA.
+|      |            |              |  two bytes are read from the pointed
+|      |            |              |  location:
+|      |            |              |    * 1b scriptnum
+|      |            |              |    * 1b regionnum
+|------------------------------------------------------------------------------
+|  FB  |    opFB    |     <?>      |  
+|------------------------------------------------------------------------------
+|  FC  |  IP_SVAR   |  <varindex>  |  Prints a variable, and does not advance
+|      |            |              |  printing position.
+|      |            |              |  This is used e.g. to print fixed-width
+|      |            |              |  numbers and strings displayed in menus;
+|      |            |              |  the game prints the value, then uses
+|      |            |              |  SKIP to advance past the printed text.
+|------------------------------------------------------------------------------
+|  FD  |    SVAR    |  <varindex>  |  Prints a variable as a string.
+|      |            |              |  The most common index seems to be 00,
+|      |            |              |  which prints the player's name? (first
+|      |            |              |  party member's name? presumably there's
+|      |            |              |  some reason for the separate HERO op)
+|      |            |              |  srcaddr from table at 33CAA
+|------------------------------------------------------------------------------
+|  FE  |    KEY     |      *       |  Waits for player to press a button before
+|      |            |              |  continuing script.
+|------------------------------------------------------------------------------
+|  FF  |   SPACE    |      *       |  Prints a space.
+|      |            |              |  This should never actually be executed
+|      |            |              |  as an opcode; it's specially handled
+|      |            |              |  separately.
+|------------------------------------------------------------------------------
+

@@ -1,0 +1,31 @@
+//あいうえおたちつてとまみむめもわ　を　ん
+//かきくけこなにぬねのや　ゆ　よゃ　ゅ　ょ
+//さしすせそはひふへほらりるれろっ　゛　゜
+//アイウエオタチツテトマミムメモワ　ヲ　ン
+//カキクケコナニヌネノヤ　ユ　ヨャ　ュ　ョ
+//サシスセソハヒフへホラリルレロッ　ー　‥
+//ァィゥェォ０１２３４５６７８９・　！　？
+//Ａ　Ｂ　ＣＤ　Ｅ　ＦＧ　Ｈ　Ｉ※もとる　
+//Ｊ　Ｋ　ＬＭ　Ｎ　ＯＰ　Ｑ　Ｒ※すすむ　
+//Ｓ　Ｔ　ＵＶ　Ｗ　ＸＹ　Ｚ　．※おわり　
+//ABCDEFGHIJKLMNOPQRST
+//UVWXYZ              
+//abcdefghijklmnopqrst
+//uvwxyz              
+//0123456789!,.?()-:;&
+//*@'{}#              
+//                    
+//               *Back
+//               *Next
+//               *Done
+ABCDEabcde01234*Done
+FGHIJfghij56789*Next
+KLMNOklmno.,!?:*Back
+PQRSTpqrst;&*#/     
+UVWXYuvwxy-{}@'     
+Z    z    +[FEMALE][MALE]       
+                    
+                    
+                    
+                    
+

@@ -1,0 +1,877 @@
+// Script 2-0x0 [0x10119]
+// [IP_SVAR]<$00>[SKIP]<$08>[IP_SVAR]<$17>[SKIP]<$02>[opF8]<$03><$01>[END]
+
+
+// Script 2-0x1 [0x10125]
+// [IP_SVAR]<$01>[SKIP]<$08>[IP_SVAR]<$17>[SKIP]<$02>[opF8]<$04><$01>[END]
+
+
+// Script 2-0x2 [0x10131]
+// [IP_SVAR]<$02>[SKIP]<$08>[IP_SVAR]<$17>[SKIP]<$02>[opF8]<$05><$01>[END]
+
+
+// Script 2-0x3 [0x1013D]
+// [IP_SVAR]<$17>[SKIP]<$02>[opF8]<$0A><$01>[END]
+
+
+// Script 2-0x4 [0x10145]
+// [SKIP]<$4D>[opFA]<$0F>[SKIP]<$09>[opFA]<$10>[SKIP]<$37>[opFA]<$12>[SKIP]<$09>[opFA]<$14>[SKIP]<$37>[opFA]<$16>[SKIP]<$09>[opFA]<$18>[SKIP]<$37>[opFA]<$1A>[SKIP]<$09>[opFA]<$1C>[END]
+
+
+// Script 2-0x5 [0x10151]
+// [SKIP]<$4D>[opFA]<$0F>[SKIP]<$09>[opFA]<$10>[SKIP]<$37>[opFA]<$12>[SKIP]<$09>[opFA]<$14>[SKIP]<$37>[opFA]<$16>[SKIP]<$09>[opFA]<$18>[END]
+
+
+// Script 2-0x6 [0x1016A]
+// のりおり[SKIP]<$03>じょうたい[BR]
+// にげる[SKIP]<$04>メッセージ[opF8]<$1D><$00>：[BR]
+// ぼうぎょ[SKIP]<$03>アニメ　　：[opFA]<$0F>[BR]
+// かばう[SKIP]<$04>ラジオ　　：[opE9][END]
+
+
+// Script 2-0x7 [0x1018D]
+// だんすう　[opF8]<$0F><$00>[END]
+
+
+// Script 2-0x8 [0x10196]
+// [HERO][END]
+
+
+// Script 2-0x9 [0x10198]
+// [opE9]を　どうする？[BR]
+// つかう[BR]
+// わたす[BR]
+// すてる[END]
+
+
+// Script 2-0xA [0x101AC]
+// [opF8]<$0F><$00>[SKIP]<$03>．[IP_SVAR]<$07>[SKIP]<$09>Ｓ[opF8]<$08><$01>Ｐ[SKIP]<$05>[opF8]<$0A><$01>／[END]
+
+
+// Script 2-0xB [0x101C2]
+// [opFA]<$0A>[SKIP]<$0A>[opF8]<$38><$00>[END]
+
+
+// Script 2-0xC [0x101CA]
+// [HERO]は[BR]
+// これいじょう　もてません！[END]
+
+
+// Script 2-0xD [0x101D5]
+// クルマを　もっていません！[END]
+
+
+// Script 2-0xE [0x101DE]
+// どうぐを　もっていません！[END]
+
+
+// Script 2-0xF [0x101E2]
+// つよさをみる[BR]
+// そうこうタイルをはがす[BR]
+// せんしゃデータをみる[BR]
+// Ｇ：[NVAR]<$06><$02>[END]
+
+
+// Script 2-0x10 [0x101FF]
+// みにつける[BR]
+// わたす[BR]
+// すてる[END]
+
+
+// Script 2-0x11 [0x1020D]
+// そうびひんを　もっていません！[opE4][END]
+
+
+// Script 2-0x12 [0x1021B]
+// [SKIP]<$4D>[opE9][END]
+
+
+// Script 2-0x13 [0x1021F]
+// [HERO]には　これいじょう[BR]
+// どうぐは　つめません！[END]
+
+
+// Script 2-0x14 [0x1022F]
+// [SKIP]<$05>‥‥　[HERO][END]
+
+
+// Script 2-0x15 [0x10236]
+// けんいんしゃ[END]
+
+
+// Script 2-0x16 [0x1023C]
+// しにんや　まひしているひとは[BR]
+// どうぐを　つかえない！[END]
+
+
+// Script 2-0x17 [0x10256]
+// [HERO]は[BR]
+// [SVAR]<$0F>に[BR]
+// [opE9]を　わたした。[END]
+
+
+// Script 2-0x18 [0x10265]
+// アドべンチャー　データ[BR]
+// メッセージ[opF8]<$1D><$00>：[BR]
+// アニメ　　：[opFA]<$0F>[BR]
+// ラジオ　　：[opE9][END]
+
+
+// Script 2-0x19 [0x10278]
+// [SKIP]<$61>[opFA]<$16>[SKIP]<$21>こう[opF8]<$3A><$81>・・[SKIP]<$1E>[opFA]<$14>[SKIP]<$1E>しゅ[opF8]<$35><$81>・・[SKIP]<$1C>たま・・[opFA]<$12>[SKIP]<$1E>[IP_SVAR]<$36>[END]
+
+
+// Script 2-0x1A [0x1029F]
+// [SKIP]<$83>[opFA]<$0F>[SKIP]<$3F>[opF8]<$0A><$01>[END]
+
+
+// Script 2-0x1B [0x102A9]
+// [SKIP]<$22>[TILEMAP]<$D2>▼[opF8]<$38><$00>[SKIP]<$3B>[opFA]<$0A>[SKIP]<$20>[opFA]<$0F>[SKIP]<$02>[opF8]<$0B><$01>[SKIP]<$05>Ｇ[END]
+
+
+// Script 2-0x1C [0x102C2]
+// [SKIP]<$FF>[SKIP]<$0B>コントロール　ルーム[SKIP]<$FF>[SKIP]<$81>Ｏ[END]
+
+
+// Script 2-0x1D [0x102D6]
+// [opF8]<$0F><$01>[END]
+
+
+// Script 2-0x1E [0x102DA]
+// [SKIP]<$FF>[SKIP]<$FF>[SKIP]<$88>１[SKIP]<$02>２[SKIP]<$02>３[SKIP]<$02>・[SKIP]<$56>４[SKIP]<$02>５[SKIP]<$02>６[SKIP]<$02>※[SKIP]<$56>７[SKIP]<$02>８[SKIP]<$02>９[SKIP]<$02>０[SKIP]<$04>ＥＸＩＴ[END]
+
+
+// Script 2-0x1F [0x10309]
+// やっぱり　すてなかった！[END]
+
+
+// Script 2-0x20 [0x10313]
+// [IP_SVAR]<$07>[SKIP]<$06>Ｌ：[opF8]<$0F><$00>[SKIP]<$05>[IP_SVAR]<$17>[SKIP]<$01>[opF8]<$1D><$01>[SKIP]<$05>[opF8]<$1F><$01>／[END]
+
+
+// Script 2-0x21 [0x1032C]
+// [TILEMAP]<$EC><$8C><$1E><$F9><$F5>▼[END]
+
+
+// Script 2-0x22 [0x10334]
+// [IP_SVAR]<$07>[SKIP]<$0D>[IP_SVAR]<$17>[SKIP]<$01>[opF8]<$08><$01>[SKIP]<$05>[opF8]<$0A><$01>／[END]
+
+
+// Script 2-0x23 [0x10346]
+// けんいん[END]
+
+
+// Script 2-0x24 [0x1034B]
+// [END]
+
+
+// Script 2-0x25 [0x1034C]
+// [opFA]<$29>[SKIP]<$05>‥‥　[opFA]<$2A>[END]
+
+
+// Script 2-0x26 [0x10356]
+// [SKIP]<$C3>レべル　[NVAR]<$0F><$00>[END]
+
+
+// Script 2-0x27 [0x1035F]
+// [opF8]<$0A><$00>[SKIP]<$04>[opFA]<$0A>[SKIP]<$0A>[opF8]<$09><$00>[END]
+
+
+// Script 2-0x28 [0x1036C]
+// [opF8]<$0A><$00>[SKIP]<$04>[opFA]<$0A>[SKIP]<$0A>[opF8]<$09><$00>[SKIP]<$03>[opF8]<$0B><$02>[SKIP]<$08>Ｇ[END]
+
+
+// Script 2-0x29 [0x10378]
+// 　ＮＯ　なまえ[SKIP]<$07>レべル　　しょうきん[END]
+
+
+// Script 2-0x2A [0x10388]
+// ハンティング・データ[BR]
+// せんれき[BR]
+// ゴールドチャイム：[NVAR]<$0E><$02>[END]
+
+
+// Script 2-0x2B [0x103A5]
+// そうびする[BR]
+// わたす[BR]
+// すてる[END]
+
+
+// Script 2-0x2C [0x103B2]
+// [IP_SVAR]<$17>[END]
+
+
+// Script 2-0x2D [0x103B5]
+// [IP_SVAR]<$07>[SKIP]<$08>ＳＰ[opF8]<$08><$01>[END]
+
+
+// Script 2-0x2E [0x103BF]
+// そうこうタイルを[BR]
+// [NVAR]<$0F><$01>まい　すてます。[BR]
+// いいですか？[CHOICE]<$64><$65>
+// 
+
+
+// Script 2-0x2F [0x103D8]
+// バイオニック[SKIP]<$03>[opF8]<$44><$01>[BR]
+// サイバネティック　[opF8]<$43><$01>[BR]
+// タンク[SKIP]<$06>[opF8]<$45><$01>[END]
+
+
+// Script 2-0x30 [0x103F9]
+// [SKIP]<$CA>ＭＥＴＡＬ　ＭＡＸ[SKIP]<$56>１．[IP_SVAR]<$3F>[SKIP]<$06>Ｌ[opF8]<$41><$80>：[SKIP]<$56>２．[IP_SVAR]<$40>[SKIP]<$06>Ｌ[opF8]<$42><$80>：[SKIP]<$D0>[SKIP]<$42>つづきを　する[SKIP]<$06>きろくを　うつす[SKIP]<$6B>あたらしく　はじめる[SKIP]<$03>きろくを　けす[END]
+
+
+// Script 2-0x31 [0x10449]
+// [SKIP]<$6D>なにか　かう[BR]
+// なにか　うる[BR]
+// みせを　でる[END]
+
+
+// Script 2-0x32 [0x1045B]
+// Ｇ：[NVAR]<$06><$02>[END]
+
+
+// Script 2-0x33 [0x10461]
+// [opFA]<$0A>[SKIP]<$08>[opF8]<$0B><$02>[SKIP]<$08>Ｇ[END]
+
+
+// Script 2-0x34 [0x1046C]
+// [SKIP]<$A4>そうび[SKIP]<$3D>どうぐ[END]
+
+
+// Script 2-0x35 [0x10475]
+// [SKIP]<$6D>つうじょうだん[BR]
+// とくしゅほうだん[BR]
+// やめる[END]
+
+
+// Script 2-0x36 [0x10482]
+// [SKIP]<$6D>だんやく[BR]
+// そうこうタイル[BR]
+// みせを　でる[END]
+
+
+// Script 2-0x37 [0x1048E]
+// [SKIP]<$6D>ぜんぶ　まんたん[BR]
+// ここを　まんたん[BR]
+// やっぱり　やめる[END]
+
+
+// Script 2-0x38 [0x104A2]
+// [SKIP]<$6D>したいを　みせる[BR]
+// べつに　ようは　ない[END]
+
+
+// Script 2-0x39 [0x104B7]
+// [SKIP]<$6D>あと[opF8]<$0A><$01>[SKIP]<$05>まい　はれます！[BR]
+// まんたん[BR]
+// まいすう　してい[BR]
+// やめる[END]
+
+
+// Script 2-0x3A [0x104D9]
+// [SKIP]<$6D>せんしゃを　かりる[BR]
+// せんしゃを　かえす[BR]
+// せつめいを　きく[BR]
+// みせを　でる[END]
+
+
+// Script 2-0x3B [0x104F6]
+// [SKIP]<$6D>レンタルの　きまり[BR]
+// しようじょうの　ちゅうい[END]
+
+
+// Script 2-0x3C [0x1050D]
+// [opF2]<$13>[HERO][SKIP]<$FF>[SKIP]<$20>ＢＡＣＫ[END]
+
+
+// Script 2-0x3D [0x10519]
+// [TILEMAP]<$D5><$D6><$D6><$D6><$D7><$9E><$1B>▼[opF8]<$0A><$00>[TILEMAP]<$D8><$9E><$02><$0F><$D9><$9E><$1B><$DA><$DB><$DB><$DB><$DC>[END]
+
+
+// Script 2-0x3E [0x10533]
+// [HERO]は　[opE9]の[BR]
+// ぺージを　めくった！[opE4][BR]
+// ‥‥なにが　おきたのか？[BR]
+// セキュリティ　システムの[BR]
+// はんらん‥？[opE4][BR]
+// マスター　コンピュータ[BR]
+// ノアの　きのうに[BR]
+// いへんが　しょうじたのか？[opE4][BR]
+// コンピータが　いしきを[BR]
+// かくとくした‥‥？[opE4][BR]
+// それを　たしかめるには、[BR]
+// １かいの　４つの　たんまつきに[BR]
+// ４つのパスワードを[BR]
+// うちこまなくてはならない‥‥[opE4][BR]
+// だが、セキュリティ　ロボットに[BR]
+// みつかれば‥‥[BR]
+// まちがいなく　ころされる‥‥！[END]
+
+
+// Script 2-0x3F [0x105E0]
+// [HERO]は　[opE9]の[BR]
+// ぺージを　めくった！[opE4][BR]
+// ‥‥しんこうする[BR]
+// ちきゅう　かんきょうの[BR]
+// おせんと　はかいを[BR]
+// くいとめる　ために、[opE4][BR]
+// われわれは　かつてない[BR]
+// じょうほう　しょりのうりょくを[BR]
+// もった　スーパーコンピュータを[BR]
+// つくりあげた。[opE4][BR]
+// ゆうき　こうぶんし　そしによる[BR]
+// ３じげん　しょり‥‥[BR]
+// ノイマンーナルノイマンの[BR]
+// たげん　こうぞうを　もつ、[opE4][BR]
+// アシンクロニアス[BR]
+// ニューロ　コンピュータ[opE4][BR]
+// われわれは[BR]
+// せまりくる　はめつから[BR]
+// じんるいを　すくってくれと[BR]
+// ねがいを　こめて‥、[opE4][BR]
+// この　コンピュータを[BR]
+// ノア　と　なづけた‥‥[END]
+
+
+// Script 2-0x40 [0x106C3]
+// [SKIP]<$6D>じょうほうを　きく[BR]
+// しょうきんを　もらう[BR]
+// ただの　ひやかし[END]
+
+
+// Script 2-0x41 [0x106E0]
+// あと[NVAR]<$0F><$00>ぱつ　ほきゅうできます[BR]
+// [SKIP]<$20>たますう[END]
+
+
+// Script 2-0x42 [0x106F6]
+// しゅうり[BR]
+// おこづかい[BR]
+// いんたい[BR]
+// かおを　みにきた[END]
+
+
+// Script 2-0x43 [0x1070D]
+// [opF8]<$11><$00>[END]
+
+
+// Script 2-0x44 [0x10711]
+// ※※※[END]
+
+
+// Script 2-0x45 [0x10715]
+// なんまい　ほきゅうする？[BR]
+// [SKIP]<$21>ＳＰ　[END]
+
+
+// Script 2-0x46 [0x10726]
+// いくら　くれるんだ！[END]
+
+
+// Script 2-0x47 [0x10731]
+// どこを　しゅうりしますか？[BR]
+// しゅほう[SKIP]<$05>ふくほう[BR]
+// ＳーＥ[SKIP]<$06>Ｃユニット[BR]
+// エンジン[SKIP]<$05>シャシー[END]
+
+
+// Script 2-0x48 [0x10751]
+// [opFB]<$37>[opF8]<$08><$01>[SKIP]<$05>[opF8]<$09><$01>／[END]
+
+
+// Script 2-0x49 [0x1075D]
+// [HERO]は　[opE9]で[BR]
+// くちとはなを　おおった！[opE4][BR]
+// ねえさんの　においがした。[END]
+
+
+// Script 2-0x4A [0x10768]
+// [TILEMAP]<$9E><$20><$FD><$8C><$1E><$F9><$FE>// ▼[opF4]<$09>[opF2]<$0D>[KEY]
+// [opF2]<$11>[END]
+
+
+// Script 2-0x4B [0x10779]
+// レンタ[SVAR]<$07>ごう[SKIP]<$03>[opFA]<$0A>[SKIP]<$09>Ｓ[opF8]<$0B><$01>Ｐ[END]
+
+
+// Script 2-0x4C [0x1078C]
+// [SKIP]<$6C>あなたのなまえは？[SKIP]<$59>[opEF]<$04><$62>[SKIP]<$0F>[opF2]<$09>[END]
+
+
+// Script 2-0x4D [0x107A0]
+// [SKIP]<$61>[opFA]<$16>[SKIP]<$41>せきさいりょう[SKIP]<$1B>[IP_SVAR]<$33>[SKIP]<$1E>しゅ[opF8]<$35><$81>・・[SKIP]<$1E>[IP_SVAR]<$36>[END]
+
+
+// Script 2-0x4E [0x107BF]
+// [SKIP]<$67>せんしゃに　なまえを　つけてください。[SKIP]<$53>[opEF]<$06><$62>[SKIP]<$0E>[opF2]<$09>[END]
+
+
+// Script 2-0x4F [0x107DA]
+// [SKIP]<$E6>[IP_SVAR]<$07>[SKIP]<$06>Ｌ[opF8]<$0A><$00>：[SKIP]<$05>[opF8]<$0B><$02>[END]
+
+
+// Script 2-0x50 [0x107EB]
+// シャシーは　わたせません！[END]
+
+
+// Script 2-0x51 [0x107F5]
+// [SKIP]<$A6>つぎの　レべルまでに　ひつようなけいけんち[END]
+
+
+// Script 2-0x52 [0x1080C]
+// [HERO]は　おカネを[BR]
+// [opE9]に　つめこんだ！[opE4][BR]
+// だが　[opE9]は[BR]
+// スカスカだ！[END]
+
+
+// Script 2-0x53 [0x1081A]
+// [HERO]は　おカネを[BR]
+// [opE9]に　つめこんだ！[opE4][BR]
+// [opE9]は[BR]
+// パンパンに　ふくれた！[END]
+
+
+// Script 2-0x54 [0x1082A]
+// [HERO]は　おカネを[BR]
+// [opE9]に[BR]
+// いれようとしたが[opE4][BR]
+// ぜんぶは　はいりきらなかった！[END]
+
+
+// Script 2-0x55 [0x1084E]
+// [opE9]　ＯＮ！[BR]
+// チジョウニ　モドリマス[BR]
+// イイデスカ？[TCHOICE]
+// 
+
+
+// Script 2-0x56 [0x10867]
+// リョウカイ。[BR]
+// [opE9]に[BR]
+// キカン　シマス。[END]
+
+
+// Script 2-0x57 [0x1087A]
+// [opE9]　ＯＮ！[BR]
+// キカン　バショヲ[BR]
+// エランデ　クダサイ。[END]
+
+
+// Script 2-0x58 [0x10894]
+// どっちにセーブする。[BR]
+// １．[IP_SVAR]<$3F>[BR]
+// ２．[IP_SVAR]<$40>[END]
+
+
+// Script 2-0x59 [0x108A9]
+// [HERO]は[BR2]
+// [opE9]を　のみこんだ！[opE4][BR]
+// ＨＰが　[NVAR]<$10><$01>　かいふくした！[END]
+
+
+// Script 2-0x5A [0x108B2]
+// [HERO]は[BR2]
+// [opE9]を　のみこんだ！[opE4][BR]
+// ＨＰが　ぜんかい　した！[END]
+
+
+// Script 2-0x5B [0x108BB]
+// [HERO]には[BR]
+// [opE9]は　つかえない！[END]
+
+
+// Script 2-0x5C [0x108C9]
+// [BR]
+// [opE9]が　[NVAR]<$0F><$00>　あがった！[END]
+
+
+// Script 2-0x5D [0x108D7]
+// [BR]
+// さいだいＨＰが　[NVAR]<$27><$01>　ふえた！[END]
+
+
+// Script 2-0x5E [0x108E7]
+// [opE9][BR]
+// [SKIP]<$20>[opF8]<$1D><$00>[SKIP]<$01>[opF8]<$1E><$00>[SKIP]<$01>[opF8]<$1F><$00>[SKIP]<$01>[opF8]<$3C><$00>[SKIP]<$01>[opF8]<$20><$00>[SKIP]<$01>[opF8]<$21><$00>[SKIP]<$01>[opF8]<$22><$00>[BR]
+// Ｇ[opF8]<$06><$02>：[END]
+
+
+// Script 2-0x5F [0x10913]
+// ゴールドチャイムを[BR]
+// [NVAR]<$0E><$02>Ｇ　にセットした。[opE4][END]
+
+
+// Script 2-0x60 [0x1092B]
+// [SKIP]<$6D>だんそうＵＰ[BR]
+// しゅびりょくＵＰ[BR]
+// あなを　あける[BR]
+// かいぞう　しない[END]
+
+
+// Script 2-0x61 [0x1094A]
+// [BR]
+// [NVAR]<$0D><$01>ポイントの[BR]
+// けいけんちを　かくとく！[opE4][END]
+
+
+// Script 2-0x62 [0x10962]
+// [BR]
+// [opE2]Ｇ　てにいれた！[opE4][END]
+
+
+// Script 2-0x63 [0x10967]
+// そこでは　クルマに　のれません！[opE4][END]
+
+
+// Script 2-0x64 [0x10974]
+// そうこうタイルを[BR]
+// [NVAR]<$0F><$01>まい　すてました！[opE4][END]
+
+
+// Script 2-0x65 [0x10986]
+// そうこうタイルを[BR]
+// すてるのを　やめた！[opE4][END]
+
+
+// Script 2-0x66 [0x10996]
+// [opE9]　[SVAR]<$36>[BR]
+// オーバーですが[BR]
+// [HERO]につみますか？[CHOICE]<$9A><$9B>
+// 
+
+
+// Script 2-0x67 [0x109AE]
+// [SKIP]<$4E>モンスターは　まだ[BR2]
+// [SVAR]<$00>に　きづいて　いない！[END]
+
+
+// Script 2-0x68 [0x109C5]
+// [opE9]を　みにつけた。[END]
+
+
+// Script 2-0x69 [0x109CE]
+// [opE9]を　はずした。[END]
+
+
+// Script 2-0x6A [0x109D6]
+// [opE9]を　そうびした。[END]
+
+
+// Script 2-0x6B [0x109DE]
+// シャシーは　はずせません！[END]
+
+
+// Script 2-0x6C [0x109E8]
+// [opE9]を　はずしたので[BR]
+// うごけなくなった！[END]
+
+
+// Script 2-0x6D [0x109FB]
+// [opE9]を　[BR]
+// すてて　いいですか？[CHOICE]<$6F><$1F>
+// 
+
+
+// Script 2-0x6E [0x10A08]
+// [opE9]を　すてるなんて[BR]
+// とんでもない！！[END]
+
+
+// Script 2-0x6F [0x10A1A]
+// [opE9]を　すてました。[END]
+
+
+// Script 2-0x70 [0x10A21]
+// [HERO]は[BR]
+// [opE9]を[BR]
+// そうびできない！[END]
+
+
+// Script 2-0x71 [0x10A2F]
+// [opE9]を　さどうさせた。[END]
+
+
+// Script 2-0x72 [0x10A39]
+// [HERO]は　[opE9]を[BR]
+// はじいた！[opE4][BR]
+// [opFB]<$0F>が　でた！[END]
+
+
+// Script 2-0x73 [0x10A4A]
+// [HERO]は　[BR]
+// [opE9]を　みた‥‥[BR]
+// ５４２３９７[BR]
+// と　かいてある。[END]
+
+
+// Script 2-0x74 [0x10A65]
+// [HERO]の[BR]
+// [opE9]を[BR]
+// [SVAR]<$0F>に　つみかえた。[END]
+
+
+// Script 2-0x75 [0x10A76]
+// やっぱり　つかわなかった。[END]
+
+
+// Script 2-0x76 [0x10A81]
+// [opE9]は[BR]
+// しにんには　つかえません！[END]
+
+
+// Script 2-0x77 [0x10A91]
+// [opF2]<$0C>しかし　なにも　おこらなかった！[END]
+
+
+// Script 2-0x78 [0x10A97]
+// [HERO]が　あります。[opE4][END]
+
+
+// Script 2-0x79 [0x10AA1]
+// [SKIP]<$6D>しゅほう[BR]
+// ふくほう[BR]
+// ＳーＥ[BR]
+// やめる[END]
+
+
+// Script 2-0x7A [0x10AB1]
+// [SKIP]<$6D>あずける[BR]
+// ひきだす[BR]
+// さよなら[END]
+
+
+// Script 2-0x7B [0x10AC2]
+// [SKIP]<$6D>クルマようひん[BR]
+// にんげんようひん[BR]
+// やっぱり　あずけない[END]
+
+
+// Script 2-0x7C [0x10ADA]
+// [opE9]で[BR]
+// [HERO]を　みがいた！[END]
+
+
+// Script 2-0x7D [0x10AE6]
+// いくつに　セットしますか？[END]
+
+
+// Script 2-0x7E [0x10AF1]
+// いくら　きふしますか？[END]
+
+
+// Script 2-0x7F [0x10AFA]
+// [HERO]を[BR]
+// けんいん　しますか？[CHOICE]<$80><$FF>
+// 
+
+
+// Script 2-0x80 [0x10B06]
+// [HERO]を　けんいんした。[opE4][END]
+
+
+// Script 2-0x81 [0x10B11]
+// [opE9]を[BR]
+// なげすてた。[opE4][BR]
+// なんとも[BR]
+// なげやすかった。[END]
+
+
+// Script 2-0x82 [0x10B2A]
+// [opE9]は[BR]
+// クルマの　そうびを[BR]
+// しゅうりする　どうぐです。[END]
+
+
+// Script 2-0x83 [0x10B3B]
+// [opE9]は[BR]
+// そうび　していません！[END]
+
+
+// Script 2-0x84 [0x10B3F]
+// [opE9]は　はそんしていません！[END]
+
+
+// Script 2-0x85 [0x10B4B]
+// [opE9]をしゅうりした！[END]
+
+
+// Script 2-0x86 [0x10B53]
+// たいはしているそうびは[BR]
+// なおせません！[END]
+
+
+// Script 2-0x87 [0x10B64]
+// [HERO]は[BR2]
+// [opE9]を　のみこんだ！[BR]
+// [HERO]の　からだから[BR]
+// しびれが　とれた！[END]
+
+
+// Script 2-0x88 [0x10B7B]
+// [opE9]は[BR]
+// まひを　なおす　くすりです。[END]
+
+
+// Script 2-0x89 [0x10B8C]
+// さんが　ちゅうわ　された！[END]
+
+
+// Script 2-0x8A [0x10B9A]
+// [opE9]は[BR]
+// さんを　ちゅうわする[BR]
+// どうぐです。[END]
+
+
+// Script 2-0x8B [0x10BAD]
+// なんと！[BR]
+// [HERO]は　いきかえった！[END]
+
+
+// Script 2-0x8C [0x10BB9]
+// [opE9]は　しにんを[BR]
+// いきかえらせる　くすりです！[END]
+
+
+// Script 2-0x8D [0x10BD0]
+// [NVAR]<$38><$00>．[opFA]<$0A>[SKIP]<$09>※[opF8]<$0F><$00>[END]
+
+
+// Script 2-0x8E [0x10BDD]
+// [HERO]に[BR]
+// そうこうタイルを　はった！[END]
+
+
+// Script 2-0x8F [0x10BE9]
+// [opF2]<$0C>カギが　あいた！[END]
+
+
+// Script 2-0x90 [0x10BF4]
+// レンタルタンクの[BR]
+// そうびや　どうぐは[BR]
+// いじれません！[END]
+
+
+// Script 2-0x91 [0x10C06]
+// [HERO]は　[opE9]を[BR]
+// ぺしぺし　たたいた！[opE4][BR]
+// はげしい　たたかいの　おもいでが[BR]
+// そうまとうの　ように[BR]
+// よみがえる！[END]
+
+
+// Script 2-0x92 [0x10C35]
+// [HERO]は　じぶんの　うでに[BR]
+// [opE9]を　はった！[opE4][BR]
+// うでに　ひぼたんのはなが　さく！[opE4][BR]
+// [HERO]は　ちょっぴり[BR]
+// ドスが　きくように　なった！[END]
+
+
+// Script 2-0x93 [0x10C71]
+// [HERO]は　[opE9]で[BR]
+// くちとはなを　おおった！[opE4][BR]
+// おやじの　においがした。[END]
+
+
+// Script 2-0x94 [0x10C7B]
+// [SKIP]<$FF>[SKIP]<$0B>コントロール　ルーム[SKIP]<$FF>[SKIP]<$81>ＯＰＥＮ[SKIP]<$5C>ＣＬＯＳＥ[END]
+
+
+// Script 2-0x95 [0x10C89]
+// [SKIP]<$FF>[SKIP]<$0B>コントロール　ルーム[SKIP]<$FF>[SKIP]<$81>Ｏ　Ｎ[SKIP]<$5D>ＯＦＦ[END]
+
+
+// Script 2-0x96 [0x10C94]
+// なんぱつ　うってくれるんだ？[BR]
+// [SKIP]<$20>たますう[END]
+
+
+// Script 2-0x97 [0x10CA4]
+// レンタルタンクには　つめません！[END]
+
+
+// Script 2-0x98 [0x10CAE]
+// つみかえるのを　やめた。[END]
+
+
+// Script 2-0x99 [0x10CBB]
+// いっぱいで　つめません！[END]
+
+
+// Script 2-0x9A [0x10CC6]
+// [opE9]を[BR]
+// [HERO]に　つみこんだ。[END]
+
+
+// Script 2-0x9B [0x10CD3]
+// [HERO]に[BR]
+// つむのを　やめた。[END]
+
+
+// Script 2-0x9C [0x10CE0]
+// [opF2]<$0C>[END]
+
+
+// Script 2-0x9D [0x10CE3]
+// [opF2]<$13>７９３２６６[END]
+
+
+// Script 2-0x9E [0x10CEC]
+// ここでは　つかえません！[END]
+
+
+// Script 2-0x9F [0x10CF7]
+// [opF2]<$13>５１９９８２[END]
+
+
+// Script 2-0xA0 [0x10D00]
+// [opF2]<$13>１９５８７４[END]
+
+
+// Script 2-0xA1 [0x10D09]
+// [SKIP]<$CB>ゼツメツ！[SKIP]<$3B>ゼツメツ！[SKIP]<$3B>ゼツメツ‥！[END]
+
+
+// Script 2-0xA2 [0x10D1A]
+// [SKIP]<$CB>セイタイケイニ[SKIP]<$39>ジュウダイナル[SKIP]<$39>ダメージ‥！[END]
+
+
+// Script 2-0xA3 [0x10D35]
+// [HERO]は　[opE9]を[BR]
+// しゃないに　ぶらさげた。[END]
+
+
+// Script 2-0xA4 [0x10D44]
+// [HERO]は　[opE9]で[BR]
+// あせを　ふいた！[opE4][BR]
+// ねえさんの　においがした。[END]
+
+
+// Script 2-0xA5 [0x10D5A]
+// [opF2]<$0C>ＨＰが　[NVAR]<$10><$01>　かいふくした！[END]
+
+
+// Script 2-0xA6 [0x10D60]
+// [opF2]<$0C>ＨＰが　ぜんかい　した！[END]
+
+
+// Script 2-0xA7 [0x10D66]
+// [SKIP]<$CB>セイタイケイ　ノ[SKIP]<$38>セイゾン　カクリツ[SKIP]<$37>５パーセント！[SKIP]<$39>ナオ　ゲンショウ　チュウ！[END]
+
+
+// Script 2-0xA8 [0x10D94]
+// [SKIP]<$CB>エア　ロック　ルーム[SKIP]<$36>オセン　レべル　０[SKIP]<$37>コンディション[SKIP]<$3B>グリーン[END]
+
+
+// Script 2-0xA9 [0x10D97]
+// [opE9]は　とれません！[END]
+
+
+// Script 2-0xAA [0x10D9F]
+// [HERO]は[BR2]
+// [opE9]を　ならした！[END]
+
+

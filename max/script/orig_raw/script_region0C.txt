@@ -1,0 +1,105 @@
+// Script C-0 [0x12000]
+　「[END]
+
+// Script C-1 [0x12003]
+とうちゃん「[END]
+
+// Script C-2 [0x12009]
+ねえちゃん「[END]
+
+// Script C-3 [0x1200F]
+ミンチ「[END]
+
+// Script C-4 [0x12014]
+イゴール「[END]
+
+// Script C-5 [0x1201A]
+ウルフ「[END]
+
+// Script C-6 [0x1201E]
+　　[END]
+
+// Script C-7 [0x12021]
+[SVAR]<$01>「[END]
+
+// Script C-8 [0x12025]
+[SVAR]<$01>パパ「[END]
+
+// Script C-9 [0x1202B]
+[SVAR]<$01>ママ「[END]
+
+// Script C-10 [0x12031]
+[SVAR]<$02>「[END]
+
+// Script C-11 [0x12035]
+ウリウ「[END]
+
+// Script C-12 [0x1203A]
+マリア「[END]
+
+// Script C-13 [0x1203F]
+あけみ「[END]
+
+// Script C-14 [0x12044]
+ひとみ「[END]
+
+// Script C-15 [0x12049]
+ポーラ「[END]
+
+// Script C-16 [0x1204E]
+ポール「[END]
+
+// Script C-17 [0x12053]
+[SVAR]<$00>「[END]
+
+// Script C-18 [0x12057]
+カエサル「[END]
+
+// Script C-19 [0x1205B]
+ツマク「[END]
+
+// Script C-20 [0x12060]
+ナナ「[END]
+
+// Script C-21 [0x12064]
+ビバリー「[END]
+
+// Script C-22 [0x1206A]
+シジマ「[END]
+
+// Script C-23 [0x1206F]
+ヒミオ「[END]
+
+// Script C-24 [0x12073]
+マッスル「[END]
+
+// Script C-25 [0x12079]
+ヤズー「[END]
+
+// Script C-26 [0x1207E]
+ゴメス「[END]
+
+// Script C-27 [0x12083]
+ニーナ「[END]
+
+// Script C-28 [0x12088]
+ぐんそう「[END]
+
+// Script C-29 [0x1208E]
+モリナ「[END]
+
+// Script C-30 [0x12093]
+ヤミクモ「[END]
+
+// Script C-31 [0x12099]
+バルデス「[END]
+
+// Script C-32 [0x1209D]
+[END]
+
+// Script C-33 [0x1209E]
+マリリン「[END]
+
+// Script C-34 [0x120A2]
+ノア「[END]
+

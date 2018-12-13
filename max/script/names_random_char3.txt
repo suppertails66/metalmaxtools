@@ -1,0 +1,27 @@
+
+// random names for party member 3 (pad to 8 characters)
+
+//イングリ
+Ingri[END][END][END]
+//あんじゅ
+Anju[END][END][END][END]
+//ジェーン
+Jane[END][END][END][END]
+//チカ[END][END]
+Chica[END][END][END]
+//ルシア[END]
+Lucia[END][END][END]
+//ダイナマ
+Dynama[END][END]
+//さくら[END]
+Sakura[END][END]
+//ケイ[END][END]
+Kay[END][END][END][END][END]
+//ステラ[END]
+Stella[END][END]
+//マチョコ
+// (i.e. マチョ子 = macho girl)
+Dudette[END]
+//タニア[END]
+Tania[END][END][END]
+

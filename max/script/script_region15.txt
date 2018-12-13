@@ -1,0 +1,236 @@
+
+#LOADTABLE("table/metal_max_table_en.tbl")
+#SETSIZE(-1, -1)
+
+// Script 15-0x0 [0x384A5]
+// [SKIP]<$C6>[SKIP]<$C7>‚r‚s‚`‚e‚e[END]
+[SKIP]<$C6>[SKIP]<$C7>STAFF[END]
+
+
+// Script 15-0x1 [0x384AF]
+// [opF4]<$0A>[SKIP]<$20>[KEY]
+// [SKIP]<$06>‚f‚`‚l‚d@‚c‚d‚r‚h‚f‚m[BR]
+// [BR]
+// @@@‚g‚h‚q‚n‚r‚g‚h@‚l‚h‚x‚`‚n‚j‚`[END]
+[opF4]<$0A>[SKIP]<$20>[KEY]
+[SKIP]<$06>GAME DESIGN[BR]
+[BR]
+   HIROSHI MIYAOKA[END]
+
+
+// Script 15-0x2 [0x384D4]
+// [opF4]<$0A>[SKIP]<$20>[KEY]
+// [SKIP]<$06>‚b‚n‚k‚k‚`‚a‚n‚q‚`‚s‚h‚u‚d@‚c‚d‚r‚h‚f‚m[SKIP]<$4F>‚`‚j‚h‚g‚h‚s‚n@‚s‚n‚l‚h‚r‚`‚v‚`[SKIP]<$30>‚g‚`‚i‚h‚l‚d@‚j‚h‚l‚t‚q‚`[END]
+[opF4]<$0A>[SKIP]<$20>[KEY]
+[SKIP]<$06>COLLABORATIVE DESIGN[SKIP]<$4F>AKIHITO TOMISAWA[SKIP]<$30>HAJIME KIMURA[END]
+
+
+// Script 15-0x3 [0x3850F]
+// [opF4]<$0A>[SKIP]<$20>[KEY]
+// [SKIP]<$06>‚l‚n‚m‚r‚s‚d‚q@‚c‚d‚r‚h‚f‚m[BR]
+// [BR]
+// @@@‚`‚s‚r‚t‚i‚h@‚x‚`‚l‚`‚l‚n‚s‚n[END]
+[opF4]<$0A>[SKIP]<$20>[KEY]
+[SKIP]<$06>MONSTER DESIGN[BR]
+[BR]
+   ATSUJI YAMAMOTO[END]
+
+
+// Script 15-0x4 [0x38537]
+// [opF4]<$0A>[SKIP]<$20>[KEY]
+// [SKIP]<$06>‚l‚t‚r‚h‚b[BR]
+// [BR]
+// @@@‚r‚`‚s‚n‚r‚g‚h@‚j‚`‚c‚n‚j‚t‚q‚`[END]
+[opF4]<$0A>[SKIP]<$20>[KEY]
+[SKIP]<$06>MUSIC[BR]
+[BR]
+   SATOSHI KADOKURA[END]
+
+
+// Script 15-0x5 [0x38557]
+// [opF4]<$0A>[SKIP]<$20>[KEY]
+// [SKIP]<$06>‚o‚q‚n‚f‚q‚`‚l[SKIP]<$5C>‚x‚`‚r‚t‚g‚h‚q‚n@‚r‚t‚f‚`‚g‚`‚q‚`[SKIP]<$2F>‚i‚t‚m@‚e‚t‚j‚t‚r‚g‚h‚l‚`[SKIP]<$33>‚s‚n‚l‚n‚j‚h@‚s‚`‚t‚b‚g‚h[END]
+[opF4]<$0A>[SKIP]<$20>[KEY]
+[SKIP]<$06>PROGRAM[SKIP]<$5C>
+YASUHIRO SUGAHARA[SKIP]<$2F>
+JUN FUKUSHIMA[SKIP]<$33>
+TOMOKI TAUCHI[END]
+
+
+// Script 15-0x6 [0x38591]
+// [opF4]<$0A>[SKIP]<$20>[KEY]
+// [SKIP]<$06>‚f‚q‚`‚o‚g‚h‚b‚r[SKIP]<$5B>‚j‚n‚g‚h‚b‚g‚h@‚m‚`‚j‚`‚x‚`‚l‚`[SKIP]<$30>‚j‚d‚m‚h‚b‚g‚h@‚m‚`‚r‚t‚j‚`‚v‚`[SKIP]<$30>‚s‚`‚d‚j‚n@‚j‚t‚q‚n‚c‚`[END]
+[opF4]<$0A>[SKIP]<$20>[KEY]
+[SKIP]<$06>GRAPHICS[SKIP]<$5B>
+KOHICHI NAKAYAMA[SKIP]<$30>
+KENICHI NASUKAWA[SKIP]<$30>
+TAEKO KURODA[END]
+
+
+// Script 15-0x7 [0x385D1]
+// [opF4]<$0A>[SKIP]<$20>[KEY]
+// [SKIP]<$06>‚r‚n‚t‚m‚c@‚o‚q‚n‚f‚q‚`‚l[SKIP]<$56>‚r‚g‚n‚f‚n@‚r‚`‚j‚`‚h[SKIP]<$35>‚s‚`‚j‚`‚e‚t‚l‚h@‚l‚h‚t‚q‚`[SKIP]<$32>‚l‚`‚r‚`‚`‚j‚h@‚h‚v‚`‚r‚`‚j‚h[END]
+[opF4]<$0A>[SKIP]<$20>[KEY]
+[SKIP]<$06>SOUND PROGRAM[SKIP]<$56>
+SHOGO SAKAI[SKIP]<$35>
+TAKAFUMI MIURA[SKIP]<$32>
+MASAAKI IWASAKI[END]
+
+
+// Script 15-0x8 [0x3860E]
+// [opF4]<$08>[SKIP]<$20>[KEY]
+// [SKIP]<$06>‚q‚d‚r‚b‚t‚d@‚q‚`‚h‚c‚d‚q‚r[SKIP]<$55>‚g‚h‚q‚n‚l‚h‚b‚g‚h@‚m‚`‚j‚`‚l‚n‚s‚n[SKIP]<$2E>‚s‚`‚j‚`‚r‚g‚h@‚h‚c‚n‚f‚`‚v‚`[SKIP]<$31>‚x‚n‚r‚g‚h@‚m‚`‚j‚`‚l‚t‚q‚`[SKIP]<$32>‚s‚`‚j‚`‚r‚g‚h@‚l‚n‚q‚h[SKIP]<$34>@@dd‚`‚m‚c@‚l‚`‚m‚x@‚o‚d‚n‚o‚k‚d[END]
+[opF4]<$08>[SKIP]<$20>[KEY]
+[SKIP]<$06>RESCUE RAIDERS[SKIP]<$55>
+HIROMICHI NAKAMOTO[SKIP]<$2E>
+TAKASHI IDOGAWA[SKIP]<$31>
+YOSHI NAKAMURA[SKIP]<$32>
+TAKASHI MORI[SKIP]<$34>
+  ...AND MANY OTHERS[END]
+
+
+// Script 15-0x9 [0x3867C]
+// [opF4]<$08>[SKIP]<$20>[KEY]
+// [SKIP]<$06>‚o‚t‚a‚k‚h‚r‚g[SKIP]<$5C>‚r‚`‚s‚n‚r‚g‚h@‚s‚`‚j‚d‚t‚b‚g‚h[SKIP]<$30>‚j‚n‚g‚h‚b‚g‚h@‚r‚`‚h‚s‚n‚g[SKIP]<$32>‚s‚d‚s‚r‚tD@‚x‚`‚l‚`‚y‚`‚j‚h[SKIP]<$31>‚`‚s‚r‚t‚r‚g‚h@‚l‚`‚j‚h‚l‚t‚q‚`[END]
+[opF4]<$08>[SKIP]<$20>[KEY]
+//[SKIP]<$06>PUBLISH[SKIP]<$5C>
+[SKIP]<$06>PUBLICITY[SKIP]<$5A>
+SATOSHI TAKEUCHI[SKIP]<$30>
+KOHICHI SAITOH[SKIP]<$32>
+TETSU. YAMAZAKI[SKIP]<$31>
+ATSUSHI MAKIMURA[END]
+
+
+// Script 15-0xA [0x386D0]
+// [opF4]<$04>[SKIP]<$20>[KEY]
+// [SKIP]<$06>‚r‚o‚d‚b‚h‚`‚k@‚s‚g‚`‚m‚j‚r@‚s‚ndd[SKIP]<$50>‚s‚r‚t‚f‚h‚x‚n‚r‚g‚h@‚s‚`‚j‚`‚c‚`[SKIP]<$2F>‚l‚h‚m‚n‚q‚t@‚l‚n‚q‚h‚r‚g‚h‚s‚`[SKIP]<$30>‚r‚g‚h‚m‚n‚a‚t@‚n‚j‚h‚r‚g‚h‚l‚`[SKIP]<$30>‚g‚h‚q‚n‚g‚h‚r‚`@‚e‚t‚i‚h‚l‚n‚s‚n[SKIP]<$2F>‚q‚x‚n‚r‚t‚j‚d@‚n‚g‚r‚`‚j‚h[SKIP]<$32>‚q‚x‚t‚s‚`@‚j‚n‚m‚c‚n‚g[SKIP]<$34>‚d‚q‚h@‚r‚`‚h‚s‚n‚g[SKIP]<$36>‚r‚g‚h‚m‚h‚b‚g‚h@‚`‚h‚j‚`‚v‚`[SKIP]<$31>[END]
+[opF4]<$04>[SKIP]<$20>[KEY]
+[SKIP]<$06>SPECIAL THANKS TO...[SKIP]<$50>
+TSUGIYOSHI TAKADA[SKIP]<$2F>
+MINORU MORISHITA[SKIP]<$30>
+SHINOBU OKISHIMA[SKIP]<$30>
+HIROHISA FUJIMOTO[SKIP]<$2F>
+RYOSUKE OHSAKI[SKIP]<$32>
+RYUTA KONDOH[SKIP]<$34>
+ERI SAITOH[SKIP]<$36>
+SHINICHI AIKAWA[SKIP]<$31>[END]
+
+
+// Script 15-0xB [0x38772]
+// [opF4]<$0A>[SKIP]<$20>[KEY]
+// [SKIP]<$06>‚c‚h‚q‚d‚b‚s[SKIP]<$5D>‚g‚n‚y‚t‚l‚h@‚x‚n‚r‚g‚h‚c‚`[SKIP]<$32>‚s‚n‚j‚h‚m‚n‚q‚h@‚j‚`‚m‚d‚x‚`‚r‚t[END]
+[opF4]<$0A>[SKIP]<$20>[KEY]
+//[SKIP]<$06>DIRECT[SKIP]<$5D>
+[SKIP]<$06>DIRECTOR[SKIP]<$5B>
+HOZUMI YOSHIDA[SKIP]<$32>
+TOKINORI KANEYASU[END]
+
+
+// Script 15-0xC [0x387A1]
+// [opF4]<$0A>[SKIP]<$20>[KEY]
+// [SKIP]<$06>‚o‚q‚n‚c‚t‚b‚d[BR]
+// [BR]
+// @@@‚r‚g‚n‚i‚h@‚l‚`‚r‚t‚c‚`[END]
+[opF4]<$0A>[SKIP]<$20>[KEY]
+//[SKIP]<$06>PRODUCE[BR]
+[SKIP]<$06>PRODUCER[BR]
+[BR]
+   SHOJI MASUDA[END]
+
+
+// Script 15-0xD [0x387B9]
+// [opF4]<$0A>[SKIP]<$20>[KEY]
+// [SKIP]<$07>‚d‚w‚d‚b‚t‚s‚h‚u‚d@‚o‚q‚n‚c‚t‚b‚d[BR]
+// [BR]
+// @@@‚s‚d‚s‚r‚t‚n@‚e‚t‚j‚t‚c‚`[END]
+[opF4]<$0A>[SKIP]<$20>[KEY]
+//[SKIP]<$07>EXECUTIVE PRODUCE[BR]
+[SKIP]<$07>EXECUTIVE PRODUCER[BR]
+[BR]
+   TETSUO FUKUDA[END]
+
+
+// Script 15-0xE [0x387DC]
+// [opF4]<$0A>[SKIP]<$20>[KEY]
+// [SKIP]<$09>‚o‚q‚d‚r‚d‚m‚s‚d‚c@‚a‚x[SKIP]<$76>‚c‚`‚s‚`@‚d‚`‚r‚s[END]
+[opF4]<$0A>[SKIP]<$20>[KEY]
+[SKIP]<$09>PRESENTED BY[SKIP]<$76>
+DATA EAST[END]
+
+
+// Script 15-0xF [0x387FB]
+// [opF4]<$0A>[SKIP]<$20>[KEY]
+// [END]
+[opF4]<$0A>[SKIP]<$20>[KEY]
+[END]
+
+
+// Script 15-0x10 [0x38801]
+// [opF4]<$0A>[SKIP]<$20>[KEY]
+// [SKIP]<$0C>[opE9][BR]
+// [SKIP]<$64>ƒŒ‚×ƒ‹@[NVAR]<$38><$00>@‚Å@‚°‚«‚ÍI[END]
+[opF4]<$0A>[SKIP]<$20>[KEY]
+// enemy name
+[SKIP]<$04>[opE9][BR]
+[SKIP]<$62>Defeated at Level [NVAR]<$38><$00>![END]
+
+
+// Script 15-0x11 [0x38818]
+// [opF4]<$0A>[SKIP]<$20>[KEY]
+// [SKIP]<$0C>[opE9][BR]
+// [SKIP]<$66>‚Æ‚¤‚»‚¤‚¿‚ã‚¤d[END]
+//[opF4]<$0A>[SKIP]<$20>[KEY]
+//[SKIP]<$0C>[opE9][BR]
+//[SKIP]<$66>Running...[END]
+
+// if you fail to defeat or collect the bounty on a wanted monster before
+// retiring, this shows up in the credits instead of the "defeated at
+// level X" message
+[opF4]<$0A>[SKIP]<$20>[KEY]
+[SKIP]<$04>[opE9][BR]
+[SKIP]<$67>On the loose...[END]
+
+
+// Script 15-0x12 [0x3882A]
+// [opF4]<$0D>[SKIP]<$20>[KEY]
+// [SKIP]<$09>ƒŠƒZƒbƒgƒ{ƒ^ƒ“‚ğ‚¨‚µ‚È‚ª‚ç[SKIP]<$33>‚Å‚ñ‚°‚ñ‚ğ@‚«‚Á‚Ä‚­‚¾‚³‚¢[END]
+[opF4]<$0D>
+[SKIP]<$20>[KEY]
+[SKIP]<$01>
+Please hold the Reset button[SKIP]<$24>
+while turning off the console.[END]
+
+
+// Script 15-0x13 [0x3884C]
+// ‚o‚q‚n‚c‚t‚b‚d[BR]
+// [BR]
+// [END]
+//PRODUCE[BR]
+PRODUCER[BR]
+[BR]
+[END]
+
+
+// Script 15-0x14 [0x38856]
+// ‚o‚q‚n‚f‚q‚`‚l[END]
+PROGRAM[END]
+
+//==============================================
+// new for translation
+//==============================================
+
+// Script 15-0x15
+[opF4]<$03>[SKIP]<$20>[KEY]
+       English Conversion       [SKIP]<$60>
+      Translation               [SKIP]<$20>
+          TheMajinZenki         [SKIP]<$20>
+      Hacking                   [SKIP]<$20>
+          Supper                [SKIP]<$20>
+      Editing & Testing         [SKIP]<$20>
+          cccmar                [SKIP]<$20>
+      Testing                   [SKIP]<$20>
+          Xanathis              [SKIP]<$20>
+      Special Thanks            [SKIP]<$20>
+          Filler                [SKIP]<$20>
+[END]
+

@@ -1,0 +1,157 @@
+
+#LOADTABLE("table/metal_max_table_en.tbl")
+#SETSIZE(-1, -1)
+
+// Script 9-0x0 [0x10000]
+// [TILEMAP]<$E6><$9E><$13><$E6>[END]
+[TILEMAP]<$E6><$9E><$13><$E6>[END]
+
+
+// Script 9-0x1 [0x10006]
+// item/equipment layout
+// [opFA]<$0F>[SKIP]<$0C>[opFA]<$10>[SKIP]<$34>[opFA]<$12>[SKIP]<$0C>[opFA]<$14>[SKIP]<$34>[opFA]<$16>[SKIP]<$0C>[opFA]<$18>[SKIP]<$34>[opFA]<$1A>[SKIP]<$0C>[opFA]<$1C>[END]
+
+//// row 1
+//[opFA]<$0F>[SKIP]<$0C>
+//[opFA]<$10>[SKIP]<$34>
+//// row 2
+//[opFA]<$12>[SKIP]<$0C>
+//[opFA]<$14>[SKIP]<$34>
+//// row 3
+//[opFA]<$16>[SKIP]<$0C>
+//[opFA]<$18>[SKIP]<$34>
+//// row 4
+//[opFA]<$1A>[SKIP]<$0C>
+//[opFA]<$1C>[END]
+
+// row 1
+[opFA]<$0F>[SKIP]<$20>
+[opFA]<$10>[SKIP]<$20>
+// row 2
+[opFA]<$12>[SKIP]<$20>
+[opFA]<$14>[SKIP]<$20>
+// row 3
+[opFA]<$16>[SKIP]<$20>
+[opFA]<$18>[SKIP]<$20>
+// row 4
+[opFA]<$1A>[SKIP]<$20>
+[opFA]<$1C>[END]
+
+
+// Script 9-0x2 [0x10025]
+// [TILEMAP]<$FF><$FF><$E6><$9E><$0D><$E6><$9E><$0E><$E6>▼[END]
+[TILEMAP]<$FF><$FF><$E6><$9E><$0D><$E6><$9E><$0E><$E6>▼[END]
+
+
+// Script 9-0x3 [0x10031]
+// [TILEMAP]<$E6><$9E><$09><$E6><$9E><$14><$E6>▼[END]
+[TILEMAP]<$E6><$9E><$09><$E6><$9E><$14><$E6>▼[END]
+
+
+// Script 9-0x4 [0x1003B]
+// [TILEMAP]<$8C><$09><$F9><$FA>[END]
+[TILEMAP]<$8C><$09><$F9><$FA>[END]
+
+
+// Script 9-0x5 [0x10041]
+// [TILEMAP]<$8C><$09><$F9><$FE>[END]
+[TILEMAP]<$8C><$09><$F9><$FE>[END]
+
+
+// Script 9-0x6 [0x10047]
+// [TILEMAP]<$8C><$09><$F9><$F8>[END]
+[TILEMAP]<$8C><$09><$F9><$F8>[END]
+
+
+// Script 9-0x7 [0x1004D]
+// [TILEMAP]<$E6><$9E><$14><$E6><$9E><$09><$E6>▼[END]
+[TILEMAP]<$E6><$9E><$14><$E6><$9E><$09><$E6>▼[END]
+
+
+// Script 9-0x8 [0x10057]
+// [TILEMAP]<$9E><$13><$E6>[END]
+[TILEMAP]<$9E><$13><$E6>[END]
+
+
+// Script 9-0x9 [0x1005C]
+// [TILEMAP]<$EC>▼[opEF]<$1C><$F9>[TILEMAP]<$F5>▼[END]
+[TILEMAP]<$EC>▼[opEF]<$1C><$F9>[TILEMAP]<$F5>▼[END]
+
+
+// Script 9-0xA [0x10066]
+// [TILEMAP]<$D8><$9E><$0A><$D9><$D8><$9E><$0A><$D9><$8C><$08><$C0>▼[END]
+[TILEMAP]<$D8><$9E><$0A><$D9><$D8><$9E><$0A><$D9><$8C><$08><$C0>▼[END]
+
+
+// Script 9-0xB [0x10074]
+// [TILEMAP]<$D0><$D1><$9E><$09><$F5><$9E><$12><$D3><$D4>▼[END]
+[TILEMAP]<$D0><$D1><$9E><$09><$F5><$9E><$12><$D3><$D4>▼[END]
+
+
+// Script 9-0xC [0x10080]
+// [HERO]は[BR2]
+// [opE9]を　つかった！[opE4][BR]
+// [END]
+[HERO] used[BR2]
+[opE9]![opE4][BR]
+[END]
+
+
+// Script 9-0xD [0x10086]
+// [TILEMAP]<$E6><$9E><$1E><$E6>▼[END]
+[TILEMAP]<$E6><$9E><$1E><$E6>▼[END]
+
+
+// Script 9-0xE [0x1008D]
+// [opEF]<$17><$FB>[opEF]<$09><$C8>[END]
+[opEF]<$17><$FB>[opEF]<$09><$C8>[END]
+
+
+// Script 9-0xF [0x10094]
+// [TILEMAP]<$F4><$9E><$1F>▼[END]
+[TILEMAP]<$F4><$9E><$1F>▼[END]
+
+
+// Script 9-0x10 [0x1009A]
+// [TILEMAP]<$FF><$FF><$E6><$9E><$1C><$E6>▼[END]
+[TILEMAP]<$FF><$FF><$E6><$9E><$1C><$E6>▼[END]
+
+
+// Script 9-0x11 [0x100A3]
+// [TILEMAP]<$F7>▼[opEF]<$1E><$F9>[TILEMAP]<$F8>[END]
+[TILEMAP]<$F7>▼[opEF]<$1E><$F9>[TILEMAP]<$F8>[END]
+
+
+// Script 9-0x12 [0x100AC]
+// [TILEMAP]<$9E><$06><$E6><$9E><$18><$E6>▼[END]
+[TILEMAP]<$9E><$06><$E6><$9E><$18><$E6>▼[END]
+
+
+// Script 9-0x13 [0x100B5]
+// [SKIP]<$CB>マスター　ノア　ニ[SKIP]<$37>キンキュウ　アクセス[SKIP]<$56>コード　[END]
+[SKIP]<$C8>
+  MASTER NOAH[SKIP]<$33>
+EMERGENCY ACCESS[SKIP]<$50>
+  CODE [END]
+
+
+// Script 9-0x14 [0x100D3]
+// [TILEMAP]<$FB><$FB><$9E><$13><$FB><$FB>▼[END]
+[TILEMAP]<$FB><$FB><$9E><$13><$FB><$FB>▼[END]
+
+
+// Script 9-0x15 [0x100DC]
+// [TILEMAP]<$E6><$FF><$9E><$1D><$E6>▼[END]
+[TILEMAP]<$E6><$FF><$9E><$1D><$E6>▼[END]
+
+#LOADTABLE("table/metal_max_table.tbl")
+
+// Script 9-0x16 [0x100E4]
+// [TILEMAP]<$8C><$42><$C0><$C9><$8C><$1A><$CA><$CB><$8C><$04><$C0><$CC><$C1><$8C><$18><$C2><$C3><$CD><$8C><$04><$C0>▼[opF4]<$0C>ベば[SKIP]<$18>びボ[opEF]<$04><$C0>[KEY]
+// [TILEMAP]<$CC><$C6><$8C><$18><$C7><$C8><$CD><$8C><$04><$C0><$CE><$8C><$1A><$CF><$D0>▼[END]
+[TILEMAP]<$8C><$42><$C0><$C9><$8C><$1A><$CA><$CB><$8C><$04><$C0><$CC><$C1><$8C><$18><$C2><$C3><$CD><$8C><$04><$C0>▼[opF4]<$0C>ベば[SKIP]<$18>びボ[opEF]<$04><$C0>[KEY]
+[TILEMAP]<$CC><$C6><$8C><$18><$C7><$C8><$CD><$8C><$04><$C0><$CE><$8C><$1A><$CF><$D0>▼[END]
+
+#LOADTABLE("table/metal_max_table_en.tbl")
+
+

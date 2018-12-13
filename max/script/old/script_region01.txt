@@ -1,0 +1,393 @@
+// Script 1-0 [0x21AE6]
+サイバーウォール[END]
+
+// Script 1-1 [0x21AEF]
+サルモネラいっか[END]
+
+// Script 1-2 [0x21AF8]
+ドス・ピラニアス[END]
+
+// Script 1-3 [0x21B01]
+マッドマッスル[END]
+
+// Script 1-4 [0x21B09]
+マンモスタンク[END]
+
+// Script 1-5 [0x21B10]
+ミスターカミカゼ[END]
+
+// Script 1-6 [0x21B19]
+ムカデロン[END]
+
+// Script 1-7 [0x21B1F]
+ゴメス[END]
+
+// Script 1-8 [0x21B23]
+ダストフランケン[END]
+
+// Script 1-9 [0x21B2C]
+サルモネラほんぽ[END]
+
+// Script 1-10 [0x21B35]
+ロンメルゴースト[END]
+
+// Script 1-11 [0x21B3E]
+バッド・バルデス[END]
+
+// Script 1-12 [0x21B45]
+ゴメスのせんしゃ[END]
+
+// Script 1-13 [0x21B4C]
+バズーカドッグ[END]
+
+// Script 1-14 [0x21B54]
+タンスゴン[END]
+
+// Script 1-15 [0x21B5A]
+マッスルカー[END]
+
+// Script 1-16 [0x21B61]
+バイオニックポチ[END]
+
+// Script 1-17 [0x21B6A]
+ふりょうグループ[END]
+
+// Script 1-18 [0x21B73]
+ワルゲリョこぶん[END]
+
+// Script 1-19 [0x21B7C]
+ワルゲリョ[END]
+
+// Script 1-20 [0x21B82]
+ミュータントワニ[END]
+
+// Script 1-21 [0x21B8B]
+ロボポリス[END]
+
+// Script 1-22 [0x21B91]
+ガーディアン[END]
+
+// Script 1-23 [0x21B98]
+ビックキャノン[END]
+
+// Script 1-24 [0x21B9E]
+きょだいアリ[END]
+
+// Script 1-25 [0x21BA5]
+さつじんアメーバ[END]
+
+// Script 1-26 [0x21BAE]
+うろつきポリタン[END]
+
+// Script 1-27 [0x21BB7]
+イモバルカン[END]
+
+// Script 1-28 [0x21BBC]
+キャノンホッパー[END]
+
+// Script 1-29 [0x21BC3]
+バイオまいまい[END]
+
+// Script 1-30 [0x21BCB]
+ボムガメ[END]
+
+// Script 1-31 [0x21BD0]
+ひあそびザル[END]
+
+// Script 1-32 [0x21BD7]
+ドリルワーム[END]
+
+// Script 1-33 [0x21BDE]
+スモッグフラワー[END]
+
+// Script 1-34 [0x21BE7]
+てっぽうどり[END]
+
+// Script 1-35 [0x21BEE]
+いっぱつや[END]
+
+// Script 1-36 [0x21BF4]
+メテオまいまい[END]
+
+// Script 1-37 [0x21BFC]
+ピッケルバード[END]
+
+// Script 1-38 [0x21C04]
+アシッドアント[END]
+
+// Script 1-39 [0x21C0C]
+トレーダーごろし[END]
+
+// Script 1-40 [0x21C12]
+パトロールバチ[END]
+
+// Script 1-41 [0x21C1A]
+カバガン[END]
+
+// Script 1-42 [0x21C1F]
+けいびシェルター[END]
+
+// Script 1-43 [0x21C28]
+タコタンク[END]
+
+// Script 1-44 [0x21C2D]
+ゴールドアント[END]
+
+// Script 1-45 [0x21C35]
+スナイパードッグ[END]
+
+// Script 1-46 [0x21C3E]
+カラッポリタン[END]
+
+// Script 1-47 [0x21C46]
+フロッグマン[END]
+
+// Script 1-48 [0x21C4D]
+８５[MM]じそうほう[END]
+
+// Script 1-49 [0x21C56]
+バーナーホッパー[END]
+
+// Script 1-50 [0x21C5F]
+スポイトキウイ[END]
+
+// Script 1-51 [0x21C67]
+どくイモキャノン[END]
+
+// Script 1-52 [0x21C6E]
+ちゅうしゃどり[END]
+
+// Script 1-53 [0x21C76]
+カニガン[END]
+
+// Script 1-54 [0x21C7B]
+アーミーゾンビ[END]
+
+// Script 1-55 [0x21C83]
+ガンボート[END]
+
+// Script 1-56 [0x21C89]
+ＤＮＡブロブ[END]
+
+// Script 1-57 [0x21C90]
+マグネッター[END]
+
+// Script 1-58 [0x21C97]
+スラッガー[END]
+
+// Script 1-59 [0x21C9D]
+ハイウェイタンク[END]
+
+// Script 1-60 [0x21CA5]
+ていさつＵＦＯ[END]
+
+// Script 1-61 [0x21CAD]
+じらいモグラ[END]
+
+// Script 1-62 [0x21CB4]
+スポイトスパイダ[END]
+
+// Script 1-63 [0x21CBD]
+ミサイルフロッグ[END]
+
+// Script 1-64 [0x21CC4]
+まどろみそう[END]
+
+// Script 1-65 [0x21CCB]
+レーザービートル[END]
+
+// Script 1-66 [0x21CD0]
+メタルイーター[END]
+
+// Script 1-67 [0x21CD8]
+ハチのすせんしゃ[END]
+
+// Script 1-68 [0x21CDF]
+なんたいキャノン[END]
+
+// Script 1-69 [0x21CE6]
+ソニックコブラ[END]
+
+// Script 1-70 [0x21CEE]
+さまようタイル[END]
+
+// Script 1-71 [0x21CF6]
+くろいじゅうたん[END]
+
+// Script 1-72 [0x21CFF]
+レーザーミミズ[END]
+
+// Script 1-73 [0x21D05]
+カミカゼボム[END]
+
+// Script 1-74 [0x21D0C]
+メタルぺッカー[END]
+
+// Script 1-75 [0x21D14]
+おおづつ[END]
+
+// Script 1-76 [0x21D19]
+ミサイルボート[END]
+
+// Script 1-77 [0x21D1F]
+じそうおんぱほう[END]
+
+// Script 1-78 [0x21D28]
+グレートカバガン[END]
+
+// Script 1-79 [0x21D30]
+バルカンシャーク[END]
+
+// Script 1-80 [0x21D37]
+へルレスキュー[END]
+
+// Script 1-81 [0x21D3F]
+ガンタワー[END]
+
+// Script 1-82 [0x21D45]
+レーダーフラワー[END]
+
+// Script 1-83 [0x21D4E]
+バイオバズズ[END]
+
+// Script 1-84 [0x21D55]
+プラズマビートル[END]
+
+// Script 1-85 [0x21D5C]
+グラマータイガー[END]
+
+// Script 1-86 [0x21D65]
+きんのじゅうたん[END]
+
+// Script 1-87 [0x21D6E]
+ソナースネーク[END]
+
+// Script 1-88 [0x21D76]
+アイアンクロー[END]
+
+// Script 1-89 [0x21D7E]
+ボムランナー[END]
+
+// Script 1-90 [0x21D85]
+ぽたぽたキウイ[END]
+
+// Script 1-91 [0x21D8D]
+ミサイルキャリア[END]
+
+// Script 1-92 [0x21D94]
+ガソリンカイマン[END]
+
+// Script 1-93 [0x21D9D]
+ＡＴエレファント[END]
+
+// Script 1-94 [0x21DA6]
+じごくのストーブ[END]
+
+// Script 1-95 [0x21DAF]
+ラジオブロッサム[END]
+
+// Script 1-96 [0x21DB8]
+バブルカニガン[END]
+
+// Script 1-97 [0x21DBF]
+そらとぶハイエナ[END]
+
+// Script 1-98 [0x21DC8]
+スローウォーカー[END]
+
+// Script 1-99 [0x21DD1]
+ＡＴアルマジロ[END]
+
+// Script 1-100 [0x21DD9]
+ミサイルトレーラ[END]
+
+// Script 1-101 [0x21DE0]
+うたうパラボラ[END]
+
+// Script 1-102 [0x21DE8]
+ＡＴグリズリー[END]
+
+// Script 1-103 [0x21DF0]
+プラズマタンク[END]
+
+// Script 1-104 [0x21DF7]
+デザートモンロー[END]
+
+// Script 1-105 [0x21E00]
+ＡＴＭシャーク[END]
+
+// Script 1-106 [0x21E08]
+スピードタートル[END]
+
+// Script 1-107 [0x21E11]
+ＡＴギガンテス[END]
+
+// Script 1-108 [0x21E19]
+メデューサ[END]
+
+// Script 1-109 [0x21E1F]
+ガンバルン[END]
+
+// Script 1-110 [0x21E25]
+メチルアマゾン[END]
+
+// Script 1-111 [0x21E2D]
+ガンホール[END]
+
+// Script 1-112 [0x21E33]
+かんしカメラ[END]
+
+// Script 1-113 [0x21E3A]
+バットシステム[END]
+
+// Script 1-114 [0x21E42]
+アンチロバー[END]
+
+// Script 1-115 [0x21E49]
+スネークホール[END]
+
+// Script 1-116 [0x21E51]
+レーザーアイ[END]
+
+// Script 1-117 [0x21E56]
+ソニックスタナー[END]
+
+// Script 1-118 [0x21E5F]
+ビームスぺクター[END]
+
+// Script 1-119 [0x21E68]
+キラークロゼット[END]
+
+// Script 1-120 [0x21E71]
+ウイルスバット[END]
+
+// Script 1-121 [0x21E79]
+ＧＩスケルトン[END]
+
+// Script 1-122 [0x21E81]
+コードゴーレム[END]
+
+// Script 1-123 [0x21E89]
+ちょうでんどうＸ[END]
+
+// Script 1-124 [0x21E92]
+デストロイド[END]
+
+// Script 1-125 [0x21E99]
+バーサーカー[END]
+
+// Script 1-126 [0x21EA0]
+にんげんジゴク[END]
+
+// Script 1-127 [0x21EA6]
+ミミックボックス[END]
+
+// Script 1-128 [0x21EAF]
+ガードゴーレム[END]
+
+// Script 1-129 [0x21EB7]
+ノア[END]
+
+// Script 1-130 [0x21EBA]
+ノア[END]
+

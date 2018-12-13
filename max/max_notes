@@ -1,0 +1,451 @@
+14746 = man in starting town: むらの　みなみの　ほらあなに [...]
+  * from rom 8746
+  * accessed at 0F:FAB2 = 3FAB2
+  
+0C:BB15 = ?
+  * call FAAD to fetch next script byte
+  * if 9F or E3, increment 0000 and jump to BB0E
+  * if > EB, do something and jump to BB0E
+  * otherwise, loop
+  
+script commands:
+  9F: wait for input, then end script?
+  * 33B7F is jump table for opcode E2+ print handlers
+    E2: BFAB -- prints 0???
+    E3: BE8E -- yes/no, no effect???
+    E4: F8C5 -- wait-for-key?
+    E5: BD94 -- line break?
+    E6: BD68 -- ?
+    E7: BD91 -- also line break?
+    E8: BE68 -- prints hero name
+    E9: BE83 -- brief pause???
+    EA: BE22 -- region 0x13 dictionary lookup
+      * 1b scriptnum
+    EB: BE8E -- display yes/no choice
+      * 1b script to run if "yes" chosen?
+      * 1b script to run if "no" chosen?
+    EC: BE1E -- region 0x14 dictionary lookup
+      * 1b scriptnum
+    ED: BC4E -- generate spaces
+      * 1b space count
+    EE: BD36 -- change text speed
+      * 1b delay per character
+      -- this is persistent -- the original speed will not be restored when
+         the script ends!
+    EF: BC54
+      * 1b ?
+      -- if zero, next param becomes "fill character"???
+      -- otherwise, this is a count of number of spaces to generate?
+      * 1b ?
+    F0: BD6E -- Sets name of currently speaking character (displayed before
+                opening quotation mark in dialogue).
+                Note that this is persistent until the next F0 command.
+                If this occurs in the middle of other dialogue, it acts
+                as a wait-for-key command first?
+                Strings are in region C.
+      * 1b character index
+      -- 00 = nobody
+      -- 01 = touchan
+      -- 02 = neechan
+         ...
+    F1: FAC5
+      * 1b ?
+    F2: BC42
+      * 1b ?
+    F3: BE26 -- region 0x11 dictionary lookup
+      * 1b scriptnum
+    F4: BC70 -- prints text instantly until <1b param> instances of FE
+                encountered??
+      * 1b count of FE instances before stopping (1 = one instance, etc.)??
+    F5: BD3D -- see 3FD73 (A = parameter)
+      * 1b ?
+    F6: BC47 -- EOR $00E6 with 01
+      -- toggles tilemap mode (on)
+      -- skip handler indicates this is terminated by 63 or 9F
+      -- in tilemap mode, regular op handling is disabled. the following
+         alternate opcode set is used:
+         * 9F: terminator
+         * 9E: skip forward?
+          * 1b skip count?
+         * 63: toggles tilemap mode (off)
+         * 8C: fill
+          * 1b fill length (+1)?
+          * 1b fill value
+         * 43: dictionary lookup from region 9
+          * 1b script id (region 9)
+         all other input characters are simply copied to the output
+    F7: BE32 -- arbitrary dictionary lookup
+      * 1b scriptnum
+      * 1b script region
+    F8: BF8B -- ??? save file?
+      * 1b varindex
+        -- address retrieved from this index in table at 33CAA
+           pointers into SRAM?
+      * 1b ?
+        -- low nybble used as index into pointer derived from previous param
+        -- high bit = ???
+    F9: BFA2 -- print data from same locations as op F8? vars as numbers?
+      * 1b varindex
+      * 1b ? same as op F8
+    FA: BD43
+      * 1b ? calls scripts?
+    FB: BD53
+      * 1b ? calls scripts?
+    FC: BE73 -- prints variable as string, doesn't change printing position
+      * 1b varindex
+      -- prints variable as string, but restores initial printing position
+          afterward, so name will be overwritten if more text follows
+      -- this is used if the game needs to print something of a fixed width,
+          e.g. in a tilemap; the string is written, then a SPACES command is
+          used to advance the intended width
+    FD: BE4C -- prints variable as string
+      * 1b varindex
+    FE: BD74 -- wait-for-key
+    FF: "BD20" (not a valid pointer; this is specially handled) -- space
+  * 33B3F is jump table for opcode EB+ skip handlers
+    EB: FAB5 -- 2b, counts as script terminator
+    EC: FABA -- 1b
+    ED: FABA -- 1b
+    EE: FABA -- 1b
+    EF: FAB7 -- 2b
+    F0: FABA -- 1b
+    F1: FABA -- 1b
+    F2: FABA -- 1b
+    F3: FABA -- 1b
+    F4: BB69 -- terminated by FE
+    F5: FABA -- 1b
+    F6: BB71 -- terminated by 63 (doesn't count as script terminator) or
+                terminated by 9F (counts as script terminator)
+    F7: FAB7 -- 2b
+    F8: FAB7 -- 2b
+    F9: FAB7 -- 2b
+    FA: FABA -- 1b
+    FB: FABA -- 1b
+    FC: FABA -- 1b
+    FD: FABA -- 1b
+    FE: BB70 -- 0b
+    FF: BB70 -- 0b
+  
+general stuff:
+  * game uses CHR inversion, so pattern table 0 is broken into 4 bankswitched
+    parts and table 1 into 2
+    
+script locations:
+  Sets of scripts are organized into 0x16 regions.
+  * 33AD6 is a table containing the bank numbers for each region.
+  * 33AAA is a table containing the 0x8000-based initial address for the first
+    script in each region (minus one due to a preincrement operation).
+  To fetch a given script, the game writes the region number to $00CD and the
+  script index to $00CC, then calls routine 33AEC. The scripts in each region
+  are not explicitly indexed, so this routine has to seek through all the
+  scripts preceding the target one.
+  The lowest switchable bank is changed accordingly, and the starting address
+  of the target script is written to $00B8.
+  * Regions 0x11, 0x13, and 0x14 contain scripts used for dictionary lookup
+    opcodes.
+  * There is special handling at 33AF3 for a target bank of 0x20 -- how does
+    this happen?
+  List of script regions:
+      #  |  Offset | Scripts
+    ----------------------
+    0x00   0x11a16   222
+    0x01   0x21ae6   131
+    0x02   0x10119   171
+    0x03   0x10da3   25
+    0x04   0x112e2   43
+    0x05   0x14000   215
+    0x06   0x124de   161
+    0x07   0x16000   128
+    0x08   0x21ebd   39
+    0x09   0x10000   23
+    0x0a   0x16bcd   200
+    0x0b   0x36000   197
+    0x0c   0x12000   35
+    0x0d   0x120a6   102
+    0x0e   0x18000   186
+    0x0f   0x174f3   62
+    0x10   0x13387   118
+    0x11   0x1f98a   226
+    0x12   0x1156c   26
+    0x13   0x11923   41
+    0x14   0xbe80    34
+    0x15   0x384a5   21
+
+scripts and variables:
+  Game variables that can be referenced by scripts are assigned indices.
+  The routine at 33C9A fetches a 1b variable index from the current script
+  and gets a pointer to its corresponding variable from the table at 33CAA.
+  Indexed locations can be in RAM or SRAM.
+  There are ~0x40 variables?
+    00 6400  player name
+    01 6405  トミー
+    02 640A  ステラ
+    03 6466
+    04 6468
+    05 646A
+    06 645D
+    07 051D
+    08 00C6
+    09 00C7
+  ...
+    
+naming screen:
+  00C2-00C3: WRAM name target for display of name during entry
+  00CA-00CB: base address of name position cursor x-position array
+             * array is at 216D8; set to B6D8 for tanks, B6D9 for hero
+  00CC: ?
+  00CD: ? 2?
+  00D0: current target index in name
+  00D1: x-pos within current column?
+  00D2: index of selected character/option
+  00D5: zero if naming character, nonzero for tank
+  00D7: ?
+  00D8: ?
+  00D9: WRAM/PPU displayed name transfer size
+  00DC: ? PPU transfer "type ID"? 1E for hero name?
+        used to fetch stuff from array at 3F6AD to 00D7 -- x/y/w/h?
+        also WRAM target from array at 3F68B
+        see 3F703
+  00DD: maximum name length - 1
+  0314+: ?
+  0325: ?
+  0326: ?
+  032F: copy of hero/tank index??
+  051D: used as buffer for name input (also 04A0?)
+  059A: ? set to FF at start
+  059B: reload value for 059C cursor movement check counter,
+        i.e. cursor "sensitivity"
+  059C: countdown timer: when 00, check for cursor movement
+  
+  216C6: table of positions to copy input names to (based on value of 00D5)
+         index 00 = hero, indices 01-09 = tanks
+  216D8: table of name cursor x-positions
+  
+  29C07: start of 5 default party listings
+  29C57: random character 2 names
+  29C83: random character 3 names
+  
+  3F543: transfer in-progress name to WRAM
+  3F6AD: array of PPU transfer package specifications (x/y/w/h)
+         see 00DC
+  3F68B: array of PPU transfer package WRAM srcaddresses
+         see 00DC
+  3F99C: array of WRAM transfer clear package dstaddresses
+         see 3FA63
+  
+names:
+  28012: create initial save file for new game
+  3E6FE: table of 8-bit offsets from start of active save data to character
+         names
+  3E714: table of 8-bit offsets from start of active save data to tank names
+         (note: 11 entries, but only 8 tanks)
+  
+  routines:
+    3F37F: copy a character or tank name to 051D buffer
+    
+  need 160/0xA0 bytes for special parties, 88/0x58 for each of the two random
+  name lists
+  total: 336/0x150
+  
+save file
+  files are 0x3DE bytes total
+  file 1 at $6800, file 2 at $6C00
+  files are 5 consecutive blocks copied to different locations when file is
+  loaded (see 29D4F):
+    block 1: main data
+      src  = $6800
+      dst  = $6400
+      size = 0x36E
+      
+      0000-0046 = party and tank names
+        0000 = hero (5 bytes)
+        0005 = char2 (5 bytes)
+        000A = char3 (5 bytes)
+        000F = tank1 (7 bytes)
+        0016 = tank2 (7 bytes)
+        ...
+        0040 = tank8 (7 bytes)
+        0047 = rental tank 1 (names are e.g. レンタ１ごう)
+        004E = rental tank 2
+        0055 = rental tank 3
+      ...
+      0317-036D = ?
+      
+    block 2:
+      src  = $6B6E
+      dst  = $0441
+      size = 0x20
+    block 3:
+      src  = $6B8E
+      dst  = $0461
+      size = 0x20
+    block 4:
+      src  = $6BAE
+      dst = $0413
+      size = 0x2C
+    block 5:
+      src  = $6BDA
+      dst  = $0061
+      size = 0x4
+  
+data:
+  29E45: table of save file addresses, high byte only (low is assumed 00)
+  33B7F: script op handler table (subtract E2 from op)
+  33CAA: table of script variable pointers
+
+memory map:
+  0020: current low bank
+  0021: current high bank
+  0032-0033: pointer to IRQ handler
+  0034: ? don't wait for NMI if not 1?
+  0035: nonzero if IRQ handler enabled
+  0036: changes at NMI?
+  007E: ?
+  0089: ?
+  00B0: ?
+  00B6-00B7: base putaddr for output characters from scripts
+  00B8-00B9: current script src address
+  00BC-00BD: for menus, pointer to current cursor x-pos table
+             see e.g. 3F256
+  00BE-00BF: for menus, pointer to current cursor y-pos table
+  00C0-00C1: for menus, ???
+  00C4-00C5: msgpos
+             add #$6240 to this to get WRAM putpos?
+  00CA:
+        naming screen: base address of name position cursor x-position array
+        * array is at 216D8; set to B6D8 for tanks, B6D9 for hero
+  00CC: (temp) scriptnum
+  00CD: (temp) regionnum
+  00CF: menu type
+  00D0: ?
+        naming screen: current target index in name
+  00D1: ?
+        naming screen: x-pos within current column?
+  00D2: current cursor index
+        naming screen: index of selected character/option
+  00D5: 
+        naming screen: zero if naming character, nonzero for tank?
+  00D7: printing x-pos?
+  00D8: printing y-pos?
+  00DB: ?
+  00DC: ?
+  00DD: previous cursor position (cursor has changed if different from 00D2)
+        line num (battle?)??
+  00DE: ?
+  00E2-00E3: src script identifier (num, region) for e.g. op E9
+  00E6: bit 0 = tilemap mode flag -- on if set
+  00E7: printing x-pos?
+  0314: array of 0x10 sprite object ???
+  0324: array of 0x10 sprite object typenums
+  0334: array of 0x10 sprite object x-positions
+  0344: array of 0x10 sprite object y-positions
+  0441: bitflag array
+  0493: PPU transfer queue
+  051D: on 
+        used as buffer on name entry screen (also 04A0?)
+  0530: ?
+  0532: ?
+  059A: ?
+  059B: ?
+  059D: current linenum in message box
+  059E: 00 if script processing finished, nonzero if not?
+  059F: ?
+  05A0: add to WRAM putpos after applying AND for linebreak to get actual
+        output pos
+        (used for SPKR)
+  05A2: number of columns in current menu?
+  05A3: number of items in current menu??
+  05A6: ?
+  05A7: printing target? 00 = right box, ...?
+        see e.g. 3F5EB (box clearing stuff)
+        * 3F61D: table of 05A7 values to WRAM package indices
+  6000-63FF?: space to compose tilemaps for menus, messages, etc.?
+  6400: main data for active (loaded) file
+        copied here from 6800 or 6C00 when file is loaded/started
+    6400: character 0 name
+    6405: character 1 name
+    ...
+  67F0: array with nonzero values for existent save files?
+        set to #$25 when file saved
+  67F2: tracks selected save file? 1 for file 1, 2 for file 2?
+  67F3: save file checksums array, low byte
+  67F5: save file checksums array, high byte
+  6800: file 1 data? starts with var names
+  6C00: file 2 data?
+  7006: array of enemy formation type slots? 1 byte per enemy type present?
+  71FD: ? enemies
+  
+routines:
+  21658: write non-default player name?
+    216BB: set player's name to non-default name?
+  29BCC: set up default names?
+    29BF2: set a name to default?
+  BAEC (33AEC): advance to script with index given by $00CC???
+  BB7F (33B7F): jump table for opcodes E3(?) and greater
+  BBC6 (33BC6): decide what to do with next script byte?
+  33BEB: alternate script byte handler if tilemap mode on
+  BC06 (33C06): handle script bytes >= ??
+    BE26 (33E26): F3 (dictionary lookup) handler
+  33C9A: fetches script byte and uses as index into a table of variable
+         locations (save file, RAM)
+         * 00 = player name
+         * 01 = "tommy"
+         ...
+  3D614: multiply 0000 by 0001 and return result in 000E-000F
+  3EBFA: fade in?
+  3FD73: part of opcode FE handler? A = parameter
+  3F58A: start text script?
+    - called at 0C:BE42 (in BD87)
+      - called at 0F:F59D (recursive!!)
+        - from BBB9?
+  3F5AB: print message, wait for player input afterward?
+  3F5D2: 
+  3F7F4: wait for NMI?
+  FAAD (3FAAD): fetch next script byte
+
+  218EE: draw part condition/weight on status screen
+
+
+
+
+
+
+can probably do 18-character item names with some effort
+  * will need one-line and two-line versions (two-line for e.g. battle subwindow)
+    * two-line will probably need to be 9x2
+    * battle subwindow can be expanded to 10x2 to fit this
+  * can probably get all two-column menus to fit 9x2
+    * battle menus, item shops, ...
+  * tank items?
+enemy names: can probably manage 18 characters with similar caveats to items
+  * actually maybe 16 or 17, since we have to deal with "A", "B", etc.
+    designations
+
+
+known "non-text" scripts (not tilemap!):
+  3-13 = battle message window BG
+
+3F5EB = clear current text box, then run pending script (00CC/00CD)?
+3FA63 = clear WRAM package
+3EA40 = send PPU package?
+
+26000 = write sprite object to OAM table
+3F256 = set up many sprite objects (e.g. cursors)
+
+3E9A3 = set up cursor layout for a menu?
+
+296C5 = send various menus to PPU
+
+3F365 = set up item list for script access
+
+transfer incidents
+  occur when:
+    * bitflag #$4D ($044A & 0x20) is unset
+      - set when revive capsule is collected from yoshida vending machine
+    * bitflag #$73 ($044F & 0x08) is set
+      - ?
+    * bitflag #$F7 ($045F & 0x80) is set
+      - has a 1 in 8 chance of being set every time the world map is loaded
+        (see 3401D)
+
+

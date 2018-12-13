@@ -1,0 +1,952 @@
+// Script 7-0x0 [0x16000]
+// エンジンの　チューンアップが[BR]
+// オレの　しょうばいだ[BR]
+// いいシゴトするゼ！　どーだ？[CHOICE]<$FF><$01>
+// 
+Engines are my specialty! How about a tune up?[CHOICE]<$FF><$01>
+
+
+
+// Script 7-0x1 [0x16023]
+// じゃ　またな。[opE4][END]
+Okay, see ya.[opE4][END]
+
+
+// Script 7-0x2 [0x16026]
+// おいっ！　[BR]
+// クルマは　どこだよ‥[END]
+Huh? Where's your vehicle?[END]
+
+
+// Script 7-0x3 [0x16031]
+// どのクルマの　エンジンを[BR]
+// チューンアップ　するんだ？[END]
+Which vehicle's engine am I working on?[END]
+
+
+// Script 7-0x4 [0x16040]
+// おいっ！　このクルマの　[BR]
+// エンジンは　どこだよ‥[opE4][END]
+Uhhh, there's no engine in here.[opE4][END]
+
+
+// Script 7-0x5 [0x1604D]
+// おいっ！　このクルマの　[BR]
+// どこが　おめえの　クルマだ[BR]
+// せつめいして　みな！[opE4][END]
+Hey, this ain't your vehicle! You got some 'splaining to do![opE4][END]
+
+
+// Script 7-0x6 [0x16068]
+// おいっ！　このクルマの　[BR]
+// エンジンは　いかれてるぞ[BR]
+// なおしてから　こいよ。[opE4][END]
+Hey, this engine's busted! Go have it fixed first![opE4][END]
+
+
+// Script 7-0x7 [0x16082]
+// なんだ！[BR]
+// このエンジンは　これいじょう[BR]
+// チューンアップしょうがねえよ。[opE4][END]
+Wow. Sorry, I can't tune this up any further.[opE4][END]
+
+
+// Script 7-0x8 [0x1609B]
+// いまから　このエンジンは[BR]
+// [opE9]って[BR]
+// なまえに　なったゼ[KEY]
+// あとで　データを　みて[BR]
+// こし　ぬかすなよ[BR]
+// ほかの　エンジンも　やるか？[CHOICE]<$FF><$01>
+// 
+From now on, this engine's gonna be called [opE9].[KEY]
+Don't piss your pants when you look at its specs![BR]
+Got any other engines for me?[CHOICE]<$FF><$01>
+
+
+
+// Script 7-0x9 [0x160D6]
+// [opE2]Ｇ　かかるけど、[BR]
+// だいじょうぶ　だろうな？[CHOICE]<$FF><$0A>
+// 
+That'll be [opE2]G, that alright with you?[CHOICE]<$FF><$0A>
+
+
+
+// Script 7-0xA [0x160E3]
+// しぬきで　カネためて[BR]
+// いきてたら　こいよ[opE4][END]
+Go out there and earn some money. Come back if you survive.[opE4][END]
+
+
+// Script 7-0xB [0x160F9]
+// カネが　たりねえな！[opE4][END]
+You need more money than that![opE4][END]
+
+
+// Script 7-0xC [0x160FC]
+// あともどりは　できねえぞ[BR]
+// [HERO]の　エンジンを[BR]
+// かいぞうするぞ！　いいな？[TCHOICE]
+// 
+Once I mod your [HERO]'s engine, there's no turning back! You sure?[TCHOICE]
+
+
+
+// Script 7-0xD [0x1611C]
+// あんたのクルマも[BR]
+// チューンアップするかい？[BR]
+// どうするね？[CHOICE]<$FF><$0E>
+// 
+Do you want me to work my magic on your vehicles?[CHOICE]<$FF><$0E>
+
+
+
+// Script 7-0xE [0x16133]
+// クルマの　せいのうに[BR]
+// ものたらなくなったら[BR]
+// オレのこと　おもいだせよ！[END]
+If you want more out of your vehicle, come see me![END]
+
+
+// Script 7-0xF [0x16153]
+// クルマも　ねえのに‥‥[BR]
+// あんたの　アタマでも[BR]
+// かいぞうして　やろうか！！[END]
+No vehicles? Maybe I should be modding your head![END]
+
+
+// Script 7-0x10 [0x16173]
+// で　どのコの　からだを[BR]
+// いじらせて　もらえるんだ。[BR]
+// は、はやく　きめろよ[END]
+Ohh, I'm so excited! Which vehicle am I going to mod?[END]
+
+
+// Script 7-0x11 [0x16198]
+// レンタルの　クルマを　[BR]
+// かってに　いじると　やばいぜ[BR]
+// ながいきしたきゃ　おぼえとけ[opE4][END]
+Nope. You don't mess with a rental tank if you want to live long in this world.[opE4][END]
+
+
+// Script 7-0x12 [0x161BB]
+// ほかのコの　からだを[BR]
+// いじらせて　もらおうか？[CHOICE]<$FF><$0E>
+// 
+Are there any other vehicles I can tamper with?[CHOICE]<$FF><$0E>
+
+
+
+// Script 7-0x13 [0x161D4]
+// こ　このコの　からだは‥‥[BR]
+// ちゃんと　てあてしてやれよ[BR]
+// かわいそうだろ！　おこるぞ！[END]
+T-The poor baby! Can't you see it's hurt? Go have it repaired, hurry![END]
+
+
+// Script 7-0x14 [0x161FB]
+// [HERO]ちゃんか‥‥[opE4][END]
+The cute little [HERO]?[opE4][END]
+
+
+// Script 7-0x15 [0x16203]
+// このコの　からだを[BR]
+// どう　かえたいんだ？[END]
+What kind of change would you like me to do?[END]
+
+
+// Script 7-0x16 [0x16215]
+// カネもねえのに‥‥[BR]
+// [HERO]ちゃんも[BR]
+// ないてるぞ[opE4][END]
+Not enough money, huh...? Even [HERO] looks disappointed.[opE4][END]
+
+
+// Script 7-0x17 [0x16226]
+// このかいぞうを　したら[BR]
+// [SVAR]<$27>オーバーで[BR]
+// うごけなくなる！　いいな？[CHOICE]<$18><$15>
+// 
+This mod's going to bring your load capacity over by [SVAR]<$27>. It won't be able to move! Are you sure?[CHOICE]<$18><$15>
+
+
+
+// Script 7-0x18 [0x16248]
+// さいごに　もう１ど　きく[BR]
+// このコの　からだは　もとに[BR]
+// もどせないぜ！　いいな？[TCHOICE]
+// 
+Let me ask you again, 'cause there's no going back after this! Are you sure?[TCHOICE]
+
+
+// Script 7-0x19 [0x1626D]
+// よーし！　オレに　まかせろ[BR]
+// わるいようには　しねえ[opE4][END]
+Okay then, leave it to me! You're gonna love this![opE4][END]
+
+
+// Script 7-0x1A [0x16288]
+// あん？[BR]
+// このコの　そのぶぶんは[BR]
+// かいぞう　しまくってあるぞ[KEY]
+// これいじょう　やったら[BR]
+// このコの　からだが[BR]
+// こわれちまう！　やめようぜ！[opE4][END]
+Hm? This has already been modded.[KEY]
+Any more tampering and the poor baby's gonna break! No, I'm stopping this.[opE4][END]
+
+
+// Script 7-0x1B [0x162C0]
+// よーし！　かんりょうだ！[BR]
+// かわいがって　やってくれ！[opE4][END]
+Another job well done! Take good care of that cutie, you hear?[opE4][END]
+
+
+// Script 7-0x1C [0x162DC]
+// [HERO]ちゃんの[BR]
+// しゅびりょくを　１０　ふやすのに[BR]
+// [opE2]Ｇ　いるぞ！　やるか？[TCHOICE]
+// 
+I can increase your [HERO]'s defense by 10 for [opE2]G. Is that okay?[TCHOICE]
+
+
+
+// Script 7-0x1D [0x162FF]
+// ほー　[HERO]ちゃんに[BR]
+// [opE9]をつける　あなを[BR]
+// あけたいってわけか‥‥[CHOICE]<$1E><$FF>
+// 
+So you want me to add a [opE9] slot to your cute little [HERO]?[CHOICE]<$1E><$FF>
+
+
+
+// Script 7-0x1E [0x1631F]
+// いいぞ！　いいぞ！　オレは　[BR]
+// そういうムチャが　すきだぜ[BR]
+// [opE2]Ｇだ！　いいな？[TCHOICE]
+// 
+Ooooh yeah baby! I like the sound of that! That'll be [opE2]G, is that alright?[TCHOICE]
+
+
+
+// Script 7-0x1F [0x1633E]
+// [HERO]ちゃんの[BR]
+// だんそうを　ふやすと[BR]
+// [opE2]Ｇだ！　やるか？[TCHOICE]
+// 
+You want more ammo for your [HERO]? That'll be [opE2]G. That alright?[TCHOICE]
+
+
+
+// Script 7-0x20 [0x16356]
+// [HERO]の　だんそうが[BR]
+// [NVAR]<$0A><$00>に　ふえた！[BR]
+// シャシーのじゅうりょうが[BR]
+// ０．１０ｔ　ふえた！[opE4][END]
+Done! Your [HERO] can carry [NVAR]<$0A><$00> more rounds! The chassis weighs 0.10t more now.[opE4][END]
+
+
+// Script 7-0x21 [0x16374]
+// [HERO]の　しゅびりょくが[BR]
+// [NVAR]<$0A><$01>に　ふえた！[BR]
+// シャシーのじゅうりょうが[BR]
+// ０．３５ｔ　ふえた！[opE4][END]
+Your [HERO]'s defense is now [NVAR]<$0A><$01>! The chassis weighs 0.35t more now.[opE4][END]
+
+
+// Script 7-0x22 [0x16396]
+// [HERO]に　[opE9]が[BR]
+// そうびできるようになった！[BR]
+// シャシーのじゅうりょうが[BR]
+// [SVAR]<$27>　ふえた！[opE4][END]
+All done! Now you can install whichever [opE9] you like on your [HERO]! The chassis weighs [SVAR]<$27> more now.[opE4][END]
+
+
+// Script 7-0x23 [0x163B6]
+// で　どれのあなを　あける？[END]
+What slot should I open up?[END]
+
+
+// Script 7-0x24 [0x163C4]
+// [SVAR]<$00>さん[BR]
+// ほんじつの　ごようじは[BR]
+// なんでしょう？[END]
+What do you need, [SVAR]<$00>?[END]
+
+
+// Script 7-0x25 [0x163DC]
+// もうしわけ　ありません！[BR]
+// ただいま　トランクルームは[BR]
+// いっぱいです。[KEY]
+// なにか　ひきださないと[BR]
+// あずけることが　できません！[END]
+I'm terribly sorry, but your Trunk Room is completely filled.[KEY]
+You must withdraw something before you can deposit anything else![END]
+
+
+// Script 7-0x26 [0x16414]
+// なにを　あずけますか？[END]
+What kind of inventory?[END]
+
+
+// Script 7-0x27 [0x16420]
+// いつでも　ごりよう　ください。[END]
+Come back anytime.[END]
+
+
+// Script 7-0x28 [0x1642B]
+// どれを　ひきだしますか？[BR]
+// じゅうじキーの　うえ　したで[BR]
+// ぜんぶ　みられますよ。[END]
+What are you going to withdraw? Press Up and Down on the D-Pad to see the entire list.[END]
+
+
+// Script 7-0x29 [0x1644C]
+// [opE9]ですね？[TCHOICE]
+// 
+[opE9], correct?[TCHOICE]
+
+
+
+// Script 7-0x2A [0x16452]
+// おや？　クルマが　[BR]
+// みあたらない　ようですが‥[opE4][END]
+Hm? I don't see any vehicles.[opE4][END]
+
+
+// Script 7-0x2B [0x16465]
+// どのクルマの　ですか？[END]
+Which vehicle?[END]
+
+
+// Script 7-0x2C [0x1646C]
+// どなたのですか？[END]
+Whose inventory?[END]
+
+
+// Script 7-0x2D [0x16475]
+// それを　はずしたら[BR]
+// うごけないけど[BR]
+// いいですか？[TCHOICE]
+// 
+It won't be able to move after removing that. Is that okay?[TCHOICE]
+
+
+
+// Script 7-0x2E [0x1648E]
+// どっちを　あずけますか？[END]
+What will you deposit?[END]
+
+
+// Script 7-0x2F [0x1649B]
+// どれを　あずけますか？[END]
+What will you deposit?[END]
+
+
+// Script 7-0x30 [0x164A5]
+// [HERO]の[BR]
+// [opE9]を[BR]
+// あずかります　いいですね？[CHOICE]<$31><$FF>
+// 
+Will you deposit [HERO]'s [opE9]?[CHOICE]<$31><$FF>
+
+
+
+// Script 7-0x31 [0x164B4]
+// たしかに　あずかりました。[opE4][END]
+We will take good care of it.[opE4][END]
+
+
+// Script 7-0x32 [0x164C1]
+// ほかに　ごようじは？[END]
+Is there anything else?[END]
+
+
+// Script 7-0x33 [0x164CC]
+// こりゃ　プロじゃないと[BR]
+// とれませんよ！[opE4][END]
+Only a professional could remove that![opE4][END]
+//no context, I don't know what this is for. Needs testing...*test*
+
+
+// Script 7-0x34 [0x164E1]
+// [HERO]さん[BR]
+// [opE9]を[BR]
+// あずかります　いいですね？[CHOICE]<$31><$FF>
+// 
+I will take care of that [opE9] for you, [HERO]. Is that okay?[CHOICE]<$31><$FF>
+
+
+
+// Script 7-0x35 [0x164F1]
+// きかなかったことに　してやる[BR]
+// あそこの　クルマに　[BR]
+// てを　だすなよ　わかぞう！[END]
+I'll pretend I didn't hear that. You can't mess with that vehicle, kiddo![END]
+
+
+// Script 7-0x36 [0x16515]
+// したいから　はぎとれと‥[BR]
+// さすがは　モンスターハンター[opE4][END]
+Right out of a corpse... That's a Monster Hunter for you.[opE4][END]
+
+
+// Script 7-0x37 [0x1652A]
+// [HERO]には　なにも[BR]
+// そうびが　ありません！[BR]
+// きもちだけ　あずかりますよ。[END]
+[HERO] isn't carrying any equipment! But I appreciate the sentiment.[END]
+
+
+// Script 7-0x38 [0x16537]
+// [HERO]には　なにも[BR]
+// どうぐが　ありません！[BR]
+// きもちだけ　あずかりますよ。[END]
+[HERO] isn't carrying any tools! But I appreciate the sentiment.[END]
+
+
+// Script 7-0x39 [0x16544]
+// [HERO]さんは　なにも[BR]
+// そうびして　ないようですが[END]
+[HERO] has nothing equipped.[END]
+
+
+// Script 7-0x3A [0x16555]
+// [HERO]さんは　どうぐを[BR]
+// もっていないようですが[END]
+[HERO] isn't carrying any tools.[END]
+
+
+// Script 7-0x3B [0x16565]
+// アンタ！　かけだし　だな！[BR]
+// あそこの　クルマに　さわるな[BR]
+// かぞく　いるんだろ？[opE4][END]
+You must be new at this... Look, don't mess with that vehicle! You have a family, right?[opE4][END]
+
+
+// Script 7-0x3C [0x1658A]
+// [HERO]さんは　[BR]
+// もう　もてませんよ。[KEY]
+// べつのひとが　もちますか？[TCHOICE]
+// 
+[HERO] can't carry any more.[KEY]
+Should someone else carry it?[TCHOICE]
+
+
+
+// Script 7-0x3D [0x165A6]
+// [HERO]には[BR]
+// もう　つめませんよ。[KEY]
+// べつのに　つみますか？[TCHOICE]
+// 
+[HERO] is fully loaded.[KEY]
+Should I load this somewhere else?[TCHOICE]
+
+
+
+// Script 7-0x3E [0x165C1]
+// ＯＫ！　[HERO]さん！[BR]
+// [opE9]を[BR]
+// うけとって　ください！[opE4][END]
+OK, [HERO]! Here's your [opE9].[opE4][END]
+
+
+// Script 7-0x3F [0x165D8]
+// ＯＫ！　[HERO]に[BR]
+// [opE9]を　つみます。[opE4][END]
+OK! I'll load this [opE9] on your [HERO].[opE4][END]
+
+
+// Script 7-0x40 [0x165E8]
+// まだ　なにか[BR]
+// ひきだしますか？[CHOICE]<$FF><$27>
+// 
+Will you withdraw anything else?[CHOICE]<$FF><$27>
+
+
+
+// Script 7-0x41 [0x165F7]
+// どなたが　もちますか？[END]
+Who will carry it?[END]
+
+
+// Script 7-0x42 [0x16603]
+// どのクルマに　つみますか？[END]
+Where should I load this?[END]
+
+
+// Script 7-0x43 [0x1660C]
+// [SVAR]<$00>さんからは　なにも[BR]
+// あずかってませんよ。[opE4][END]
+We don't have anything in custody from [SVAR]<$00>.[opE4][END]
+
+
+// Script 7-0x44 [0x16624]
+// ようこそ！[BR]
+// インテリアショップへ！[KEY]
+// わずかな　ごよさんで[BR]
+// あなたの　おすまいを[BR]
+// うつくしく　かざれますです。[KEY]
+// なにか　おかいあげに[BR]
+// なられますか？[CHOICE]<$FF><$46>
+// 
+Welcome to the Interiors Shop![KEY]
+For a small price, you can redecorate your home just the way you like it![KEY]
+Would you like to browse our inventory?[CHOICE]<$FF><$46>
+
+
+
+// Script 7-0x45 [0x16666]
+// では　またのおこしを[BR]
+// おまち　もうしあげて[BR]
+// おりますです。[END]
+I hope to see you again.[END]
+
+
+// Script 7-0x46 [0x16681]
+// さようで　ございますか。[opE4][END]
+Oh, I see.[opE4][END]
+
+
+// Script 7-0x47 [0x1668C]
+// [opE9]で[BR]
+// よろしゅう　ございますか？[CHOICE]<$FF><$46>
+// 
+Are you interested in this [opE9]?[CHOICE]<$FF><$46>
+
+
+
+// Script 7-0x48 [0x1669C]
+// もうしわけ　ございません。[BR]
+// ごよさんが　しょうしょう[BR]
+// たりないようで　ございます。[opE4][END]
+I'm terribly sorry, but it seems you have surpassed your budget.[opE4][END]
+
+
+// Script 7-0x49 [0x166C2]
+// しょうち　いたしました。[KEY]
+// では　せきにんを　もって[BR]
+// あなたの　おすまいまで[BR]
+// おとどけ　いたしますです。[opE4][END]
+Very well.[KEY]
+We shall have it delivered to your residence.[opE4][END]
+
+
+// Script 7-0x4A [0x166E5]
+// ありがとう　ございました。[opE4][END]
+Thank you for your patronage.[opE4][END]
+
+
+// Script 7-0x4B [0x166EF]
+// もうしわけ　ございません。[KEY]
+// インテリア　ようひんは[BR]
+// おひとりさま　ひとつ　という[BR]
+// きそくに　なっておりますです[opE4][END]
+I'm terribly sorry.[KEY]
+We cannot sell more than one interior design article per customer.[opE4][END]
+
+
+// Script 7-0x4C [0x16726]
+// ほかにも　なにか[BR]
+// おかいあげに　なられますか？[CHOICE]<$FF><$4A>
+// 
+May I interest you in anything else?[CHOICE]<$FF><$4A>
+
+
+
+// Script 7-0x4D [0x1673D]
+// オラは　ほうだんやだ[BR]
+// いろんな　ほうだんが　あるで[BR]
+// どれか　かってけや[END]
+I got a variety of shells for sale. Buy something already.[END]
+
+
+// Script 7-0x4E [0x1675D]
+// おお！　かってくれるか！[BR]
+// どれに　する。[END]
+You buying? Nice. What it'll be?[END]
+
+
+// Script 7-0x4F [0x1676E]
+// ほうだんが　ほしけりゃ[BR]
+// うちにきてくれや。[END]
+If you need any shells, you know where to find me.[END]
+
+
+// Script 7-0x50 [0x16782]
+// どのクルマに　ほきゅうする？[END]
+Resupply which vehicle?[END]
+
+
+// Script 7-0x51 [0x1678A]
+// どれに　ほきゅうする。[END]
+Resupply what?[END]
+
+
+// Script 7-0x52 [0x16794]
+// どれでも　すきなのを[BR]
+// えらんで　くれや。[END]
+Choose your favorite type.[END]
+
+
+// Script 7-0x53 [0x167A8]
+// おいっ！　クルマもってねえのか？[BR]
+// あるんなら　のってきな。[END]
+Hey, where's your vehicle? Bring it over![END]
+
+
+// Script 7-0x54 [0x167C2]
+// なんぱつ　ほきゅうする[opE4][END]
+How many do you want?[opE4][END]
+
+
+// Script 7-0x55 [0x167CD]
+// とくしゅほうだんは[BR]
+// ６しゅるい　しか[BR]
+// つめねえよ！[KEY]
+// ほかのに　するかい？[TCHOICE]
+// 
+You can't load more than 6 types of special shells![KEY]
+How about a different one?[TCHOICE]
+
+
+
+// Script 7-0x56 [0x167EB]
+// [NVAR]<$0F><$00>ぱつだな。[BR]
+// [opE2]Ｇだが[BR]
+// はらえるか？[TCHOICE]
+// 
+You're buying [NVAR]<$0F><$00>, huh?[BR]
+That'll be [opE2]G. That okay with you?[TCHOICE]
+
+
+
+// Script 7-0x57 [0x16800]
+// カネが　ねえのか‥[BR]
+// なら、ほかのを　ほきゅうするか？[TCHOICE]
+// 
+Yeah, that won't cover it. How about something else?[TCHOICE]
+
+
+// Script 7-0x58 [0x16816]
+// ほら、ほきゅうしたよ。[BR]
+// ほかにも　ほきゅうするか？[TCHOICE]
+// 
+There you go, you're all set. Need anything else?[TCHOICE]
+
+
+// Script 7-0x59 [0x16829]
+// カネもねえのに[BR]
+// てま　かけやがって[BR]
+// かえってくんな！[END]
+Why did you waste my time if you're short on cash? Get lost![END]
+
+
+// Script 7-0x5A [0x1683F]
+// それには　ほきゅう[BR]
+// しなくても　だいじょうぶやで。[opE4][END]
+That one doesn't need resupplying.[opE4][END]
+
+
+// Script 7-0x5B [0x16854]
+// ん、とくしゅほうだんの[BR]
+// だんそうが　いっぱいだよ！[opE4][END]
+Hm, you're full on special shells already![opE4][END]
+
+
+// Script 7-0x5C [0x16865]
+// どのクルマの　とくしゅほうだんを[BR]
+// うってくれるんだ！[END]
+Which vehicle's special shells are you selling?[END]
+
+
+// Script 7-0x5D [0x1686F]
+// どれを　うってくれるんだ？[END]
+What are you selling?[END]
+
+
+// Script 7-0x5E [0x16875]
+// [opFB]<$0A>だな！[opE4][END]
+[opFB]<$0A>, huh?[opE4][END]
+
+
+// Script 7-0x5F [0x1687C]
+// [NVAR]<$0F><$00>ぱつだな。[BR]
+// [opE2]Ｇだが[BR]
+// うってくれるか？[TCHOICE]
+// 
+You're selling [NVAR]<$0F><$00>, huh?[BR]
+That'll be [opE2]G. That okay with you?[TCHOICE]
+
+
+// Script 7-0x60 [0x1688F]
+// ハンターオフィスへ[BR]
+// ようこそ！[BR]
+// [END]
+Welcome to the Hunter Office![END]
+
+
+// Script 7-0x61 [0x1689B]
+// では　また　どうぞ。[END]
+See you next time.[END]
+
+
+// Script 7-0x62 [0x168A0]
+// かべのポスターを[BR]
+// しらべて　ください。[KEY]
+// そこに　かいてある[BR]
+// モンスターを　たおした[BR]
+// ひとに、しょうきんが[BR]
+// しはらわれるのです！[END]
+Check the poster on the wall.[KEY]
+We'll hand out a reward to whoever defeats the wanted monster![END]
+
+
+// Script 7-0x63 [0x168D8]
+// さいきん　うりだしちゅうの[BR]
+// ハンターさんも、こんどは[BR]
+// てこずっている　ようですね！[KEY]
+// ま、あせらず　ゆっくり[BR]
+// いきましょうや！[END]
+It's not easy starting a career as a Hunter. Get careless, and you're dead meat.[KEY]
+Slow and steady wins the race, I say. Take it easy![END]
+
+
+// Script 7-0x64 [0x16912]
+// やりましたね！[BR]
+// [SVAR]<$00>さん！[opE4][END]
+Good job, [SVAR]<$00>![opE4][END]
+
+
+// Script 7-0x65 [0x16921]
+// [opE9]の[BR]
+// しょうきんは[BR]
+// [opE2]Ｇ　です！[KEY]
+// おうけとりに　なりますか？[CHOICE]<$FF><$66>
+// 
+[opE9]'s bounty amounts to [opE2]G.[KEY]
+Are you going to cash it in now?[CHOICE]<$FF><$66>
+
+
+
+// Script 7-0x66 [0x1693D]
+// では　しばらくの　あいだ[BR]
+// しょうきんをおあずかり[BR]
+// しておきます。[KEY]
+// なにぶん　たいきんですので[BR]
+// はやめに　ひきとりに[BR]
+// くださいね。[END]
+As you wish, we'll keep it for you.[KEY]
+It's quite the amount, so please cash it in as soon as possible.[END]
+
+
+// Script 7-0x67 [0x16978]
+// ぜんぶ　サイフに[BR]
+// はいりきらない　ようですが‥[BR]
+// それでも　いいんですか？[CHOICE]<$FF><$66>
+// 
+It's not all going to fit your wallet... Are you sure?[CHOICE]<$FF><$66>
+
+
+
+// Script 7-0x68 [0x1699A]
+// [SVAR]<$00>は　しょうきん[BR]
+// [opE2]Ｇ　てにいれた！[opE4][END]
+[SVAR]<$00> cashed in the bounty![BR]
+Obtained [opE2]G.[END]
+
+
+// Script 7-0x69 [0x169A5]
+// え？　なんと！[BR]
+// [opE9]も[BR]
+// やっつけて[BR]
+// しまったのですか！？[opE4][END]
+E-Excuse me? You even defeated [opE9]?![opE4][END]
+
+
+// Script 7-0x6A [0x169BF]
+// これで　よのなかも　すこしは[BR]
+// しずかに　なるでしょう。[KEY]
+// そして　あなたの　ことは[BR]
+// きっと　まちの　ウワサに[BR]
+// なりますよ！[END]
+The world is a safer place now.[KEY]
+I'm sure people will be talking about your deeds![END]
+
+
+// Script 7-0x6B [0x169F8]
+// いらっしゃいませ。[BR]
+// せんしゃの　ごへんきゃくで[BR]
+// ございますか？[CHOICE]<$FF><$61>
+// 
+Good day. Are you here to return a tank?[CHOICE]<$FF><$61>
+
+
+
+// Script 7-0x6C [0x16A0F]
+// おや！[BR]
+// あなたは　１だいも[BR]
+// かりてない　ようです。[END]
+Oh, you must be mistaken. You have not rented a tank from us.[END]
+
+
+// Script 7-0x6D [0x16A26]
+// だい[NVAR]<$39><$00>　レース[BR]
+// かけきん　[opE2]Ｇ[BR]
+// かけますか？[TCHOICE]
+// 
+Race N.[NVAR]<$39><$00>[BR]
+Bet: [opE2]G[BR]
+Will you bet?[TCHOICE]
+
+
+
+// Script 7-0x6E [0x16A39]
+// [opE9]が　かちました！[BR]
+// ざんねんでした。[opE4][END]
+[opE9] won the race![BR]
+Too bad![opE4][END]
+
+
+// Script 7-0x6F [0x16A43]
+// どのカエルに　かけますか！[END]
+Which frog will you bet on?[END]
+
+
+// Script 7-0x70 [0x16A51]
+// パンパカパーン[BR]
+// [opE9]が　かちました！[BR]
+// はいとうきんは[BR]
+// [opE2]Ｇです！[opE4][END]
+Congratulations![BR]
+[opE9] won the race![BR]
+Your dividend amounts to[BR]
+[opE2]G![opE4][END]
+
+
+// Script 7-0x71 [0x16A63]
+// おカネが　たりないよ。[BR]
+// また　どうぞ。[opE4][END]
+You don't have enough money. See you next time.[opE4][END]
+
+
+// Script 7-0x72 [0x16A6A]
+// だい[NVAR]<$39><$00>　レース[END]
+Race N.[NVAR]<$39><$00>[END]
+
+
+// Script 7-0x73 [0x16A74]
+// パンパカパーン[BR]
+// [opE9]が　かちました！[BR]
+// [END]
+Congratulations![BR]
+[opE9] won the race![BR]
+[END]
+
+
+// Script 7-0x74 [0x16A7F]
+// どこに　そんな　カネが　[BR]
+// あんだよ！[KEY]
+// ったく、もう！[BR]
+// ゆだんの　ならねえ[BR]
+// ヤローだな！[END]
+Yeah, right! And where's all that cash, huh?![KEY]
+Tch, can't trust anybody these days...[END]
+
+
+// Script 7-0x75 [0x16AA9]
+// おい、おい！[BR]
+// おちょくってんのか？[KEY]
+// せんしゃだぜ！[BR]
+// せ・[opF1]<$1E>ん・[opF1]<$1E>しゃ！[KEY]
+// かお　あらって[BR]
+// でなおして　こいや！[END]
+Are you kidding me?[KEY]
+This ain't a toy, pal! It's a tank! It's [opF1]<$1E>a [opF1]<$1E>TANK![KEY]
+Come back when you're ready to talk REAL business![END]
+
+
+// Script 7-0x76 [0x16AE0]
+// しょうがねーな！[BR]
+// それで　ガマン[BR]
+// しといてやるよ！[opE4][END]
+Hmmm... Alright, alright! I guess I'll have to settle for that CHEAP.[opE4][END]
+
+
+// Script 7-0x77 [0x16AFA]
+// エンジンもつんだし‥。[BR]
+// ほれ！[BR]
+// のってけ　ドロボー！[END]
+It even comes with its own engine, you know. Just take it, you thief![END]
+
+
+// Script 7-0x78 [0x16B12]
+// ん？[HERO]ちゃんは[BR]
+// [SVAR]<$36>だけ[BR]
+// ふとりすぎてるぜ！[KEY]
+// かいぞう　したけりゃ[BR]
+// シェイプアップしてきな。[opE4][END]
+Hm? Our cute little [HERO] seems to weigh [SVAR]<$36> too much![KEY]
+It'll need to slim down a bit before we can get modding.[opE4][END]
+
+
+// Script 7-0x79 [0x16B3F]
+// ん、そのクルマは　[BR]
+// とくしゅほうだんは[BR]
+// ほきゅう　できないぞ。[KEY]
+// ほかのクルマに　[BR]
+// ほきゅうするか？[TCHOICE]
+Hmm... That one can't load any special shell.[KEY]
+How about a different vehicle?[TCHOICE]
+
+
+
+// Script 7-0x7A [0x16B5D]
+// ん、そのクルマは　[BR]
+// とくしゅほうだんを[BR]
+// もってないぞ。[KEY]
+// ほかの　クルマが　[BR]
+// うってくれるか？[TCHOICE]
+// 
+Hm, that vehicle isn't carrying any special shells.[KEY]
+How about a different one?[TCHOICE]
+
+
+
+// Script 7-0x7B [0x16B7B]
+// ぜひ　また[BR]
+// かりてください。[END]
+Feel free to make us of our service again.[END]
+//no context, possibly related to renting tanks. Needs testing.*test*
+
+
+// Script 7-0x7C [0x16B8A]
+// くるまが　ないと[BR]
+// おわたしできません。[opE4][END]
+I can't give it to you without a vehicle.[opE4][END]
+
+
+// Script 7-0x7D [0x16B9F]
+// よし！かいとった！[BR]
+// ほかにも　うってくれるか？[TCHOICE]
+// 
+Alright, got it. Have anything else to sell?[TCHOICE]
+
+
+
+// Script 7-0x7E [0x16BB0]
+// ほかのものを[BR]
+// うってくれるか？[TCHOICE]
+// 
+Have anything else to sell?[TCHOICE]
+
+
+
+// Script 7-0x7F [0x16BBB]
+// [HERO]は[BR]
+// ほきゅうする[BR]
+// もんが　ねえぞ！[opE4][END]
+[HERO] doesn't need any supplies![opE4][END]
+
+

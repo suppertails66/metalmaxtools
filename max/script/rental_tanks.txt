@@ -1,0 +1,16 @@
+
+// Names for the rental tanks. These are 6 bytes instead of 7 like the player
+// tanks because it's too much damn trouble to change it.
+
+// The game assigns all rental tanks the same initial name, then updates the
+// "model number" digit in code when a tank is actually rented. I've modified
+// that routine to set byte 6 of the name (the last character) instead of
+// byte 4.
+
+// レンタ０ごう
+RENT-0[END]
+// レンタ０ごう
+RENT-0[END]
+// レンタ０ごう
+RENT-0[END]
+

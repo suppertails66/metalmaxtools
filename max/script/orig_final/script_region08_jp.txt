@@ -1,0 +1,117 @@
+// Script 8-0 [0x21EBD]
+しゅほう[END]
+
+// Script 8-1 [0x21EC0]
+ふくほう[END]
+
+// Script 8-2 [0x21EC3]
+ＳーＥ[END]
+
+// Script 8-3 [0x21EC7]
+Ｃユニット[END]
+
+// Script 8-4 [0x21ECD]
+エンジン[END]
+
+// Script 8-5 [0x21ED0]
+シャシー[END]
+
+// Script 8-6 [0x21ED3]
+ＯＫ[END]
+
+// Script 8-7 [0x21ED6]
+はそん[END]
+
+// Script 8-8 [0x21EDA]
+たいは[END]
+
+// Script 8-9 [0x21EDE]
+すべてのクルマの　そうびを　みます。[END]
+
+// Script 8-10 [0x21EE5]
+すべてのクルマの　ぶきのこうげきカを　みます。[END]
+
+// Script 8-11 [0x21EF0]
+すべてのクルマの　しゅほうを　みます。[END]
+
+// Script 8-12 [0x21EF7]
+すべてのクルマの　シャシーを　みます。[END]
+
+// Script 8-13 [0x21EFE]
+すべてのクルマの　じゅうりょうを　みます。[END]
+
+// Script 8-14 [0x21F05]
+すべてのクルマの　どうぐを　みます。[END]
+
+// Script 8-15 [0x21F0C]
+すべてのクルマの　そうびのしゅびカを　みます。[END]
+
+// Script 8-16 [0x21F18]
+すべてのクルマの　ふくほうを　みます。[END]
+
+// Script 8-17 [0x21F1F]
+すべてのクルマの　エンジンを　みます。[END]
+
+// Script 8-18 [0x21F26]
+すべてのクルマの　そうこうを　みます。[END]
+
+// Script 8-19 [0x21F2D]
+すべてのクルマの　ほうだんを　みます。[END]
+
+// Script 8-20 [0x21F34]
+すべてのクルマの　ダメージかしょを　みます。[END]
+
+// Script 8-21 [0x21F40]
+すべてのクルマの　ＳーＥを　みます。[END]
+
+// Script 8-22 [0x21F48]
+すべてのクルマの　Ｃユニットを　みます。[END]
+
+// Script 8-23 [0x21F52]
+トランクルームに　あずけているものを　みます。[END]
+
+// Script 8-24 [0x21F66]
+どのクルマの　つよさを　みますか？[END]
+
+// Script 8-25 [0x21F73]
+じょうたい[END]
+
+// Script 8-26 [0x21F79]
+じゅうりょう[END]
+
+// Script 8-27 [0x21F7C]
+しゅび[END]
+
+// Script 8-28 [0x21F80]
+こうげき[END]
+
+// Script 8-29 [0x21F83]
+ＯＮＥ[END]
+
+// Script 8-30 [0x21F87]
+ＧＲＯＵＰ[END]
+
+// Script 8-31 [0x21F8D]
+ＡＬＬ[END]
+
+// Script 8-32 [0x21F91]
+ＯＮ[END]
+
+// Script 8-33 [0x21F94]
+ＯＦＦ[END]
+
+// Script 8-34 [0x21F98]
+すで[END]
+
+// Script 8-35 [0x21F9B]
+うら[END]
+
+// Script 8-36 [0x21F9E]
+おもて[END]
+
+// Script 8-37 [0x21FA2]
+かけ[END]
+
+// Script 8-38 [0x21FA5]
+けずっ[END]
+

@@ -1,0 +1,262 @@
+#===============================================================================
+# Metal Max text build script
+#===============================================================================
+
+[Properties]
+
+#===============================================================================
+# Input/output files
+#===============================================================================
+
+# Name of the source ROM file.
+# This can be headered (iNES) or not.
+#InputRom=max.nes
+
+# Name of the destination ROM file.
+# Output will always be headered.
+#OutputRom=max_build.nes
+
+# Default Thingy table file.
+# Scripts will be processed using this until they use a directive
+# to load another table.
+DefaultTable=table/metal_max_table.tbl
+
+# Number of input graphics.
+#NumGraphics=9
+
+# Base path for output files.
+OutPath=out/script/
+
+#===============================================================================
+# Region setup
+#===============================================================================
+
+# Total number of regions specified in this file.
+NumInputRegions=0x18
+
+# List of region numbers with no section in this file.
+# This is used to exclude the three regions used for dictionary lookups
+# (11, 13, and 14), which are not processed by the build system.
+ExcludeRegions=0x11 0x13 0x14
+
+#===============================================================================
+# Dictionary generation settings
+#===============================================================================
+
+# Dictionary generation mode. Must be one of the following values:
+#   genChar
+#   genWord
+# 
+# In "genChar" mode, the input scripts are scanned for substrings with
+# a length within a certain range for the one which saves the most space when
+# compressed. It's slower, but may be more space-efficient for certain types of
+# input (e.g. Japanese).
+# 
+# In "genWord" mode, scripts are scanned a whitespace-separated word at a time
+# rather than by the character, which is faster and sometimes more
+# space-efficient than genChar.
+
+DictGenerationMode=genChar
+#DictGenerationMode=genWord
+
+# Minimum/maximum "length" of symbols in dictionary.
+# 
+# The meaning of these values depends on the DictionaryGenerationMode:
+#   genChar -- Sets range of characters to scan. A min of 3 and a max of 4
+#              would scan for the most compression-efficient string among
+#              all those with lengths from 3 to 4, inclusive.
+#   genWord -- Sets range of words to scan. A min of 3 and a max of 4 would
+#              scan all phrases with 3 to 4 words.
+# Wider ranges increase build time.
+
+MinDictEntryLen=3
+MaxDictEntryLen=4
+
+#MinDictEntryLen=2
+#MaxDictEntryLen=8
+
+# Maximum number of symbols in dictionary. Maximum (and optimal) value is 765.
+# (With 256 entries per dictionary, it should be 768, but dictionary index $9F
+# cannot be used due to an oversight in the game's code.)
+# 
+# Higher values increase processing time, but increase the space efficiency
+# of the output. Going too high could theoretically overflow the dictionary's
+# size limits, since the three dictionary regions combined can only hold up to
+# 24KB in total, but this number is unlikely to occur in practice.
+
+#MaxDictEntries=384
+#MaxDictEntries=765
+MaxDictEntries=3
+
+# Number of symbols to add to dictionary per pass.
+# Optimal value is 1; higher values lower build time but may create a less
+# space-efficient dictionary. In practice, a value of 10 or so dramatically
+# lowers build time with minimal impact on the output, at least for genChar
+# mode.
+#
+# Each pass determines the top N symbols that can be put in the dictionary
+# to best increase its efficiency. A value of 1 here will take only the best
+# symbol, then completely rescan the scripts to determine what the new most
+# efficient symbol is (after taking into account the symbol that was removed
+# in the previous pass).
+# To lower processing time at the possible cost of space, set this value
+# higher to add the top M symbols after each pass, regardless of how adding
+# each one changes the others' efficiency. In the worst case, this could
+# even result in the dictionary containing unreferenced symbols, so
+# use with care.
+
+DictEntriesPerPass=10
+#DictEntriesPerPass=1
+
+# Sets level of recursion permitted for dictionary entries. Higher is
+# "more efficient", but actually tends to give worse results overall due
+# to how the game's text is split up, so it's disabled.
+# 
+# Dictionary entries can call other dictionary entries. This is realized in
+# the game code by a simple recursive call, so we're limited in how deeply
+# we can nest such references by the size of the hardware stack. This sets
+# the maximum depth of the stack due to recursive dictionary calls -- 0
+# means no recursive calls, 1 means one layer of recursion is allowed, etc.
+DictMaxRecursionLevel=0
+
+#===============================================================================
+# Region file list
+#===============================================================================
+
+[Region00]
+# Name of the input script file for this region.
+SourceFile=out/script/script_region00.txt
+OutName=script_region00
+
+[Region01]
+SourceFile=out/script/script_region01.txt
+OutName=script_region01
+
+[Region02]
+SourceFile=out/script/script_region02.txt
+OutName=script_region02
+
+[Region03]
+SourceFile=out/script/script_region03.txt
+OutName=script_region03
+
+[Region04]
+SourceFile=out/script/script_region04.txt
+OutName=script_region04
+
+[Region05]
+SourceFile=out/script/script_region05.txt
+OutName=script_region05
+
+[Region06]
+SourceFile=out/script/script_region06.txt
+OutName=script_region06
+
+[Region07]
+SourceFile=out/script/script_region07.txt
+OutName=script_region07
+
+[Region08]
+SourceFile=out/script/script_region08.txt
+OutName=script_region08
+
+[Region09]
+SourceFile=out/script/script_region09.txt
+OutName=script_region09
+
+[Region0A]
+SourceFile=out/script/script_region0A.txt
+OutName=script_region0A
+
+[Region0B]
+SourceFile=out/script/script_region0B.txt
+OutName=script_region0B
+
+[Region0C]
+SourceFile=out/script/script_region0C.txt
+OutName=script_region0C
+
+[Region0D]
+SourceFile=out/script/script_region0D.txt
+OutName=script_region0D
+
+[Region0E]
+SourceFile=out/script/script_region0E.txt
+OutName=script_region0E
+
+[Region0F]
+SourceFile=out/script/script_region0F.txt
+OutName=script_region0F
+
+[Region10]
+SourceFile=out/script/script_region10.txt
+OutName=script_region10
+
+[Region12]
+SourceFile=out/script/script_region12.txt
+OutName=script_region12
+
+[Region15]
+SourceFile=out/script/script_region15.txt
+OutName=script_region15
+
+[Region16]
+SourceFile=out/script/script_region16_(05_part2).txt
+OutName=script_region16
+
+[Region17]
+SourceFile=out/script/script_region17_(0B_part2).txt
+OutName=script_region17
+
+[Region18]
+SourceFile=out/script/script_region18_(0E_part2).txt
+OutName=script_region18
+
+[Region19]
+SourceFile=out/script/script_region19_shortitems.txt
+OutName=script_region19
+
+[Region1A]
+SourceFile=out/script/script_region1A_pluralenemies.txt
+OutName=script_region1A
+
+#===============================================================================
+# Graphic insertion list
+#===============================================================================
+
+#[Graphic00]
+#SourceFile=grp/trans/font1.png
+#Offset=0x02000
+
+#[Graphic01]
+#SourceFile=grp/trans/menu1.png
+#Offset=0x02A00
+
+#[Graphic02]
+#SourceFile=grp/trans/font2.png
+#Offset=0x04800
+
+#[Graphic03]
+#SourceFile=grp/trans/menu2.png
+#Offset=0x04A00
+
+#[Graphic04]
+#SourceFile=grp/trans/status.png
+#Offset=0x09C00
+
+#[Graphic05]
+#SourceFile=grp/trans/menu3.png
+#Offset=0x0D000
+
+#[Graphic06]
+#SourceFile=grp/trans/font3.png
+#Offset=0x0D800
+
+#[Graphic07]
+#SourceFile=grp/trans/kanji.png
+#Offset=0x24000
+
+#[Graphic08]
+#SourceFile=grp/trans/race.png
+#Offset=0x32000
+

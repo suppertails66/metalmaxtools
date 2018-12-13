@@ -1,0 +1,1218 @@
+// Script 6-0x0 [0x124DE]
+// ここは　ハンターたちが[BR]
+// たたかいの　きろくを　つける[BR]
+// メモリーセンターよ[opE4][END]
+This is the Memory Center, were Hunters save records of their battles.[opE4][END]
+
+
+// Script 6-0x1 [0x124E2]
+// まんたんサービスへ[BR]
+// ようこそ！[BR]
+// なにを　ほきゅうしますか？[END]
+Welcome to Full Tank! Need any supplies?[END]
+
+
+// Script 6-0x2 [0x124F4]
+// せんしゃの　パーツなら[BR]
+// ここで　うってるのことよ！[END]
+If you're looking for new parts for your tank, you've come to the right place![END]
+
+
+// Script 6-0x3 [0x12509]
+// ここは　せんしゃの[BR]
+// どうぐを　うっている[BR]
+// おみせある。[END]
+This shop is specialized in tools for tanks.[END]
+
+
+// Script 6-0x4 [0x12520]
+// いらっしゃい！[BR]
+// ここは　にんげんようの[BR]
+// ぶきと　ぼうぐの　みせだ。[END]
+Welcome! We sell weapons and armor for humans here.[END]
+
+
+// Script 6-0x5 [0x1253A]
+// さあ　さあ。　おたちあい。[BR]
+// にんげんようの　どうぐなら[BR]
+// ここで　うってるよ。[END]
+Step right up, step right up! We have a good selection of tools for humans![END]
+
+
+// Script 6-0x6 [0x1255C]
+// トランク　ルームは[BR]
+// モンスターハンターの[BR]
+// ざいさんの　ガードマンです[opE4][END]
+This is the Trunk Room. We keep Monster Hunters' assets safe.[opE4][END]
+
+
+// Script 6-0x7 [0x12579]
+// オレは　シャシーの[BR]
+// かいぞうやだ！[BR]
+// いろいろ　やれるぜ！[opE4][END]
+I'm the Chassis Modder![opE4][END]
+
+
+// Script 6-0x8 [0x12591]
+// わしが　いだいな[BR]
+// てんさい　かがくしゃの[BR]
+// ドクター・ミンチじゃ！[KEY]
+// ところで、この　わしに[BR]
+// なんの　ようじゃな？[BR]
+// ひっひっひっ。[END]
+I am Dr. Mortem, genius scientist extraordinaire![KEY]
+So, got any business with me? Hee hee hee![END]
+
+
+// Script 6-0x9 [0x125CE]
+// いらっしゃいませー！[BR]
+// ここは　せんしゃを　かしだす[BR]
+// レンタルタンクの　おみせよ！[opE4][END]
+Howdy! Welcome to Rent-a-Tank, the tank rental store![opE4][END]
+
+
+// Script 6-0xA [0x125E9]
+// ようこそ！[BR]
+// ここは　せんしゃやです。[opE4][END]
+Welcome to our car-wash![opE4][END]
+
+
+// Script 6-0xB [0x125F6]
+// それ　つむと[SVAR]<$36>[BR]
+// じゅうりょうオーバーのことよ[BR]
+// それでも　つむあるか？[TCHOICE]
+// 
+If you add that, you'll go over weight capacity by [SVAR]<$36>. Are you sure?[TCHOICE]
+
+
+
+// Script 6-0xC [0x12615]
+// いらっしゃいませ！[BR]
+// ここは　やどやで[BR]
+// ございます。[opE4][END]
+Welcome to our inn![opE4][END]
+
+
+// Script 6-0xD [0x12625]
+// まひをなおし　しびれをとる[BR]
+// きこうマッサージは　いかが！[opE4][END]
+My Qigong Massage technique can cure Paralysis![opE4][END]
+
+
+// Script 6-0xE [0x12643]
+// レンタルタンクのものは[BR]
+// かいとれないね！[opE4][END]
+I can't take something from a rental![opE4][END]
+
+
+// Script 6-0xF [0x12654]
+// エレクトリック　テレポート[BR]
+// ドコニ　イキマスカ？[TCHOICE]
+// 
+WILL YOU USE THE ELECTRIC TELEPORT?[TCHOICE]
+
+
+
+// Script 6-0x10 [0x1266D]
+// あたらしく[BR]
+// セーブして　いいですか？[CHOICE]<$FF><$46>
+// 
+Will you create a new save?[CHOICE]<$FF><$46>
+
+
+
+// Script 6-0x11 [0x1267F]
+// レンタルタンクの[BR]
+// そうびは[BR]
+// へんこう　できません！[KEY]
+// レンタルタンクの[BR]
+// そうこうポイントには[BR]
+// きをつけて　ください！[KEY]
+// しゃたいの　どこかが[BR]
+// はそんした　ばあい‥[KEY]
+// レンタルタンクは[BR]
+// あなたを　みすてて、[BR]
+// じどうてきに[BR]
+// まちに　もどります！[opE4][END]
+You cannot change the equipment of a rental tank![KEY]
+Keep a close eye on your rental's armor tiles.[KEY]
+If any of its parts gets damaged...[KEY]
+The rental will automatically throw you out and return to town![opE4][END]
+
+
+// Script 6-0x12 [0x126DE]
+// あいよ。　[HERO]さん。[opE4][END]
+Here you go, [HERO].[opE4][END]
+
+
+// Script 6-0x13 [0x126E9]
+// なにも　かわねえんなら[BR]
+// Ｂボタンを　おしてくれ。[END]
+If you don't want to change anything, press B.[END]
+
+
+// Script 6-0x14 [0x126FB]
+// そうかい！[BR]
+// ほかにも　ようじは？[TCHOICE]
+// 
+I see. Anything else?[TCHOICE]
+
+
+
+// Script 6-0x15 [0x12705]
+// じゃ　またな。[opE4][END]
+See ya.[opE4][END]
+
+
+// Script 6-0x16 [0x12708]
+// ちょっと　あんた！[BR]
+// カネが　たりねえな！[opE4][END]
+Hey, you don't have enough money![opE4][END]
+
+
+// Script 6-0x17 [0x12710]
+// だれが　もつんだ？[END]
+Who's gonna carry it?[END]
+
+
+// Script 6-0x18 [0x12718]
+// [HERO]にゃ[BR]
+// これを　つかえないけど[BR]
+// いいのかい？[TCHOICE]
+// 
+[HERO] can't use this. Are you sure?[TCHOICE]
+
+
+
+// Script 6-0x19 [0x1272B]
+// そうですか‥。[BR]
+// むりな　おねがいをして[BR]
+// ごめんなさい。[KEY]
+// どうか　きを　わるく[BR]
+// なさらないで　くださいね。[END]
+I understand. I know it was much too ask.[KEY]
+I hope I haven't offended you.[END]
+
+
+// Script 6-0x1A [0x12755]
+// おっと。　[HERO]は[BR]
+// これいじょう　もてねえぜ！[KEY]
+// ほかの　ひとが　もつかい？[TCHOICE]
+// 
+Hold on. [HERO] can't carry anything else![KEY]
+How about someone else?[TCHOICE]
+
+
+
+// Script 6-0x1B [0x1276C]
+// おっと！　あんた！[BR]
+// これいじょう　もてねえぜ！[opE4][END]
+Hold on! You can't carry anything else![opE4][END]
+
+
+// Script 6-0x1C [0x12777]
+// [END]
+[END]
+
+
+// Script 6-0x1D [0x12778]
+// このひと　しんでるよ。[BR]
+// いいのかい？[CHOICE]<$1E><$FF>
+// 
+This one's dead. Are you sure?[CHOICE]<$1E><$FF>
+
+
+
+// Script 6-0x1E [0x12789]
+// ナムアミダブツ[BR]
+// ナムアミダブツ‥‥。[END]
+Rest in peace... Amen.[END]
+
+
+// Script 6-0x1F [0x12792]
+// だれが　うってくれるんだ？[END]
+Who's going to sell?[END]
+
+
+// Script 6-0x20 [0x12798]
+// どれを　うってくれるんだ？[END]
+What are you selling?[END]
+
+
+// Script 6-0x21 [0x1279E]
+// もってないものは[BR]
+// うれないぜ。[END]
+You don't have anything to sell.[END]
+
+
+// Script 6-0x22 [0x127AE]
+// そんなものを　うるなんて[BR]
+// とんでもねー。[END]
+Whoa there. You shouldn't sell that.[END]
+
+
+// Script 6-0x23 [0x127C3]
+// [opE9]だな。[BR]
+// それなら　[opE2]Ｇで[BR]
+// かいとるぜ！[TCHOICE]
+// 
+Your [opE9], huh?[BR]
+Does [opE2]G sound fair to you?[TCHOICE]
+
+
+
+// Script 6-0x24 [0x127CF]
+// ありがとうよ！[BR]
+// ほかには？[END]
+Thanks! Anything else?[END]
+
+
+// Script 6-0x25 [0x127D7]
+// そうかい！[BR]
+// ざんねんだな。[BR]
+// ほかは　どうだい？[END]
+Alright then. Anything else?[END]
+
+
+// Script 6-0x26 [0x127E9]
+// うりものは　まだ　あるよ！[BR]
+// ゆびマークを　したに　ずっと[BR]
+// うごかしてみなよ！[END]
+That's not all we have! Try moving the cursor further down![END]
+
+
+// Script 6-0x27 [0x127FE]
+// レンタルタンクは[BR]
+// おカネなんか　なくても[BR]
+// かりられるのよ！[KEY]
+// そのかわり　タンクを[BR]
+// かりている　あいだは‥‥[KEY]
+// あなたが　かせいだ　おカネの[BR]
+// なかから、ちょっとだけ[BR]
+// わけまえを　いただくわ！[KEY]
+// つまり　あなたが　もうかると[BR]
+// あたしたちも[BR]
+// もうかるって　わけ！[opE4][END]
+You can rent a tank even when you don't have any money![KEY]
+Here's how it works:[KEY]
+We get a small portion of any money you make![KEY]
+Long story short, whenever you earn something, we also get money.[opE4][END]
+
+
+// Script 6-0x28 [0x12874]
+// [HERO]は[BR]
+// ほきゅうする　パーツがないよ。[opE4][END]
+[HERO] has no parts requiring supplies.[opE4][END]
+
+
+// Script 6-0x29 [0x12886]
+// ざんねん。[BR]
+// おカネが　たりないよ。[END]
+Sorry, you lack the required funds.[END]
+
+
+// Script 6-0x2A [0x1288D]
+// かう　きが　ないなら[BR]
+// Ｂボタンを　おしてくれよ！[END]
+If you've changed your mind, press B to cancel![END]
+
+
+// Script 6-0x2B [0x1289F]
+// [opE9]だね！[BR]
+// [opE2]Ｇ　もらうけど[BR]
+// いいのかい？[TCHOICE]
+// 
+[opE9], I see! That'll be [opE2]G, is that all right?[TCHOICE]
+
+
+
+// Script 6-0x2C [0x128AC]
+// だれが　もつね？[END]
+Who's going to carry it?[END]
+
+
+// Script 6-0x2D [0x128B3]
+// おや！　[HERO]さんは　[BR]
+// もちものが　いっぱいだよ！[KEY]
+// ほかの　ひとが　もつかい[TCHOICE]
+// 
+Oh dear! [HERO] can't carry anything else![KEY]
+How about someone else?[TCHOICE]
+
+
+
+// Script 6-0x2E [0x128C8]
+// あんた！[BR]
+// もちものが　いっぱいだよ！[opE4][END]
+Hey, you can't carry anything else![opE4][END]
+
+
+// Script 6-0x2F [0x128CE]
+// だれが　うってくれるんだい？[END]
+Who's selling?[END]
+
+
+// Script 6-0x30 [0x128D5]
+// どれを　うってくれるんだい？[END]
+What are you selling?[END]
+
+
+// Script 6-0x31 [0x128DC]
+// えっ！？　ほんとうに　[BR]
+// きふして　くださるのですか！[BR]
+// ああ‥、カミさま‥！[KEY]
+// ありがとう！[BR]
+// わたしたちも　くじけずに[BR]
+// ガンバって　みます！[END]
+Huh? You actually would?? Oh, God be praised![KEY]
+Thank you. We'll never give up hope![END]
+
+
+// Script 6-0x32 [0x1291A]
+// わるいね。[BR]
+// そいつは　ひきとれないよ！[END]
+Sorry, I can't take that![END]
+
+
+// Script 6-0x33 [0x1292D]
+// [opE9]だね。[BR]
+// それなら　[opE2]Ｇで[BR]
+// ひきとるよ！[TCHOICE]
+// 
+[opE9]? I'll take that for [opE2]G![TCHOICE]
+
+
+
+// Script 6-0x34 [0x12939]
+// そうかい！[BR]
+// ざんねんだね。[BR]
+// ほかにも　なにか　あるかい？[END]
+Oh well. Anything else?[END]
+
+
+// Script 6-0x35 [0x1294D]
+// ありがとうね！[BR]
+// ほかには？[END]
+Thanks! Anything else?[END]
+
+
+// Script 6-0x36 [0x12955]
+// どの　へやに[BR]
+// おとまりに　なりますか？[END]
+What kind of room would you like?[END]
+
+
+// Script 6-0x37 [0x12967]
+// [opE9]で　ございますね！[BR]
+// しょうち　いたしました。[opE4][END]
+The [opE9] room? Very well.[opE4][END]
+
+
+// Script 6-0x38 [0x12973]
+// さようで　ございますか。[BR]
+// では　また[BR]
+// おこしくださいませ。[END]
+Oh, I see. Maybe next time.[END]
+
+
+// Script 6-0x39 [0x1298B]
+// そうしますと　[NVAR]<$38><$00>にんさまで[BR]
+// [opE2]Ｇに[BR]
+// なりますが　よろしいですか？[TCHOICE]
+// 
+For a party of [NVAR]<$38><$00>, it will be [opE2]G. Is that all right with you?[TCHOICE]
+
+
+
+// Script 6-0x3A [0x1299E]
+// ほかの　へやに[BR]
+// なさいますか？[CHOICE]<$FF><$38>
+// 
+Would you like a different room?[CHOICE]<$FF><$38>
+
+
+
+// Script 6-0x3B [0x129AE]
+// おきゃくさま！[BR]
+// ざんねんながら　おカネが　[BR]
+// たらないようで　ございます。[KEY]
+// ほかの　へやに　なさっては[BR]
+// いかがでしょう？[CHOICE]<$FF><$38>
+// 
+Dear customer, it appears you do not have the required funds.[KEY]
+May I interest you in a different room?[CHOICE]<$FF><$38>
+
+
+
+// Script 6-0x3C [0x129E2]
+// では　どうぞ　ごゆっくり[BR]
+// おやすみ　くださいませ。[END]
+I wish you a good night.[END]
+
+
+// Script 6-0x3D [0x129F9]
+// わりィけどさ、うちは[BR]
+// クルマに　のってる　ヤツしか[BR]
+// あいてに　できねえんだ。[KEY]
+// クルマに　のって[BR]
+// また　きなよ！[END]
+Sorry, I only deal with people inside a vehicle.[KEY]
+Come back when you got one![END]
+
+
+// Script 6-0x3E [0x12A2B]
+// せんしゃですか？[CHOICE]<$3F><$40>
+// 
+Are you here for a washing?[CHOICE]<$3F><$40>
+
+
+
+// Script 6-0x3F [0x12A34]
+// [opE2]Ｇ　いただきますが[BR]
+// よろしいですか？[CHOICE]<$FF><$40>
+// 
+That'll be [opE2]G. Is that okay?[CHOICE]<$FF><$40>
+
+
+
+// Script 6-0x40 [0x12A44]
+// なんだ　ひやかしか。[KEY]
+// また　どうぞ。[END]
+What, were you just looking around?[KEY]
+Oh well, see you.[END]
+
+
+// Script 6-0x41 [0x12A50]
+// まごころを　こめて、[BR]
+// すみずみまで　ていねいに[BR]
+// あらわせて　いただきます！[opE4][END]
+I'm going to wash every nook and cranny![opE4][END]
+
+
+// Script 6-0x42 [0x12A77]
+// なんだ　こいつ！[BR]
+// カネもって　ねえじゃん！[KEY]
+// また　どうぞ。[END]
+What the-- You don't have the money?[KEY]
+Come back next time.[END]
+
+
+// Script 6-0x43 [0x12A8E]
+// あなたも　ゲームを[BR]
+// セーブしてみる？[CHOICE]<$FF><$46>
+// 
+Would you like to save?[CHOICE]<$FF><$46>
+
+
+
+// Script 6-0x44 [0x12AA2]
+// じゃあ　リセットボタンを[BR]
+// おしながら　そっと[BR]
+// スイッチをきってね！[opE4][END]
+Remember to hold Reset as you turn off the console![opE4][END]
+
+
+// Script 6-0x45 [0x12AC5]
+// おやすみ　なさい。[BR]
+// かわいい[BR]
+// モンスターハンターさん！[opE4][END]
+Good night, my dear Monster Hunter![opE4][END]
+
+
+// Script 6-0x46 [0x12ADB]
+// ゲームを　やめるときは[BR]
+// ここで　きろくを　つけてね！[KEY]
+// でないと　せっかくの[BR]
+// くろうが　みずのあわよ！[opE4][END]
+Save your progress here before you stop playing![KEY]
+If you forget to do that, all that time spent will be for naught![opE4][END]
+
+
+// Script 6-0x47 [0x12B0D]
+// [opF5]<$11>はい！[BR]
+// セーブ　かんりょう！[KEY]
+// まだ　ゲームを[BR]
+// つづけますか？[CHOICE]<$FF><$44>
+// 
+[opF5]<$11>...Done! Your records have been saved![KEY]
+Are you going to keep playing?[CHOICE]<$FF><$44>
+
+
+
+// Script 6-0x48 [0x12B30]
+// いってらっしゃい！[BR]
+// きを　つけてね！[END]
+Alright. Be careful out there![END]
+
+
+// Script 6-0x49 [0x12B3D]
+// [opF5]<$0C>ポン　ポン　ポン‥と。[opE4][END]
+[opF5]<$0C>*click* *click*[opE4][END]
+
+
+// Script 6-0x4A [0x12B4C]
+// あいや！[BR]
+// クルマ　ない！[BR]
+// なにも　つめない！[BR]
+// とても　サビシーねー。[KEY]
+// こんど　クルマ[BR]
+// のってくるのことね！[END]
+Aww! No vehicle? How sad! Can't install stuff without vehicle![KEY]
+Come back when you have one![END]
+
+
+// Script 6-0x4B [0x12B7C]
+// あいや！[BR]
+// それレンタルタンク　あるね！[BR]
+// ひとのものには[BR]
+// もの　つむ　ダメあるよ！[opE4][END]
+Aww, that's a rental! Can't tamper with rentals, you know?[opE4][END]
+
+
+// Script 6-0x4C [0x12B9E]
+// あいや！[BR]
+// おカネ　たりない！[BR]
+// びんぼうのこと！[opE4][END]
+Aww, no money? Poor fellow![opE4][END]
+
+
+// Script 6-0x4D [0x12BB3]
+// なにも　かわない　ひと、[BR]
+// Ｂボタン　おすよろし！[END]
+If you don't want to buy, press B![END]
+
+
+// Script 6-0x4E [0x12BCC]
+// [opE9]のこと！[BR]
+// それ　とても　いい！[BR]
+// [opE2]Ｇ　もらうよ！[TCHOICE]
+// 
+[opE9]? Good choice! That'll be [opE2]G.[TCHOICE]
+
+
+
+// Script 6-0x4F [0x12BE1]
+// どのクルマに　のせるかね？[END]
+Which vehicle will carry it?[END]
+
+
+// Script 6-0x50 [0x12BEA]
+// そのクルマに　のせるかね？[END]
+Is that vehicle correct?[END]
+
+
+// Script 6-0x51 [0x12BF5]
+// [HERO]には[BR]
+// この　ぶきを　そうびする[BR]
+// あなが　あいてないみたいよ！[KEY]
+// シャシーを　かいぞうしてないと[BR]
+// つかえないけど　いいのこと？[TCHOICE]
+// 
+[HERO] has no slots for that weapon![KEY]
+Can't use this unless you mod the chassis. Still sure?[TCHOICE]
+
+
+
+// Script 6-0x52 [0x12C2D]
+// クルマに　のってない　ひとは[BR]
+// ちょっと　つめたいですけど[BR]
+// ガマンして　くださいねー！[opE4][END]
+It's so sad you don't have your own vehicle. Hang in there![opE4][END]
+
+
+// Script 6-0x53 [0x12C52]
+// ついでに[BR]
+// [opE9]も[BR]
+// [opFB]<$0F>ときましょう。[KEY]
+// ありがとう[BR]
+// ございました！[BR]
+// ぜひ　また　どうぞーっ！[opE4][END]
+While I'm here, I'll also [opFB]<$0F> some [opE9].[KEY]
+All set! Thank you for your patronage. Come back soon![opE4][END]
+
+
+// Script 6-0x54 [0x12C7B]
+// ドコニ　イキマスカ？[BR]
+// テンソウ　サキヲ[BR]
+// エランデ　クダサイ[END]
+PLEASE SELECT YOUR DESTINATION.[END]
+
+
+// Script 6-0x55 [0x12C99]
+// テンソウ　モクヒョウ　チテン[BR]
+// ザヒョウ　カクニン‥[KEY]
+// [opE9]ニ[BR]
+// テレポートヲ　オコナイマス！[KEY]
+// テンソウ　ソウチニ[BR]
+// ハイッテクダサイ！[opE4][END]
+COORDINATES CONFIRMED.[KEY]
+DESTINATION NAME: "[opE9]".[KEY]
+PLEASE ENTER TRANSPORT DEVICE.[opE4][END]
+
+
+// Script 6-0x56 [0x12CDA]
+// いきなり　こんなことを[BR]
+// おねがいするなんて、[BR]
+// はしたないと　おもうのですが[KEY]
+// この　がっこうの　ために、[BR]
+// きふを　して[BR]
+// いただけませんか[CHOICE]<$FF><$19>
+// 
+Excuse me? I know this is very sudden, but...[KEY]
+Would you make a donation to save our school?[CHOICE]<$FF><$19>
+
+
+
+// Script 6-0x57 [0x12D1F]
+// おや！[BR]
+// おサイフの　おぐあいが[BR]
+// おわるいようで‥。[opE4][END]
+Oh, it appears you are a bit over your budget...[opE4][END]
+
+
+// Script 6-0x58 [0x12D3A]
+// こりゃまた　ずいぶん[BR]
+// こってらっしゃる！[BR]
+// ふん！　ふんっ！[opE4][BR]
+// [HERO]は[BR]
+// かたが　かるくなった！[opE4][END]
+Your shoulders are so stiff! Lemme work my magic...[BR]
+Hmph! Hmph![opE4][BR]
+[HERO] no longer felt stiff![opE4][END]
+
+
+// Script 6-0x59 [0x12D62]
+// どなたを[BR]
+// もんで　さしあげましょう？[END]
+Who needs a massage?[END]
+
+
+// Script 6-0x5A [0x12D74]
+// しんでる　ひとを[BR]
+// もめと　おっしゃる？[CHOICE]<$5B><$5C>
+// 
+You want me to massage a... corpse?[CHOICE]<$5B><$5C>
+
+
+
+// Script 6-0x5B [0x12D8A]
+// そうですか‥。[BR]
+// ま、しごとですからね。[BR]
+// ふん！　ふんっ！[opE4][END]
+Uhh, okay. A job's a job.[BR]
+Hmph! Hmph![opE4][END]
+
+
+// Script 6-0x5C [0x12D9D]
+// ホッ‥。[opE4][END]
+Oooh yeah...[opE4][END]
+//no context. may be related to massaging. Needs testing.*test*
+
+
+// Script 6-0x5D [0x12DA3]
+// ふん！　ふんっ！[opE4][BR]
+// [HERO]の　からだから[BR]
+// しびれが　とれた！[opE4][END]
+Hmph! Hmph![opE4][BR]
+[HERO] was no longer paralyzed![opE4][END]
+
+
+// Script 6-0x5E [0x12DBA]
+// では　また　どうぞ。[opE4][END]
+See you next time.[opE4][END]
+
+
+// Script 6-0x5F [0x12DC0]
+// ひともみ　１０Ｇですが[BR]
+// おためしに　なりますか？[CHOICE]<$FF><$5E>
+// 
+It's only 10G. Care to try it?[CHOICE]<$FF><$5E>
+
+
+
+// Script 6-0x60 [0x12DD9]
+// はかばの　したいは　[BR]
+// ふるくて　いかん！[KEY]
+// しんせんな　したいを[BR]
+// みつけたら　ぜひ　わしの　[BR]
+// ところへ　もってきてくれ！[END]
+Don't go grave-robbing now! Those bodies are too old and rotten![KEY]
+I require the freshest of corpses for my work! If you find any, bring them to me as soon as possible![END]
+
+
+// Script 6-0x61 [0x12E0F]
+// ごめんなさい。[BR]
+// したいにせんしゃは[BR]
+// かせないわ！[opE4][END]
+Sorry, we can't lend tanks to the dead![opE4][END]
+
+
+// Script 6-0x62 [0x12E21]
+// [opF5]<$57>おお！　こりゃまた[BR]
+// なんと　イキのいい[BR]
+// じっけんざいりょうじゃ！[KEY]
+// これなら　きっと[BR]
+// せいこう　するぞ！[BR]
+// いひひひひ！[opE4][END]
+[opF5]<$57>Ah, yes! The newly deceased! The perfect material for my experiment![KEY]
+This is going to be a major success! Hee hee hee hee![opE4][END]
+
+
+// Script 6-0x63 [0x12E5F]
+// なんだ　この　したいは　[BR]
+// まだ　いきとるじゃ　ないか！[KEY]
+// もっと　ちゃんとした[BR]
+// したいは　ないのかねっ！？[CHOICE]<$FF><$64>
+// 
+Bah! This is no corpse! It's still breathing![KEY]
+Don't you have any ACTUAL corpses with you?![CHOICE]<$FF><$64>
+
+
+
+// Script 6-0x64 [0x12E8C]
+// ざんねんじゃのう。[BR]
+// また　あそびに　きなさい。[BR]
+// まっとるぞ！[END]
+*sigh* That's too bad. Come visit again! And bring some fresh corpses![END]
+
+
+// Script 6-0x65 [0x12EA9]
+// さあ！[BR]
+// よみがえるのだ！[BR]
+// この　でんげきでーっ！[opF5]<$32>[opE4][END]
+And now, with the power of electricity... You're alive!![opF5]<$32>[opE4][END]
+
+
+// Script 6-0x66 [0x12EB2]
+// ‥‥。[opE4][END]
+...[opE4][END]
+
+
+// Script 6-0x67 [0x12EB7]
+// [opF5]<$58>おお！　なんと！[BR]
+// せいこうして　しまったぞ！[KEY]
+// キミ！　ほかにも　[BR]
+// したいは　あるかね？[CHOICE]<$FF><$68>
+// 
+[opF5]<$58>Oh, it actually worked![KEY]
+Got any other corpses for me?[CHOICE]<$FF><$68>
+
+
+
+// Script 6-0x68 [0x12EDE]
+// うーむ、[BR]
+// ざんねんじゃのう！[KEY]
+// だれか　しんだら[BR]
+// ぜひ　また　きなさい！[BR]
+// まっとるぞ！　ひひひ！[opE4][END]
+Oh, what shame.[KEY]
+Come see me if anyone else bites the dust! I'll be waiting! Hee hee hee![opE4][END]
+
+
+// Script 6-0x69 [0x12F0D]
+// なに！[BR]
+// したいは　どこじゃ？[BR]
+// みっ、みせて　みなさいっ！[END]
+A corpse? For me?? What are you waiting for, let me see it![END]
+
+
+// Script 6-0x6A [0x12F27]
+// みずしらずの　かたから[BR]
+// こんなに　たくさん[BR]
+// いただけませんわ！[END]
+I can't accept this much from a stranger![END]
+
+
+// Script 6-0x6B [0x12F47]
+// それでは　なんぱつ[BR]
+// ほきゅうするか[BR]
+// きめますか？[CHOICE]<$FF><$77>
+// 
+Have you decided how many units will you resupply?[CHOICE]<$FF><$77>
+
+
+
+// Script 6-0x6C [0x12F5F]
+// クルマに　のってなきゃ[BR]
+// ほきゅうも　へったくれも[BR]
+// ありませんよ！[opE4][END]
+We can't resupply a vehicle without someone inside![opE4][END]
+
+
+// Script 6-0x6D [0x12F7C]
+// もう　まんたんに[BR]
+// なってますよ！[opE4][END]
+You're already fully loaded![opE4][END]
+
+
+// Script 6-0x6E [0x12F8C]
+// ぜんぶ　まんたんですね！[BR]
+// しめて　[opE2]Ｇに[BR]
+// なりますが　よろしいですか？[TCHOICE]
+// 
+You wanna resupply them all?[BR]
+That'll be [opE2]G.[BR]
+Is that okay?[TCHOICE]
+
+
+
+// Script 6-0x6F [0x12F9C]
+// ほかに　なにか[BR]
+// ほきゅうしますか？[CHOICE]<$FF><$5E>
+// 
+Need any other supplies?[CHOICE]<$FF><$5E>
+
+
+
+// Script 6-0x70 [0x12FA9]
+// どこか　えらんで[BR]
+// ほきゅうを　どうぞ[END]
+Please select the supplies you require.[END]
+
+
+// Script 6-0x71 [0x12FB9]
+// どのクルマの　だんやくを[BR]
+// ほきゅう　しやしょう？[END]
+Which vehicles needs ammunition?[END]
+
+
+// Script 6-0x72 [0x12FC4]
+// どこを　[BR]
+// ほきゅう　しやしょう？[END]
+What needs to be replenished?[END]
+
+
+// Script 6-0x73 [0x12FCA]
+// そうですかい。[BR]
+// ほかに　なにか？[END]
+I see. Anything else?[END]
+
+
+// Script 6-0x74 [0x12FD8]
+// それに　ほきゅうする[BR]
+// ひつようは　なさそうですぜ！[END]
+That doesn't need supplies![END]
+
+
+// Script 6-0x75 [0x12FF0]
+// [NVAR]<$0F><$00>ぱつ　ほきゅうして[BR]
+// [opE2]Ｇに[BR]
+// なりますが　よろしいですか？[TCHOICE]
+// 
+That'll be [opE2]G to resupply [NVAR]<$0F><$00> units.[BR]
+Is that okay?[TCHOICE]
+
+
+
+// Script 6-0x76 [0x12FFE]
+// へい！　まんたん！[BR]
+// いっちょあがり！[KEY]
+// ほかに　どこか[BR]
+// ほきゅうしますか？[TCHOICE]
+// 
+There you go, all filled up![KEY]
+Need any more supplies?[TCHOICE]
+
+
+
+// Script 6-0x77 [0x13019]
+// そうですかい。[BR]
+// ざんねんです。[opE4][END]
+Oh, that's too bad.[opE4][END]
+
+
+// Script 6-0x78 [0x13025]
+// なんと！[BR]
+// おカネが　たりませんぜ！[opE4][END]
+Whoops! You need more money![opE4][END]
+
+
+// Script 6-0x79 [0x13033]
+// どの　クルマの　そうこうを[BR]
+// ほきゅう　しやしょう？[END]
+Resupply which vehicle's armor?[END]
+
+
+// Script 6-0x7A [0x1303F]
+// まんたんだと　[opE2]Ｇ！[BR]
+// バラうりなら[BR]
+// タイル１０まい　１Ｇだけど[BR]
+// どうする？[END]
+A complete refill is [opE2]G![BR]
+It's 1G for 10 tiles. What will you do?[END]
+
+
+// Script 6-0x7B [0x13062]
+// だんやく　ぜんぶ　まんたん！[BR]
+// チェック　かんりよう！[opE4][END]
+There you go! Filled up your ammo stockpile![opE4][END]
+
+
+// Script 6-0x7C [0x1307A]
+// まんたん　ですね。[BR]
+// のこり　じゅうりょうが　０ｔに[BR]
+// なるけど　いいですか？[TCHOICE]
+// 
+A complete refill? That would bring your remaining load capacity down to 0t, is that okay?[TCHOICE]
+
+
+
+// Script 6-0x7D [0x13097]
+// [NVAR]<$08><$01>まい　ですね。[BR]
+// [opE2]Ｇに[BR]
+// なりますが　よろしいですか？[TCHOICE]
+// 
+[NVAR]<$08><$01> units? That will be [opE2]G, is that okay?[TCHOICE]
+
+
+
+// Script 6-0x7E [0x130A5]
+// そのパーツは[BR]
+// そうびしていると[BR]
+// かいとれないのことよ！[opE4][END]
+That part is installed, I can't take it![opE4][END]
+
+
+// Script 6-0x7F [0x130C0]
+// うちで　かしだせるのは[BR]
+// こんな　せんしゃよ！[BR]
+// どれに　する？[END]
+These are the tanks we have available! Is there anything you like?[END]
+
+
+// Script 6-0x80 [0x130D9]
+// すてきな　せんしゃでしょ！[opE4][END]
+Isn't it lovely?[opE4][END]
+
+
+// Script 6-0x81 [0x130E6]
+// だれが　のるの？[END]
+Who's going to ride it?[END]
+
+
+// Script 6-0x82 [0x130ED]
+// [HERO]は[BR]
+// レンタルタンクに　のりこんだ！[opE4][END]
+[HERO] entered the rental tank.[opE4][END]
+
+
+// Script 6-0x83 [0x130FC]
+// [HERO]は[BR]
+// レンタルタンクに　のりかえた！[opE4][END]
+[HERO] switched to the rental tank.[opE4][END]
+
+
+// Script 6-0x84 [0x1310B]
+// あら！　[BR]
+// これいじょう　せんしゃを[BR]
+// かせないわ！[KEY]
+// あなたったら、[BR]
+// せんしゃを　かりたまま[BR]
+// かえして　ないでしょう！[KEY]
+// まえのせんしゃを　やめて[BR]
+// あたらしいのに　する？[CHOICE]<$86><$87>
+// 
+Oh, we can't lend you any other tanks![KEY]
+You have to return your rental first![KEY]
+Will you return a tank and rent a new one?[CHOICE]<$86><$87>
+
+
+
+// Script 6-0x85 [0x13152]
+// あら、そう。[BR]
+// でも　また　きてね！[opE4][END]
+Oh, that's too bad. See you soon![opE4][END]
+
+
+// Script 6-0x86 [0x1315F]
+// りょうかい！[END]
+Roger that![END]
+
+
+// Script 6-0x87 [0x13166]
+// さようなら。[BR]
+// また　どうぞ。[END]
+Farewell. Come back soon.[END]
+
+
+// Script 6-0x88 [0x13170]
+// ほかの　せんしゃも[BR]
+// かりてみる？[TCHOICE]
+// 
+Are you going to rent another tank?[TCHOICE]
+
+
+
+// Script 6-0x89 [0x1317D]
+// あら！　もう[BR]
+// かえして　くれちゃうの？[KEY]
+// しょうがないわね。[BR]
+// どの　せんしゃ？[END]
+Oh, are you returning a tank already?[KEY]
+Which one?[END]
+
+
+// Script 6-0x8A [0x1319F]
+// やあね！[BR]
+// あなたは　せんしゃなんて[BR]
+// かりて　ないじゃない！[END]
+Wait. You don't have any rentals![END]
+
+
+// Script 6-0x8B [0x131BA]
+// まいど　ごりよう[BR]
+// ありがとう　ございました。[KEY]
+// ぜひ　また[BR]
+// かりて　くださいね！[opE4][END]
+Thank you for using our service.[KEY]
+Come back whenever you need another rental![opE4][END]
+
+
+// Script 6-0x8C [0x131DE]
+// じゃ　うちで　かってに　[BR]
+// かいしゅう　しちゃうけど[BR]
+// いいわよね？[CHOICE]<$FF><$8D>
+// 
+We're going to collect it back on our own. Is that okay?[CHOICE]<$FF><$8D>
+
+
+
+// Script 6-0x8D [0x131FE]
+// すてきな　せんしゃで[BR]
+// すてきな　たびを[BR]
+// おつづけ　ください！[opE4][END]
+We hope you will enjoy many adventures with our wonderful tanks![opE4][END]
+
+
+// Script 6-0x8E [0x1321A]
+// どれに　するんだ？[END]
+What's it gonna be?[END]
+
+
+// Script 6-0x8F [0x13220]
+// うりもの　ほかにも　あるね！[BR]
+// ゆびマークを　したに　ずっと[BR]
+// うごかしてみる　よろし[END]
+We have more for sale! Move cursor down to see more.[END]
+
+
+// Script 6-0x90 [0x13235]
+// あいや！[BR]
+// そのクルマ、[BR]
+// もう　つめないね！[opE4][END]
+Aww, that vehicle can't carry any more![opE4][END]
+
+
+// Script 6-0x91 [0x13248]
+// あいや！[BR]
+// [HERO]には[BR]
+// もう　つめないよ！[KEY]
+// ほかのクルマに　これ[BR]
+// つむのこと？[TCHOICE]
+// 
+Aww, your [HERO] can't carry any more![KEY]
+How about another vehicle?[TCHOICE]
+
+
+
+// Script 6-0x92 [0x13265]
+// ガコーン！　ありがと　ね！[BR]
+// [HERO]に[BR]
+// ちゃんと　つんだよ！[END]
+Ka-ching! Thanks! I put it on your [HERO]![END]
+
+
+// Script 6-0x93 [0x13280]
+// どのクルマが[BR]
+// うってくれるのこと？[END]
+Sell which vehicle's equipment?[END]
+
+
+// Script 6-0x94 [0x1328C]
+// どうち[BR]
+// うってくれるのこと？[END]
+What are you selling?[END]
+
+
+// Script 6-0x95 [0x13296]
+// あいや！[BR]
+// このクルマ　びんぼう！[BR]
+// なにも　つんでないのことね！[END]
+Aww! Poor vehicle, not carrying anything![END]
+
+
+// Script 6-0x96 [0x132B1]
+// あいやー‥。[BR]
+// それ　かいとる[BR]
+// できないの　ことよ！[END]
+Aww, can't take that![END]
+
+
+// Script 6-0x97 [0x132CA]
+// [opE9]のこと？[BR]
+// これ　けっこう　イタんでる。[BR]
+// [opE2]Ｇ　て　とこヨ！[TCHOICE]
+// 
+That [opE9] looks pretty beaten up... [opE2]G is a fair price.[TCHOICE]
+
+
+// Script 6-0x98 [0x132E8]
+// わたし　とても　いいひと！[BR]
+// ほかにも　なにか[BR]
+// かって　あげたいネ！[END]
+I'm such a good guy! Have anything else for me?[END]
+
+
+// Script 6-0x99 [0x13307]
+// あいやー‥。[BR]
+// ほかに　うりたいもの[BR]
+// ないのことか？[END]
+Awww... Well, you have anything else?[END]
+
+
+// Script 6-0x9A [0x1331F]
+// どれ　かうか？[END]
+What are you going to buy?[END]
+
+
+// Script 6-0x9B [0x13327]
+// ほかに　ようじ　あるのこと？[TCHOICE]
+// 
+Need anything else?[TCHOICE]
+
+
+
+// Script 6-0x9C [0x13335]
+// [opE9]だな。[BR]
+// [opE2]Ｇ　もらうけど[BR]
+// いいのかい？[TCHOICE]
+// 
+[opE9]?[BR]
+That'll be [opE2]G.[BR]
+Is that okay?[TCHOICE]
+
+
+
+// Script 6-0x9D [0x13342]
+// ゆびマークを　したに　ずっと[BR]
+// うごかしてみ[END]
+Move the cursor down to see more items[END]
+
+
+// Script 6-0x9E [0x13358]
+// あんた！[BR]
+// ないものは　うれないよ！[END]
+Hey, you don't have anything to sell![END]
+
+
+// Script 6-0x9F [0x13369]
+// じそうふのう　です！[BR]
+// つよさを　みてください！[opE4][END]
+Unable to move! Check your status![opE4][END]
+
+
+// Script 6-0xA0 [0x13382]
+// どれに　するね？[END]
+What are you looking for?[END]
+
+

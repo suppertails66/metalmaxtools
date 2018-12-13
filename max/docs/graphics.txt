@@ -1,0 +1,19 @@
+The game uses CHR ROM for graphics, so everything is uncompressed. Tiles
+were clearly laid out with a 16-tile wide arrangement in mind.
+
+Offsets of translation-related graphics:
+  0x02000-0x02A00: font
+  0x02A00-0x02E00: main menu options
+  0x04800-0x04A00: partial repeat of font
+  0x04A00-0x04E00: tank menu options
+  0x09C00-0x0A000: status effect stuff?
+  0x0D000-0x0D400: more tank menu options
+  0x0D800-0x0DA00: partial font repeat?
+  0x24000-0x24C00: "end"?, some other kanji
+  0x32000-0x32B00: race game stuff?
+    - has a few katakana -- might be trouble if these are actually used to
+      display text
+
+I don't think these are real text, but I'll throw them in just in case:
+  0x10000-0x10100: is this katakana??
+  0x18800-0x18900: is this katakana??

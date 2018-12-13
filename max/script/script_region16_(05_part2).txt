@@ -1,0 +1,1001 @@
+
+#LOADTABLE("table/metal_max_table_en.tbl")
+#SETSIZE(16, 4)
+
+#SETSPKR(char2)
+
+
+// Script 5-0x6B [0x14FFF]
+// あーあ！　どこかに[BR]
+// せんしゃに　のった[BR]
+// つよい　モンスターハンターが[BR]
+// いないかなあ！[END]
+*sigh* Where's a Monster Hunter in a tank when you need one?[END]
+
+#SETSPKR(anon)
+
+// Script 5-0x6C [0x15021]
+// まちの　ひがしに[BR]
+// ながい　はしが　ある。[KEY]
+// そのはしの　むこうには[BR]
+// ふるい　こうじょうが[BR]
+// たちならんでてな‥[KEY]
+// そこに　いきゃ[BR]
+// クルマが　てにはいるって[BR]
+// ウワサだぜ！[END]
+//There's a long bridge east of here.[KEY]
+//There's an old factory on the other side.[KEY]
+//Rumor is that you can find a vehicle in there![END]
+There's a long bridge east of here.[KEY]
+On the other side is an old factory.[KEY]
+Rumor is that you can find a vehicle in there![END]
+
+
+// Script 5-0x6D [0x15072]
+// あっ！くっそーっ！[BR]
+// また　やられちまったあ！[KEY]
+// [opF5]<$14>[opF5]<$14>オヤジ！さけだ！[BR]
+// バックドロップ[BR]
+// も　いっぱつ　くれや！[opF5]<$14>[opF5]<$14>[opF5]<$0C>[END]
+ARGH! I lost again! Screw this thing![KEY]
+[opF5]<$14>[opF5]<$14>Barkeep! I need booze! And make me a Back Drop![opF5]<$14>[opF5]<$14>[opF5]<$0C>[END]
+
+#SETSPKR(char2)
+
+// Script 5-0x6E [0x150AF]
+// そしたら　ボク、[BR]
+// メカニックになって、[BR]
+// いっしょに　せかいじゅうを[BR]
+// たびして　まわるのになっ！[END]
+I just want to travel the world as a Mechanic! Is it so much to ask?![END]
+
+#SETSPKR(anon)
+
+// Script 5-0x6F [0x150DF]
+// けっ！　やってらんねーよ！[BR]
+// カエルまで　オレさまを[BR]
+// バカに　してやがる！[END]
+Tch! What a load of crap! Freakin' frogs...[END]
+
+
+// Script 5-0x70 [0x15104]
+// あはは！[END]
+Ahahah![END]
+
+
+// Script 5-0x71 [0x15109]
+// ウフフ！[END]
+Heheheh![END]
+
+
+// Script 5-0x72 [0x1510E]
+// うううっ‥[BR]
+// せまいよーっ！[KEY]
+// ああ[BR]
+// びんぼうが　うらめしい‥。[END]
+Urgh... It's so cramped in here![KEY]
+I hate being poor.[END]
+
+
+// Script 5-0x73 [0x15129]
+// んががーっ！[BR]
+// んごごー‥っ[BR]
+// [END]
+Grrr![BR]
+Rrragh![BR]
+[END]
+//no context for this one.*test*
+
+
+// Script 5-0x74 [0x15132]
+// [opE6][HERO]は　タンスをしらべた！[END]
+[opE6][HERO] checked the drawers.[END]
+
+
+// Script 5-0x75 [0x15135]
+// そうこうタイルが[BR]
+// ０に　なったからって、[BR]
+// せんしゃは[BR]
+// しんだり　しねえぜ！[KEY]
+// だけど　そうこうタイルが[BR]
+// ０の　ときに[BR]
+// こうげきを　うけると、[KEY]
+// せんしゃそうびや　シャシーが[BR]
+// こわれちまう　ことがあるのさ。[END]
+//Just because your armor tiles go down to zero doesn't mean your tank is a goner![KEY]
+//But from then on, your tank's equipment and chassis will start getting damaged until they break.[END]
+
+Your tank isn't a goner even if its armor tiles go down to zero![KEY]
+But once that happens, the equipment and chassis will start taking damage and eventually break.[END]
+
+
+// Script 5-0x76 [0x15186]
+// まさか[BR]
+// ホントに　なかままで[BR]
+// みつけちまうとはな！[KEY]
+// ただの　ワルガキだと[BR]
+// おもってたが、[BR]
+// どっこい　たいした[BR]
+// ヤローだぜ、ええ！[END]
+*whistle* You actually found someone crazy enough to follow you?[KEY]
+I thought you were just some dumb brat, but you actually got it together, kiddo![END]
+
+
+// Script 5-0x77 [0x151C7]
+// さいきん　ユゲから[BR]
+// ひとが　ひっこして[BR]
+// こなく　なったわ[END]
+People stopped moving here from Yuge.[END]
+
+
+// Script 5-0x78 [0x151E4]
+// あんた　ほんとは[BR]
+// けっこう　びんぼうじゃろ？[CHOICE]<$79><$7A>
+// 
+You're actually very poor, aren't you?[CHOICE]<$79><$7A>
+
+
+
+// Script 5-0x79 [0x151FC]
+// だったら[BR]
+// インテリア　ショップで[BR]
+// かいものするのは[BR]
+// やめといたほうが　ええ。[KEY]
+// ここの　しなものは[BR]
+// なーんの　やくにも[BR]
+// たたんからのう！わはは！[END]
+//Then you should probably avoid shopping at an Interiors Shop.[KEY]
+//They only sell decorative items unsuitable for your wallet! Hahahah![END]
+
+Then you should probably avoid shopping at an Interiors Shop.[KEY]
+They only sell decorative items that aren't suited for YOUR wallet! Hahahah![END]
+
+// Script 5-0x7A [0x15240]
+// おお　そうか！　わはは！[BR]
+// ひとは[BR]
+// みかけに　よらぬのう！[END]
+Really now? Sorry, you don't really give off that {rich} vibe! Hahahah![END]
+
+
+// Script 5-0x7B [0x1525D]
+// ぼっちゃまは[BR]
+// ちっちゃいころから[BR]
+// きかいいじりが　すきでしただ[KEY]
+// まちの　しゅうりやで[BR]
+// はたらきてえと[BR]
+// おもってた　ようだったけど‥[KEY]
+// ダンナさまが　じぶんの[BR]
+// メンツが　つぶれるちゅうて[BR]
+// おゆるしに　ならなかっただよ[END]
+The young master has always shown interest in machinery since his early childhood.[KEY]
+He would have loved to work at the repair shop...[KEY]
+But the Master said it would ruin their good name, so he wouldn't allow him to do that...[END]
+
+
+// Script 5-0x7C [0x152C3]
+// ぼっちゃま！[KEY]
+// そろそろ　ダンナさまと[BR]
+// なかなおりして　さしあげて[BR]
+// くださりましねえか！[END]
+Young master![KEY]
+Don't you think it's about time you made peace with the Master?[END]
+
+
+// Script 5-0x7D [0x152EC]
+// ここは　ぼっちゃまの[BR]
+// おへや。[KEY]
+// だけど　ちかごろは[BR]
+// ダンナさまと　なかが[BR]
+// わるくて‥。[KEY]
+// おかねもちは　おかねもちで[BR]
+// いろいろ　タイへンみたい。[END]
+This is the young master's room.[KEY]
+Just between you and me, he and the Master are on very bad terms, recently...[KEY]
+Rich people have problems, too.[END]
+
+
+// Script 5-0x7E [0x1532D]
+// まあ！　ぼっちゃま！[BR]
+// おかえり　なさいませ！[END]
+Welcome back, young master![END]
+
+
+// Script 5-0x7F [0x15338]
+// おもすぎる　そうびを[BR]
+// つむと、せんしゃは[BR]
+// うごかなく　なっちまう！[KEY]
+// そういうときは、そうびを[BR]
+// なんトン　へらせば[BR]
+// はしれるように　なるか[BR]
+// たしかめて　みることだ！[KEY]
+// ばあいに　よっちゃ、[BR]
+// そうこうタイルを　なんまいか[BR]
+// はがして　すてるだけで[BR]
+// うごける　ことも　あるぜ！[END]
+If you overequip your tank, it'll be too heavy to move![KEY]
+The trick is to find the right balance of equipment and weight.[KEY]
+You should also consider stripping your tank of some armor tiles to make it lighter![END]
+
+
+// Script 5-0x80 [0x153B5]
+// よのなかにゃ、じぶんで[BR]
+// クルマの　めんどう　みれる[BR]
+// ハンターも　いるんだって？[KEY]
+// よっぽど　けいけん[BR]
+// つんだんだろうな。[BR]
+// そんけいしちゃうよな！[END]
+There's Hunters out there who can look after their vehicles on their own.[KEY]
+Total respect for them. That ain't easy to do![END]
+
+
+// Script 5-0x81 [0x153F8]
+// むてき　びょういん[BR]
+// しんさつしつ[END]
+//Unrivaled Hospital[BR]
+//Consultation Room[END]
+
+Unrivaled Hospital Consultation Room[END]
+
+
+// Script 5-0x82 [0x15409]
+// [opE6][HERO]は　あしもとをしらべた！[END]
+[opE6][HERO] inspected the area.[END]
+
+
+// Script 5-0x83 [0x1540C]
+// おくの　へやに[BR]
+// へんな　きかいが　あるよ！[KEY]
+// とおくのまちに[BR]
+// つれてってくれる　らしいけど[KEY]
+// ぼくは　よそのまちに[BR]
+// いったことが　ないから[BR]
+// どこへ　いったら　いいのか[BR]
+// わからないんだ！[END]
+There's some weird device inside.[KEY]
+Apparently it can take you to other towns...[KEY]
+But I've never been anywhere else! Where am I supposed to go?[END]
+
+
+// Script 5-0x84 [0x15465]
+// ぼくは[BR]
+// べんきょうが　すきです。[END]
+I like studying.[END]
+
+
+// Script 5-0x85 [0x15476]
+// もっと　がっこうの[BR]
+// せいとが　ふえて‥[KEY]
+// かわいい　おとこのこが[BR]
+// いっぱい　くると　いーな！[END]
+I wish there were more students...[KEY]
+We need more cute boys![END]
+
+
+// Script 5-0x86 [0x154A2]
+// いやー、すこしは[BR]
+// あたまを　つかわんと、[BR]
+// ボケて　しまいますからのう[END]
+I may be old, but there's always something to learn. You must keep your brain in shape, you see.[END]
+
+
+// Script 5-0x87 [0x154C5]
+// われわれ　じんるいは[BR]
+// じぶんの　うみだした[BR]
+// ぶんめいに　ほろぼされたと[BR]
+// いう　ひとも　います。[KEY]
+// だが　ほんとうに　[BR]
+// そうなのでしょうか？[KEY]
+// じんるいを　ほろぼしたのは[BR]
+// かがくぎじゅつでも[BR]
+// ぶんめいでも　なくて、[KEY]
+// じつは　よくぼうの　ままに[BR]
+// はてしない　せいさんと[BR]
+// しょうひを　くりかえした、[KEY]
+// われわれ　じんるい　じしんの[BR]
+// おろかさだったのでは[BR]
+// ないでしょうか。[END]
+A common theory is that it was our civilization that caused mankind's downfall.[KEY]
+But was that really the case?[KEY]
+It was neither civilization, nor science, nor technology that caused our downfall.[KEY]
+It was our unending desire to expand and consume.[KEY]
+The real culprit behind mankind's downfall was simply our own foolishness.[END]
+
+
+// Script 5-0x88 [0x15563]
+// あいつは　いつも[BR]
+// あの　ちょうしでね。[KEY]
+// やくにも　たたんことばかり[BR]
+// おしえとるんだよ。[KEY]
+// おかげで　いつまでたっても[BR]
+// せいとが　ふえなくて、[BR]
+// わたしの　きゅうりょう[BR]
+// ひーらひら　なのだよ。[END]
+He's always like that.[KEY]
+There's no point in talking about that stuff, if you ask me.[KEY]
+In fact, that's probably why we rarely get any new students, and why I get paid so little.[END]
+
+
+#SETSPKR(char2dad)
+
+// Script 5-0x89 [0x155C1]
+// きみは‥？[BR]
+// むすこの　ともだちかね？[CHOICE]<$8A><$8B>
+// 
+Are you one of my son's friends, perhaps?[CHOICE]<$8A><$8B>
+
+
+// Script 5-0x8A [0x155D5]
+// じつは、[BR]
+// わたしたち　おやこは[BR]
+// とても　なかが　いいのだよ。[END]
+Just so you know, my son and I get along very well.[END]
+
+
+// Script 5-0x8B [0x155F4]
+// それを　きいて[BR]
+// あんしん　したよ。[KEY]
+// いい　ともだちを[BR]
+// えらびなさいと、つねづね[BR]
+// むすこに　いいきかせて[BR]
+// いるんでね。　はっはっはっ。[END]
+I'm glad to hear that.[KEY]
+I always tell my son to pick his friends with care, you see. Hahahah![END]
+
+
+#SETSPKR(anon)
+
+
+// Script 5-0x8C [0x15637]
+// ちょっと！[BR]
+// いま　いそがしいんだから！[BR]
+// はなしかけないでっ！[END]
+Don't talk to me! Can't you see I'm busy?![END]
+
+
+// Script 5-0x8D [0x15654]
+// また　ユゲから[BR]
+// ひっこしてきた　ひとが[BR]
+// いるみたいね！[END]
+A lot of people want to move here from Yuge.[END]
+
+
+// Script 5-0x8E [0x15670]
+// ぼっちゃまは　さいきん、[BR]
+// まちはずれに　すんでる[BR]
+// ウリウじいさんの　ところに[BR]
+// いりびたりでね。[KEY]
+// この　いえには[BR]
+// ろくすっぽ[BR]
+// おかえりに　ならないんです。[END]
+The young master frequently visits Ulie, the old man living on the town's outskirts.[KEY]
+Sometimes it feels like he's spending more time there than in his actual home.[END]
+
+
+// Script 5-0x8F [0x156B7]
+// ありゃりゃ！　ぼっちゃま！[BR]
+// おかえり　なさいませ！[END]
+Oh, young master! Welcome back![END]
+
+#SETSPKR(char2mom)
+
+// Script 5-0x90 [0x156C5]
+// おちゃを[BR]
+// いれてきて　ちょうだいな！[KEY]
+// ‥‥あら？[BR]
+// あなた‥、うちの[BR]
+// めしつかいじゃ　ないみたいね[KEY]
+// ホホホ。[BR]
+// ごめん　あそばせ。[END]
+Here you are. Serve me some tea, would you?[KEY]
+Oh dear! I mistook you for one of our servants.[KEY]
+Pardon! Hoh hoh hoh![END]
+
+#SETSPKR(anon)
+
+
+// Script 5-0x91 [0x156FD]
+// ぼ、ぼっちゃま！[BR]
+// おああうううっ‥[END]
+Y-YOUNG MASTER![BR]
+AAAHHH!![END]
+
+
+// Script 5-0x92 [0x15709]
+// [SVAR]<$01>ぼっちゃま！[BR]
+// ああ！　なんて[BR]
+// かわりはてた　おすがたにっ！[END]
+Master [SVAR]<$01>![BR]
+How could this happen to you...?![END]
+
+#SETSPKR(char2dad)
+
+// Script 5-0x93 [0x15726]
+// [SVAR]<$01>っ！[KEY]
+// せっかく　うちへ[BR]
+// もどってきて　くれても、[BR]
+// これじゃ　もう　なかよく[BR]
+// くらせないじゃ　ないか‥。[END]
+[SVAR]<$01>![KEY]
+How are we supposed to live happily together like this...?[END]
+
+#SETSPKR(char2mom)
+
+// Script 5-0x94 [0x1575C]
+// おちゃを[BR]
+// いれてきて‥‥[KEY]
+// まあ！　[SVAR]<$01>！[BR]
+// ああ‥！　もう　おちゃも[BR]
+// いれて　これないわねえ‥。[END]
+Here you are. Serve me some t--[KEY]
+
+Oh my goodness![BR]
+[SVAR]<$01>![BR]
+Oh dear... I think I shall postpone teatime...[END]
+
+
+#SETSPKR(char2dad)
+
+// Script 5-0x95 [0x15789]
+// [SVAR]<$01>っ！[BR]
+// うちへ　もどって　おいで。[KEY]
+// パパと　ママと[BR]
+// いままでどおり　なかよく[BR]
+// くらして　いこうじゃないか。[END]
+[SVAR]<$01>, come back to us.[KEY]
+We can be a happy family again, like we've always been.[END]
+
+
+#SETSPKR(char2mom)
+
+// Script 5-0x96 [0x157C0]
+// おちゃを[BR]
+// いれてきて　ちょうだいな！[KEY]
+// ‥‥あら？[BR]
+// [SVAR]<$01>！[BR]
+// いつ　かえって　きたの？[END]
+Here you are. Serve me some tea, would you?[KEY]
+...Oh? [SVAR]<$01>! When did you come back?[END]
+
+
+#SETSPKR(anon)
+
+// Script 5-0x97 [0x157E3]
+// ウーッ‥！[BR]
+// ガルルルッ！[CHOICE]<$98><$99>
+// 
+Grrrr![CHOICE]<$98><$99>
+
+
+
+// Script 5-0x98 [0x157F2]
+// ンガオーッ！[END]
+Awooooo![END]
+
+
+// Script 5-0x99 [0x157F9]
+// フーッ！　フーッ！[END]
+Bark! Bark![END]
+
+
+// Script 5-0x9A [0x15803]
+// みぎの　ガレージのなかが[BR]
+// クルマの　ドックに[BR]
+// なってるよ！[END]
+We converted that garage to the right into a vehicle dock![END]
+
+
+// Script 5-0x9B [0x1581E]
+// この　あたりは　むかしの[BR]
+// ビルが　のこってて、[BR]
+// あちこちに　ひとが[BR]
+// すみついちゃってるのさ。[KEY]
+// ちなみに[BR]
+// ＳＥは　つよいけど[BR]
+// たまが　たかいのが[BR]
+// けってんかな。[END]
+//This area was full of buildings, once. People still live here, though, in what little's left //standing.[KEY]
+//Changing subject, S-E weapons are very strong. Their major drawback is the high price for their //ammo.[END]
+This area was full of buildings once. People still live here, though, in what little's left standing.[KEY]
+I'm changing the subject, but S-E weapons are very strong. Their major drawback is the high price of their ammo.[END]
+
+
+// Script 5-0x9C [0x15869]
+// ハンターも　ソルジャーも[BR]
+// にたような　ものよ！[BR]
+// みんな　らんぼうで、[BR]
+// がめついんだから！[END]
+Hunters and Soldiers aren't that different. They're both violent and greedy![END]
+
+
+// Script 5-0x9D [0x15891]
+// この　ちかくの　ビルに[BR]
+// ソルジャーが　たむろしてる[BR]
+// さかばが　あるとか‥。[END]
+A group of Soldiers is occupying the pub in one of the nearby buildings...[END]
+
+
+// Script 5-0x9E [0x158B3]
+// スゴうでの　ハンターは[BR]
+// きたへ　むかって[BR]
+// たびだった　らしいぜ！[END]
+They say an amazing Hunter took off north![END]
+
+
+// Script 5-0x9F [0x158D0]
+// クルマを　かいぞうに[BR]
+// きたのかい？[CHOICE]<$A0><$A1>
+// 
+Are you here to mod your vehicles?[CHOICE]<$A0><$A1>
+
+
+
+// Script 5-0xA0 [0x158DF]
+// かいぞうやは　そこの[BR]
+// スロープを　おりたところに[BR]
+// あるぜ！[END]
+The modder is just down that slope![END]
+
+
+// Script 5-0xA1 [0x158FB]
+// いいらしいぜー、[BR]
+// かいぞうって　やつは！[BR]
+// あんたも　いちど[BR]
+// やってみちゃ　どうだい！[END]
+Why not? Modding's awesome! You should try it at least once![END]
+
+
+// Script 5-0xA2 [0x1591F]
+// エンジンを　パワーアップ[BR]
+// すると、おもたい　へいきを[BR]
+// つめるように　なるし、[KEY]
+// そうこうタイルも[BR]
+// いっぱい　つめるぜ！[END]
+If you upgrade your engine, you can carry heavier weights, which means stronger weapons.[KEY]
+Not only that, you can also carry more armor tiles! It's a win-win![END]
+
+
+// Script 5-0xA3 [0x15951]
+// よそのまちに　いけば、[BR]
+// もっと　すげえ[BR]
+// かいぞうが　できるって[BR]
+// きいたけど、ホントかな。[END]
+They say there's another town out there with even better mods. I wonder if that's true?[END]
+
+
+// Script 5-0xA4 [0x1597B]
+// んごごーっ！[BR]
+// んごごーっ！[KEY]
+// もう　これいじょう[BR]
+// のめないよ‥。[BR]
+// ムニャムニャ‥。[END]
+*snore*[BR]
+*snore*[KEY]
+Stop... I can't drink anymore...[BR]
+*mumble*[END]
+
+
+// Script 5-0xA5 [0x15995]
+// ぷはーっ！[BR]
+// さけが　うめえや！[KEY]
+// ながたびの　あとは、[BR]
+// キャンプを　ぬけだして[BR]
+// さけを　のむに　かぎるぜ！[END]
+Ohhh yeah! This is the good stuff![KEY]
+After a long journey, nothing's better than sneaking out of the camp and drinking some booze![END]
+
+
+// Script 5-0xA6 [0x159C7]
+// この　ちかくに、[BR]
+// トレーダーたちの　ひみつの[BR]
+// キャンプが　あるらしい。[END]
+I've been told there's a secret trader campsite nearby.[END]
+
+
+// Script 5-0xA7 [0x159E3]
+// うちの　おじいちゃんの[BR]
+// むかしばなしを[BR]
+// ききに　きたのかい？[CHOICE]<$A8><$A9>
+// 
+Did you come to listen to Grandpa's stories?[CHOICE]<$A8><$A9>
+
+
+
+// Script 5-0xA8 [0x159FF]
+// おじいちゃんなら[BR]
+// そこの　テントの　なかに[BR]
+// いるよ。[END]
+He's in that tent.[END]
+
+
+// Script 5-0xA9 [0x15A15]
+// そうだよねえ。[BR]
+// そとのせかいの　はなしなんて[BR]
+// なんの　やくにも[BR]
+// たちゃしないんだから。[END]
+Makes sense. Stories of the outside world won't do you any good.[END]
+
+
+// Script 5-0xAA [0x15A41]
+// せんしゃ　そうびなので[BR]
+// もてません！[END]
+//Not carrying tank equipment![END]
+
+// message displayed if you find tank equipment and no party member is in
+// a tank
+Can't carry tank equipment![END]
+
+
+// Script 5-0xAB [0x15A4F]
+// おや、まあ！[BR]
+// ものずきが　ふたり[BR]
+// おそろいで！[KEY]
+// ともだち　だったのかい！[BR]
+// るいは　ともを　よぶって[BR]
+// いうけど、ホントだねえ！[END]
+Well, look at you! You sure are a unique pair.[KEY]
+I guess it's true what they say: birds of a feather flock together![END]
+
+
+// Script 5-0xAC [0x15A8E]
+// おじいちゃんは[BR]
+// トレーダーだった　ころの[BR]
+// くせが　ぬけなくて、[KEY]
+// テントの　なかで　ないと[BR]
+// ねむれないんだよ！[END]
+Grandpa has been a trader for so long that he can't fall asleep unless he's in a tent![END]
+
+
+// Script 5-0xAD [0x15ABE]
+// [SVAR]<$01>を[BR]
+// さがしに　きたのかい？[CHOICE]<$AE><$AF>
+// 
+Are you looking for [SVAR]<$01>?[CHOICE]<$AE><$AF>
+
+
+
+// Script 5-0xAE [0x15AD0]
+// [SVAR]<$01>なら、ついさっき[BR]
+// あんたと　いれちがいに[BR]
+// そとへ　でていったところじゃ。[END]
+You just passed each other. [SVAR]<$01> went outside as you came in.[END]
+
+
+// Script 5-0xAF [0x15AF6]
+// わしゃ　いま[BR]
+// はなしおわった　ばかりでな。[BR]
+// しゃべり　つかれて[BR]
+// しもうたわい！[KEY]
+// すまんが、[BR]
+// また　こんどな！[END]
+//I'm just finished talking. That's tiring too, you know![KEY]
+//Sorry, maybe next time.[END]
+I've just finished talking. That's tiring too, you know![KEY]
+Sorry, maybe next time.[END]
+
+
+// Script 5-0xB0 [0x15B2D]
+// ひょっとして‥　[SVAR]<$01>‥、[BR]
+// しんじまってるのかい？[BR]
+// かわいそうに‥[END]
+//Hold on. Is [SVAR]<$01>... dead? Poor boy...[END]
+
+Wait, is [SVAR]<$01>... dead? Poor boy...[END]
+
+// Script 5-0xB1 [0x15B4E]
+// あっ！[BR]
+// [SVAR]<$01>が　しんでるーっ！[END]
+Oh my gosh! [SVAR]<$01>'s dead![END]
+
+
+// Script 5-0xB2 [0x15B5D]
+// [SVAR]<$01>‥！[BR]
+// まだ　わかいのに‥。[BR]
+// ナムアミダブツ[BR]
+// ナムアミダブツ‥。[END]
+Oh, [SVAR]<$01>... He was so young... May you rest in peace...[END]
+
+
+// Script 5-0xB3 [0x15B74]
+// いっしょに[BR]
+// たびに　でる　つもりじゃな！[KEY]
+// ぼうけんは　ひとを[BR]
+// つよく　おおきく　してくれる[KEY]
+// わかいうちは[BR]
+// しなない　ていどに　ムチャを[BR]
+// するのも　ええもんじゃて！[BR]
+// ふおっ、ふおっ、ふおっ！[END]
+So you'll be traveling together, eh?[KEY]
+Traveling around the world will make you stronger.[KEY]
+It's best to do it while you're young and can afford a couple of injuries or more! Hoh hoh hoh![END]
+
+
+// Script 5-0xB4 [0x15BD3]
+// ここは　しんでしまった[BR]
+// わしらの　むすこが、[BR]
+// むかし　つかっていた[BR]
+// へや　ですじゃ‥。[KEY]
+// わしらは　ゆめを　すて、[BR]
+// よを　すてて　くらしてきたが[BR]
+// おもいで　だけは[BR]
+// すてられませんでしたのじゃ。[END]
+This is where our lost son lived, a long time ago.[KEY]
+We have discarded everything to live here, away from society... But we couldn't throw away the memories.[END]
+
+
+// Script 5-0xB5 [0x15C2F]
+// あれ、ま！[BR]
+// おきゃくさんとは[BR]
+// めずらしい！[KEY]
+// なやの　ワラぶとんで[BR]
+// よかったら、ひとねむりして[BR]
+// からだを　やすめると　ええ。[CHOICE]<$B6><$B7>
+// 
+Oh dear! I wasn't expecting guests![KEY]
+We have some straw mattresses in the shed. Would you like to rest for a while?[CHOICE]<$B6><$B7>
+
+
+
+// Script 5-0xB6 [0x15C66]
+// えんりょなんか[BR]
+// いりませんからのう。[BR]
+// ゆっくり　やすみなされ！[END]
+//Then by all means, have a goood night![END]
+
+Then by all means, have a good night![END]
+
+// Script 5-0xB7 [0x15C86]
+// ひとやすみ　したくなったら[BR]
+// いつでも　こえをかけて[BR]
+// くださいよ、　たびのひと！[END]
+Come back any time, traveler![END]
+
+
+// Script 5-0xB8 [0x15CA3]
+// ほらあなに　うまってた[BR]
+// せんしゃは、[BR]
+// ウルフって　ハンターが[BR]
+// みつけちまったんだとよ！[END]
+Wolf found the tank that was buried in that cave![END]
+
+
+// Script 5-0xB9 [0x15CCA]
+// こしょうちゅう[END]
+Out of Order[END]
+
+
+// Script 5-0xBA [0x15CD1]
+// ゴーゴー　レッツゴー[BR]
+// レッツゴー　ナナちゃーん！[END]
+Go, Nana! Go, Nana, go![END]
+
+
+// Script 5-0xBB [0x15CE9]
+// ナナって　ダンサーは[BR]
+// ユゲのまちから[BR]
+// ながれて　きたらしいよ！[END]
+Nana came from Yuge, apparently.[END]
+
+
+// Script 5-0xBC [0x15D08]
+// ‥‥
+// [SPKR]<$06>
+// どうやら[BR]
+// いきを　していない　ようだ。[END]
+......
+[SPKR]<$06>
+No signs of life.[END]
+
+
+// Script 5-0xBD [0x15D20]
+// ひいいーっ！[KEY]
+// あかい　あくま‥！[BR]
+// まっかな　せんしゃに　のった[BR]
+// しょうきん　かせぎが[BR]
+// きやがったんだよおお！[END]
+*tremble*[KEY]
+I-It was a demon... a red demon in a crimson tank... H-He came for our bounties![END]
+
+
+// Script 5-0xBE [0x15D4C]
+// コンピュータが　ある。[opE4][END]
+It's a computer.[opE4][END]
+
+
+// Script 5-0xBF [0x15D59]
+// じっ、じらいを[BR]
+// よけて　とおりやがるとは！[BR]
+// くやしいぜーっ！[END]
+D-Dammit! They didn't step on the mines![END]
+
+
+// Script 5-0xC0 [0x15D77]
+// じっ、じらいを[BR]
+// ふんでも　へいきだなんて！[BR]
+// バケもんか！　こいつ！[END]
+T-They stepped on the mines but they're still fine! T-These guys are monsters![END]
+
+
+// Script 5-0xC1 [0x15D98]
+// やっ、やンのか！　こら！[BR]
+// あっ、あいてに[BR]
+// なって　やろーじゃねーか！[END]
+W-Wanna take us on?! B-Bring it on then![END]
+
+
+// Script 5-0xC2 [0x15DBB]
+// なっ、なんだァ、てめえは！[KEY]
+// いっ、いのちが[BR]
+// おしかったら、[BR]
+// さ、さ、さっさと[BR]
+// きえうせろィ！[END]
+W-Who are you supposed to be?![KEY]
+Y-You'd better scram if you care for your lives![END]
+
+
+// Script 5-0xC3 [0x15DE9]
+// ひーっ！[BR]
+// ころさないで！[KEY]
+// ゴメス　おやぶんの[BR]
+// かくれがは[BR]
+// でっかい　たきの[BR]
+// ちかくだよー。[END]
+Ahhh! D-Don't kill me! I'll tell you where the boss is hiding![KEY]
+Gomez's hideout is near a big waterfall![END]
+
+
+// Script 5-0xC4 [0x15E14]
+// [opE6][HERO]は　あしもとをしらべた！[KEY]
+// [opE2]Ｇ　てにいれた！[END]
+[opE6][HERO] inspected the area.[KEY]
+Found [opE2]G![END]
+
+
+// Script 5-0xC5 [0x15E1A]
+// HOW OBSCURE CAN THIS GAME GET
+// [SKIP]<$81>キケン！　キケン！[SKIP]<$37>テンソウ　ジコ　ハッセイ！[opF1]<$78>[END]
+//[SKIP]<$81>DANGER! DANGER![SKIP]<$37>TRANSFER INCIDENT HAS OCCURRED![opF1]<$78>[END]
+
+#SETSIZE(-1, -1)
+#SETSPKR(OFF)
+
+[SKIP]<$60>
+DANGER! DANGER![SKIP]<$30>
+TRANSFER INCIDENT[SKIP]<$31>
+HAS OCCURRED![opF1]<$78>[END]
+
+#SETSIZE(16, 4)
+#SETSPKR(anon)
+
+// Script 5-0xC6 [0x15E37]
+// [opE6][HERO]は　あしもとをしらべた！[KEY]
+// せんしゃを　みつけた！[END]
+[opE6][HERO] inspected the area.[KEY]
+Found a tank![END]
+
+
+// Script 5-0xC7 [0x15E44]
+// はいすいポンプを　うごかしゃ[BR]
+// みずが　ひくっぺ。[END]
+You can change the water level by fiddling with the drainage pump.[END]
+
+
+// Script 5-0xC8 [0x15E5D]
+// ウルミの　いどがある！[BR]
+// みずを　のんで　みますか？[TCHOICE]
+// 
+It's Urumi's well. Will you drink from it?[TCHOICE]
+
+
+
+// Script 5-0xC9 [0x15E77]
+// げんきが　でた！[END]
+You feel great![END]
+
+
+// Script 5-0xCA [0x15E80]
+// わしらは　どうせ　ここから[BR]
+// そとへ　でることも　ない‥[KEY]
+// これを　もって　いきなさい。[KEY]
+// ちきゅうの　まわりを　まわる[BR]
+// じんこうえいせいが[BR]
+// あんたの　いばしょを[BR]
+// おしえて　くれる。[END]
+It's not like we're going to leave this place anyway, so...[KEY]
+Take the device inside the crate.[KEY]
+That little thing will tell your position by communicating with the satellites orbiting around Earth.[END]
+
+
+// Script 5-0xCB [0x15ED7]
+// うっひゃあーっ！　おどろいた！[BR]
+// オレも　せんしゃが[BR]
+// ほしく　なっちまったぜ！[END]
+Yikes! That sure was something! Makes me want to have my own tank![END]
+
+
+// Script 5-0xCC [0x15EF9]
+// しっ、しっ！[END]
+Shoo.[END]
+
+
+// Script 5-0xCD [0x15F00]
+// なにも　みつからなかった。[END]
+Found nothing.[END]
+
+
+// Script 5-0xCE [0x15F0E]
+// てんそうそうちの[BR]
+// あんぜんせいが[BR]
+// おおはば　ＵＰ！[KEY]
+// もう　ひさんな[BR]
+// じこは　おこりません！[END]
+The Transfer Device is more secure than ever![KEY]
+There won't be any more terrible incidents![END]
+
+
+// Script 5-0xCF [0x15F35]
+// てんそうそうちで[BR]
+// とおくに　いこう！[END]
+//Move to any distance with the transfer device![END]
+Travel any distance with the Transfer Device![END]
+
+
+// Script 5-0xD0 [0x15F43]
+// ヨシダ　せいめいかがく[BR]
+// 　　けんきゅうじょ[END]
+//Yoshida Life Science[BR]
+//Research Institute[END]
+
+Yoshida Life Science Research Institute[END]
+
+// Script 5-0xD1 [0x15F59]
+// 　　きけん！[BR]
+// たちいり　きんし！[END]
+    DANGER![BR]
+   KEEP OUT![END]
+
+
+// Script 5-0xD2 [0x15F6A]
+// いだいなる　[SVAR]<$00>[END]
+[SVAR]<$00> the Great[END]
+
+
+// Script 5-0xD3 [0x15F73]
+// just in case you decided to kill off char1 and screw around in his house!
+// [opE6][HERO]は　かべの[BR]
+// しゃしんを　みあげた。[KEY]
+// [SVAR]<$00>の　かあさんの[BR]
+// しゃしんが　ある。[END]
+[opE6][HERO] looked at the picture on the wall.[KEY]
+It was a picture of [SVAR]<$00>'s mother.[END]
+
+
+// Script 5-0xD4 [0x15F89]
+// ずっと　ひがしへ　いけば[BR]
+// みずうみ　だらけの[BR]
+// ばしょが　あるとか‥。[KEY]
+// その　みなみの　ほうに[BR]
+// おおきな　まちが[BR]
+// あるそうですよ！[END]
+If you keep going east, you'll find an area full of lakes.[KEY]
+From there, go south and you'll reach a major town.[END]
+
+
+// Script 5-0xD5 [0x15FC9]
+// [opE6][HERO]は　タンスをしらべた！[KEY]
+// [opE9]を　みつけた！[opE4][END]
+[opE6][HERO] checked the drawers.[KEY]
+
+Found[BR]
+[opE9]![opE4][END]
+
+
+// Script 5-0xD6 [0x15FCF]
+// カナべルって　まちの[BR]
+// ちかくには‥、[KEY]
+// むかし　すげえ　ぶきを[BR]
+// つくってた　こうじょうが[BR]
+// あるらしいぜ。[END]
+Have you heard about that factory near Canabelle?[KEY]
+They say it used to produce incredible weapons a long time ago.[END]
+
+

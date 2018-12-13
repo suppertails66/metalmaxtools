@@ -1,0 +1,674 @@
+
+#LOADTABLE("table/metal_max_table_en.tbl")
+
+// pluralized monster names (by zenki's request)
+// limit 17 characters -- these names are used in limited contexts, so we don't
+// need to reserve an extra character for punctuation as with the regular
+// versions.
+
+// Script 1-0x0 [0x21AE6]
+// サイバーウォール[END]
+Cyber Walls[END]
+
+
+// Script 1-0x1 [0x21AEF]
+// サルモネラいっか[END]
+//Guorilla Clans[END]
+
+// there actually are multiples of this enemy in the fight against them.
+// presumably they're supposed to collectively form a single clan.
+Guorilla Clan[END]
+
+// Script 1-0x2 [0x21AF8]
+// ドス・ピラニアス[END]
+El Piranhas[END]
+
+
+// Script 1-0x3 [0x21B01]
+// マッドマッスル[END]
+Mad Muscles[END]
+
+
+// Script 1-0x4 [0x21B09]
+// マンモスタンク[END]
+Mammoth Tanks[END]
+
+
+// Script 1-0x5 [0x21B10]
+// ミスターカミカゼ[END]
+Mr. Kamikazes[END]
+
+
+// Script 1-0x6 [0x21B19]
+// ムカデロン[END]
+Centipedrons[END]
+
+
+// Script 1-0x7 [0x21B1F]
+// ゴメス[END]
+Gomezes[END]
+
+
+// Script 1-0x8 [0x21B23]
+// ダストフランケン[END]
+Dust Frankens[END]
+
+
+// Script 1-0x9 [0x21B2C]
+// サルモネラほんぽ[END]
+Guorilla Chiefs[END]
+
+
+// Script 1-0xA [0x21B35]
+// ロンメルゴースト[END]
+Rommel's Ghosts[END]
+
+
+// Script 1-0xB [0x21B3E]
+// バッド・バルデス[END]
+Bad Valdezes[END]
+
+
+// Script 1-0xC [0x21B45]
+// ゴメスのせんしゃ[END]
+Gomez's Tanks[END]
+
+
+// Script 1-0xD [0x21B4C]
+// バズーカドッグ[END]
+Bazooka Dogs[END]
+
+
+// Script 1-0xE [0x21B54]
+// タンスゴン[END]
+Drawer Horrors[END]
+
+// Script 1-0xF [0x21B5A]
+// マッスルカー[END]
+Muscle Cars[END]
+
+
+// Script 1-0x10 [0x21B61]
+// バイオニックポチ[END]
+Bionic Pooches[END]
+
+
+// Script 1-0x11 [0x21B6A]
+// ふりょうグループ[END]
+//Bunch of thugs[END]
+
+A bunch of thugs[END]
+
+
+// Script 1-0x12 [0x21B73]
+// ワルゲリョこぶん[END]
+Malone's Stooges[END]
+
+
+// Script 1-0x13 [0x21B7C]
+// ワルゲリョ[END]
+Malones[END]
+//for reference, I went for "Malone" because it begins with "Malo", which is "bad" or "evil" in Spanish. His original name is "Warugeryo", which is a somewhat Spanish-sounding fictional name beginning with "waru", which means "bad" in Japanese. We can change this if you don't like it.
+
+
+// Script 1-0x14 [0x21B82]
+// ミュータントワニ[END]
+Mutantdiles[END]
+
+
+// Script 1-0x15 [0x21B8B]
+// ロボポリス[END]
+Robopolice[END]
+
+
+// Script 1-0x16 [0x21B91]
+// ガーディアン[END]
+Guardians[END]
+
+
+// Script 1-0x17 [0x21B98]
+// ビックキャノン[END]
+Big Cannons[END]
+
+
+// Script 1-0x18 [0x21B9E]
+// きょだいアリ[END]
+Giant Ants[END]
+
+
+// Script 1-0x19 [0x21BA5]
+// さつじんアメーバ[END]
+Killer Amoebae[END]
+
+
+// Script 1-0x1A [0x21BAE]
+// うろつきポリタン[END]
+//Wandering Gas Can[END]
+Roaming Gas Cans[END]
+
+
+// Script 1-0x1B [0x21BB7]
+// イモバルカン[END]
+Catervulcans[END]
+
+
+// Script 1-0x1C [0x21BBC]
+// キャノンホッパー[END]
+Cannon Hoppers[END]
+
+
+// Script 1-0x1D [0x21BC3]
+// バイオまいまい[END]
+Biosnails[END]
+
+
+// Script 1-0x1E [0x21BCB]
+// ボムガメ[END]
+Bombles[END]
+
+
+// Script 1-0x1F [0x21BD0]
+// ひあそびザル[END]
+Pyromonkeys[END]
+
+
+// Script 1-0x20 [0x21BD7]
+// ドリルワーム[END]
+Drill Worms[END]
+
+
+// Script 1-0x21 [0x21BDE]
+// スモッグフラワー[END]
+Smog Flowers[END]
+
+
+// Script 1-0x22 [0x21BE7]
+// てっぽうどり[END]
+Birdstols[END]
+
+
+// Script 1-0x23 [0x21BEE]
+// いっぱつや[END]
+Oneshotters[END]
+
+
+// Script 1-0x24 [0x21BF4]
+// メテオまいまい[END]
+Meteor Snails[END]
+
+
+// Script 1-0x25 [0x21BFC]
+// ピッケルバード[END]
+Bird-Axes[END]
+
+
+// Script 1-0x26 [0x21C04]
+// アシッドアント[END]
+Acid Ants[END]
+
+
+// Script 1-0x27 [0x21C0C]
+// トレーダーごろし[END]
+Trader Killers[END]
+
+
+// Script 1-0x28 [0x21C12]
+// パトロールバチ[END]
+Patrolling Wasps[END]
+
+
+// Script 1-0x29 [0x21C1A]
+// カバガン[END]
+Gunpopotamuses[END]
+
+
+// Script 1-0x2A [0x21C1F]
+// けいびシェルター[END]
+Guard Shelters[END]
+
+
+// Script 1-0x2B [0x21C28]
+// タコタンク[END]
+Tanktopi[END]
+
+
+// Script 1-0x2C [0x21C2D]
+// ゴールドアント[END]
+Golden Ants[END]
+
+
+// Script 1-0x2D [0x21C35]
+// スナイパードッグ[END]
+Sniper Dogs[END]
+
+
+// Script 1-0x2E [0x21C3E]
+// カラッポリタン[END]
+Empty Gas Cans[END]
+
+
+// Script 1-0x2F [0x21C46]
+// フロッグマン[END]
+Frogmen[END]
+
+
+// Script 1-0x30 [0x21C4D]
+// ８５[MM]じそうほう[END]
+//85[MM] Auto-Artillery[END]
+85[MM] Autotilleries[END]
+
+
+// Script 1-0x31 [0x21C56]
+// バーナーホッパー[END]
+Burner Hoppers[END]
+
+
+// Script 1-0x32 [0x21C5F]
+// スポイトキウイ[END]
+Dropper Kiwis[END]
+
+
+// Script 1-0x33 [0x21C67]
+// どくイモキャノン[END]
+//Poison Catercannon[END]
+Veno-Catercannons[END]
+
+
+// Script 1-0x34 [0x21C6E]
+// ちゅうしゃどり[END]
+Inocubirds[END]
+
+
+// Script 1-0x35 [0x21C76]
+// カニガン[END]
+Crabtilleries[END]
+
+
+// Script 1-0x36 [0x21C7B]
+// アーミーゾンビ[END]
+Army Zombies[END]
+
+
+// Script 1-0x37 [0x21C83]
+// ガンボート[END]
+Gunboats[END]
+
+
+// Script 1-0x38 [0x21C89]
+// ＤＮＡブロブ[END]
+DNA Blobs[END]
+
+
+// Script 1-0x39 [0x21C90]
+// マグネッター[END]
+Magnetors[END]
+
+
+// Script 1-0x3A [0x21C97]
+// スラッガー[END]
+Sluggers[END]
+
+
+// Script 1-0x3B [0x21C9D]
+// ハイウェイタンク[END]
+Highway Tanks[END]
+
+
+// Script 1-0x3C [0x21CA5]
+// ていさつＵＦＯ[END]
+Scouting UFOs[END]
+
+
+// Script 1-0x3D [0x21CAD]
+// じらいモグラ[END]
+Claymoles[END]
+
+
+// Script 1-0x3E [0x21CB4]
+// スポイトスパイダ[END]
+Dropper Spiders[END]
+
+
+// Script 1-0x3F [0x21CBD]
+// ミサイルフロッグ[END]
+Missile Frogs[END]
+
+
+// Script 1-0x40 [0x21CC4]
+// まどろみそう[END]
+Slumber Plants[END]
+
+
+// Script 1-0x41 [0x21CCB]
+// レーザービートル[END]
+Laser Beetles[END]
+
+
+// Script 1-0x42 [0x21CD0]
+// メタルイーター[END]
+Metal Eaters[END]
+
+
+// Script 1-0x43 [0x21CD8]
+// ハチのすせんしゃ[END]
+Beehive Tanks[END]
+
+
+// Script 1-0x44 [0x21CDF]
+// なんたいキャノン[END]
+Molluscannons[END]
+
+
+// Script 1-0x45 [0x21CE6]
+// ソニックコブラ[END]
+Sonic Cobras[END]
+
+
+// Script 1-0x46 [0x21CEE]
+// さまようタイル[END]
+Wandering Tiles[END]
+
+
+// Script 1-0x47 [0x21CF6]
+// くろいじゅうたん[END]
+Ant Legions[END]
+
+
+// Script 1-0x48 [0x21CFF]
+// レーザーミミズ[END]
+Laser Earthworms[END]
+
+
+// Script 1-0x49 [0x21D05]
+// カミカゼボム[END]
+Suicide Bombs[END]
+
+
+// Script 1-0x4A [0x21D0C]
+// メタルぺッカー[END]
+Metalpeckers[END]
+
+
+// Script 1-0x4B [0x21D14]
+// おおづつ[END]
+Cannons[END]
+
+
+// Script 1-0x4C [0x21D19]
+// ミサイルボート[END]
+Missileboats[END]
+
+
+// Script 1-0x4D [0x21D1F]
+// じそうおんぱほう[END]
+//Auto-Sonic Emitter[END]
+Sonic Emitters[END]
+
+
+// Script 1-0x4E [0x21D28]
+// グレートカバガン[END]
+//Great Gunpopotamus[END]
+S-Gunpopotamuses[END]
+
+
+// Script 1-0x4F [0x21D30]
+// バルカンシャーク[END]
+Vulcan Sharks[END]
+
+
+// Script 1-0x50 [0x21D37]
+// へルレスキュー[END]
+Hell Rescues[END]
+
+
+// Script 1-0x51 [0x21D3F]
+// ガンタワー[END]
+Gun Towers[END]
+
+
+// Script 1-0x52 [0x21D45]
+// レーダーフラワー[END]
+Radar Flowers[END]
+
+
+// Script 1-0x53 [0x21D4E]
+// バイオバズズ[END]
+Biobuzzers[END]
+
+
+// Script 1-0x54 [0x21D55]
+// プラズマビートル[END]
+Plasma Beetles[END]
+
+
+// Script 1-0x55 [0x21D5C]
+// グラマータイガー[END]
+Glamor Tigers[END]
+
+
+// Script 1-0x56 [0x21D65]
+// きんのじゅうたん[END]
+Golden Legions[END]
+
+
+// Script 1-0x57 [0x21D6E]
+// ソナースネーク[END]
+Sonar Snakes[END]
+
+
+// Script 1-0x58 [0x21D76]
+// アイアンクロー[END]
+Iron Claws[END]
+
+
+// Script 1-0x59 [0x21D7E]
+// ボムランナー[END]
+Running Bombs[END]
+
+
+// Script 1-0x5A [0x21D85]
+// ぽたぽたキウイ[END]
+Dripping Kiwis[END]
+
+
+// Script 1-0x5B [0x21D8D]
+// ミサイルキャリア[END]
+Missile Carriers[END]
+
+
+// Script 1-0x5C [0x21D94]
+// ガソリンカイマン[END]
+Allipetrols[END]
+
+
+// Script 1-0x5D [0x21D9D]
+// ＡＴエレファント[END]
+AT Elephants[END]
+
+
+// Script 1-0x5E [0x21DA6]
+// じごくのストーブ[END]
+Hell's Stoves[END]
+
+
+// Script 1-0x5F [0x21DAF]
+// ラジオブロッサム[END]
+Radioblossoms[END]
+
+
+// Script 1-0x60 [0x21DB8]
+// バブルカニガン[END]
+//Bubble Crabtillery[END]
+BublCrabtilleries[END]
+
+
+// Script 1-0x61 [0x21DBF]
+// そらとぶハイエナ[END]
+Flying Hyenas[END]
+
+
+// Script 1-0x62 [0x21DC8]
+// スローウォーカー[END]
+Slow Walkers[END]
+
+
+// Script 1-0x63 [0x21DD1]
+// ＡＴアルマジロ[END]
+AT Armadillos[END]
+
+
+// Script 1-0x64 [0x21DD9]
+// ミサイルトレーラ[END]
+Missile Trailers[END]
+
+
+// Script 1-0x65 [0x21DE0]
+// うたうパラボラ[END]
+Singing Parabolas[END]
+
+
+// Script 1-0x66 [0x21DE8]
+// ＡＴグリズリー[END]
+AT Grizzlies[END]
+
+
+// Script 1-0x67 [0x21DF0]
+// プラズマタンク[END]
+Plasma Tanks[END]
+
+
+// Script 1-0x68 [0x21DF7]
+// デザートモンロー[END]
+Desert Monroes[END]
+
+
+// Script 1-0x69 [0x21E00]
+// ＡＴＭシャーク[END]
+ATM Sharks[END]
+
+
+// Script 1-0x6A [0x21E08]
+// スピードタートル[END]
+Speed Turtles[END]
+
+
+// Script 1-0x6B [0x21E11]
+// ＡＴギガンテス[END]
+AT Gigantes[END]
+
+
+// Script 1-0x6C [0x21E19]
+// メデューサ[END]
+Medusae[END]
+
+
+// Script 1-0x6D [0x21E1F]
+// ガンバルン[END]
+Spheric Guns[END]
+
+
+// Script 1-0x6E [0x21E25]
+// メチルアマゾン[END]
+Methyl Amazons[END]
+
+
+// Script 1-0x6F [0x21E2D]
+// ガンホール[END]
+Gun Holes[END]
+
+
+// Script 1-0x70 [0x21E33]
+// かんしカメラ[END]
+//Surveillance Camera[END]
+Surveillance Cams[END]
+
+
+// Script 1-0x71 [0x21E3A]
+// バットシステム[END]
+Bat Systems[END]
+
+
+// Script 1-0x72 [0x21E42]
+// アンチロバー[END]
+Anti-Thefts[END]
+
+
+// Script 1-0x73 [0x21E49]
+// スネークホール[END]
+Snake Holes[END]
+
+
+// Script 1-0x74 [0x21E51]
+// レーザーアイ[END]
+Laser Eyes[END]
+
+
+// Script 1-0x75 [0x21E56]
+// ソニックスタナー[END]
+Sonic Stunners[END]
+
+
+// Script 1-0x76 [0x21E5F]
+// ビームスぺクター[END]
+Beam Specters[END]
+
+
+// Script 1-0x77 [0x21E68]
+// キラークロゼット[END]
+Killer Closets[END]
+
+
+// Script 1-0x78 [0x21E71]
+// ウイルスバット[END]
+Virus Bats[END]
+
+
+// Script 1-0x79 [0x21E79]
+// ＧＩスケルトン[END]
+G.I. Skulls[END]
+
+
+// Script 1-0x7A [0x21E81]
+// コードゴーレム[END]
+Cable Golems[END]
+
+
+// Script 1-0x7B [0x21E89]
+// ちょうでんどうＸ[END]
+//Superconducting X[END]
+SuperconductorXes[END]
+
+
+// Script 1-0x7C [0x21E92]
+// デストロイド[END]
+Eradicators[END]
+
+
+// Script 1-0x7D [0x21E99]
+// バーサーカー[END]
+Berserkers[END]
+
+
+// Script 1-0x7E [0x21EA0]
+// にんげんジゴク[END]
+Human Eaters[END]
+
+
+// Script 1-0x7F [0x21EA6]
+// ミミックボックス[END]
+Mimic Crates[END]
+
+
+// Script 1-0x80 [0x21EAF]
+// ガードゴーレム[END]
+Guard Golems[END]
+
+
+// Script 1-0x81 [0x21EB7]
+// ノア[END]
+Noahs[END]
+
+
+// Script 1-0x82 [0x21EBA]
+// ノア[END]
+Noahs[END]

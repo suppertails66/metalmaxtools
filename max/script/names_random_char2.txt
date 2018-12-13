@@ -1,0 +1,26 @@
+
+// random names for party member 2 (pad to 8 characters)
+
+//ハンフリ
+Humphrey
+//ずしおう
+Zushiou[END]
+//ロビン[END]
+Robin[END][END][END]
+//ミッキー
+Mickey[END][END]
+//まさかず
+Masakazu
+//とらじろ
+Torajiro
+//けんた[END]
+Kenta[END][END][END]
+//アクセル
+Axel[END][END][END][END]
+//サム[END][END]
+Sam[END][END][END][END][END]
+//インディ
+Indy[END][END][END][END]
+//トミー[END]
+Tommy[END][END][END]
+

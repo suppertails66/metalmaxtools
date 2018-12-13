@@ -1,0 +1,52 @@
+main menu:
+  話す　乗降
+  強さ　道具
+  装備　砲弾
+  調べる　モード
+  
+  Talk        Get On/Off
+  Status      Tools
+  Equipment   Shells
+  Search      Mode
+
+battle, no vehicle:
+  攻撃　道具
+  装備　補助
+
+  Attack     Tools
+  Equipment  Other
+
+battle, with vehicle:
+  主砲　道具
+  副砲　砲弾
+  Ｓ−Ｅ　補助
+  
+  Main Gun       Tools
+  Secondary Gun  Shells
+  S-E            Other
+
+tank status screen:
+  装備　攻撃　主砲　シャシー　重量
+  道具　守備　副砲　エンジン　装甲
+  砲弾　ダメージ　Ｓ−Ｅ　Ｃユニット　トランク
+  
+  Attack   Equipment   Main Gun        Chassis   Weight
+  Tools    Defense     Secondary Gun   Engine    Armor
+  Shells   Damage      S-E             C-Unit    Trunk
+
+
+
+
+total of 21 "unique" buttons, but some kanji are recycled:
+  主砲 = main gun
+  副砲 = secondary gun
+  砲弾 = shells (note: not recycled, has unique left-side graphic)
+  
+  装備 = attack
+  守備 = defense
+  装甲 = armor (note: also not recycled, for some reason)
+  
+  
+  
+
+  * actually, the game doesn't recycle 装 for the tank status screen, so that frees up a little space. we should only need one extra button (put in font)

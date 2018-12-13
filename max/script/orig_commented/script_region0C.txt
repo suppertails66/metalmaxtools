@@ -1,0 +1,140 @@
+// Script C-0x0 [0x12000]
+// 　「[END]
+
+
+// Script C-0x1 [0x12003]
+// とうちゃん「[END]
+
+
+// Script C-0x2 [0x12009]
+// ねえちゃん「[END]
+
+
+// Script C-0x3 [0x1200F]
+// ミンチ「[END]
+
+
+// Script C-0x4 [0x12014]
+// イゴール「[END]
+
+
+// Script C-0x5 [0x1201A]
+// ウルフ「[END]
+
+
+// Script C-0x6 [0x1201E]
+// 　　[END]
+
+
+// Script C-0x7 [0x12021]
+// [SVAR]<$01>「[END]
+
+
+// Script C-0x8 [0x12025]
+// [SVAR]<$01>パパ「[END]
+
+
+// Script C-0x9 [0x1202B]
+// [SVAR]<$01>ママ「[END]
+
+
+// Script C-0xA [0x12031]
+// [SVAR]<$02>「[END]
+
+
+// Script C-0xB [0x12035]
+// ウリウ「[END]
+
+
+// Script C-0xC [0x1203A]
+// マリア「[END]
+
+
+// Script C-0xD [0x1203F]
+// あけみ「[END]
+
+
+// Script C-0xE [0x12044]
+// ひとみ「[END]
+
+
+// Script C-0xF [0x12049]
+// ポーラ「[END]
+
+
+// Script C-0x10 [0x1204E]
+// ポール「[END]
+
+
+// Script C-0x11 [0x12053]
+// [SVAR]<$00>「[END]
+
+
+// Script C-0x12 [0x12057]
+// カエサル「[END]
+
+
+// Script C-0x13 [0x1205B]
+// ツマク「[END]
+
+
+// Script C-0x14 [0x12060]
+// ナナ「[END]
+
+
+// Script C-0x15 [0x12064]
+// ビバリー「[END]
+
+
+// Script C-0x16 [0x1206A]
+// シジマ「[END]
+
+
+// Script C-0x17 [0x1206F]
+// ヒミオ「[END]
+
+
+// Script C-0x18 [0x12073]
+// マッスル「[END]
+
+
+// Script C-0x19 [0x12079]
+// ヤズー「[END]
+
+
+// Script C-0x1A [0x1207E]
+// ゴメス「[END]
+
+
+// Script C-0x1B [0x12083]
+// ニーナ「[END]
+
+
+// Script C-0x1C [0x12088]
+// ぐんそう「[END]
+
+
+// Script C-0x1D [0x1208E]
+// モリナ「[END]
+
+
+// Script C-0x1E [0x12093]
+// ヤミクモ「[END]
+
+
+// Script C-0x1F [0x12099]
+// バルデス「[END]
+
+
+// Script C-0x20 [0x1209D]
+// [END]
+
+
+// Script C-0x21 [0x1209E]
+// マリリン「[END]
+
+
+// Script C-0x22 [0x120A2]
+// ノア「[END]
+
+

@@ -1,0 +1,198 @@
+// Script 8-0x0 [0x21EBD]
+// しゅほう[END]
+Main Gun[END]
+
+
+// Script 8-0x1 [0x21EC0]
+// ふくほう[END]
+Secondary Gun[END]
+
+
+// Script 8-0x2 [0x21EC3]
+// ＳーＥ[END]
+S-E[END]
+
+
+// Script 8-0x3 [0x21EC7]
+// Ｃユニット[END]
+C-Unit[END]
+
+
+// Script 8-0x4 [0x21ECD]
+// エンジン[END]
+Engine[END]
+
+
+// Script 8-0x5 [0x21ED0]
+// シャシー[END]
+Chassis[END]
+
+
+// Script 8-0x6 [0x21ED3]
+// ＯＫ[END]
+OK[END]
+
+
+// Script 8-0x7 [0x21ED6]
+// はそん[END]
+Damaged[END]
+
+
+// Script 8-0x8 [0x21EDA]
+// たいは[END]
+Broken[END]
+
+
+// Script 8-0x9 [0x21EDE]
+// すべてのクルマの　そうびを　みます。[END]
+Check all vehicles' equipment.[END]
+
+
+// Script 8-0xA [0x21EE5]
+// すべてのクルマの　ぶきのこうげきカを　みます。[END]
+Check all vehicles' attack power.[END]
+
+
+// Script 8-0xB [0x21EF0]
+// すべてのクルマの　しゅほうを　みます。[END]
+Check all vehicles' main guns.[END]
+
+
+// Script 8-0xC [0x21EF7]
+// すべてのクルマの　シャシーを　みます。[END]
+Check all vehicles' chassis.[END]
+
+
+// Script 8-0xD [0x21EFE]
+// すべてのクルマの　じゅうりょうを　みます。[END]
+Check all vehicles' weight.[END]
+
+
+// Script 8-0xE [0x21F05]
+// すべてのクルマの　どうぐを　みます。[END]
+Check all vehicles' tools.[END]
+
+
+// Script 8-0xF [0x21F0C]
+// すべてのクルマの　そうびのしゅびカを　みます。[END]
+Check all vehicles' defense rate.[END]
+
+
+// Script 8-0x10 [0x21F18]
+// すべてのクルマの　ふくほうを　みます。[END]
+Check all vehicles' secondary guns.[END]
+
+
+// Script 8-0x11 [0x21F1F]
+// すべてのクルマの　エンジンを　みます。[END]
+Check all vehicles' engines.[END]
+
+
+// Script 8-0x12 [0x21F26]
+// すべてのクルマの　そうこうを　みます。[END]
+Check all vehicles' armor.[END]
+
+
+// Script 8-0x13 [0x21F2D]
+// すべてのクルマの　ほうだんを　みます。[END]
+Check all vehicles' ammunition.[END]
+
+
+// Script 8-0x14 [0x21F34]
+// すべてのクルマの　ダメージかしょを　みます。[END]
+Check all vehicles' damage.[END]
+
+
+// Script 8-0x15 [0x21F40]
+// すべてのクルマの　ＳーＥを　みます。[END]
+Check all vehicles' S-E.[END]
+
+
+// Script 8-0x16 [0x21F48]
+// すべてのクルマの　Ｃユニットを　みます。[END]
+Check all vehicles' C-Units.[END]
+
+
+// Script 8-0x17 [0x21F52]
+// トランクルームに　あずけているものを　みます。[END]
+Check items left to the Trunk Room.[END]
+
+
+// Script 8-0x18 [0x21F66]
+// どのクルマの　つよさを　みますか？[END]
+Which vehicle?[END]
+
+
+// Script 8-0x19 [0x21F73]
+// じょうたい[END]
+Condition[END]
+
+
+// Script 8-0x1A [0x21F79]
+// じゅうりょう[END]
+Weight[END]
+
+
+// Script 8-0x1B [0x21F7C]
+// しゅび[END]
+Defense[END]
+
+
+// Script 8-0x1C [0x21F80]
+// こうげき[END]
+Attack[END]
+
+
+// Script 8-0x1D [0x21F83]
+// ＯＮＥ[END]
+ONE[END]
+
+
+// Script 8-0x1E [0x21F87]
+// ＧＲＯＵＰ[END]
+GROUP[END]
+
+
+// Script 8-0x1F [0x21F8D]
+// ＡＬＬ[END]
+ALL[END]
+
+
+// Script 8-0x20 [0x21F91]
+// ＯＮ[END]
+ON[END]
+
+
+// Script 8-0x21 [0x21F94]
+// ＯＦＦ[END]
+OFF[END]
+
+
+// Script 8-0x22 [0x21F98]
+// すで[END]
+Bare-handed[END]
+//no context. maybe it shows up if you have no weapons equipped. Needs testing.*test*
+
+
+// Script 8-0x23 [0x21F9B]
+// うら[END]
+Tails[END]
+
+
+// Script 8-0x24 [0x21F9E]
+// おもて[END]
+Heads[END]
+
+
+// Script 8-0x25 [0x21FA2]
+// かけ[END]
+apply[END]
+//keep it lowcased
+
+
+// Script 8-0x26 [0x21FA5]
+// けずっ[END]
+scrape off[END]
+//no context. I'm assuming this is for going at the carwash with mushrooms over your car, so instead of "apply some wax" it would say "remove some mushrooms". Needs testing.*test*
+
+
